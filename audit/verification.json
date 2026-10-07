@@ -1,0 +1,445 @@
+{
+  "verified_at_utc": "2026-10-07T10:36:59.913273+00:00",
+  "worktree": "/home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/sol_max",
+  "selected_files": 69,
+  "counts_by_repository": {
+    "research-process": 27,
+    "multiarm-problem-gen": 42
+  },
+  "collected_bytes": 406672,
+  "per_file": [
+    {
+      "path": "sources/research-process/AGENTS.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/overview.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/state.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/journal/2026-09-07-starting-point.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/journal/2026-09-07-record-organization.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/inbox/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/inbox/2026-09-18-evolving-design-and-best-practices.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/inbox/2026-09-09-coordination-space-reading-guide.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/inbox/2026-09-16-generator-scene-and-target-representation.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/projects/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/projects/dataset-generator/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/projects/stop-n-go/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/experiments/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/references/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/references/stac-reading-notes.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/references/lavalle-planning-algorithms-7-2-multiple-robots.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/assets/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/assets/cube-complex/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/assets/path-collision-equivalence/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/research-process/local-paths.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/AGENTS.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/git-workflow.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/design.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-starting-point.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-21-output-validity-semantics.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-22-input-domain-representations.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-23-generation-distributions.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-23-input-bundle.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-input-implementation-units.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-first-implementation-results.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-remove-material-support.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-4-results.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-results.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-6-results.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/contracts/primitives.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/contracts/resources.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/contracts/robot-model.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/contracts/scene.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/contracts/distributions.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/contracts/generation.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docs/contracts/input-bundle.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/docker/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/examples/ur7e_table/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/tools/baseline_validation/ur7e_table/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    },
+    {
+      "path": "sources/multiarm-problem-gen/tools/scene_preview/README.md",
+      "bytes_equal": true,
+      "size_equal": true,
+      "sha256_equal": true
+    }
+  ],
+  "all_copies_match_original": true,
+  "inventory_scope_files": 268,
+  "source_inventory_and_bytes_and_mtime_unchanged": true,
+  "source_changes": [],
+  "index_local_links_checked": 99,
+  "index_broken_local_links": [],
+  "index_sha256": "56cb1991702e776ef9bc0c3444be52a532ed96933ad74e5bb0e4e270e4b873ea",
+  "key_headings_checked": 260,
+  "unselected_files": 199,
+  "original_links_not_claimed_valid": true,
+  "source_scripts_or_tests_executed": false,
+  "git_history_or_objects_read": false,
+  "commits_merges_pushes": false,
+  "external_sources_accessed": false,
+  "notes": [
+    "Only source-workspace ls-files read; optional locks disabled.",
+    "Historical reports remain unverified claims; this run verifies collection only.",
+    "Source .git entries and symlink directory traversal excluded."
+  ]
+}
