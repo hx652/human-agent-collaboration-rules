@@ -1,0 +1,2154 @@
+{
+  "captured_at": "2026-10-07T10:24:28.968777+00:00",
+  "source_roots": [
+    "/home/fainic/data/research-process",
+    "/home/fainic/data/multiarm-problem-gen"
+  ],
+  "excluded": ".git directories; no symlink traversal",
+  "files": [
+    {
+      "repository": "research-process",
+      "path": ".gitignore",
+      "bytes": 151,
+      "sha256": "f6baf58e49e593b4cd3a40572ed0f4571c687d2bed595879dbae6b7bf4550550",
+      "mode": 33204,
+      "mtime_ns": 1789446272094051923
+    },
+    {
+      "repository": "research-process",
+      "path": "AGENTS.md",
+      "bytes": 4223,
+      "sha256": "ebef8a85ab89956d235199da1063b7e84a0678b71fe05e213ff8befacbb36ef8",
+      "mode": 33204,
+      "mtime_ns": 1789970124351226166
+    },
+    {
+      "repository": "research-process",
+      "path": "README.md",
+      "bytes": 2421,
+      "sha256": "5d931bcf1b6bc3dcde3a9dae9606b176e052693df8138057d40da1afcbf07179",
+      "mode": 33204,
+      "mtime_ns": 1789446271848155557
+    },
+    {
+      "repository": "research-process",
+      "path": "journal.md",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "mode": 33204,
+      "mtime_ns": 1789374957762095934
+    },
+    {
+      "repository": "research-process",
+      "path": "local-paths.md",
+      "bytes": 255,
+      "sha256": "c547dd7ac324697f5cb7e08afdc21ba1b4cb72b7e9a90606754a38121d1261a3",
+      "mode": 33204,
+      "mtime_ns": 1788753808374806475
+    },
+    {
+      "repository": "research-process",
+      "path": "overview.md",
+      "bytes": 1249,
+      "sha256": "758ed54d110591c62f803f578a39391a169aed5738da408f5719332732cdac7d",
+      "mode": 33204,
+      "mtime_ns": 1789545448537728268
+    },
+    {
+      "repository": "research-process",
+      "path": "state.md",
+      "bytes": 1268,
+      "sha256": "7433ffa25492ed2fcff8cf9d4e9501e7502e546300bb0ab54eff9a722982425b",
+      "mode": 33204,
+      "mtime_ns": 1789545448537728268
+    },
+    {
+      "repository": "research-process",
+      "path": ".obsidian/app.json",
+      "bytes": 90,
+      "sha256": "e2a5fdc525b27247afe97799c11a4c9c0d593d61bfae6930f7ee3242f0313b66",
+      "mode": 33204,
+      "mtime_ns": 1789459117585789963
+    },
+    {
+      "repository": "research-process",
+      "path": ".obsidian/appearance.json",
+      "bytes": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "mode": 33204,
+      "mtime_ns": 1789459117586789991
+    },
+    {
+      "repository": "research-process",
+      "path": ".obsidian/core-plugins.json",
+      "bytes": 696,
+      "sha256": "763cf20a921fd9955735b278006820b90b207b2fc04d9e79ca648279c7c14276",
+      "mode": 33204,
+      "mtime_ns": 1789373969478086701
+    },
+    {
+      "repository": "research-process",
+      "path": ".obsidian/graph.json",
+      "bytes": 496,
+      "sha256": "e80a51eaeae777879b5e502b16f19a7214bbbec2d1740be16ac737d0e30c5c37",
+      "mode": 33204,
+      "mtime_ns": 1790134108674999952
+    },
+    {
+      "repository": "research-process",
+      "path": ".obsidian/workspace.json",
+      "bytes": 7281,
+      "sha256": "f3decf3614359693cfade49e70bde4fa69a994c54ad433d034737a38332d0baf",
+      "mode": 33204,
+      "mtime_ns": 1791302302916465646
+    },
+    {
+      "repository": "research-process",
+      "path": ".serena/.gitignore",
+      "bytes": 26,
+      "sha256": "21d5dcb497df8b257d94919bdadcfe75b75d085d0f7b77ac2d8a813a9ca6e758",
+      "mode": 33204,
+      "mtime_ns": 1790581517720971606
+    },
+    {
+      "repository": "research-process",
+      "path": ".serena/project.local.yml",
+      "bytes": 402,
+      "sha256": "7b5753e9fcf8348db026f8d23ff601b1cf90d9543532fe979f31650e27b15d2b",
+      "mode": 33204,
+      "mtime_ns": 1790581517719977992
+    },
+    {
+      "repository": "research-process",
+      "path": ".serena/project.yml",
+      "bytes": 9790,
+      "sha256": "465138e9aa602f38da3fcfd31d48e8129a9788c085f95d0b5c1bec929cfc1e39",
+      "mode": 33152,
+      "mtime_ns": 1790581517840205311
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/README.md",
+      "bytes": 1980,
+      "sha256": "c5dcb3330da22ef143151caaf2d1590dddc4405302becff1e60c0249d758538b",
+      "mode": 33204,
+      "mtime_ns": 1789469958311519230
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/cube-complex/01-path-network.svg",
+      "bytes": 93984,
+      "sha256": "a6689102a50e6be4fe29a368effe15440cd1b519477979e92f79d5f90860183c",
+      "mode": 33204,
+      "mtime_ns": 1789445661692311480
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/cube-complex/02-three-coordination-cards.svg",
+      "bytes": 107862,
+      "sha256": "0781dc3c74a1730c3b72c3368194d1ae9b8b697f4fbd2d793f7ebd885e33a96f",
+      "mode": 33204,
+      "mtime_ns": 1789445661888309186
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/cube-complex/03-corresponding-boundaries.svg",
+      "bytes": 121204,
+      "sha256": "43bb6d902d3898d2eb76ae16722fdfc410d8bc37f1e5d9875a888b312265cf72",
+      "mode": 33204,
+      "mtime_ns": 1789445662110306604
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/cube-complex/04-glued-cards.svg",
+      "bytes": 100466,
+      "sha256": "cb076af169615da26f94195df6fd8edb356c2ade54d9fb191dd4591f2a0e4483",
+      "mode": 33204,
+      "mtime_ns": 1789445662246305033
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/cube-complex/05-cross-card-route.svg",
+      "bytes": 102661,
+      "sha256": "064a7029c70ddf4707d81d5cb11745330474ab8982fb4a264d0f1ebc05fe2b43",
+      "mode": 33204,
+      "mtime_ns": 1789445662426302953
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/cube-complex/README.md",
+      "bytes": 3000,
+      "sha256": "c02914c49ff0f05eba6b51cc6f063d0727ba70fc88d95d6867673ea7b32b75bd",
+      "mode": 33204,
+      "mtime_ns": 1789446272532867400
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/cube-complex/draw_figures.py",
+      "bytes": 10943,
+      "sha256": "69dcb66b4dff73837054a3dfe1e365899ae4a9baec8858d32f6712ee40a20cb6",
+      "mode": 33204,
+      "mtime_ns": 1789446271445325566
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/path-collision-equivalence/README.md",
+      "bytes": 2921,
+      "sha256": "422460011bc9eefe11005c94bc2a512fadf8f2b93fd29e27d0012987619d7e1a",
+      "mode": 33204,
+      "mtime_ns": 1789469958192540378
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/path-collision-equivalence/index.html",
+      "bytes": 21357,
+      "sha256": "daf7a7964e7745df566824ff335ff687c2551409d0238c91dba2c75b13d0a3ba",
+      "mode": 33204,
+      "mtime_ns": 1789469780207726325
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/path-collision-equivalence/three-robots.js",
+      "bytes": 14688,
+      "sha256": "6067043b1fabc57d565309478f775b55e88495aeff25cc01921864a18565d1b8",
+      "mode": 33204,
+      "mtime_ns": 1789469957997575030
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/path-collision-equivalence/exports/preview.png",
+      "bytes": 341555,
+      "sha256": "16a44980548d1d65ef4213d459afb63f1f3af26e67104746b753ea7faa53f1b6",
+      "mode": 33204,
+      "mtime_ns": 1789469068626320864
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/path-collision-equivalence/exports/three-robots-cube.png",
+      "bytes": 202762,
+      "sha256": "68123ffd1e2260c4b173902b97fc2ea8675832fb4c72b769e7b5b6616cff0c66",
+      "mode": 33204,
+      "mtime_ns": 1789469897043680658
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/path-collision-equivalence/exports/three-robots-preview.png",
+      "bytes": 564478,
+      "sha256": "17228ea49fc3b1f36daa1c2d5d695846288d2b2331f497521ad113fb4b3cfd97",
+      "mode": 33204,
+      "mtime_ns": 1789469896718680700
+    },
+    {
+      "repository": "research-process",
+      "path": "experiments/README.md",
+      "bytes": 485,
+      "sha256": "4c4e087245949d7a73c03fdbab92b96ba6d8c4259345c48f13e48214c77a8123",
+      "mode": 33204,
+      "mtime_ns": 1788753808374806475
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+      "bytes": 6901,
+      "sha256": "3439de75ebf40eeccba4a2b87a11c977780da30aa270033b6c8e8bd42ac9b6d3",
+      "mode": 33204,
+      "mtime_ns": 1788776824067040054
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+      "bytes": 7688,
+      "sha256": "108762b9127fc9b4fca859bf3bafccc26548edc361b72d99a81e038493b54f25",
+      "mode": 33204,
+      "mtime_ns": 1789545448540727837
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+      "bytes": 3466,
+      "sha256": "5c2730ed3f63e54b69edc791c187539e934fd383db98d579b19f5724746bb91d",
+      "mode": 33204,
+      "mtime_ns": 1789545448540727837
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-09-coordination-space-reading-guide.md",
+      "bytes": 10358,
+      "sha256": "274c478de81750929f994e86953cbc54419cd12bd0a7ae7a183499cb531c75fc",
+      "mode": 33204,
+      "mtime_ns": 1789545448542727550
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-09-multi-arm-research-focus.md",
+      "bytes": 1600,
+      "sha256": "4050c72b6e5604dace9787ba2637bf3add2057d844cda0215b9c0c5ccd54e9e5",
+      "mode": 33204,
+      "mtime_ns": 1789545448542727550
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-14-todos-and-draft.md",
+      "bytes": 323,
+      "sha256": "1f9419832e4f65b4236053040f50aa5e870ae8d5cf862e25b9a35281ab0f1194",
+      "mode": 33204,
+      "mtime_ns": 1789375645734156620
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-15-cube-complex-understanding.md",
+      "bytes": 9476,
+      "sha256": "9d5da23338493adeaa269869ff0a6a5b50f024a3d5e654b096e9e157e64933d3",
+      "mode": 33204,
+      "mtime_ns": 1789446303301627510
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-16-generator-scene-and-target-representation.md",
+      "bytes": 4447,
+      "sha256": "1f9cba09d41d59e031d3ecfefa8be0893c5f122ad5ec3255b90d8992fdeb4ddc",
+      "mode": 33204,
+      "mtime_ns": 1789563948778722427
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-17-generator-input-output-format.md",
+      "bytes": 11904,
+      "sha256": "822896bbb0cc49d76b965e2b10cdce043c4aa959a801a98e004016d8d8aa0891",
+      "mode": 33204,
+      "mtime_ns": 1789638304447053460
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-18-agent-collaborative-development-research.md",
+      "bytes": 16065,
+      "sha256": "27ecdff8abfb01b46cf1c05e38ed480a74bd89f56b5be1bfd9809e8c44a518ca",
+      "mode": 33204,
+      "mtime_ns": 1789718826975635333
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-18-evolving-design-and-best-practices.md",
+      "bytes": 4019,
+      "sha256": "78b7a95085527bfab36fb71974cf546bbc41c547b8be45e05ac48d57b2640752",
+      "mode": 33204,
+      "mtime_ns": 1789708490200657167
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-18-generator-input-output-format.md",
+      "bytes": 14314,
+      "sha256": "7d90c8fcd105cc58f5a709d0f64516da8e82e2daae5e244ef66ad3e444c6373c",
+      "mode": 33204,
+      "mtime_ns": 1789701570302569540
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/README.md",
+      "bytes": 472,
+      "sha256": "456140f7bc8e578978f3cdcc18db1e4dff1c408721f2a3cfaf165cbf1ac3cf55",
+      "mode": 33204,
+      "mtime_ns": 1788753808374806475
+    },
+    {
+      "repository": "research-process",
+      "path": "journal/2026-09-07-record-organization.md",
+      "bytes": 1360,
+      "sha256": "6a993e21826ee6850a6242ae61832cf5d1d95baa903ab0b8276e2a52cb2503c8",
+      "mode": 33204,
+      "mtime_ns": 1788753808374806475
+    },
+    {
+      "repository": "research-process",
+      "path": "journal/2026-09-07-starting-point.md",
+      "bytes": 1625,
+      "sha256": "1348fab8dc9cffe7216142694cba76539035a32c2eb096375b043507f1f0936d",
+      "mode": 33204,
+      "mtime_ns": 1788753808374806475
+    },
+    {
+      "repository": "research-process",
+      "path": "journal/2026-09-15-research-understanding-and-direction.md",
+      "bytes": 13945,
+      "sha256": "a7a6133d48c448e8c4bf9e0cb39c940bee08c14e4b54cbef5603d4f45754501e",
+      "mode": 33204,
+      "mtime_ns": 1789545472809420425
+    },
+    {
+      "repository": "research-process",
+      "path": "projects/README.md",
+      "bytes": 731,
+      "sha256": "6ac7172bb6d1ffce85af457aa8813d6a5461218097e314b12273076f31d10894",
+      "mode": 33204,
+      "mtime_ns": 1788753808374806475
+    },
+    {
+      "repository": "research-process",
+      "path": "projects/dataset-generator/README.md",
+      "bytes": 609,
+      "sha256": "7f12149b82b8bceaf71cf95a878ba4052b5f37ccac0e6a08d66352ce5c21e161",
+      "mode": 33204,
+      "mtime_ns": 1788753808374806475
+    },
+    {
+      "repository": "research-process",
+      "path": "projects/stop-n-go/README.md",
+      "bytes": 484,
+      "sha256": "1db69e839071f1b0b1b6f9a4ca80151520655cfaec3f286945d9dde1d87d33d4",
+      "mode": 33204,
+      "mtime_ns": 1788753808374806475
+    },
+    {
+      "repository": "research-process",
+      "path": "references/README.md",
+      "bytes": 1148,
+      "sha256": "8a9a195bac8c929b242ddd88d8630b6264f2e68ac7694f84b0d0014b3833ac81",
+      "mode": 33204,
+      "mtime_ns": 1789545472808420554
+    },
+    {
+      "repository": "research-process",
+      "path": "references/lavalle-planning-algorithms-7-2-multiple-robots.md",
+      "bytes": 4428,
+      "sha256": "84047e306d3dc7678d314dc2017ee2ccdc9c19c8ce6e874ba469eb919f07319d",
+      "mode": 33204,
+      "mtime_ns": 1789545448540727837
+    },
+    {
+      "repository": "research-process",
+      "path": "references/stac-reading-notes.md",
+      "bytes": 14002,
+      "sha256": "3ac705521dd15228ebb7c86e9cc1c80608db9a2c991cc23503912f1dbba35586",
+      "mode": 33204,
+      "mtime_ns": 1789545448539727981
+    },
+    {
+      "repository": "research-process",
+      "path": "references/stop-n-go-reading-notes.md",
+      "bytes": 611,
+      "sha256": "39ff2cb4fa6b8989b3f3e445f8bcbaa433816403bfed39c36109e031fb7d6241",
+      "mode": 33204,
+      "mtime_ns": 1789545122207980797
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": ".gitignore",
+      "bytes": 381,
+      "sha256": "29e52f548cc9452982265f3a05885fda3df43b44cf6e238c3b43954a6e016a1f",
+      "mode": 33204,
+      "mtime_ns": 1790668888250208079
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "AGENTS.md",
+      "bytes": 11497,
+      "sha256": "d11de02d89cec074bb9ad95da73b6fc0744f2fa24d91db4233dc5f730b322b21",
+      "mode": 33204,
+      "mtime_ns": 1790772370698962824
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "MotionBenchMaker.pdf",
+      "bytes": 7398744,
+      "sha256": "06f4af598af19ddc9b818d1d24a8d67ede58c2b2bbd88cdf8c0039a2e952c742",
+      "mode": 33204,
+      "mtime_ns": 1788770200549626470
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "README.md",
+      "bytes": 2655,
+      "sha256": "a641ff872f36e789c12774ccd4fc3edbe871ee768e08f6238813ccf49a2ed93c",
+      "mode": 33204,
+      "mtime_ns": 1790774679807067908
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "pyproject.toml",
+      "bytes": 352,
+      "sha256": "6803cdfcbb3fe8a16ee36b09fcbc018a97283612a4e2b83ecda95de358409f81",
+      "mode": 33204,
+      "mtime_ns": 1790757012759407099
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": ".serena/.gitignore",
+      "bytes": 26,
+      "sha256": "21d5dcb497df8b257d94919bdadcfe75b75d085d0f7b77ac2d8a813a9ca6e758",
+      "mode": 33204,
+      "mtime_ns": 1790649996176156716
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": ".serena/project.local.yml",
+      "bytes": 402,
+      "sha256": "7b5753e9fcf8348db026f8d23ff601b1cf90d9543532fe979f31650e27b15d2b",
+      "mode": 33204,
+      "mtime_ns": 1790649996175156790
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": ".serena/project.yml",
+      "bytes": 9794,
+      "sha256": "d499ece57bb25ac84e9d6abddcd66fa15d510cf4eaf165bb3445b95728441908",
+      "mode": 33152,
+      "mtime_ns": 1790649996244151706
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": ".serena/cache/python/document_symbols.pkl",
+      "bytes": 567742,
+      "sha256": "abf8f73c391bb59fd2882ed6ef15f2509483e290d2cefd2d5075296eaaf4ada2",
+      "mode": 33204,
+      "mtime_ns": 1790823209183845593
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": ".serena/cache/python/raw_document_symbols.pkl",
+      "bytes": 154735,
+      "sha256": "a16a2e410d7cfaad55621ddcd8eb12b60f3630917bfd6f04263ad3503e1ffc4b",
+      "mode": 33204,
+      "mtime_ns": 1790823209179845546
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "build/lib/multiarm_problem_gen/__init__.py",
+      "bytes": 67,
+      "sha256": "f2952911f7e414e57b5937953a0398ec9c7b2492c50e1d5a7f4b5922d77c7aea",
+      "mode": 33188,
+      "mtime_ns": 1790650087000000000
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "build/lib/multiarm_problem_gen/primitives/__init__.py",
+      "bytes": 246,
+      "sha256": "7cd2106bc1265a0d1522e06086a4bdda61d47c9d9668a767eda56fb7f6ebebf1",
+      "mode": 33188,
+      "mtime_ns": 1790650379000000000
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "build/lib/multiarm_problem_gen/primitives/_representations.py",
+      "bytes": 8020,
+      "sha256": "e4e124197b0d1465d6e63c57fa74ca0278da79b2db267008ab37f0faa01408fd",
+      "mode": 33188,
+      "mtime_ns": 1790650379000000000
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docker/Dockerfile",
+      "bytes": 930,
+      "sha256": "8ca9b254dd48e2d9e6e33408bc717e5548fa7b9f9a674d0a7d8146269469b726",
+      "mode": 33204,
+      "mtime_ns": 1790757012758407203
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docker/Dockerfile.dockerignore",
+      "bytes": 145,
+      "sha256": "6e3c2f30cfe22465bb65c3d9662e76a9536b9e5f31ec0d6296765cc7c4f1148c",
+      "mode": 33204,
+      "mtime_ns": 1790668888251208087
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docker/README.md",
+      "bytes": 10575,
+      "sha256": "2c64c5731bb2bd34ea90c262c8e9db0f394e87b76cc48ad8084a1491930cd684",
+      "mode": 33204,
+      "mtime_ns": 1790774679942074652
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docker/check_environment.py",
+      "bytes": 2197,
+      "sha256": "b55afd6581715ae009ff7775b4540d875ca1f9e3c73a805fcc91a4cb01c4151e",
+      "mode": 33204,
+      "mtime_ns": 1790757012759407099
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docker/compose.yaml",
+      "bytes": 565,
+      "sha256": "1020d23169603e83fed754a61548f7e70494ea1c493ba3f9c495a04de98ff520",
+      "mode": 33204,
+      "mtime_ns": 1790668888251208087
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/README.md",
+      "bytes": 7535,
+      "sha256": "948cb0d6c4a8a8aefb484be3bec9814139b3887ac01925b77e141d019c2f86f0",
+      "mode": 33204,
+      "mtime_ns": 1790774679847069906
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/design.md",
+      "bytes": 9297,
+      "sha256": "c9b7fdf1723efe23165f207c82216f1b4a38126c428783dc116341d20a1a6931",
+      "mode": 33204,
+      "mtime_ns": 1790774679906072854
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/git-workflow.md",
+      "bytes": 5089,
+      "sha256": "30146681bdda2fe5bea0bcd8d932ec03bf762cf7749e2d741cd824f4e572dff5",
+      "mode": 33204,
+      "mtime_ns": 1789727886189425923
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/contracts/distributions.md",
+      "bytes": 2158,
+      "sha256": "1d09ef2daaa2c2ed4acb8ee5acd89e406b9cc045f8ace4c5044806f9eff91ffb",
+      "mode": 33204,
+      "mtime_ns": 1790773364068418678
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/contracts/generation.md",
+      "bytes": 6287,
+      "sha256": "4540a0f9d0ba34dc600e6fbd7c0894fc5b6c7e02e213df1a0c91b178bb3e7cab",
+      "mode": 33204,
+      "mtime_ns": 1790773819247213061
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/contracts/input-bundle.md",
+      "bytes": 4019,
+      "sha256": "eb359ee056c58498bac150800473875414a469d634cf25e0678a1aaeba6b3342",
+      "mode": 33204,
+      "mtime_ns": 1790774456631433099
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/contracts/primitives.md",
+      "bytes": 4381,
+      "sha256": "4cb7b4042c7c858e19f01cc05d8c80d63245200f36d771ddf1d5847255acd87d",
+      "mode": 33204,
+      "mtime_ns": 1790757022725385349
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/contracts/resources.md",
+      "bytes": 4019,
+      "sha256": "aef81c4c99ef4cc5bdb358ef981a0ade310c3758a4af31d337e196fd45e03c63",
+      "mode": 33204,
+      "mtime_ns": 1790773386444811533
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/contracts/robot-model.md",
+      "bytes": 7624,
+      "sha256": "11b9a48f371d4b6af9872bab51d2cc81a3ccd5cb8fbbf1a3ae66d488ccff2409",
+      "mode": 33204,
+      "mtime_ns": 1790757022725385349
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/contracts/scene.md",
+      "bytes": 6371,
+      "sha256": "79dbdc2949ab08648343f2147390a4bcf6910c5e757e8cb7d4c2f026c5ac8332",
+      "mode": 33204,
+      "mtime_ns": 1790759161768541360
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-18-first-input-example.md",
+      "bytes": 18485,
+      "sha256": "200cc0bbbd3790f78c2c01e409666dffb7180537b7acda30e62a9d18616fe6dc",
+      "mode": 33204,
+      "mtime_ns": 1790757022760381782
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-18-input-output-format.md",
+      "bytes": 14603,
+      "sha256": "3e6be628fb052a95af92f9d2e152f297fe4ac68e255b07904fbbf86029dc5db1",
+      "mode": 33204,
+      "mtime_ns": 1790757022760381782
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-18-starting-point.md",
+      "bytes": 2194,
+      "sha256": "d8807122ebd2126b9b02336316c3ed729d7460e35ca7267f75842d512188b1ed",
+      "mode": 33204,
+      "mtime_ns": 1790757022760381782
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-21-output-validity-semantics.md",
+      "bytes": 1795,
+      "sha256": "51f3d2181939a9e886aeaf270c3c2c83bbe8a0c5cb1e10f9754cd6e1d7b38363",
+      "mode": 33204,
+      "mtime_ns": 1790757022760381782
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-22-input-domain-representations.md",
+      "bytes": 7898,
+      "sha256": "4f57394a15a64882bc0b81c4615709a626158374559e4699bc7aba0b0faa9e5f",
+      "mode": 33204,
+      "mtime_ns": 1790757022761381681
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-23-generation-distributions.md",
+      "bytes": 3271,
+      "sha256": "b75b7fa21b0d450aac768d90c2058eb2834964bdbbae00775d075a59f3629a06",
+      "mode": 33204,
+      "mtime_ns": 1790757022761381681
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-23-input-bundle.md",
+      "bytes": 3277,
+      "sha256": "c7db2a2b7adba6c1a033c2f79a10e8a20ff599666c7abadb87a7efabba2e3d67",
+      "mode": 33204,
+      "mtime_ns": 1790757022761381681
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "bytes": 4800,
+      "sha256": "4051402e5e10f2928abbdd09199cd0ed2e70a4eb26f1502cbc41fa5bfee57bd5",
+      "mode": 33204,
+      "mtime_ns": 1790757022761381681
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+      "bytes": 5390,
+      "sha256": "c4d0c708ea8164ab1a9e237b57693428649821166647df779ae1791e49b5ffc7",
+      "mode": 33204,
+      "mtime_ns": 1790757022761381681
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+      "bytes": 1646,
+      "sha256": "e44e6b5a03bdabd3de6e5f8cdf3d970ac0f44807768df43d2a867939124b8acc",
+      "mode": 33204,
+      "mtime_ns": 1790757022761381681
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-input-implementation-units.md",
+      "bytes": 3476,
+      "sha256": "d70d9a616bc44915a020fb10d7011114c81c64aba7d3706ed007271666f89539",
+      "mode": 33204,
+      "mtime_ns": 1790757022761381681
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "bytes": 6156,
+      "sha256": "102d92e6f77108736d16de8de5b99df99f6c54a645fa8ed9aae9f5df917249fc",
+      "mode": 33204,
+      "mtime_ns": 1790757022761381681
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+      "bytes": 8849,
+      "sha256": "8048c7583006d87313e981e62412ee1524b3f737a199216682251be29b3e2274",
+      "mode": 33204,
+      "mtime_ns": 1790757022761381681
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+      "bytes": 23746,
+      "sha256": "558fdd15d3a8c0beba07e04ed765846bc3badd7c0acfd8b907a7f37f07bd5a5e",
+      "mode": 33204,
+      "mtime_ns": 1790773565569521890
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "bytes": 13091,
+      "sha256": "b2bffa810f4448c606a7599730ad7f134b0bb80ed06d199df929a20fec8a3158",
+      "mode": 33204,
+      "mtime_ns": 1790758950002079174
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+      "bytes": 9851,
+      "sha256": "15606137fe9bc7b2bd327c3cbc7c359c48c241d32008bd4d8fe7351cf8f76835",
+      "mode": 33204,
+      "mtime_ns": 1790773690805143626
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+      "bytes": 7941,
+      "sha256": "78824363eb3198f31e746c247eaade20b2e7099814c442a926ebc1ec3d1e49a2",
+      "mode": 33204,
+      "mtime_ns": 1790773866170228603
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-29-first-implementation-results.md",
+      "bytes": 7143,
+      "sha256": "bdcb7af40a84f72355f6829bd3c43f664e69935013bf369eb628add193b5ac98",
+      "mode": 33204,
+      "mtime_ns": 1790757022761381681
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "bytes": 7142,
+      "sha256": "6a5a042c4fefbcf723dc0ce9aefa0c5d3a128c9a4c6614b73f9bf861965f7cb7",
+      "mode": 33204,
+      "mtime_ns": 1790757022761381681
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "bytes": 12357,
+      "sha256": "a8b2a9a519d0455a178c3d78bc141259ed66c2604ee90a596c015fcb7a0ec1f6",
+      "mode": 33204,
+      "mtime_ns": 1790774956131329308
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-remove-material-support.md",
+      "bytes": 2182,
+      "sha256": "b3cef66c4d5d1f2c4d6059caf74e5c4bf7ca14cf3d2d1701b614104dc33232d1",
+      "mode": 33204,
+      "mtime_ns": 1790757022761381681
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+      "bytes": 4761,
+      "sha256": "47814e0bf336b6190fb41ebee72e646cf83f84e16e3efa9c89a3835a6bc439e9",
+      "mode": 33204,
+      "mtime_ns": 1790773571884260042
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "bytes": 10940,
+      "sha256": "8a0d3b17ad6d7ca72b412daf7b0498359ba7d10c7f63ec95e9eaf5e61fd5f9f4",
+      "mode": 33204,
+      "mtime_ns": 1790760083720417081
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-4-results.md",
+      "bytes": 5764,
+      "sha256": "13752190fc4b37ae2339bb699156006e8767d6c5cc43928311607319feb3f5f4",
+      "mode": 33204,
+      "mtime_ns": 1790773609466534438
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+      "bytes": 2842,
+      "sha256": "acfbfe7f9988697ff4a51640cf09927db53379a1c60fd83b51925407cc7e406b",
+      "mode": 33204,
+      "mtime_ns": 1790773749898907779
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-5-results.md",
+      "bytes": 6382,
+      "sha256": "42dfd615cc10eda13793cf144073a7dab6f17680ac76169c84fac3520451c419",
+      "mode": 33204,
+      "mtime_ns": 1790774372189719569
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-6-results.md",
+      "bytes": 6815,
+      "sha256": "14e99891461230a3bf340c75bc58407887d0880298e26e279121d5894e5af876",
+      "mode": 33204,
+      "mtime_ns": 1790774882507888464
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/README.md",
+      "bytes": 3817,
+      "sha256": "2c0aa4e85537e5701fced39dc6fae5b7db429fb384ccc5499b3dfceaf5a5ca2a",
+      "mode": 33204,
+      "mtime_ns": 1790774457110459280
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/bundle.yaml",
+      "bytes": 39,
+      "sha256": "c18a5bb055f7d5feb7bfccf6d474e68993f9f4daa0f77b1b164b58baf28f5097",
+      "mode": 33204,
+      "mtime_ns": 1790774456943450154
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/inputs/tabletop/generation.yaml",
+      "bytes": 4198,
+      "sha256": "562f656cc42591f0464e83b74b2d3954c562944966af06db2cf8bd5078b866e3",
+      "mode": 33204,
+      "mtime_ns": 1790649990218596084
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/inputs/tabletop/scene.yaml",
+      "bytes": 4644,
+      "sha256": "e648310fbcc500cc13c15c7b454cb1596817f6e18ecebf4bb157ff7b0c889181",
+      "mode": 33204,
+      "mtime_ns": 1790774457022454472
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/sources.yaml",
+      "bytes": 6174,
+      "sha256": "34cbba75b2ac6eb7a4a708a8528ad46164a8f6948c1693130af764b3170be0d3",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/objects/ball/LICENSE",
+      "bytes": 1523,
+      "sha256": "77b99cf750b7853dd491634ce8a059be62c8be1fd29e27da29a30a40d3b8367e",
+      "mode": 33204,
+      "mtime_ns": 1790649990218596084
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/objects/ball/ball.stl",
+      "bytes": 512084,
+      "sha256": "d9f2f06d9ed0e4a1c367d549109bd5545e687a83c97a53459f013e88b4bd029a",
+      "mode": 33204,
+      "mtime_ns": 1790649990220595936
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/robot.urdf",
+      "bytes": 18503,
+      "sha256": "737dcb2cf741ab81d926cbc17d55c3886d88c9eff75bcbdd376a1f9979d842bd",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/robot.yaml",
+      "bytes": 1579,
+      "sha256": "5e4200abff4598945a845c784249b2e28f544866d54f41a855178dbf2b70fbee",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/licenses/robotiq_description/LICENSE",
+      "bytes": 1524,
+      "sha256": "a47544ef0ad645c587e46348dc10e68b89c3e74732bd124c005cfcd8ede3b3b8",
+      "mode": 33204,
+      "mtime_ns": 1790649990220595936
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/licenses/robotiq_description/LICENSE-robotiq",
+      "bytes": 1515,
+      "sha256": "376150a80f36fc6ca750935fb74f99b6a77b9942f1c6c5bf1d51a2adc853b096",
+      "mode": 33204,
+      "mtime_ns": 1790649990220595936
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/licenses/ur_description/LICENSE",
+      "bytes": 1459,
+      "sha256": "143077f9f6a8de5a99f78c2c2472801fb53cf240277ef661642f079b9acdfff8",
+      "mode": 33204,
+      "mtime_ns": 1790649990220595936
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/licenses/ur_moveit_reference/LICENSE",
+      "bytes": 1459,
+      "sha256": "143077f9f6a8de5a99f78c2c2472801fb53cf240277ef661642f079b9acdfff8",
+      "mode": 33204,
+      "mtime_ns": 1790649990220595936
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/left_finger.stl",
+      "bytes": 19684,
+      "sha256": "f39a50be121122fc1c53c588a762ad1da8a0f64d39bc6f299cbe9b0597e7257b",
+      "mode": 33204,
+      "mtime_ns": 1790649990220595936
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/left_finger_tip.stl",
+      "bytes": 11284,
+      "sha256": "9d90031cd99106a8be63609f8ff78580638d91cc4167bf66c09198329f2e65cf",
+      "mode": 33204,
+      "mtime_ns": 1790649990220595936
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/left_inner_knuckle.stl",
+      "bytes": 17984,
+      "sha256": "f250a3fea49be4d1bb2383d9980172c59fc44031193ef2293ca540f756f6c1e6",
+      "mode": 33204,
+      "mtime_ns": 1790649990220595936
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/left_knuckle.stl",
+      "bytes": 4384,
+      "sha256": "b7ec787f57a7db5b2b14e64ffbedaac28739e38f14aac8afa8b575bac941feb7",
+      "mode": 33204,
+      "mtime_ns": 1790649990220595936
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/right_finger.stl",
+      "bytes": 19684,
+      "sha256": "1d018fa2f0b50aca5941778d78810b211b1abfc8637c7953451d76d4833ba6f8",
+      "mode": 33204,
+      "mtime_ns": 1790649990220595936
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/right_finger_tip.stl",
+      "bytes": 11284,
+      "sha256": "126f1559f2f7dca62449a6ca926c609fbdaa93ca66df805ff7c069bb206e3d10",
+      "mode": 33204,
+      "mtime_ns": 1790649990220595936
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/right_inner_knuckle.stl",
+      "bytes": 17784,
+      "sha256": "c936d951ede875b91c180bd41d45b22ae23f8a39d9c3e09e29066453a8e863ef",
+      "mode": 33204,
+      "mtime_ns": 1790649990220595936
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/right_knuckle.stl",
+      "bytes": 4384,
+      "sha256": "d151fb38f59748f1e6e627312e2ede96f2c98ba267bf722091665b20c78e7a8d",
+      "mode": 33204,
+      "mtime_ns": 1790649990220595936
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/robotiq_base.stl",
+      "bytes": 20084,
+      "sha256": "ede5cd7d7846c051b88645f33d6bbb5ed9b36bbef404a19a46557639bfab7060",
+      "mode": 33204,
+      "mtime_ns": 1790649990221595863
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/ur_to_robotiq_adapter.stl",
+      "bytes": 48884,
+      "sha256": "e5b4eaba7f75c4071c9c0213281af4798098c971891808d87e948383cd2b9aa9",
+      "mode": 33204,
+      "mtime_ns": 1790649990221595863
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/left_finger.dae",
+      "bytes": 191399,
+      "sha256": "5fb9e5659c735e48eb55269da431cf61b3b7a6745922c1932a7adefb1db86dc3",
+      "mode": 33204,
+      "mtime_ns": 1790649990221595863
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/left_finger_tip.dae",
+      "bytes": 174578,
+      "sha256": "785ec7a83b4fc6357c211a39bb117833b1cfd4e9bccbef2efc7f35aeb2fdb92e",
+      "mode": 33204,
+      "mtime_ns": 1790649990222595789
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/left_inner_knuckle.dae",
+      "bytes": 110219,
+      "sha256": "2df009ef28868c90a4904370f5f4995c74ec84e0b8ca1371044e0ea669edcd71",
+      "mode": 33204,
+      "mtime_ns": 1790649990222595789
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/left_knuckle.dae",
+      "bytes": 78865,
+      "sha256": "1b82214363d9548f3562be70e25cd23217a304c72ccd37bc1551cf1a3a64029d",
+      "mode": 33204,
+      "mtime_ns": 1790649990223595715
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/right_finger.dae",
+      "bytes": 190861,
+      "sha256": "3b2245b5537eb596d7f8a4c64b12e3aedea46e365fc589019184d3b4200e664f",
+      "mode": 33204,
+      "mtime_ns": 1790649990223595715
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/right_finger_tip.dae",
+      "bytes": 173460,
+      "sha256": "568371d25ddbcee8e432c0610bdcc7afcd1393d48d973eed92168e353eb4edf5",
+      "mode": 33204,
+      "mtime_ns": 1790649990224595641
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/right_inner_knuckle.dae",
+      "bytes": 111109,
+      "sha256": "4cc6de99e177773ba755805b58b67537c3af24b2fd8f3a1bf4bbced87d6240a5",
+      "mode": 33204,
+      "mtime_ns": 1790649990224595641
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/right_knuckle.dae",
+      "bytes": 79122,
+      "sha256": "532b6f6f8794883ff34995701036ca392461f26127757f92003db127693bc57c",
+      "mode": 33204,
+      "mtime_ns": 1790649990225595567
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/robotiq_base.dae",
+      "bytes": 2159533,
+      "sha256": "761a79d586a48d367d60f146ca77ef7d2821ad790f7b1b1c93b061ac59799267",
+      "mode": 33204,
+      "mtime_ns": 1790649990232595051
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/ur_to_robotiq_adapter.dae",
+      "bytes": 188335,
+      "sha256": "ed326c745df2942d2efb8dd902ecfafa84c692d360a7c03ce9276ad491614ac4",
+      "mode": 33204,
+      "mtime_ns": 1790649990233594977
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/base.stl",
+      "bytes": 21084,
+      "sha256": "9a145e0d46f2130afdf2a2e8825a00a929870c4c3d6d8e4d1adc5f04db3aac1b",
+      "mode": 33204,
+      "mtime_ns": 1790649990233594977
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/forearm.stl",
+      "bytes": 53284,
+      "sha256": "2e7423cab807c34160ec4f770daee5e747d70e777eb01b7beeace2b8c5751816",
+      "mode": 33204,
+      "mtime_ns": 1790649990233594977
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/shoulder.stl",
+      "bytes": 70084,
+      "sha256": "ceb92532177daa77682f5fbd628e01c2137d168f949a7a706ce1dabe9f002387",
+      "mode": 33204,
+      "mtime_ns": 1790649990233594977
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/upperarm.stl",
+      "bytes": 99684,
+      "sha256": "ee893044caf00075cb55b4cf666d1f1311c7979786212a501009f33bee945209",
+      "mode": 33204,
+      "mtime_ns": 1790649990234594903
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/wrist1.stl",
+      "bytes": 59584,
+      "sha256": "f8c9f9337b6fd98c75f052e96de10e14a107ddb6874ba6b904e546f8a4e4f43a",
+      "mode": 33204,
+      "mtime_ns": 1790649990234594903
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/wrist2.stl",
+      "bytes": 67584,
+      "sha256": "2964a63f60ce3e3cf3ad55bcf190d7876d50e373cb64b70a57cea5885eaf3c86",
+      "mode": 33204,
+      "mtime_ns": 1790649990234594903
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/wrist3.stl",
+      "bytes": 7184,
+      "sha256": "83b3666b4ae2badd54af0d2c25a921682ecbc29e849eec646c3ed55fb74c78a3",
+      "mode": 33204,
+      "mtime_ns": 1790649990234594903
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/base.dae",
+      "bytes": 358056,
+      "sha256": "c30e4d7228ef633dca2a02c26df2316741f6642cb6333e8289dba6e6d0b22819",
+      "mode": 33204,
+      "mtime_ns": 1790649990235594829
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/forearm.dae",
+      "bytes": 1140937,
+      "sha256": "04694bf57dac46e9b8bc7c30f2eec75a1bc762e1f1a879ea30c944f24cacbad8",
+      "mode": 33204,
+      "mtime_ns": 1790649990240594460
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/shoulder.dae",
+      "bytes": 1797083,
+      "sha256": "c581bfa55b86061d9b99d315ed53817b6b693e6a500643bbf9bbb783322d585d",
+      "mode": 33204,
+      "mtime_ns": 1790649990246594017
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/upperarm.dae",
+      "bytes": 3082486,
+      "sha256": "c040a05bb224f14cfab6aa6704d70cbb773ada940eca9a3e34e6ce486c4c4c29",
+      "mode": 33204,
+      "mtime_ns": 1790649990257593206
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/wrist1.dae",
+      "bytes": 1334663,
+      "sha256": "a07a3d96d2540f9be12e4a07bcb8577d9f1e36005920c396a407804343a3b588",
+      "mode": 33204,
+      "mtime_ns": 1790649990262592837
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/wrist2.dae",
+      "bytes": 1554839,
+      "sha256": "982fa42933c6f81629882ad7975e9ba5dac5d474a6b56694e233708376cf840e",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/wrist3.dae",
+      "bytes": 66077,
+      "sha256": "7a7664ac4adcd53b0870fe6a2b8b975693d846dd4d07a5f44194c7d16f4890ba",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/__init__.py",
+      "bytes": 67,
+      "sha256": "f2952911f7e414e57b5937953a0398ec9c7b2492c50e1d5a7f4b5922d77c7aea",
+      "mode": 33204,
+      "mtime_ns": 1790668888251208087
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/resources.py",
+      "bytes": 6528,
+      "sha256": "e8419b2e5a2f9e0f8cb8a8a61246267f75f0b4fd0b5dedffe762fa25982a7b11",
+      "mode": 33204,
+      "mtime_ns": 1790773407720939558
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/bundles/__init__.py",
+      "bytes": 246,
+      "sha256": "2829cb751badb2b7832ed2a5f0346ec8e3236187953d1baccd565643a222fbf3",
+      "mode": 33204,
+      "mtime_ns": 1790774456820443430
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/bundles/_reader.py",
+      "bytes": 8062,
+      "sha256": "b11516e0b53f5b76a108587751d6f4867407d57f40eef629342e0b2910698d85",
+      "mode": 33204,
+      "mtime_ns": 1790774456893447421
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/distributions/__init__.py",
+      "bytes": 3975,
+      "sha256": "f8ad2e3e519545f662f623724f800037c1a416c2d24cda93dcb20e6af0a28584",
+      "mode": 33204,
+      "mtime_ns": 1790773400675914127
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/generation/__init__.py",
+      "bytes": 374,
+      "sha256": "b625c3759df08eb66902cf505db327c8df066128b330d0b8346299b1a6741a61",
+      "mode": 33204,
+      "mtime_ns": 1790773896091693167
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/generation/_model.py",
+      "bytes": 10003,
+      "sha256": "6929b87ea4d8d3ea7bb6a60af24900ffa057ec210209b019d2bd0927a7bbe64b",
+      "mode": 33204,
+      "mtime_ns": 1790773896089693005
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/generation/_reader.py",
+      "bytes": 12844,
+      "sha256": "b1a92e09cfeea8534b03b4fe633716a050da9e1d211f686f7c06c91d801c68b8",
+      "mode": 33204,
+      "mtime_ns": 1790774283657541402
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/primitives/__init__.py",
+      "bytes": 246,
+      "sha256": "7cd2106bc1265a0d1522e06086a4bdda61d47c9d9668a767eda56fb7f6ebebf1",
+      "mode": 33204,
+      "mtime_ns": 1790668888251208087
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/primitives/_representations.py",
+      "bytes": 8020,
+      "sha256": "e4e124197b0d1465d6e63c57fa74ca0278da79b2db267008ab37f0faa01408fd",
+      "mode": 33204,
+      "mtime_ns": 1790668888251208087
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/robots/__init__.py",
+      "bytes": 755,
+      "sha256": "4d38bcf74080e37325e6ace3d0497e217bd80c91666c56067485143a551f548b",
+      "mode": 33204,
+      "mtime_ns": 1790757012759407099
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/robots/_model.py",
+      "bytes": 8821,
+      "sha256": "0bfb0afa784652e7818503c46b4075e6dd660bd1a2393933ced2c88dafd40839",
+      "mode": 33204,
+      "mtime_ns": 1790757012760406996
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/robots/_reading.py",
+      "bytes": 26841,
+      "sha256": "57548148a6ca7d83786229eba919d7713ad4bbbfc1a0d808d99d9278daaad271",
+      "mode": 33204,
+      "mtime_ns": 1790757012760406996
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/scenes/__init__.py",
+      "bytes": 345,
+      "sha256": "73635f960ea14e4df2c533eb9fb0509a86967ebe376ebd963344809a5b351c94",
+      "mode": 33204,
+      "mtime_ns": 1790759290207442363
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/scenes/model.py",
+      "bytes": 9018,
+      "sha256": "0722d518b0488aa716d4ef7ebe357dd164496447cfc30becc0d2da383e08d753",
+      "mode": 33204,
+      "mtime_ns": 1790759290250441740
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/scenes/reader.py",
+      "bytes": 12491,
+      "sha256": "2abde8454c35f8ecc5a02f16ae03f3cef8363099a6bb0e501e6b1f4a88e3ba12",
+      "mode": 33204,
+      "mtime_ns": 1790760027465646501
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen.egg-info/PKG-INFO",
+      "bytes": 158,
+      "sha256": "ebe87cba9732c7529097208b2e52246c201ed249cc5c3c44787b9312938c34cb",
+      "mode": 33188,
+      "mtime_ns": 1790650578741307101
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen.egg-info/SOURCES.txt",
+      "bytes": 357,
+      "sha256": "7f71063a91c34bf969dc086c86b6597b64c9d551b56ad6e55bfadf511016b94c",
+      "mode": 33188,
+      "mtime_ns": 1790650578743307114
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen.egg-info/dependency_links.txt",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "mode": 33188,
+      "mtime_ns": 1790650578741307101
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen.egg-info/top_level.txt",
+      "bytes": 21,
+      "sha256": "ca3e4e22addb147937959b7342ff190a0c5c817766e756cab085d81d88f7ab5e",
+      "mode": 33188,
+      "mtime_ns": 1790650578741307101
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/bundles/_fixtures.py",
+      "bytes": 2902,
+      "sha256": "6ee9a12f6fed178b0f6ae7f0603ebf7613a11de92bd720aef979596fb10afa5d",
+      "mode": 33204,
+      "mtime_ns": 1790774683532253862
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/bundles/test_bundles.py",
+      "bytes": 22398,
+      "sha256": "10cddeacd0ecd9512cad0e377aafb2d52149ef1ff0e9935a475a3314a1a32053",
+      "mode": 33204,
+      "mtime_ns": 1790774750461556928
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/distributions/test_distributions.py",
+      "bytes": 11976,
+      "sha256": "b40d32b13b7f6d92975042f6238df854e6fc2f94984b47e52f38170a445f66a1",
+      "mode": 33204,
+      "mtime_ns": 1790773516351559819
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/generation/test_generation.py",
+      "bytes": 27470,
+      "sha256": "be4dba6c8f3801358cbafd23ed80e97056cdd6d218e82d57661757ca535cdd7f",
+      "mode": 33204,
+      "mtime_ns": 1790774283700543983
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/integration/test_bundle_acceptance.py",
+      "bytes": 9663,
+      "sha256": "bab5a99be11da1056bf2e0c6a796a8876e61ab3f686af87c13e333ac9d6286b7",
+      "mode": 33204,
+      "mtime_ns": 1790773825265738873
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/primitives/test_primitives.py",
+      "bytes": 15927,
+      "sha256": "883aeb053f0da7831a14750d8629e6e14f5d535e4356fe0764805a1bb80b6e35",
+      "mode": 33204,
+      "mtime_ns": 1790668888251208087
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/resources/test_resources.py",
+      "bytes": 6688,
+      "sha256": "48d571625c7a4c490e4bef8152f204854988cad82c71507c8fea69b10d612100",
+      "mode": 33204,
+      "mtime_ns": 1790759707817265953
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/resources/test_snapshots.py",
+      "bytes": 8762,
+      "sha256": "4a6a58687c46c6d7abcd96eb6a6943a301a7124d22cf87bbf16d77a04f04ebf0",
+      "mode": 33204,
+      "mtime_ns": 1790773493080605134
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/robots/test_reading.py",
+      "bytes": 19453,
+      "sha256": "2ea4681a77f809c1a9b12fff9c05a07976b6cba000f8253a6e63b55e0fe2daa3",
+      "mode": 33204,
+      "mtime_ns": 1790757012760406996
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/robots/test_real_robot.py",
+      "bytes": 11557,
+      "sha256": "d8df0ba06f00085cee5f162b9849621a0286f87f3a9b34a1dc9a2e7842a710f8",
+      "mode": 33204,
+      "mtime_ns": 1790757012760406996
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/robots/fixtures/robot.urdf",
+      "bytes": 1190,
+      "sha256": "c627f37f87ad708a9d62063afb6df87a2c35bd80d9ac8d324c24043e6b30d5a8",
+      "mode": 33204,
+      "mtime_ns": 1790757012760406996
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/robots/fixtures/robot.yaml",
+      "bytes": 302,
+      "sha256": "697dc3323d100fea96178d7f4209a25723789472a6c316a06ee30df204505cfa",
+      "mode": 33204,
+      "mtime_ns": 1790757012760406996
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/robots/fixtures/shape.stl",
+      "bytes": 72,
+      "sha256": "e167aa03754d6b92827d7f41bfe75f07402fb5e0a2c76bc908ec2ea36a9c47f9",
+      "mode": 33204,
+      "mtime_ns": 1790757012760406996
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/scenes/test_scenes.py",
+      "bytes": 25050,
+      "sha256": "322a2a4c97e9788b21dceb19d6e8ebb23f57bc7e1443fdd7af6a6e0462af9200",
+      "mode": 33204,
+      "mtime_ns": 1790774579540969275
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/scenes/fixtures/robot.urdf",
+      "bytes": 411,
+      "sha256": "64af03795a10f03b79e881e73e83a08fe10ee681a9547ab455bcd042569d9333",
+      "mode": 33204,
+      "mtime_ns": 1790759673633966840
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/scenes/fixtures/robot.yaml",
+      "bytes": 190,
+      "sha256": "dbf66dbc6d9c8fa1961baf01860a7a1a10ba875cccfab4c2b887dbeb21abf5c1",
+      "mode": 33204,
+      "mtime_ns": 1790759673708944426
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/scenes/fixtures/scene.yaml",
+      "bytes": 1126,
+      "sha256": "52ad3a56ae053c6b1f8edcf9fa98998a8e9fa965053ca59612ac9a4f35ffa839",
+      "mode": 33204,
+      "mtime_ns": 1790759673759929185
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tests/scenes/fixtures/shape.stl",
+      "bytes": 79,
+      "sha256": "f6b24828f4249953596d8e991cf6184fed1cfaf2455879b7a371245c42361005",
+      "mode": 33204,
+      "mtime_ns": 1790759673816912150
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tmp/unit1-wheels/multiarm_problem_gen-0.1.0-py3-none-any.whl",
+      "bytes": 4486,
+      "sha256": "4c75dd470bbd3eabf6e1f000c76cf5b83c9e8333f50e95e2177120c589da2392",
+      "mode": 33188,
+      "mtime_ns": 1790650578779307362
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/baseline_validation/ur7e_table/README.md",
+      "bytes": 10465,
+      "sha256": "26a3019a077f37246587547d74919a34e3b68ad0c18cdada50d7c8b0123e6e2d",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/baseline_validation/ur7e_table/baseline.yaml",
+      "bytes": 428,
+      "sha256": "8a4924d790f07c867a8227998bb72c850875fa702ec72dbccea3ba5d135ca79e",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/baseline_validation/ur7e_table/check_baseline.py",
+      "bytes": 8380,
+      "sha256": "dbbc8a912e540b39f690bde8efd9269b5d1c33814175d49a1d9f969c73d3ec1b",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/baseline_validation/ur7e_table/validation-2026-09-18.json",
+      "bytes": 3424,
+      "sha256": "0ad859a165d2669fe9e7b98241ff03b04dd1b1730625e3dbf93f3a5e7ba198cc",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/README.md",
+      "bytes": 1011,
+      "sha256": "30303414d888f81be57632bdacd7f9a9fc8c02815724738878abb2a829fc29ec",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/build_model.py",
+      "bytes": 1911,
+      "sha256": "3f23007bd363f0ebe06246a908907a4cae05a65e1bb24601c833d4c037c669ba",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/resources-original.md",
+      "bytes": 1421,
+      "sha256": "efaa1a51cfb103c5658faf00f4de3377dce0161845a2cf8e10875cab4e6731df",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/robot.urdf.xacro",
+      "bytes": 1403,
+      "sha256": "5bd94419e1ae67115dde015419dea01f3f94fd1498278644958954123db68579",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/sources-original.yaml",
+      "bytes": 8406,
+      "sha256": "5d280b331d46dadda9ae92c28714f0f039ead5a58f4f11c77707743182e6ad7c",
+      "mode": 33204,
+      "mtime_ns": 1790649990269592320
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/reference/motionbenchmaker/LICENSE",
+      "bytes": 1523,
+      "sha256": "77b99cf750b7853dd491634ce8a059be62c8be1fd29e27da29a30a40d3b8367e",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/reference/motionbenchmaker/scene_table.yaml",
+      "bytes": 2934,
+      "sha256": "d9a07c809f39e3504d3187b2f536243586e4c60c593422ae8f60b9557f685564",
+      "mode": 33204,
+      "mtime_ns": 1790649990268592394
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/LICENSE",
+      "bytes": 1524,
+      "sha256": "a47544ef0ad645c587e46348dc10e68b89c3e74732bd124c005cfcd8ede3b3b8",
+      "mode": 33204,
+      "mtime_ns": 1790649990269592320
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/LICENSE-robotiq",
+      "bytes": 1515,
+      "sha256": "376150a80f36fc6ca750935fb74f99b6a77b9942f1c6c5bf1d51a2adc853b096",
+      "mode": 33204,
+      "mtime_ns": 1790649990269592320
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/package.xml",
+      "bytes": 1885,
+      "sha256": "dcfd36e741cf3a344e66d48a4ef310d450f4358a50c69752f3ecf14d7753a7b9",
+      "mode": 33204,
+      "mtime_ns": 1790649990281591434
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/left_finger.stl",
+      "bytes": 19684,
+      "sha256": "f39a50be121122fc1c53c588a762ad1da8a0f64d39bc6f299cbe9b0597e7257b",
+      "mode": 33204,
+      "mtime_ns": 1790649990269592320
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/left_finger_tip.stl",
+      "bytes": 11284,
+      "sha256": "9d90031cd99106a8be63609f8ff78580638d91cc4167bf66c09198329f2e65cf",
+      "mode": 33204,
+      "mtime_ns": 1790649990269592320
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/left_inner_knuckle.stl",
+      "bytes": 17984,
+      "sha256": "f250a3fea49be4d1bb2383d9980172c59fc44031193ef2293ca540f756f6c1e6",
+      "mode": 33204,
+      "mtime_ns": 1790649990269592320
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/left_knuckle.stl",
+      "bytes": 4384,
+      "sha256": "b7ec787f57a7db5b2b14e64ffbedaac28739e38f14aac8afa8b575bac941feb7",
+      "mode": 33204,
+      "mtime_ns": 1790649990269592320
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/right_finger.stl",
+      "bytes": 19684,
+      "sha256": "1d018fa2f0b50aca5941778d78810b211b1abfc8637c7953451d76d4833ba6f8",
+      "mode": 33204,
+      "mtime_ns": 1790649990269592320
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/right_finger_tip.stl",
+      "bytes": 11284,
+      "sha256": "126f1559f2f7dca62449a6ca926c609fbdaa93ca66df805ff7c069bb206e3d10",
+      "mode": 33204,
+      "mtime_ns": 1790649990269592320
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/right_inner_knuckle.stl",
+      "bytes": 17784,
+      "sha256": "c936d951ede875b91c180bd41d45b22ae23f8a39d9c3e09e29066453a8e863ef",
+      "mode": 33204,
+      "mtime_ns": 1790649990269592320
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/right_knuckle.stl",
+      "bytes": 4384,
+      "sha256": "d151fb38f59748f1e6e627312e2ede96f2c98ba267bf722091665b20c78e7a8d",
+      "mode": 33204,
+      "mtime_ns": 1790649990269592320
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/robotiq_base.stl",
+      "bytes": 20084,
+      "sha256": "ede5cd7d7846c051b88645f33d6bbb5ed9b36bbef404a19a46557639bfab7060",
+      "mode": 33204,
+      "mtime_ns": 1790649990269592320
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/ur_to_robotiq_adapter.stl",
+      "bytes": 48884,
+      "sha256": "e5b4eaba7f75c4071c9c0213281af4798098c971891808d87e948383cd2b9aa9",
+      "mode": 33204,
+      "mtime_ns": 1790649990269592320
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/left_finger.dae",
+      "bytes": 191399,
+      "sha256": "5fb9e5659c735e48eb55269da431cf61b3b7a6745922c1932a7adefb1db86dc3",
+      "mode": 33204,
+      "mtime_ns": 1790649990270592246
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/left_finger_tip.dae",
+      "bytes": 174578,
+      "sha256": "785ec7a83b4fc6357c211a39bb117833b1cfd4e9bccbef2efc7f35aeb2fdb92e",
+      "mode": 33204,
+      "mtime_ns": 1790649990271592172
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/left_inner_knuckle.dae",
+      "bytes": 110219,
+      "sha256": "2df009ef28868c90a4904370f5f4995c74ec84e0b8ca1371044e0ea669edcd71",
+      "mode": 33204,
+      "mtime_ns": 1790649990271592172
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/left_knuckle.dae",
+      "bytes": 78865,
+      "sha256": "1b82214363d9548f3562be70e25cd23217a304c72ccd37bc1551cf1a3a64029d",
+      "mode": 33204,
+      "mtime_ns": 1790649990271592172
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/right_finger.dae",
+      "bytes": 190861,
+      "sha256": "3b2245b5537eb596d7f8a4c64b12e3aedea46e365fc589019184d3b4200e664f",
+      "mode": 33204,
+      "mtime_ns": 1790649990272592099
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/right_finger_tip.dae",
+      "bytes": 173460,
+      "sha256": "568371d25ddbcee8e432c0610bdcc7afcd1393d48d973eed92168e353eb4edf5",
+      "mode": 33204,
+      "mtime_ns": 1790649990273592025
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/right_inner_knuckle.dae",
+      "bytes": 111109,
+      "sha256": "4cc6de99e177773ba755805b58b67537c3af24b2fd8f3a1bf4bbced87d6240a5",
+      "mode": 33204,
+      "mtime_ns": 1790649990273592025
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/right_knuckle.dae",
+      "bytes": 79122,
+      "sha256": "532b6f6f8794883ff34995701036ca392461f26127757f92003db127693bc57c",
+      "mode": 33204,
+      "mtime_ns": 1790649990273592025
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/robotiq_base.dae",
+      "bytes": 2159533,
+      "sha256": "761a79d586a48d367d60f146ca77ef7d2821ad790f7b1b1c93b061ac59799267",
+      "mode": 33204,
+      "mtime_ns": 1790649990281591434
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/ur_to_robotiq_adapter.dae",
+      "bytes": 188335,
+      "sha256": "ed326c745df2942d2efb8dd902ecfafa84c692d360a7c03ce9276ad491614ac4",
+      "mode": 33204,
+      "mtime_ns": 1790649990281591434
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/urdf/2f_85.ros2_control.xacro",
+      "bytes": 4586,
+      "sha256": "a0d097f1753cc040f4f6778bdaa1da9c10c6c0e85afe8292c42fe103353e48fe",
+      "mode": 33204,
+      "mtime_ns": 1790649990281591434
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/urdf/2f_common.ros2_control.xacro",
+      "bytes": 2952,
+      "sha256": "edc7d3d444cbf5683d43852b53a6bcaf6dad39357ca65b71f1254bd7d3e6616d",
+      "mode": 33204,
+      "mtime_ns": 1790649990281591434
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/urdf/robotiq_2f_85_macro.urdf.xacro",
+      "bytes": 15011,
+      "sha256": "bfa97d612cf0df29079ab1d0bdcb5f6a8d14fc1563230eb2758008d8a12dc36b",
+      "mode": 33204,
+      "mtime_ns": 1790649990282591361
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/urdf/ur_to_robotiq_adapter.urdf.xacro",
+      "bytes": 1513,
+      "sha256": "3d52ae3dbe23c20cea598c816fcc745acaed55b77c9e41b92ad55f0623d3d1d7",
+      "mode": 33204,
+      "mtime_ns": 1790649990282591361
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/LICENSE",
+      "bytes": 1459,
+      "sha256": "143077f9f6a8de5a99f78c2c2472801fb53cf240277ef661642f079b9acdfff8",
+      "mode": 33204,
+      "mtime_ns": 1790649990282591361
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/README.md",
+      "bytes": 3986,
+      "sha256": "627f8565e83a44102af73da8faadcb4d948bf24b4970d3dfae72dda8775ea750",
+      "mode": 33204,
+      "mtime_ns": 1790649990282591361
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/package.xml",
+      "bytes": 3488,
+      "sha256": "fb8dc76afa1b2ac0c631295e575bc1655df6131fa82864c354e969d48260ecad",
+      "mode": 33204,
+      "mtime_ns": 1790649990318588704
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/config/ur7e/default_kinematics.yaml",
+      "bytes": 649,
+      "sha256": "4ffc6086bb0118a5a8e4a3576ef41de878de946710799ea4835789063fa9c0bc",
+      "mode": 33204,
+      "mtime_ns": 1790649990282591361
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/config/ur7e/joint_limits.yaml",
+      "bytes": 2869,
+      "sha256": "1e908454a0fb073761a0c675f708eb003ca7d5333a9e0863ef87fe40d9abb3c7",
+      "mode": 33204,
+      "mtime_ns": 1790649990282591361
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/config/ur7e/physical_parameters.yaml",
+      "bytes": 2428,
+      "sha256": "0e58b89069d8d87b24cce0c2c02832d88de0f3229baf42916953ce1c71f0fa2d",
+      "mode": 33204,
+      "mtime_ns": 1790649990282591361
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/config/ur7e/visual_parameters.yaml",
+      "bytes": 2393,
+      "sha256": "87e8adba0d4e40cc9a994e7ca2264671cc6b6c732649b675b553639cb275a16d",
+      "mode": 33204,
+      "mtime_ns": 1790649990282591361
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/base.stl",
+      "bytes": 21084,
+      "sha256": "9a145e0d46f2130afdf2a2e8825a00a929870c4c3d6d8e4d1adc5f04db3aac1b",
+      "mode": 33204,
+      "mtime_ns": 1790649990282591361
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/forearm.stl",
+      "bytes": 53284,
+      "sha256": "2e7423cab807c34160ec4f770daee5e747d70e777eb01b7beeace2b8c5751816",
+      "mode": 33204,
+      "mtime_ns": 1790649990282591361
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/shoulder.stl",
+      "bytes": 70084,
+      "sha256": "ceb92532177daa77682f5fbd628e01c2137d168f949a7a706ce1dabe9f002387",
+      "mode": 33204,
+      "mtime_ns": 1790649990282591361
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/upperarm.stl",
+      "bytes": 99684,
+      "sha256": "ee893044caf00075cb55b4cf666d1f1311c7979786212a501009f33bee945209",
+      "mode": 33204,
+      "mtime_ns": 1790649990283591287
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/wrist1.stl",
+      "bytes": 59584,
+      "sha256": "f8c9f9337b6fd98c75f052e96de10e14a107ddb6874ba6b904e546f8a4e4f43a",
+      "mode": 33204,
+      "mtime_ns": 1790649990283591287
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/wrist2.stl",
+      "bytes": 67584,
+      "sha256": "2964a63f60ce3e3cf3ad55bcf190d7876d50e373cb64b70a57cea5885eaf3c86",
+      "mode": 33204,
+      "mtime_ns": 1790649990283591287
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/wrist3.stl",
+      "bytes": 7184,
+      "sha256": "83b3666b4ae2badd54af0d2c25a921682ecbc29e849eec646c3ed55fb74c78a3",
+      "mode": 33204,
+      "mtime_ns": 1790649990283591287
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/base.dae",
+      "bytes": 358056,
+      "sha256": "c30e4d7228ef633dca2a02c26df2316741f6642cb6333e8289dba6e6d0b22819",
+      "mode": 33204,
+      "mtime_ns": 1790649990285591139
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/forearm.dae",
+      "bytes": 1140937,
+      "sha256": "04694bf57dac46e9b8bc7c30f2eec75a1bc762e1f1a879ea30c944f24cacbad8",
+      "mode": 33204,
+      "mtime_ns": 1790649990289590844
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/shoulder.dae",
+      "bytes": 1797083,
+      "sha256": "c581bfa55b86061d9b99d315ed53817b6b693e6a500643bbf9bbb783322d585d",
+      "mode": 33204,
+      "mtime_ns": 1790649990295590401
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/upperarm.dae",
+      "bytes": 3082486,
+      "sha256": "c040a05bb224f14cfab6aa6704d70cbb773ada940eca9a3e34e6ce486c4c4c29",
+      "mode": 33204,
+      "mtime_ns": 1790649990307589515
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/wrist1.dae",
+      "bytes": 1334663,
+      "sha256": "a07a3d96d2540f9be12e4a07bcb8577d9f1e36005920c396a407804343a3b588",
+      "mode": 33204,
+      "mtime_ns": 1790649990312589146
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/wrist2.dae",
+      "bytes": 1554839,
+      "sha256": "982fa42933c6f81629882ad7975e9ba5dac5d474a6b56694e233708376cf840e",
+      "mode": 33204,
+      "mtime_ns": 1790649990318588704
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/wrist3.dae",
+      "bytes": 66077,
+      "sha256": "7a7664ac4adcd53b0870fe6a2b8b975693d846dd4d07a5f44194c7d16f4890ba",
+      "mode": 33204,
+      "mtime_ns": 1790649990318588704
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/urdf/ur_macro.xacro",
+      "bytes": 18813,
+      "sha256": "2683ddcc2db392116d69ac775e4d6dd1c7b3d420f9eca926bd10cf43a1ce8b35",
+      "mode": 33204,
+      "mtime_ns": 1790649990318588704
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/urdf/inc/ur_common.xacro",
+      "bytes": 19909,
+      "sha256": "91b5a8c55c3a0b04ff0d8abe74fbaf7635966e903e9e978cec473bf88234f9fd",
+      "mode": 33204,
+      "mtime_ns": 1790649990318588704
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_moveit_reference/LICENSE",
+      "bytes": 1459,
+      "sha256": "143077f9f6a8de5a99f78c2c2472801fb53cf240277ef661642f079b9acdfff8",
+      "mode": 33204,
+      "mtime_ns": 1790649990319588630
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_moveit_reference/package.xml",
+      "bytes": 1656,
+      "sha256": "36d76e325b62d925b9db985abca1132d389e68dd1ac1dc2bb971cbbb69a79838",
+      "mode": 33204,
+      "mtime_ns": 1790649990319588630
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_moveit_reference/ur_macro.srdf.xacro",
+      "bytes": 4048,
+      "sha256": "c73b995bec386975ee838b32c72cd1a87b2a48e58defb9d47cad6270e53ed67d",
+      "mode": 33204,
+      "mtime_ns": 1790649990319588630
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/scene_preview/.gitignore",
+      "bytes": 34,
+      "sha256": "ba77b9161f16c954d6ad2e17808d485679140635e53125720b745a768c86e637",
+      "mode": 33204,
+      "mtime_ns": 1789982871121881869
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/scene_preview/README.md",
+      "bytes": 3663,
+      "sha256": "d1b48b841eef0be1b5fc2b8ae63838f5a8890e1774ce29447a80a20da77d31e9",
+      "mode": 33204,
+      "mtime_ns": 1790649990319588630
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/scene_preview/index.html",
+      "bytes": 2083,
+      "sha256": "0e45cc85fc5dffdad5e561d946c639c2f17ec7e00e170cef4e1bbf0ae0915733",
+      "mode": 33204,
+      "mtime_ns": 1789982871121881869
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/scene_preview/preview.py",
+      "bytes": 8955,
+      "sha256": "ec53abaf8312ef45a1a1899960f59e600c693be80601873099be2b32b28eff3f",
+      "mode": 33204,
+      "mtime_ns": 1790649990319588630
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/scene_preview/requirements.txt",
+      "bytes": 33,
+      "sha256": "4291f0c3701b13901c6ae4e7cd7aa5580f5f545d7afeb2d3b28f0530e9a84cd7",
+      "mode": 33204,
+      "mtime_ns": 1789982871121881869
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/scene_preview/scene.json",
+      "bytes": 2168885,
+      "sha256": "f760bb116e6a140274680e2cc9b78c71206adc26b308fb38fee109fd6f869ce3",
+      "mode": 33204,
+      "mtime_ns": 1789984759846744534
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/scene_preview/viewer.js",
+      "bytes": 6099,
+      "sha256": "43c6ba1f68079f28bf959f57b2b52b8f747484c412dbb16411e38d099606cb08",
+      "mode": 33204,
+      "mtime_ns": 1789982871125882115
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/scene_preview/vendor/LICENSE",
+      "bytes": 1081,
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+      "mode": 33204,
+      "mtime_ns": 1789982871121881869
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/scene_preview/vendor/OrbitControls.js",
+      "bytes": 30973,
+      "sha256": "7aa4372a5ec60b49988edde81014c7361740a57962d032003ca33301c1f4edd5",
+      "mode": 33204,
+      "mtime_ns": 1789982871121881869
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "tools/scene_preview/vendor/three.module.js",
+      "bytes": 1272972,
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495",
+      "mode": 33204,
+      "mtime_ns": 1789982871125882115
+    }
+  ]
+}
