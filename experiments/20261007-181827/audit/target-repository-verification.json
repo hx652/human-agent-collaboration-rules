@@ -1,0 +1,17 @@
+{
+  "captured_at_utc": "2026-10-07T10:50:18.014437+00:00",
+  "main_branch": "main",
+  "main_head": "729f74660446badc262d300eaf75d01b6d464271",
+  "baseline_tree": "",
+  "commit_count_all_refs": "1",
+  "worktrees": "worktree /home/fainic/data/human-agent-collaboration-rules\nHEAD 729f74660446badc262d300eaf75d01b6d464271\nbranch refs/heads/main\n\nworktree /home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/astra_high\nHEAD 729f74660446badc262d300eaf75d01b6d464271\nbranch refs/heads/experiment/20261007-181827/astra_high\n\nworktree /home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/astra_max\nHEAD 729f74660446badc262d300eaf75d01b6d464271\nbranch refs/heads/experiment/20261007-181827/astra_max\n\nworktree /home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/astra_xhigh\nHEAD 729f74660446badc262d300eaf75d01b6d464271\nbranch refs/heads/experiment/20261007-181827/astra_xhigh\n\nworktree /home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/sol_high\nHEAD 729f74660446badc262d300eaf75d01b6d464271\nbranch refs/heads/experiment/20261007-181827/sol_high\n\nworktree /home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/sol_max\nHEAD 729f74660446badc262d300eaf75d01b6d464271\nbranch refs/heads/experiment/20261007-181827/sol_max\n\nworktree /home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/sol_xhigh\nHEAD 729f74660446badc262d300eaf75d01b6d464271\nbranch refs/heads/experiment/20261007-181827/sol_xhigh\n\n",
+  "main_status": "# branch.oid 729f74660446badc262d300eaf75d01b6d464271\n# branch.head main\n? experiments/\n",
+  "branches": {
+    "sol_high": "729f74660446badc262d300eaf75d01b6d464271",
+    "sol_xhigh": "729f74660446badc262d300eaf75d01b6d464271",
+    "sol_max": "729f74660446badc262d300eaf75d01b6d464271",
+    "astra_high": "729f74660446badc262d300eaf75d01b6d464271",
+    "astra_xhigh": "729f74660446badc262d300eaf75d01b6d464271",
+    "astra_max": "729f74660446badc262d300eaf75d01b6d464271"
+  }
+}

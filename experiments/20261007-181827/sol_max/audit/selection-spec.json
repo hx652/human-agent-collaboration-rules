@@ -1,0 +1,952 @@
+[
+  {
+    "repository": "research-process",
+    "path": "AGENTS.md",
+    "kind": "协作约定",
+    "status": "已确认约定：仓库现行声明；本轮未独立核验逐条确认链",
+    "topics": "长期协作；授权；上下文；独立判断；记录与资源管理",
+    "reason": "直接记录跨 session 工作入口、候选更新经审阅后写入、事实类别、沟通及 Git 边界，是明确协作约定原文。",
+    "key_headings": [
+      "目标",
+      "开始工作",
+      "长期记录更新",
+      "内容组织",
+      "配套资源管理",
+      "维护与沟通"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "README.md",
+    "kind": "协作约定",
+    "status": "已确认约定／已采用工作流；跨设备同步为后续计划",
+    "topics": "协作循环；记录用途；渐进拆分",
+    "reason": "将 AGENTS 中的讨论、候选、审阅、写入循环落实为仓库入口，记录过程本身也是目标。",
+    "key_headings": [
+      "阅读入口",
+      "使用循环",
+      "维护"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "overview.md",
+    "kind": "背景与历史经验",
+    "status": "用户经历与已采用工程原则；研究想法未全部确定",
+    "topics": "实践反馈；个人经验适用范围",
+    "reason": "保存先跑通流程再完善的原则，并明确个人提醒不能改写成普遍定律。",
+    "key_headings": [
+      "工程原则",
+      "个人经历与提醒"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "state.md",
+    "kind": "背景与历史经验",
+    "status": "历史阶段快照；部分工作流已确认；进度存在跨仓库时效差异",
+    "topics": "上下文恢复；计划与事实；状态冲突",
+    "reason": "保留研究仓库的旧进度与未决事项，用于辨认状态快照不能自动覆盖代码仓库后续事实。",
+    "key_headings": [
+      "当前阶段",
+      "当前重点",
+      "下一步",
+      "待明确",
+      "暂不展开"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "journal/2026-09-07-starting-point.md",
+    "kind": "讨论与决策",
+    "status": "原文注明用户已确认；同时保留个人历史经验与后续计划",
+    "topics": "长期记录；先实践后复盘；审阅授权",
+    "reason": "记录建立第一版工作流的目标与工程观念演变，包括不依赖单一 session 和不强求零散想法成体系。",
+    "key_headings": [
+      "工程思路的演变",
+      "工作流目标"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "journal/2026-09-07-record-organization.md",
+    "kind": "讨论与决策",
+    "status": "原文注明用户已确认且初始化已采用",
+    "topics": "文档组织；方案权衡；复查条件",
+    "reason": "保留单文件与目录的比较、采用理由、内容边界及何时重新拆分，而非只保存目录结果。",
+    "key_headings": [
+      "问题与顾虑",
+      "方案比较",
+      "当前决定",
+      "内容边界",
+      "决策理由与复查条件",
+      "落实"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "journal/2026-09-15-research-understanding-and-direction.md",
+    "kind": "背景与历史经验",
+    "status": "用户原始理解与 agent 追加说明；不能把正文全部当已确认技术结论",
+    "topics": "共同理解；补充署名；修正误解；保留原意",
+    "reason": "多处明确分出 agent 补充，并保留用户原说法与后续纠正，是共同学习和记录理解变化的具体实例。",
+    "key_headings": [
+      "碰撞矩阵",
+      "联合空间中的进度表示",
+      "终于有点眉目"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/README.md",
+    "kind": "协作约定",
+    "status": "记录方式的现行声明；逐条用户确认来源无法独立判断",
+    "topics": "零散想法；候选审阅；原始出处",
+    "reason": "明确想法不必变任务、不强制清空、用户确认后写入及成熟后仍保留原始出处。",
+    "key_headings": [
+      "随手记录"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/2026-09-18-evolving-design-and-best-practices.md",
+    "kind": "讨论与决策",
+    "status": "已确认原则：原文注明用户认可补充；不是完整架构或强制流程",
+    "topics": "渐进设计；共同语义；工程偏好；探索自由",
+    "reason": "直接保留两段用户原话、经讨论认可的补充，以及哪些同期内容仍未确认。",
+    "key_headings": [
+      "背景",
+      "1. 在草稿纸上积累线索，逐渐形成整体设计",
+      "2. best practice 提供倾向，保留表达与探索空间"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/2026-09-18-agent-collaborative-development-research.md",
+    "kind": "讨论与决策",
+    "status": "用户目标与此前原则已确认；调研判断和候选流程未整体确认为规范；外部主张本轮未核验",
+    "topics": "架构参与；学习；流程成本；Git；可迁移经验",
+    "reason": "最直接的协作调研材料，区分用户目标、研究证据、作者实践、论坛摩擦和 agent 候选建议。保留全部原文及原有证据边界。",
+    "key_headings": [
+      "1. 用户希望通过这个项目获得什么",
+      "2. 调研范围与证据边界",
+      "3. 第一轮研究带来的提醒",
+      "6. 理解和管理 complexity 的候选方法",
+      "7. 论坛讨论暴露的摩擦",
+      "8. Git 的候选使用方式",
+      "9. 项目组织与信息记录的候选起点",
+      "10. 怎样积累可迁移的经验",
+      "11. 当前综合判断与未决事项"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+    "kind": "背景与历史经验",
+    "status": "讨论中的理解变化和候选问题；尚未形成需求或实现方案",
+    "topics": "澄清隐含假设；范围；例子来源；不倒写原认识",
+    "reason": "记录 agent 扩展用户原理解、用例说明额外假设、限制结论适用范围；不将这一讨论升格为新需求。",
+    "key_headings": [
+      "理解变化：端点描述与执行时序",
+      "新问题：到达之后发生什么",
+      "例子一：共享加工区域中的访问与撤离",
+      "例子二：未经澄清的理解可能缩窄 planner 的能力范围",
+      "未决问题"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+    "kind": "背景与历史经验",
+    "status": "阶段性理解；包含 agent 修正建议；无具体改进方案",
+    "topics": "独立审查；概念区分；证据与推断",
+    "reason": "保存对含混表述的修正和对尚未展开想法的限定，体现 agent 不顺着用户原判断直接下结论。",
+    "key_headings": [
+      "讨论背景",
+      "二、对“暴力搜索、不理解时序”的修正",
+      "五、这种结构支持时序协调，但不保证仅靠时序调整就能解决",
+      "六、保留但尚未展开的改进想法",
+      "文献依据与阅读范围"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+    "kind": "背景与历史经验",
+    "status": "用户意图与 agent 独立审查；具体实验方案未定、无实验结果",
+    "topics": "独立判断；可证伪问题；实验解释边界",
+    "reason": "直接记录独立审查如何限定用户研究直觉，并把展示例子、实验假设和已得结果分开。",
+    "key_headings": [
+      "用户的直觉与意图",
+      "agent 的独立审查",
+      "“用实验验证想法”的含义与边界",
+      "尚未决定"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/2026-09-09-coordination-space-reading-guide.md",
+    "kind": "背景与历史经验",
+    "status": "确认的是整理写入；阅读启发与阅读顺序是候选；外部事实本轮未核验",
+    "topics": "阅读范围透明；调研与执行区分；避免猜测实现",
+    "reason": "原文逐处标明未确认启发和文献访问限制，不以“已保存”表示用户已阅读或方案已采用。",
+    "key_headings": [
+      "讨论背景",
+      "2. 经典与直接相关的阅读材料",
+      "3. 建议阅读顺序",
+      "4. 保留的理解与问题"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/2026-09-15-cube-complex-understanding.md",
+    "kind": "背景与历史经验",
+    "status": "原文注明完善表述经用户审阅确认；原始表述与后续说明并列保存",
+    "topics": "保留原话；修正与作者区分；学习材料边界",
+    "reason": "完整保留用户两段原理解、agent 讨论后完善、追加概念说明和图示局限，是不改写历史理解的具体记录。",
+    "key_headings": [
+      "用户原始表述",
+      "用户补充表述：搜索",
+      "与 agent 讨论后的完善表述",
+      "补充讨论：路径拆分与基本方片",
+      "配套插图"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/2026-09-16-generator-scene-and-target-representation.md",
+    "kind": "背景与历史经验",
+    "status": "局部表示已确认；文件组织候选未确认；包含一次意图澄清",
+    "topics": "不要代用户补齐方案；确认粒度；未决事项",
+    "reason": "“尚未确定”一节明确记载用户要求补充未决事项，agent 却补方案后的纠正，具有直接协作教训。",
+    "key_headings": [
+      "当前情况",
+      "已确认：原始访问目标的定义",
+      "尚未确定：最终数据与名义场景的组织",
+      "其他待讨论事项",
+      "格式版本的含义"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "projects/README.md",
+    "kind": "协作约定",
+    "status": "项目组织的现行声明；项目关联仍为计划",
+    "topics": "跨项目记录；单一维护位置；渐进拆分",
+    "reason": "记录代码与详细实现留在原仓库、研究发现通过链接关联及设备路径单独维护的内容边界。",
+    "key_headings": [
+      "组织约定"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "projects/dataset-generator/README.md",
+    "kind": "背景与历史经验",
+    "status": "旧项目快照；首版范围和验收仍待讨论",
+    "topics": "需求状态；入口；范围未确认",
+    "reason": "显式说明待讨论问题不代表已确认需求；与后续代码仓库成果保留时效差异。",
+    "key_headings": [
+      "当前情况",
+      "待讨论",
+      "材料入口"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "projects/stop-n-go/README.md",
+    "kind": "背景与历史经验",
+    "status": "用户报告已复现；验证范围未补齐",
+    "topics": "用户报告与验证事实；避免预设缺陷",
+    "reason": "把报告、验证结果与潜在不足分开，是证据类别在项目入口中的实际表达。",
+    "key_headings": [
+      "当前情况",
+      "材料入口"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "experiments/README.md",
+    "kind": "协作约定",
+    "status": "候选记录建议；逐条采用情况无法判断",
+    "topics": "测试目的；可复现信息；观察与原因猜测",
+    "reason": "保存实验记录的按需字段、实际观察与猜测的区分，不把建议模板认定为强制约定。",
+    "key_headings": [
+      "实验记录"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "references/README.md",
+    "kind": "协作约定",
+    "status": "阅读与维护入口；不代表清单已全部详细阅读",
+    "topics": "来源；论文主张与个人理解",
+    "reason": "维护章节明确区分论文主张、个人理解和延伸想法；入口多处保留尚未完成的状态。",
+    "key_headings": [
+      "维护"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "references/stac-reading-notes.md",
+    "kind": "辅助材料",
+    "status": "用户笔记与 agent 补充；论文内容与构造例子均未由本轮独立验证",
+    "topics": "署名与来源；构造例子；矛盾保留",
+    "reason": "作为共同学习的具体材料，标明 agent 补充依据及未核对范围，并保留正文与表格矛盾待核对的记录。纳入理由在证据表达而非算法本身。",
+    "key_headings": [
+      "实验设置",
+      "测量内容与解释边界",
+      "待核对：正文与表 I 不一致",
+      "schedule的过程",
+      "碰撞记录以及如何结合碰撞历史重规划",
+      "个人的理解"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "references/lavalle-planning-algorithms-7-2-multiple-robots.md",
+    "kind": "辅助材料",
+    "status": "个人阅读记录与教学示例；不能把 agent 示例当真实实验",
+    "topics": "个人理解；原始讨论出处；教学验证边界",
+    "reason": "保留个人未理解状态，通过链接关联完善表述而不覆盖原笔记，并标明教学示例的性质和限制。",
+    "key_headings": [
+      "交互示例：路径碰撞与协调空间障碍",
+      "Cube complex：我的理解与讨论记录",
+      "已有相关讨论"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "assets/README.md",
+    "kind": "协作约定",
+    "status": "已采用资源组织方式；导出和同步计划按原文状态理解",
+    "topics": "附件维护；稳定路径；外部资源；再生成副本",
+    "reason": "记录维护源文件、主题分组、稳定引用与临时路径局限，体现长期协作中产物管理的现行方式。",
+    "key_headings": [
+      "存放与引用",
+      "版本与导出",
+      "外部资源"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "assets/cube-complex/README.md",
+    "kind": "辅助材料",
+    "status": "归档、版本修正与生成方法记录；教学假设不是实验结果",
+    "topics": "用户与 agent 共创；版本；维护入口；产物限制",
+    "reason": "保留共同构图、v2 排版修正、源文件维护与验证限制的说明；绘图算法和图片本身不作为协作约定。",
+    "key_headings": [
+      "用途与来源",
+      "文件与维护入口",
+      "生成方法",
+      "记号与限制"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "assets/path-collision-equivalence/README.md",
+    "kind": "辅助材料",
+    "status": "agent 构造教学例子与开发检查自述；未做真实机器人实验",
+    "topics": "教学产物来源；验证层级；维护与复制入口",
+    "reason": "以完整原文保留教学例子的来源、局限和开发验证口径，避免从图形推断真实任务结果。",
+    "key_headings": [
+      "路径碰撞与协调空间：交互示例",
+      "标签页一：不同路径，相同障碍",
+      "标签页二：三机器人碰撞关系与完整协调空间"
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "local-paths.md",
+    "kind": "辅助材料",
+    "status": "被忽略的本机文件；位置项待填写、访问能力不能默认成立",
+    "topics": "本地与云端；同步边界；未跟踪材料",
+    "reason": "补足版本控制外的当前本地材料，原文明确路径不等于云端可访问或文件已同步。",
+    "key_headings": [
+      "本机路径"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "AGENTS.md",
+    "kind": "协作约定",
+    "status": "已确认约定：仓库现行声明；本轮未独立核验逐条确认链",
+    "topics": "架构参与；自主权限；阅读隔离；测试；记录；交接",
+    "reason": "直接汇集当前协作约定，尤其区分局部自主实现、架构确认、受限阅读、契约缺口、测试目的和真实统计。",
+    "key_headings": [
+      "人与 agent",
+      "记录",
+      "实现与验证",
+      "Git 与交接",
+      "架构决策与自主权限",
+      "从设计进入实现",
+      "实现任务的阅读边界",
+      "Serena 使用约定",
+      "契约缺口与异常处理",
+      "验证与记录"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/git-workflow.md",
+    "kind": "协作约定",
+    "status": "仓库现行 Git 约定；集成方式未统一定死",
+    "topics": "授权；分支；提交；共享历史；逻辑审阅",
+    "reason": "保留 main 与探索分支的采用含义、提交建议不等于授权、语义冲突复核与集成方式的留白。",
+    "key_headings": [
+      "探索分支与长期主线",
+      "何时提交与集成",
+      "集成方式",
+      "主线提交",
+      "操作边界"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "README.md",
+    "kind": "协作约定",
+    "status": "当前入口与已实现范围声明；自主试验未获用户最终设计接受",
+    "topics": "学习与理解；两仓库记录边界；状态语义",
+    "reason": "说明用户架构参与和跨项目经验的保存位置，同时直接提示试验实现不代表最终设计接受。",
+    "key_headings": [
+      "仓库组织",
+      "设计与学习"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/README.md",
+    "kind": "协作约定",
+    "status": "当前文档组织声明与历史过程入口；方案不等于执行",
+    "topics": "当前设计与历史；记录分类；不执行历史任务",
+    "reason": "明确按内容目的分类讨论与实施，保留原方案并关联结果，而非将方案改写成已执行成果。",
+    "key_headings": [
+      "当前阶段",
+      "讨论与方案",
+      "实施过程与复盘",
+      "接下来讨论",
+      "怎样组织记录"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/design.md",
+    "kind": "辅助材料",
+    "status": "混合时间快照：已确认语义、保留的旧方案、实施追加及自主试验并存",
+    "topics": "设计入口；状态更新；候选抽象；避免过时描述",
+    "reason": "纳入的是原文顶部的状态追加方式与候选／未决标记，用来理解历史段落不能被当作当前能力清单。",
+    "key_headings": [
+      "当前设计草稿",
+      "候选抽象与待验证的问题",
+      "未决事项"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-18-starting-point.md",
+    "kind": "讨论与决策",
+    "status": "历史初始化记录；已采用文档组织；不代表已实现项目",
+    "topics": "学习目标；最简组织；跨仓库追溯",
+    "reason": "保存仓库起点、用户学习目标、讨论快照与正式代码文档的分工，以及不预设复杂流程。",
+    "key_headings": [
+      "本次组织选择",
+      "学习与协作目标",
+      "前序材料",
+      "下一步"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-18-first-input-example.md",
+    "kind": "讨论与决策",
+    "status": "局部方向已确认；候选细节与之后追加的确认分阶段保留",
+    "topics": "最小但完整；实践暴露问题；范围；共同语义",
+    "reason": "记录用户查看实际样例后提出问题、agent 独立评判、后续取舍和修正；不是只保存输入配置。",
+    "key_headings": [
+      "“最小但完整”的含义",
+      "接下来需要明确",
+      "追加：基准场景与可视化暴露的三个问题",
+      "追加：问题 1、2 的方案",
+      "追加：问题 3 的方案"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-21-output-validity-semantics.md",
+    "kind": "背景与历史经验",
+    "status": "已确认的是输出语义；尚未实现或验证全部要求",
+    "topics": "澄清自然语言；保证边界；需求与实现区分",
+    "reason": "用户“单独可达”的含义经讨论具体限定，记录端点、路径与多臂任务保证的区别，避免交接中扩大承诺。",
+    "key_headings": [
+      "讨论与确认",
+      "保证边界与未决事项"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-22-input-domain-representations.md",
+    "kind": "讨论与决策",
+    "status": "讨论过程与局部方案；名称、字段不是完整接口定稿",
+    "topics": "具体反馈修正建议；减少抽象；模型与实例",
+    "reason": "Mesh 小节记录用户质疑提前加载和额外层后方案调整；其他节保留渐进澄清与未决细节。",
+    "key_headings": [
+      "从读取结果谈起",
+      "Mesh：从提前解析转向按需加载",
+      "Pose、Frame 与场景复用",
+      "场景规则的澄清",
+      "后续计划"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-23-generation-distributions.md",
+    "kind": "讨论与决策",
+    "status": "讨论中的局部方案；首版范围未扩大为一般相关分布",
+    "topics": "共同语义；职责拆分；用户纠正；避免新增开关",
+    "reason": "保留用户如何纠正标量／多维及作用关联含义，以及确认部分语义后仍保留应用过程未知。",
+    "key_headings": [
+      "从扰动的职责拆分谈起",
+      "分布以多维联合分布表示",
+      "作用关联需要明确分量与含义",
+      "两个使用例子与边界"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-23-input-bundle.md",
+    "kind": "辅助材料",
+    "status": "讨论方案；原文明确当时未迁移样例",
+    "topics": "方案与执行分离；路径归属；任务范围",
+    "reason": "作为后续自主试验的架构交接背景，具体保留“当前命名冲突待迁移”的状态，便于追溯后续元数据变更。",
+    "key_headings": [
+      "从目录管理到输入包",
+      "如何发现场景与生成规则",
+      "路径、资源与实现边界"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-28-input-reading-flow.md",
+    "kind": "讨论与决策",
+    "status": "读取组织为设计方向；精确模块、接口与可变性待确认",
+    "topics": "让用户理解数据流；通俗术语；不提前细化内部",
+    "reason": "记录用户要求从对象清单转为逐步运行流程及 agent 的说明调整；明确组织职责不意味着单个大类。",
+    "key_headings": [
+      "从对象清单转向运行流程",
+      "运行流程与职责",
+      "一个协作例子",
+      "边界与后续"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-29-input-implementation-units.md",
+    "kind": "讨论与决策",
+    "status": "任务划分依据；不表示所有接口和粒度已定稿",
+    "topics": "任务粒度；依赖契约；独立验收；提前交付公共接口",
+    "reason": "明确交付单元与 class／文件的区别，记录依赖顺序、资源接口前置及实现前范围和验收条件。",
+    "key_headings": [
+      "划分方案",
+      "路径与共享资源的归属",
+      "建议实现顺序"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+    "kind": "讨论与决策",
+    "status": "澄清与候选建议；未决定是否拆开任务",
+    "topics": "任务范围与代码职责；契约隔离实验",
+    "reason": "直接讨论代码职责分离为何不自动构成 agent 阅读隔离，任务粒度需对应所验证的边界。",
+    "key_headings": [
+      "问题与澄清",
+      "对契约隔离实验的影响"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+    "kind": "讨论与决策",
+    "status": "局部语义与可变性已确认；精确接口候选；本文件不授权实现",
+    "topics": "用户纠正；公开契约；局部自主；范围",
+    "reason": "保留从“全部不可变”经用户纠正改为 Frame 位姿可替换的讨论，明确实施前应补什么而不设计全部内部函数。",
+    "key_headings": [
+      "构造、引用与可变性",
+      "校验职责",
+      "首次交付与验收",
+      "实现前还需补齐"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+    "kind": "讨论与决策",
+    "status": "讨论确认的接口方向；当时未实现；写方案不等于执行授权",
+    "topics": "文件与内存抽象；修正建议；范围词义；依赖阅读",
+    "reason": "保留用户要求统一表示后的方案修正，明确“完整支持”不能自动扩展到未出现能力，执行范围与内部自主选择分开。",
+    "key_headings": [
+      "目标与本次修正",
+      "错误与验收",
+      "实施范围与准备"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+    "kind": "讨论与决策",
+    "status": "已讨论的实施前方案；不代表授权或实际完成；少量环境只读检查是当时观察",
+    "topics": "实施就绪；契约先行；环境验收；授权阶段",
+    "reason": "记录从设计进入实现的阅读、修改、验收及先后交付边界，明确空测试与方案写入不能冒充验收或代码授权。",
+    "key_headings": [
+      "第一部分：统一 Docker／Compose 环境",
+      "第二部分：单元 1 基础表示",
+      "执行顺序、权限与就绪判断"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+    "kind": "讨论与决策",
+    "status": "已确认职责与范围；候选字段待具体化；实施前方案不是执行授权",
+    "topics": "架构修正；当前与未来范围；阅读边界；准备判断",
+    "reason": "记录用户纠正统一资源管理和去前缀选择，保留未来手动登记的未决规则及实现者可自主补充的边界。",
+    "key_headings": [
+      "本轮选择与保留方向",
+      "验收与允许修改范围",
+      "实施准备判断"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+    "kind": "讨论与决策",
+    "status": "授权自主试验的 agent 决定；不代表用户接受最终设计；含已披露的内部测试信息混入",
+    "topics": "决策与实现分工；备选与理由；复议；污染来源",
+    "reason": "保留决策者信息包、依赖补丁分工、契约缺口修正及 D6-4 的内部断言来源，是完整试验决定而非通用规则。",
+    "key_headings": [
+      "信息包与边界",
+      "D4-1：独立多维分布表示",
+      "阅读、用量与时间",
+      "D6-1：先补公开资源快照",
+      "D5-3：mean 的 configuration 名称消歧",
+      "D6-4：既有真实样例测试的单字符串维护"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+    "kind": "辅助材料",
+    "status": "授权自主决定的过滤公开交接；设计未获用户最终接受",
+    "topics": "上下文过滤；契约足够性；隔离交接",
+    "reason": "它是停止污染上下文后重启任务所用的实际过滤产物，技术内容为交接证据，不能当本轮实现指令。",
+    "key_headings": [
+      "单元 5 公开交接包",
+      "D5-1：保留 YAML，公开统一作用关联",
+      "D5-2：精确 YAML、顺序、参数与状态边界",
+      "D5-3：mean 的 configuration 名称消歧"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+    "kind": "辅助材料",
+    "status": "授权自主决定的过滤公开交接；设计未获用户最终接受",
+    "topics": "读写分工；依赖补丁；最小迁移；交接过滤",
+    "reason": "保留过滤交接如何公开依赖行为、限定 U6 范围并将旧内部测试维护留给主 agent 的实际做法。",
+    "key_headings": [
+      "单元 6 公开交接包",
+      "D6-1：先补公开资源快照",
+      "D6-3：真实样例最小迁移与验收"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/implementation/2026-09-29-first-implementation-results.md",
+    "kind": "实施与复盘",
+    "status": "历史实施与验收自述；当时两次提交获用户确认；本轮未重跑",
+    "topics": "授权执行；环境误诊；独立预期；阅读自述；交接",
+    "reason": "记录网络失败不能误说成版本不存在、不同验收口径、未读依赖内部及 agent 自述的证据局限。",
+    "key_headings": [
+      "基线与范围",
+      "环境验收（先于基础表示实现）",
+      "基础表示验收",
+      "契约是否足够",
+      "阅读范围与工具限制",
+      "交接"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+    "kind": "实施与复盘",
+    "status": "历史实施结果；后续 Material 删减另记；测试及无越界均未由本轮独立证明",
+    "topics": "保护原改动；测试预期纠正；契约隔离；局部不足",
+    "reason": "记录手工数量预期错误后依据 XML 独立计数修正测试、对权限和工具问题的回退及后续修正链接。",
+    "key_headings": [
+      "起点与完成内容",
+      "实际验证",
+      "契约与阅读边界",
+      "剩余边界与局部不足"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/implementation/2026-09-30-remove-material-support.md",
+    "kind": "实施与复盘",
+    "status": "原文注明接口删减经用户确认；是该次授权，不是整体重设计",
+    "topics": "独立审查；需求依据；范围收缩；历史不覆盖",
+    "reason": "独立审查发现扩展依据不足，用户确认收缩接口，旧实施结果保留并关联修正；体现必要回归和限定工具回退。",
+    "key_headings": [
+      "原因与变更",
+      "验证与边界"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+    "kind": "实施与复盘",
+    "status": "历史实施与验证记录；阅读、用时和工具限制依记录自述",
+    "topics": "先明确测试目的；保护已有变更；计时；契约边界",
+    "reason": "保存测试目的的独立依据、缓存预期错误修正、工具边界和可取得统计；未把阅读自述或 token 长度当独立证据。",
+    "key_headings": [
+      "完成范围",
+      "测试目的与依据",
+      "实际结果",
+      "阅读范围与工具边界",
+      "用时与 token",
+      "契约判断及剩余限制"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+    "kind": "实施与复盘",
+    "status": "授权自主试验实施总记录；不代表用户接受最终设计；历史验收本轮未重跑",
+    "topics": "多 agent 分工；隔离失败修复；独立集成；时间与用量；授权",
+    "reason": "保存主 agent 协调、专属实现、决策回流、污染后重启、166 项历史验收口径和并行墙钟不能与部分子任务时间相加的限制。",
+    "key_headings": [
+      "起点与边界",
+      "初始验证事实",
+      "任务与决定入口",
+      "主 agent 集成测试目的（编写前）",
+      "最终验收事实",
+      "结果、决定与限制",
+      "用量与计时",
+      "本地交付状态"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/implementation/2026-09-30-unit-4-results.md",
+    "kind": "实施与复盘",
+    "status": "独立上下文的历史实施自述；授权试验决定尚未最终接受",
+    "topics": "专属范围；预期依据；父 agent 信息；计时",
+    "reason": "明确自身验证与父 agent 提供结果的区别，记录上下文、测试限度和计时未涵盖起步／收尾。",
+    "key_headings": [
+      "完成内容",
+      "测试目的与独立依据",
+      "实际验证",
+      "阅读范围与工具",
+      "时间、用量与未决项"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+    "kind": "实施与复盘",
+    "status": "授权试验的最小补丁；历史验证与阅读自述",
+    "topics": "公共缺口补丁；并行分工；模块边界；工具回退",
+    "reason": "记录由资源负责人补公共快照而避免调用方读私有缓存的实际补丁，以及混合活动无法精确拆分用时。",
+    "key_headings": [
+      "范围与测试目的（编写测试前）",
+      "执行结果",
+      "实际阅读与工具边界",
+      "时间与用量"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+    "kind": "实施与复盘",
+    "status": "已发生的准备中止自述；未写实现或测试、未运行测试",
+    "topics": "间接越界；上下文污染；坦诚报告；独立重启",
+    "reason": "直接记录允许读取的决定文件夹带内部测试断言，看到后不能宣称忘掉，停止并移交过滤后的独立上下文。",
+    "key_headings": [
+      "实际产物与停止原因",
+      "实际阅读",
+      "时间、用量与边界"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/implementation/2026-09-30-unit-5-results.md",
+    "kind": "实施与复盘",
+    "status": "过滤后独立实现的历史记录；不继承停止上下文；设计未获最终接受",
+    "topics": "过滤交接；独立测试输入；回交修复；统计限制",
+    "reason": "对照停止记录保留重启后的边界与结果，尤其测试发现实现修正归属、未暂存文件不被 diff 检查覆盖及完整分项用时不可用。",
+    "key_headings": [
+      "单元 5：Generation 独立实现与验证",
+      "测试目的、依据与结果",
+      "读取边界与用量",
+      "契约与局限"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/implementation/2026-09-30-unit-6-results.md",
+    "kind": "实施与复盘",
+    "status": "独立实现历史结果；主 agent 回归结论明确属于交接信息",
+    "topics": "专属范围；实际验证；公开声明查询；计时与边界",
+    "reason": "保留实现者仅查询依赖公开声明、独立 fixture、最小元数据迁移及自身执行与主 agent 报告的区分。",
+    "key_headings": [
+      "完成范围",
+      "测试目的与依据",
+      "实际结果",
+      "契约、阅读与工具",
+      "用时与用量"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/contracts/primitives.md",
+    "kind": "辅助材料",
+    "status": "由已确认方案整理的公开依赖契约；不是新协作规则",
+    "topics": "公开行为；责任边界；独立验收",
+    "reason": "作为契约隔离实践实际使用的原始交接材料，保留构造与行为、职责、错误、验收入口的完整接口约束。",
+    "key_headings": [
+      "导入与构造",
+      "数值与错误",
+      "对象行为",
+      "职责边界",
+      "验收入口"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/contracts/resources.md",
+    "kind": "辅助材料",
+    "status": "已实现公开契约；公开快照扩展为自主试验结果，尚未最终接受",
+    "topics": "状态归属；公开快照；失败语义；不读私有缓存",
+    "reason": "作为 D6-1 缺口与补丁的对应公开产物纳入，技术约束支撑试验边界而非直接提炼通用规则。",
+    "key_headings": [
+      "统一资源管理公开契约"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/contracts/robot-model.md",
+    "kind": "辅助材料",
+    "status": "已确认单元方案的公开契约；包含后续授权 Material 收缩",
+    "topics": "契约可观察行为；默认；支持范围；验收",
+    "reason": "保留实现任务使用的原始依赖契约，以及与旧实施笔记变化关联的当前支持边界。",
+    "key_headings": [
+      "只读表示",
+      "缺失与默认",
+      "输入范围和检查",
+      "验收入口"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/contracts/scene.md",
+    "kind": "辅助材料",
+    "status": "已确认单元 3 方案的公开契约",
+    "topics": "职责；身份；状态；失败；阅读隔离依赖",
+    "reason": "它是后续 Generation 和 Bundle 独立实现使用的真实公共信息包，保留行为和不保证的能力。",
+    "key_headings": [
+      "公开入口与表示",
+      "Frame 名称与引用",
+      "YAML 输入"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/contracts/distributions.md",
+    "kind": "辅助材料",
+    "status": "授权自主试验公开契约；原文明确用户未最终接受设计",
+    "topics": "参数表示与采样区分；公开交接",
+    "reason": "保留 D4-1 的实际公开契约，供核对前后交接和验收范围，不视作用户已接受的长期规则。",
+    "key_headings": [
+      "参数与维度",
+      "错误与示例"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/contracts/generation.md",
+    "kind": "辅助材料",
+    "status": "授权自主试验公开契约；原文明确用户未最终接受设计",
+    "topics": "契约边界；依赖隔离；验证保证",
+    "reason": "与过滤交接和干净上下文结果对应的原始产物，保留关联、错误和验证边界。",
+    "key_headings": [
+      "表示与关联",
+      "严格 YAML",
+      "验证边界"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/contracts/input-bundle.md",
+    "kind": "辅助材料",
+    "status": "授权自主试验公开契约；原文明确用户未最终接受设计",
+    "topics": "公开快照；交付身份；路径归属；失败",
+    "reason": "与 U6 独立实施对应的完整公开产物，用于核对仅凭公共信息如何组织并交付结果。",
+    "key_headings": [
+      "交付与身份",
+      "根配置与发现",
+      "验证边界"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docker/README.md",
+    "kind": "辅助材料",
+    "status": "当前验收入口和当时环境记录；依赖与历史验收结果本轮未运行核实",
+    "topics": "复现；就绪；完整命令；空测试；挂载与阅读权限",
+    "reason": "保存实际环境就绪条件、网络限制、复现版本和挂载整个仓库仍不放宽阅读边界的说明。",
+    "key_headings": [
+      "Docker／Compose 开发环境",
+      "环境组织",
+      "固定版本与来源",
+      "自主试验：完整输入包入口与验收"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "examples/ur7e_table/README.md",
+    "kind": "辅助材料",
+    "status": "自主试验后的样例入口；名义输入读取不等于生成或可行性验收",
+    "topics": "可搬移交付；最小迁移；引用与状态",
+    "reason": "作为 D6-3 迁移与用户验收解释的文档证据纳入，保留旧 ID 的兼容影响和已实现能力边界。",
+    "key_headings": [
+      "内容与入口",
+      "样例内容与限制"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "tools/baseline_validation/ur7e_table/README.md",
+    "kind": "背景与历史经验",
+    "status": "历史基准检查与后续说明；旧报告哈希已不匹配当前场景；本轮未执行",
+    "topics": "实践反馈；旧结果不覆盖；证据失效；验证范围",
+    "reason": "保留布局由实际检查修正、缺依赖时不宣称重验、旧报告原样保存且新结果另存的过程，技术参数作为原文上下文。",
+    "key_headings": [
+      "布局与参数依据",
+      "数值检查及其范围",
+      "目录整理说明（2026-09-21）"
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "tools/scene_preview/README.md",
+    "kind": "辅助材料",
+    "status": "预览原型与本机开发验证自述；不是生成器实现或碰撞验收",
+    "topics": "原型目的；证据依赖；旧报告校验；产物局限",
+    "reason": "是首份输入样例中“可视化暴露问题”的对应材料，保留历史报告不自动加载、哈希匹配局限与实际验证范围。",
+    "key_headings": [
+      "显示内容",
+      "文件",
+      "已验证与限制",
+      "可选开发材料"
+    ]
+  }
+]

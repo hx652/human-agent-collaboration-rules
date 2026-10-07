@@ -1,0 +1,120 @@
+[
+  {
+    "group": "astra_high",
+    "direct_tools": [
+      "exec"
+    ],
+    "nested_tools": [
+      "exec_command"
+    ],
+    "mentioned_group_paths": [
+      "astra_high"
+    ],
+    "mentions_other_group_paths": false,
+    "communications": [],
+    "subagent_spawn_calls": 0,
+    "tool_record_file": "telemetry/astra_high/tool-calls.jsonl",
+    "method": "Tool-call records inspected; lexical summaries support but do not replace review of shell commands. Absolute-path matching cannot prove absence of all possible indirect access."
+  },
+  {
+    "group": "astra_max",
+    "direct_tools": [
+      "exec"
+    ],
+    "nested_tools": [
+      "exec_command"
+    ],
+    "mentioned_group_paths": [
+      "astra_max"
+    ],
+    "mentions_other_group_paths": false,
+    "communications": [],
+    "subagent_spawn_calls": 0,
+    "tool_record_file": "telemetry/astra_max/tool-calls.jsonl",
+    "method": "Tool-call records inspected; lexical summaries support but do not replace review of shell commands. Absolute-path matching cannot prove absence of all possible indirect access."
+  },
+  {
+    "group": "astra_xhigh",
+    "direct_tools": [
+      "exec"
+    ],
+    "nested_tools": [
+      "exec_command"
+    ],
+    "mentioned_group_paths": [
+      "astra_xhigh"
+    ],
+    "mentions_other_group_paths": false,
+    "communications": [],
+    "subagent_spawn_calls": 0,
+    "tool_record_file": "telemetry/astra_xhigh/tool-calls.jsonl",
+    "method": "Tool-call records inspected; lexical summaries support but do not replace review of shell commands. Absolute-path matching cannot prove absence of all possible indirect access."
+  },
+  {
+    "group": "sol_high",
+    "direct_tools": [
+      "exec",
+      "send_message"
+    ],
+    "nested_tools": [
+      "exec_command"
+    ],
+    "mentioned_group_paths": [
+      "sol_high"
+    ],
+    "mentions_other_group_paths": false,
+    "communications": [
+      {
+        "tool": "send_message",
+        "timestamp": "2026-10-07T10:24:23.157Z",
+        "target": "/root",
+        "task_name": null
+      }
+    ],
+    "subagent_spawn_calls": 0,
+    "tool_record_file": "telemetry/sol_high/tool-calls.jsonl",
+    "method": "Tool-call records inspected; lexical summaries support but do not replace review of shell commands. Absolute-path matching cannot prove absence of all possible indirect access."
+  },
+  {
+    "group": "sol_xhigh",
+    "direct_tools": [
+      "exec",
+      "send_message"
+    ],
+    "nested_tools": [
+      "exec_command"
+    ],
+    "mentioned_group_paths": [
+      "sol_xhigh"
+    ],
+    "mentions_other_group_paths": false,
+    "communications": [
+      {
+        "tool": "send_message",
+        "timestamp": "2026-10-07T10:25:42.455Z",
+        "target": "/root",
+        "task_name": null
+      }
+    ],
+    "subagent_spawn_calls": 0,
+    "tool_record_file": "telemetry/sol_xhigh/tool-calls.jsonl",
+    "method": "Tool-call records inspected; lexical summaries support but do not replace review of shell commands. Absolute-path matching cannot prove absence of all possible indirect access."
+  },
+  {
+    "group": "sol_max",
+    "direct_tools": [
+      "exec"
+    ],
+    "nested_tools": [
+      "exec_command"
+    ],
+    "mentioned_group_paths": [
+      "sol_max"
+    ],
+    "mentions_other_group_paths": false,
+    "communications": [],
+    "subagent_spawn_calls": 0,
+    "tool_record_file": "telemetry/sol_max/tool-calls.jsonl",
+    "method": "Tool-call records inspected; lexical summaries support but do not replace review of shell commands. Absolute-path matching cannot prove absence of all possible indirect access."
+  }
+]

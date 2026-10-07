@@ -1,0 +1,402 @@
+[
+  {
+    "source": "/home/fainic/data/research-process/AGENTS.md",
+    "copy": "sources/research-process/AGENTS.md",
+    "size": 4223,
+    "sha256": "ebef8a85ab89956d235199da1063b7e84a0678b71fe05e213ff8befacbb36ef8",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/README.md",
+    "copy": "sources/research-process/README.md",
+    "size": 2421,
+    "sha256": "5d931bcf1b6bc3dcde3a9dae9606b176e052693df8138057d40da1afcbf07179",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/overview.md",
+    "copy": "sources/research-process/overview.md",
+    "size": 1249,
+    "sha256": "758ed54d110591c62f803f578a39391a169aed5738da408f5719332732cdac7d",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/state.md",
+    "copy": "sources/research-process/state.md",
+    "size": 1268,
+    "sha256": "7433ffa25492ed2fcff8cf9d4e9501e7502e546300bb0ab54eff9a722982425b",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/projects/README.md",
+    "copy": "sources/research-process/projects/README.md",
+    "size": 731,
+    "sha256": "6ac7172bb6d1ffce85af457aa8813d6a5461218097e314b12273076f31d10894",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/projects/dataset-generator/README.md",
+    "copy": "sources/research-process/projects/dataset-generator/README.md",
+    "size": 609,
+    "sha256": "7f12149b82b8bceaf71cf95a878ba4052b5f37ccac0e6a08d66352ce5c21e161",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/projects/stop-n-go/README.md",
+    "copy": "sources/research-process/projects/stop-n-go/README.md",
+    "size": 484,
+    "sha256": "1db69e839071f1b0b1b6f9a4ca80151520655cfaec3f286945d9dde1d87d33d4",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/inbox/README.md",
+    "copy": "sources/research-process/inbox/README.md",
+    "size": 472,
+    "sha256": "456140f7bc8e578978f3cdcc18db1e4dff1c408721f2a3cfaf165cbf1ac3cf55",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/experiments/README.md",
+    "copy": "sources/research-process/experiments/README.md",
+    "size": 485,
+    "sha256": "4c4e087245949d7a73c03fdbab92b96ba6d8c4259345c48f13e48214c77a8123",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/references/README.md",
+    "copy": "sources/research-process/references/README.md",
+    "size": 1148,
+    "sha256": "8a9a195bac8c929b242ddd88d8630b6264f2e68ac7694f84b0d0014b3833ac81",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/assets/README.md",
+    "copy": "sources/research-process/assets/README.md",
+    "size": 1980,
+    "sha256": "c5dcb3330da22ef143151caaf2d1590dddc4405302becff1e60c0249d758538b",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/local-paths.md",
+    "copy": "sources/research-process/local-paths.md",
+    "size": 255,
+    "sha256": "c547dd7ac324697f5cb7e08afdc21ba1b4cb72b7e9a90606754a38121d1261a3",
+    "git_status": "ignored",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/journal/2026-09-07-starting-point.md",
+    "copy": "sources/research-process/journal/2026-09-07-starting-point.md",
+    "size": 1625,
+    "sha256": "1348fab8dc9cffe7216142694cba76539035a32c2eb096375b043507f1f0936d",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/journal/2026-09-07-record-organization.md",
+    "copy": "sources/research-process/journal/2026-09-07-record-organization.md",
+    "size": 1360,
+    "sha256": "6a993e21826ee6850a6242ae61832cf5d1d95baa903ab0b8276e2a52cb2503c8",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+    "copy": "sources/research-process/inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+    "size": 6901,
+    "sha256": "3439de75ebf40eeccba4a2b87a11c977780da30aa270033b6c8e8bd42ac9b6d3",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+    "copy": "sources/research-process/inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+    "size": 7688,
+    "sha256": "108762b9127fc9b4fca859bf3bafccc26548edc361b72d99a81e038493b54f25",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+    "copy": "sources/research-process/inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+    "size": 3466,
+    "sha256": "5c2730ed3f63e54b69edc791c187539e934fd383db98d579b19f5724746bb91d",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+    "copy": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+    "size": 9476,
+    "sha256": "9d5da23338493adeaa269869ff0a6a5b50f024a3d5e654b096e9e157e64933d3",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+    "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+    "size": 13945,
+    "sha256": "a7a6133d48c448e8c4bf9e0cb39c940bee08c14e4b54cbef5603d4f45754501e",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/inbox/2026-09-18-evolving-design-and-best-practices.md",
+    "copy": "sources/research-process/inbox/2026-09-18-evolving-design-and-best-practices.md",
+    "size": 4019,
+    "sha256": "78b7a95085527bfab36fb71974cf546bbc41c547b8be45e05ac48d57b2640752",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
+    "copy": "sources/research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
+    "size": 16065,
+    "sha256": "27ecdff8abfb01b46cf1c05e38ed480a74bd89f56b5be1bfd9809e8c44a518ca",
+    "git_status": "untracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/AGENTS.md",
+    "copy": "sources/multiarm-problem-gen/AGENTS.md",
+    "size": 11497,
+    "sha256": "d11de02d89cec074bb9ad95da73b6fc0744f2fa24d91db4233dc5f730b322b21",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/README.md",
+    "copy": "sources/multiarm-problem-gen/README.md",
+    "size": 2655,
+    "sha256": "a641ff872f36e789c12774ccd4fc3edbe871ee768e08f6238813ccf49a2ed93c",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/README.md",
+    "copy": "sources/multiarm-problem-gen/docs/README.md",
+    "size": 7535,
+    "sha256": "948cb0d6c4a8a8aefb484be3bec9814139b3887ac01925b77e141d019c2f86f0",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/git-workflow.md",
+    "copy": "sources/multiarm-problem-gen/docs/git-workflow.md",
+    "size": 5089,
+    "sha256": "30146681bdda2fe5bea0bcd8d932ec03bf762cf7749e2d741cd824f4e572dff5",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docker/README.md",
+    "copy": "sources/multiarm-problem-gen/docker/README.md",
+    "size": 10575,
+    "sha256": "2c64c5731bb2bd34ea90c262c8e9db0f394e87b76cc48ad8084a1491930cd684",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/design.md",
+    "copy": "sources/multiarm-problem-gen/docs/design.md",
+    "size": 9297,
+    "sha256": "c9b7fdf1723efe23165f207c82216f1b4a38126c428783dc116341d20a1a6931",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-18-starting-point.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-starting-point.md",
+    "size": 2194,
+    "sha256": "d8807122ebd2126b9b02336316c3ed729d7460e35ca7267f75842d512188b1ed",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+    "size": 18485,
+    "sha256": "200cc0bbbd3790f78c2c01e409666dffb7180537b7acda30e62a9d18616fe6dc",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-22-input-domain-representations.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-22-input-domain-representations.md",
+    "size": 7898,
+    "sha256": "4f57394a15a64882bc0b81c4615709a626158374559e4699bc7aba0b0faa9e5f",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md",
+    "size": 4800,
+    "sha256": "4051402e5e10f2928abbdd09199cd0ed2e70a4eb26f1502cbc41fa5bfee57bd5",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-input-implementation-units.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-input-implementation-units.md",
+    "size": 3476,
+    "sha256": "d70d9a616bc44915a020fb10d7011114c81c64aba7d3706ed007271666f89539",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+    "size": 1646,
+    "sha256": "e44e6b5a03bdabd3de6e5f8cdf3d970ac0f44807768df43d2a867939124b8acc",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+    "size": 6156,
+    "sha256": "102d92e6f77108736d16de8de5b99df99f6c54a645fa8ed9aae9f5df917249fc",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+    "size": 5390,
+    "sha256": "c4d0c708ea8164ab1a9e237b57693428649821166647df779ae1791e49b5ffc7",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+    "size": 8849,
+    "sha256": "8048c7583006d87313e981e62412ee1524b3f737a199216682251be29b3e2274",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+    "size": 13091,
+    "sha256": "b2bffa810f4448c606a7599730ad7f134b0bb80ed06d199df929a20fec8a3158",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+    "size": 23746,
+    "sha256": "558fdd15d3a8c0beba07e04ed765846bc3badd7c0acfd8b907a7f37f07bd5a5e",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+    "size": 9851,
+    "sha256": "15606137fe9bc7b2bd327c3cbc7c359c48c241d32008bd4d8fe7351cf8f76835",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+    "size": 7941,
+    "sha256": "78824363eb3198f31e746c247eaade20b2e7099814c442a926ebc1ec3d1e49a2",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-29-first-implementation-results.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-first-implementation-results.md",
+    "size": 7143,
+    "sha256": "bdcb7af40a84f72355f6829bd3c43f664e69935013bf369eb628add193b5ac98",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+    "size": 7142,
+    "sha256": "6a5a042c4fefbcf723dc0ce9aefa0c5d3a128c9a4c6614b73f9bf861965f7cb7",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+    "size": 12357,
+    "sha256": "a8b2a9a519d0455a178c3d78bc141259ed66c2604ee90a596c015fcb7a0ec1f6",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-remove-material-support.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-remove-material-support.md",
+    "size": 2182,
+    "sha256": "b3cef66c4d5d1f2c4d6059caf74e5c4bf7ca14cf3d2d1701b614104dc33232d1",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+    "size": 4761,
+    "sha256": "47814e0bf336b6190fb41ebee72e646cf83f84e16e3efa9c89a3835a6bc439e9",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+    "size": 10940,
+    "sha256": "8a0d3b17ad6d7ca72b412daf7b0498359ba7d10c7f63ec95e9eaf5e61fd5f9f4",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-4-results.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-4-results.md",
+    "size": 5764,
+    "sha256": "13752190fc4b37ae2339bb699156006e8767d6c5cc43928311607319feb3f5f4",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+    "size": 2842,
+    "sha256": "acfbfe7f9988697ff4a51640cf09927db53379a1c60fd83b51925407cc7e406b",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-results.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-results.md",
+    "size": 6382,
+    "sha256": "42dfd615cc10eda13793cf144073a7dab6f17680ac76169c84fac3520451c419",
+    "git_status": "tracked",
+    "bytes_equal": true
+  },
+  {
+    "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-6-results.md",
+    "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-6-results.md",
+    "size": 6815,
+    "sha256": "14e99891461230a3bf340c75bc58407887d0880298e26e279121d5894e5af876",
+    "git_status": "tracked",
+    "bytes_equal": true
+  }
+]

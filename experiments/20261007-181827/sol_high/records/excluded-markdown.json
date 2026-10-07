@@ -1,0 +1,1040 @@
+[
+  {
+    "repository": "research-process",
+    "path": "journal.md",
+    "reason": "空文件，无原始内容可收集。",
+    "headings": []
+  },
+  {
+    "repository": "research-process",
+    "path": "assets/cube-complex/README.md",
+    "reason": "具体数学插图与交互示例的技术说明；资源治理集中说明已纳入 assets/README.md。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "Cube complex 插图"
+      },
+      {
+        "line": 5,
+        "text": "用途与来源"
+      },
+      {
+        "line": 13,
+        "text": "文件与维护入口"
+      },
+      {
+        "line": 25,
+        "text": "生成方法"
+      },
+      {
+        "line": 38,
+        "text": "记号与限制"
+      }
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "assets/path-collision-equivalence/README.md",
+    "reason": "具体数学插图与交互示例的技术说明；资源治理集中说明已纳入 assets/README.md。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "路径碰撞与协调空间：交互示例"
+      },
+      {
+        "line": 5,
+        "text": "标签页一：不同路径，相同障碍"
+      },
+      {
+        "line": 15,
+        "text": "标签页二：三机器人碰撞关系与完整协调空间"
+      }
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/2026-09-09-coordination-space-reading-guide.md",
+    "reason": "主要为研究内容、格式细节、阅读建议或个人业务待办；协作过程与状态区分的独特证据已在相关选中文件保留。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "协调空间在多机械臂运动规划中的应用：阅读导览"
+      },
+      {
+        "line": 7,
+        "text": "讨论背景"
+      },
+      {
+        "line": 11,
+        "text": "1. 协调空间究竟固定了什么"
+      },
+      {
+        "line": 21,
+        "text": "2. 经典与直接相关的阅读材料"
+      },
+      {
+        "line": 23,
+        "text": "2.1 LaValle：Planning Algorithms，§7.2.2，2006"
+      },
+      {
+        "line": 29,
+        "text": "2.2 O’Donnell 与 Lozano-Pérez：Deadlock-Free and Collision-Free Coordination of Two Robot Manipulators，ICRA 1989"
+      },
+      {
+        "line": 37,
+        "text": "2.3 LaValle 与 Hutchinson：Optimal Motion Planning for Multiple Robots Having Independent Goals，IEEE TRA 1998"
+      },
+      {
+        "line": 45,
+        "text": "2.4 Ghrist、O’Kane 与 LaValle：Computing Pareto Optimal Coordinations on Roadmaps，IJRR 2005"
+      },
+      {
+        "line": 51,
+        "text": "2.5 Akella 与 Peng：Time-Scaled Coordination of Multiple Manipulators，ICRA 2004"
+      },
+      {
+        "line": 57,
+        "text": "2.6 Zhang 与 Pecora：Online and Scalable Motion Coordination for Multiple Robot Manipulators in Shared Workspaces，2023 在线发表／2024 卷期"
+      },
+      {
+        "line": 63,
+        "text": "2.7 Stop-N-Go 与 StAC：与当前 baseline 衔接"
+      },
+      {
+        "line": 71,
+        "text": "3. 建议阅读顺序"
+      },
+      {
+        "line": 87,
+        "text": "4. 保留的理解与问题"
+      },
+      {
+        "line": 98,
+        "text": "5. 文献入口"
+      },
+      {
+        "line": 109,
+        "text": "相关记录"
+      }
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/2026-09-09-multi-arm-research-focus.md",
+    "reason": "主要为研究内容、格式细节、阅读建议或个人业务待办；协作过程与状态区分的独特证据已在相关选中文件保留。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "多机械臂空间占用与时序协调：当前关注点"
+      },
+      {
+        "line": 15,
+        "text": "留待后续讨论"
+      },
+      {
+        "line": 22,
+        "text": "相关记录"
+      }
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/2026-09-14-todos-and-draft.md",
+    "reason": "主要为研究内容、格式细节、阅读建议或个人业务待办；协作过程与状态区分的独特证据已在相关选中文件保留。",
+    "headings": [
+      {
+        "line": 3,
+        "text": "Todos"
+      }
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/2026-09-16-generator-scene-and-target-representation.md",
+    "reason": "主要为研究内容、格式细节、阅读建议或个人业务待办；协作过程与状态区分的独特证据已在相关选中文件保留。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "数据生成器：场景与目标表示讨论"
+      },
+      {
+        "line": 5,
+        "text": "当前情况"
+      },
+      {
+        "line": 11,
+        "text": "已确认：场景表示"
+      },
+      {
+        "line": 19,
+        "text": "坐标系的理解与约定方向"
+      },
+      {
+        "line": 29,
+        "text": "已确认：原始访问目标的定义"
+      },
+      {
+        "line": 42,
+        "text": "已确认：生成后保留的目标信息"
+      },
+      {
+        "line": 50,
+        "text": "尚未确定：最终数据与名义场景的组织"
+      },
+      {
+        "line": 65,
+        "text": "其他待讨论事项"
+      },
+      {
+        "line": 72,
+        "text": "格式版本的含义"
+      }
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/2026-09-17-generator-input-output-format.md",
+    "reason": "主要为研究内容、格式细节、阅读建议或个人业务待办；协作过程与状态区分的独特证据已在相关选中文件保留。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "数据生成器：数据组织与格式方案"
+      },
+      {
+        "line": 7,
+        "text": "1. 整体结构"
+      },
+      {
+        "line": 52,
+        "text": "2. 通用表示约定"
+      },
+      {
+        "line": 54,
+        "text": "2.1 模型与几何"
+      },
+      {
+        "line": 71,
+        "text": "2.2 坐标与引用"
+      },
+      {
+        "line": 95,
+        "text": "3. 输入：名义场景 scene"
+      },
+      {
+        "line": 99,
+        "text": "3.1 机械臂"
+      },
+      {
+        "line": 111,
+        "text": "3.2 环境物体"
+      },
+      {
+        "line": 122,
+        "text": "3.3 候选访问 frames"
+      },
+      {
+        "line": 143,
+        "text": "4. 输入：生成规则 generation"
+      },
+      {
+        "line": 147,
+        "text": "4.1 整体参数"
+      },
+      {
+        "line": 155,
+        "text": "4.2 场景变化"
+      },
+      {
+        "line": 167,
+        "text": "4.3 访问目标变化"
+      },
+      {
+        "line": 178,
+        "text": "4.4 机械臂初始配置"
+      },
+      {
+        "line": 190,
+        "text": "4.5 访问序列生成"
+      },
+      {
+        "line": 204,
+        "text": "5. 位姿扰动的确定约定"
+      },
+      {
+        "line": 236,
+        "text": "6. 输出：每条数据的内容"
+      },
+      {
+        "line": 249,
+        "text": "6.1 目标 frame 与关节值的位置"
+      },
+      {
+        "line": 259,
+        "text": "6.2 初始与完成状态"
+      },
+      {
+        "line": 267,
+        "text": "7. 输出样本示例"
+      },
+      {
+        "line": 356,
+        "text": "8. 尚未确定的事项"
+      }
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "inbox/2026-09-18-generator-input-output-format.md",
+    "reason": "主要为研究内容、格式细节、阅读建议或个人业务待办；协作过程与状态区分的独特证据已在相关选中文件保留。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "数据生成器：数据组织与格式方案"
+      },
+      {
+        "line": 9,
+        "text": "1. 整体组织"
+      },
+      {
+        "line": 47,
+        "text": "2. 公共机械臂配置"
+      },
+      {
+        "line": 49,
+        "text": "2.1 作用"
+      },
+      {
+        "line": 57,
+        "text": "2.2 可复用的命名配置"
+      },
+      {
+        "line": 81,
+        "text": "3. 场景和几何的表示"
+      },
+      {
+        "line": 83,
+        "text": "3.1 模型与实例"
+      },
+      {
+        "line": 93,
+        "text": "3.2 几何坐标约定"
+      },
+      {
+        "line": 100,
+        "text": "3.3 通用字段约定"
+      },
+      {
+        "line": 114,
+        "text": "4. 输入：名义场景 scene"
+      },
+      {
+        "line": 116,
+        "text": "4.1 机械臂实例"
+      },
+      {
+        "line": 127,
+        "text": "4.2 环境物体"
+      },
+      {
+        "line": 136,
+        "text": "4.3 候选访问 frames"
+      },
+      {
+        "line": 155,
+        "text": "5. 输入：生成规则 generation"
+      },
+      {
+        "line": 159,
+        "text": "5.1 整体参数"
+      },
+      {
+        "line": 163,
+        "text": "5.2 场景扰动"
+      },
+      {
+        "line": 175,
+        "text": "5.3 访问目标扰动"
+      },
+      {
+        "line": 185,
+        "text": "5.4 初始配置采样"
+      },
+      {
+        "line": 221,
+        "text": "5.5 访问序列生成"
+      },
+      {
+        "line": 235,
+        "text": "6. 位姿扰动约定"
+      },
+      {
+        "line": 259,
+        "text": "7. 目标语义与容差"
+      },
+      {
+        "line": 261,
+        "text": "7.1 pose 是任务目标"
+      },
+      {
+        "line": 269,
+        "text": "7.2 初始容差方案"
+      },
+      {
+        "line": 300,
+        "text": "8. 输出：每条数据"
+      },
+      {
+        "line": 314,
+        "text": "8.1 目标与辅助配置"
+      },
+      {
+        "line": 324,
+        "text": "8.2 初始与完成状态"
+      },
+      {
+        "line": 332,
+        "text": "9. 输出样本示例"
+      },
+      {
+        "line": 430,
+        "text": "10. 尚未确定的事项"
+      }
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "references/lavalle-planning-algorithms-7-2-multiple-robots.md",
+    "reason": "具体论文与算法阅读笔记；本轮保留 references/README.md 的记录维护约定，不批量汇集技术文献。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "Planning Algorithms §7.2：Multiple Robots"
+      },
+      {
+        "line": 7,
+        "text": "原文入口（HTML）"
+      },
+      {
+        "line": 12,
+        "text": "一些笔记"
+      },
+      {
+        "line": 23,
+        "text": "§7.2–7.2.1：问题定义与联合配置空间"
+      },
+      {
+        "line": 32,
+        "text": "§7.2.2：优先级规划（Prioritized planning）"
+      },
+      {
+        "line": 36,
+        "text": "§7.2.2：固定路径协调（Fixed-path coordination）"
+      },
+      {
+        "line": 44,
+        "text": "交互示例：路径碰撞与协调空间障碍"
+      },
+      {
+        "line": 53,
+        "text": "§7.2.2：固定路线图协调与 Cube complex"
+      },
+      {
+        "line": 59,
+        "text": "Cube complex：我的理解与讨论记录"
+      },
+      {
+        "line": 69,
+        "text": "已有相关讨论"
+      }
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "references/stac-reading-notes.md",
+    "reason": "具体论文与算法阅读笔记；本轮保留 references/README.md 的记录维护约定，不批量汇集技术文献。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "StAC 阅读笔记"
+      },
+      {
+        "line": 8,
+        "text": "原文入口"
+      },
+      {
+        "line": 14,
+        "text": "阅读笔记"
+      },
+      {
+        "line": 16,
+        "text": "文章针对的问题"
+      },
+      {
+        "line": 20,
+        "text": "实验设置"
+      },
+      {
+        "line": 24,
+        "text": "场景与重复测试"
+      },
+      {
+        "line": 35,
+        "text": "实现与参数"
+      },
+      {
+        "line": 45,
+        "text": "测量内容与解释边界"
+      },
+      {
+        "line": 51,
+        "text": "待核对：正文与表 I 不一致"
+      },
+      {
+        "line": 59,
+        "text": "提出的方法"
+      },
+      {
+        "line": 61,
+        "text": "整体的思想"
+      },
+      {
+        "line": 71,
+        "text": "schedule的过程"
+      },
+      {
+        "line": 139,
+        "text": "碰撞记录以及如何结合碰撞历史重规划"
+      },
+      {
+        "line": 231,
+        "text": "个人的理解"
+      },
+      {
+        "line": 241,
+        "text": "相关记录"
+      }
+    ]
+  },
+  {
+    "repository": "research-process",
+    "path": "references/stop-n-go-reading-notes.md",
+    "reason": "具体论文与算法阅读笔记；本轮保留 references/README.md 的记录维护约定，不批量汇集技术文献。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "Stop-N-Go 阅读笔记"
+      },
+      {
+        "line": 8,
+        "text": "原文入口"
+      },
+      {
+        "line": 15,
+        "text": "阅读笔记"
+      },
+      {
+        "line": 18,
+        "text": "个人理解"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/contracts/distributions.md",
+    "reason": "业务类型与行为的完整技术规范；协作隔离经验已由方案、公开交接和实施记录提供，不批量纳入全部契约。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "分布参数公开契约"
+      },
+      {
+        "line": 17,
+        "text": "参数与维度"
+      },
+      {
+        "line": 27,
+        "text": "错误与示例"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/contracts/generation.md",
+    "reason": "业务类型与行为的完整技术规范；协作隔离经验已由方案、公开交接和实施记录提供，不批量纳入全部契约。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "Generation 表示与读取公开契约"
+      },
+      {
+        "line": 17,
+        "text": "表示与关联"
+      },
+      {
+        "line": 31,
+        "text": "严格 YAML"
+      },
+      {
+        "line": 47,
+        "text": "验证边界"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/contracts/input-bundle.md",
+    "reason": "业务类型与行为的完整技术规范；协作隔离经验已由方案、公开交接和实施记录提供，不批量纳入全部契约。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "InputBundle 表示与读取公开契约"
+      },
+      {
+        "line": 15,
+        "text": "交付与身份"
+      },
+      {
+        "line": 31,
+        "text": "根配置与发现"
+      },
+      {
+        "line": 43,
+        "text": "验证边界"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/contracts/primitives.md",
+    "reason": "业务类型与行为的完整技术规范；协作隔离经验已由方案、公开交接和实施记录提供，不批量纳入全部契约。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "单元 1：基础表示公开契约"
+      },
+      {
+        "line": 5,
+        "text": "导入与构造"
+      },
+      {
+        "line": 23,
+        "text": "数值与错误"
+      },
+      {
+        "line": 31,
+        "text": "对象行为"
+      },
+      {
+        "line": 49,
+        "text": "职责边界"
+      },
+      {
+        "line": 55,
+        "text": "验收入口"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/contracts/resources.md",
+    "reason": "业务类型与行为的完整技术规范；协作隔离经验已由方案、公开交接和实施记录提供，不批量纳入全部契约。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "统一资源管理公开契约"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/contracts/robot-model.md",
+    "reason": "业务类型与行为的完整技术规范；协作隔离经验已由方案、公开交接和实施记录提供，不批量纳入全部契约。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "机器人表示与读取公开契约"
+      },
+      {
+        "line": 12,
+        "text": "只读表示"
+      },
+      {
+        "line": 39,
+        "text": "缺失与默认"
+      },
+      {
+        "line": 54,
+        "text": "输入范围和检查"
+      },
+      {
+        "line": 64,
+        "text": "验收入口"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/contracts/scene.md",
+    "reason": "业务类型与行为的完整技术规范；协作隔离经验已由方案、公开交接和实施记录提供，不批量纳入全部契约。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "场景表示与读取公开契约"
+      },
+      {
+        "line": 5,
+        "text": "公开入口与表示"
+      },
+      {
+        "line": 30,
+        "text": "Frame 名称与引用"
+      },
+      {
+        "line": 36,
+        "text": "YAML 输入"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-18-input-output-format.md",
+    "reason": "主要为研究内容、格式细节、阅读建议或个人业务待办；协作过程与状态区分的独特证据已在相关选中文件保留。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "数据生成器：输入输出方案"
+      },
+      {
+        "line": 11,
+        "text": "1. 整体组织"
+      },
+      {
+        "line": 49,
+        "text": "2. 公共机械臂配置"
+      },
+      {
+        "line": 51,
+        "text": "2.1 作用"
+      },
+      {
+        "line": 59,
+        "text": "2.2 可复用的命名配置"
+      },
+      {
+        "line": 83,
+        "text": "3. 场景和几何的表示"
+      },
+      {
+        "line": 85,
+        "text": "3.1 模型与实例"
+      },
+      {
+        "line": 95,
+        "text": "3.2 几何坐标约定"
+      },
+      {
+        "line": 102,
+        "text": "3.3 通用字段约定"
+      },
+      {
+        "line": 116,
+        "text": "4. 输入：名义场景 scene"
+      },
+      {
+        "line": 118,
+        "text": "4.1 机械臂实例"
+      },
+      {
+        "line": 129,
+        "text": "4.2 环境物体"
+      },
+      {
+        "line": 138,
+        "text": "4.3 候选访问 frames"
+      },
+      {
+        "line": 157,
+        "text": "5. 输入：生成规则 generation"
+      },
+      {
+        "line": 161,
+        "text": "5.1 整体参数"
+      },
+      {
+        "line": 165,
+        "text": "5.2 场景扰动"
+      },
+      {
+        "line": 177,
+        "text": "5.3 访问目标扰动"
+      },
+      {
+        "line": 187,
+        "text": "5.4 初始配置采样"
+      },
+      {
+        "line": 223,
+        "text": "5.5 访问序列生成"
+      },
+      {
+        "line": 237,
+        "text": "6. 位姿扰动约定"
+      },
+      {
+        "line": 261,
+        "text": "7. 目标语义与容差"
+      },
+      {
+        "line": 263,
+        "text": "7.1 pose 是任务目标"
+      },
+      {
+        "line": 271,
+        "text": "7.2 初始容差方案"
+      },
+      {
+        "line": 302,
+        "text": "8. 输出：每条数据"
+      },
+      {
+        "line": 316,
+        "text": "8.1 目标与辅助配置"
+      },
+      {
+        "line": 326,
+        "text": "8.2 初始与完成状态"
+      },
+      {
+        "line": 334,
+        "text": "9. 输出样本示例"
+      },
+      {
+        "line": 432,
+        "text": "10. 尚未确定的事项"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-21-output-validity-semantics.md",
+    "reason": "主要为研究内容、格式细节、阅读建议或个人业务待办；协作过程与状态区分的独特证据已在相关选中文件保留。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "输出数据的有效性语义"
+      },
+      {
+        "line": 7,
+        "text": "讨论与确认"
+      },
+      {
+        "line": 13,
+        "text": "输出保证"
+      },
+      {
+        "line": 21,
+        "text": "保证边界与未决事项"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-23-generation-distributions.md",
+    "reason": "主要为研究内容、格式细节、阅读建议或个人业务待办；协作过程与状态区分的独特证据已在相关选中文件保留。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "Generation：分布与作用关联"
+      },
+      {
+        "line": 7,
+        "text": "从扰动的职责拆分谈起"
+      },
+      {
+        "line": 11,
+        "text": "分布以多维联合分布表示"
+      },
+      {
+        "line": 17,
+        "text": "作用关联需要明确分量与含义"
+      },
+      {
+        "line": 42,
+        "text": "两个使用例子与边界"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "docs/notes/discussions/2026-09-23-input-bundle.md",
+    "reason": "主要为研究内容、格式细节、阅读建议或个人业务待办；协作过程与状态区分的独特证据已在相关选中文件保留。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "InputBundle：输入包的组织与读取入口"
+      },
+      {
+        "line": 7,
+        "text": "从目录管理到输入包"
+      },
+      {
+        "line": 13,
+        "text": "如何发现场景与生成规则"
+      },
+      {
+        "line": 19,
+        "text": "目录与配置示例"
+      },
+      {
+        "line": 50,
+        "text": "路径、资源与实现边界"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "examples/ur7e_table/README.md",
+    "reason": "以模型准备、数值验证或预览使用为主；范围与验收经验已在选中的讨论与实施记录保存。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "UR7e 双臂桌面输入包"
+      },
+      {
+        "line": 5,
+        "text": "内容与入口"
+      },
+      {
+        "line": 52,
+        "text": "样例内容与限制"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "tools/baseline_validation/ur7e_table/README.md",
+    "reason": "以模型准备、数值验证或预览使用为主；范围与验收经验已在选中的讨论与实施记录保存。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "UR7e 双臂桌面基准场景"
+      },
+      {
+        "line": 7,
+        "text": "文件入口"
+      },
+      {
+        "line": 17,
+        "text": "布局与参数依据"
+      },
+      {
+        "line": 43,
+        "text": "机械臂、夹爪与 TCP"
+      },
+      {
+        "line": 53,
+        "text": "需要哪些初始配置"
+      },
+      {
+        "line": 63,
+        "text": "分布输入实例"
+      },
+      {
+        "line": 84,
+        "text": "访问序列实例"
+      },
+      {
+        "line": 95,
+        "text": "数值检查及其范围"
+      },
+      {
+        "line": 121,
+        "text": "尚待讨论"
+      },
+      {
+        "line": 125,
+        "text": "目录整理说明（2026-09-21）"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "tools/model_preparation/ur7e_2f85/README.md",
+    "reason": "以模型准备、数值验证或预览使用为主；范围与验收经验已在选中的讨论与实施记录保存。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "UR7e＋Robotiq 模型与场景准备材料"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "tools/model_preparation/ur7e_2f85/resources-original.md",
+    "reason": "以模型准备、数值验证或预览使用为主；范围与验收经验已在选中的讨论与实施记录保存。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "基准场景公共资源"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/README.md",
+    "reason": "第三方业务依赖说明，不作为本项目协作经验。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "Universal_Robots_ROS2_Description"
+      },
+      {
+        "line": 5,
+        "text": "Build status"
+      },
+      {
+        "line": 20,
+        "text": "License"
+      },
+      {
+        "line": 28,
+        "text": "Testing description of a manipulator"
+      },
+      {
+        "line": 38,
+        "text": "Further documentation"
+      }
+    ]
+  },
+  {
+    "repository": "multiarm-problem-gen",
+    "path": "tools/scene_preview/README.md",
+    "reason": "以模型准备、数值验证或预览使用为主；范围与验收经验已在选中的讨论与实施记录保存。",
+    "headings": [
+      {
+        "line": 1,
+        "text": "简单场景预览原型"
+      },
+      {
+        "line": 5,
+        "text": "启动"
+      },
+      {
+        "line": 17,
+        "text": "显示内容"
+      },
+      {
+        "line": 29,
+        "text": "文件"
+      },
+      {
+        "line": 42,
+        "text": "已验证与限制"
+      },
+      {
+        "line": 48,
+        "text": "可选开发材料"
+      }
+    ]
+  }
+]

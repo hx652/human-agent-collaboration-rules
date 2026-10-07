@@ -1,0 +1,377 @@
+{
+  "checked_utc": "2026-10-07T10:41:26.311001+00:00",
+  "source_files": 268,
+  "collected_files": 53,
+  "collected_by_repo": {
+    "research-process": 23,
+    "multiarm-problem-gen": 30
+  },
+  "collected_bytes": 324281,
+  "git_states": {
+    "untracked": 22,
+    "ignored": 1,
+    "tracked": 30
+  },
+  "copy_byte_mismatches": [],
+  "source_content_changes_during_collection": [],
+  "source_added_files": [],
+  "source_removed_files": [],
+  "index_links_checked": 58,
+  "index_invalid_paths": [],
+  "section_locations_checked": 188,
+  "original_internal_missing_targets": [
+    {
+      "copy": "sources/research-process/references/README.md",
+      "target": "stop-n-go-reading-notes.md"
+    },
+    {
+      "copy": "sources/research-process/references/README.md",
+      "target": "lavalle-planning-algorithms-7-2-multiple-robots.md"
+    },
+    {
+      "copy": "sources/research-process/references/README.md",
+      "target": "stac-reading-notes.md"
+    },
+    {
+      "copy": "sources/research-process/assets/README.md",
+      "target": "path-collision-equivalence/README.md"
+    },
+    {
+      "copy": "sources/research-process/assets/README.md",
+      "target": "../assets/cube-complex/03-corresponding-boundaries.svg"
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-18-evolving-design-and-best-practices.md",
+      "target": "2026-09-18-generator-input-output-format.md"
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
+      "target": "2026-09-18-generator-input-output-format.md"
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+      "target": "2026-09-09-multi-arm-research-focus.md"
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "target": "../assets/cube-complex/01-path-network.svg"
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "target": "../assets/cube-complex/02-three-coordination-cards.svg"
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "target": "../assets/cube-complex/03-corresponding-boundaries.svg"
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "target": "../assets/cube-complex/04-glued-cards.svg"
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "target": "../assets/cube-complex/05-cross-card-route.svg"
+    },
+    {
+      "copy": "sources/research-process/assets/cube-complex/README.md",
+      "target": "01-path-network.svg"
+    },
+    {
+      "copy": "sources/research-process/assets/cube-complex/README.md",
+      "target": "02-three-coordination-cards.svg"
+    },
+    {
+      "copy": "sources/research-process/assets/cube-complex/README.md",
+      "target": "03-corresponding-boundaries.svg"
+    },
+    {
+      "copy": "sources/research-process/assets/cube-complex/README.md",
+      "target": "04-glued-cards.svg"
+    },
+    {
+      "copy": "sources/research-process/assets/cube-complex/README.md",
+      "target": "05-cross-card-route.svg"
+    },
+    {
+      "copy": "sources/research-process/assets/cube-complex/README.md",
+      "target": "draw_figures.py"
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "target": "../references/stop-n-go-reading-notes.md"
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "target": "../inbox/2026-09-09-multi-arm-research-focus.md"
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "target": "../references/lavalle-planning-algorithms-7-2-multiple-robots.md"
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "target": "../inbox/2026-09-09-coordination-space-reading-guide.md"
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "target": "../references/stop-n-go-reading-notes.md"
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "target": "../references/stac-reading-notes.md"
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "target": "../references/lavalle-planning-algorithms-7-2-multiple-robots.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "target": "docs/contracts/primitives.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "target": "docs/contracts/resources.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "target": "docs/contracts/robot-model.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "target": "docs/contracts/scene.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "target": "docs/contracts/distributions.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "target": "docs/contracts/generation.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "target": "docs/contracts/input-bundle.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "target": "contracts/primitives.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "target": "contracts/resources.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "target": "contracts/robot-model.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "target": "contracts/scene.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "target": "contracts/distributions.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "target": "contracts/generation.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "target": "contracts/input-bundle.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "target": "notes/discussions/2026-09-23-generation-distributions.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "target": "notes/discussions/2026-09-23-input-bundle.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "target": "notes/discussions/2026-09-18-input-output-format.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "target": "notes/discussions/2026-09-21-output-validity-semantics.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "target": "../examples/ur7e_table/README.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "target": "../tools/model_preparation/ur7e_2f85/README.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "target": "contracts/scene.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "target": "contracts/distributions.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "target": "contracts/generation.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "target": "contracts/input-bundle.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "target": "contracts/resources.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docker/README.md",
+      "target": "../docs/contracts/input-bundle.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-starting-point.md",
+      "target": "../../../../research-process/inbox/2026-09-18-generator-input-output-format.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "target": "2026-09-18-input-output-format.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "target": "../../../examples/ur7e_table/README.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "target": "../../../tools/scene_preview/README.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "target": "../../../examples/ur7e_table/inputs/tabletop/generation.yaml"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "target": "../../../examples/ur7e_table/README.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-22-input-domain-representations.md",
+      "target": "2026-09-23-generation-distributions.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "target": "2026-09-23-input-bundle.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "target": "2026-09-23-generation-distributions.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+      "target": "../../contracts/primitives.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "target": "../../contracts/primitives.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "target": "../../contracts/resources.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "target": "../../contracts/robot-model.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "target": "../../contracts/resources.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "target": "../../contracts/robot-model.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-remove-material-support.md",
+      "target": "../../contracts/robot-model.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "target": "../../contracts/scene.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "target": "../../contracts/resources.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "target": "../../contracts/distributions.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "target": "../../contracts/generation.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "target": "../../contracts/input-bundle.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-4-results.md",
+      "target": "../../contracts/distributions.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-6-results.md",
+      "target": "../../contracts/input-bundle.md"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/tools/baseline_validation/ur7e_table/README.md",
+      "target": "../../../examples/ur7e_table/resources/robots/ur7e_2f85/robot.yaml"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/tools/baseline_validation/ur7e_table/README.md",
+      "target": "../../../examples/ur7e_table/resources/robots/ur7e_2f85/robot.urdf"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/tools/baseline_validation/ur7e_table/README.md",
+      "target": "validation-2026-09-18.json"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/tools/baseline_validation/ur7e_table/README.md",
+      "target": "../../../examples/ur7e_table/resources/sources.yaml"
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/tools/baseline_validation/ur7e_table/README.md",
+      "target": "../../../examples/ur7e_table/README.md"
+    }
+  ],
+  "scope": "Only snapshot/copy/index checks; no historical test execution or external source validation.",
+  "final_independent_check": {
+    "checked_utc": "2026-10-07T10:42:45.469533+00:00",
+    "copies_compared_directly_to_sources": 53,
+    "copy_hashes_compared_to_manifest": 53,
+    "index_source_links": 53,
+    "passed": true
+  },
+  "supplementary_non_markdown_keyword_screen": {
+    "research-process": {
+      "text_files_screened": 12,
+      "matches": 5,
+      "interpretation": "Obsidian file names, two teaching-example attribution notes, and empty Serena initial_prompt; no additional collaboration record selected."
+    },
+    "multiarm-problem-gen": {
+      "text_files_screened": 94,
+      "matches": 1,
+      "interpretation": "Empty Serena initial_prompt only."
+    },
+    "excluded_from_text_decode": [
+      ".git",
+      ".md",
+      ".pdf",
+      ".stl",
+      ".dae",
+      ".png",
+      ".svg",
+      ".pkl",
+      ".whl"
+    ],
+    "pattern": "协作|复盘|用户确认|阅读边界|长期记录|whole-word agent(s)|initial_prompt",
+    "limitations": "Keyword screening is not full semantic review of every source-code comment."
+  }
+}
