@@ -1,0 +1,1865 @@
+{
+  "generated_at_utc": "2026-10-07T10:52:42.550441+00:00",
+  "selection_unit": "complete original file; no source text, links, encoding or newline normalization",
+  "entries": [
+    {
+      "repository": "research-process",
+      "path": "AGENTS.md",
+      "title": "协作与记录约定",
+      "status": "现载约定；原文作为协作要求发布，逐条确认历史本轮无法复核。",
+      "topics": "跨 session 上下文、授权、事实分层、独立判断、资源与 Git",
+      "reason": "直接记录长期协作的入口、写入边界、沟通方式及资料组织，是本轮原始约定材料。",
+      "key_sections": [
+        {
+          "title": "开始工作",
+          "start": 9,
+          "end": 16,
+          "first_line": "## 开始工作"
+        },
+        {
+          "title": "长期记录更新",
+          "start": 18,
+          "end": 28,
+          "first_line": "## 长期记录更新"
+        },
+        {
+          "title": "内容组织与配套资源管理",
+          "start": 30,
+          "end": 61,
+          "first_line": "## 内容组织"
+        },
+        {
+          "title": "维护与沟通",
+          "start": 63,
+          "end": 76,
+          "first_line": "## 维护与沟通"
+        }
+      ],
+      "id": "R01",
+      "source": "/home/fainic/data/research-process/AGENTS.md",
+      "copy": "sources/research-process/AGENTS.md",
+      "size": 4223,
+      "sha256": "ebef8a85ab89956d235199da1063b7e84a0678b71fe05e213ff8befacbb36ef8",
+      "git_status": "untracked",
+      "line_count": 76
+    },
+    {
+      "repository": "research-process",
+      "path": "README.md",
+      "title": "长期探索与过程记录",
+      "status": "现载工作方式；使用循环与已确认的初始化记录对应。",
+      "topics": "长期连续性、审阅写入、当前状态与历史分工",
+      "reason": "说明记录既服务后续协作，也保留过程本身；给出完整使用循环及按需拆分条件。",
+      "key_sections": [
+        {
+          "title": "开篇目标",
+          "start": 1,
+          "end": 7,
+          "first_line": "# 长期探索与过程记录"
+        },
+        {
+          "title": "使用循环",
+          "start": 21,
+          "end": 31,
+          "first_line": "## 使用循环"
+        },
+        {
+          "title": "维护",
+          "start": 33,
+          "end": 49,
+          "first_line": "## 维护"
+        }
+      ],
+      "id": "R02",
+      "source": "/home/fainic/data/research-process/README.md",
+      "copy": "sources/research-process/README.md",
+      "size": 2421,
+      "sha256": "5d931bcf1b6bc3dcde3a9dae9606b176e052693df8138057d40da1afcbf07179",
+      "git_status": "untracked",
+      "line_count": 49
+    },
+    {
+      "repository": "research-process",
+      "path": "overview.md",
+      "title": "研究概览",
+      "status": "已确认起点原则的概览＋个人经历；确认依据见研究起点记录。",
+      "topics": "实践反馈、渐进设计、保留个人语境",
+      "reason": "保留先跑通再复盘的工程取向，并限定个人提醒的含义，避免后续提炼成普遍断言。",
+      "key_sections": [
+        {
+          "title": "工程原则",
+          "start": 17,
+          "end": 22,
+          "first_line": "## 工程原则"
+        },
+        {
+          "title": "个人经历与提醒",
+          "start": 24,
+          "end": 30,
+          "first_line": "## 个人经历与提醒"
+        }
+      ],
+      "id": "R03",
+      "source": "/home/fainic/data/research-process/overview.md",
+      "copy": "sources/research-process/overview.md",
+      "size": 1249,
+      "sha256": "758ed54d110591c62f803f578a39391a169aed5738da408f5719332732cdac7d",
+      "git_status": "untracked",
+      "line_count": 36
+    },
+    {
+      "repository": "research-process",
+      "path": "state.md",
+      "title": "当前状态",
+      "status": "历史状态快照；正文称第一版工作流已确认，生成器未开始等进展已落后于代码仓库。",
+      "topics": "上下文恢复、状态时效、先明确验证问题",
+      "reason": "保存早期工作流状态及待明确事项，可与后续实施记录对照状态滞后；不是今日能力清单。",
+      "key_sections": [
+        {
+          "title": "当前阶段与当前重点",
+          "start": 9,
+          "end": 18,
+          "first_line": "## 当前阶段"
+        },
+        {
+          "title": "下一步与待明确",
+          "start": 20,
+          "end": 31,
+          "first_line": "## 下一步"
+        },
+        {
+          "title": "暂不展开",
+          "start": 33,
+          "end": 36,
+          "first_line": "## 暂不展开"
+        }
+      ],
+      "id": "R04",
+      "source": "/home/fainic/data/research-process/state.md",
+      "copy": "sources/research-process/state.md",
+      "size": 1268,
+      "sha256": "7433ffa25492ed2fcff8cf9d4e9501e7502e546300bb0ab54eff9a722982425b",
+      "git_status": "untracked",
+      "line_count": 42
+    },
+    {
+      "repository": "research-process",
+      "path": "projects/README.md",
+      "title": "项目索引",
+      "status": "现载组织约定；项目进展不作为本轮核验事实。",
+      "topics": "跨项目索引、实现资料归属、本机路径",
+      "reason": "明确研究主线、项目入口、原代码仓库和设备路径的分工，减少跨仓库重复维护。",
+      "key_sections": [
+        {
+          "title": "组织约定",
+          "start": 13,
+          "end": 19,
+          "first_line": "## 组织约定"
+        }
+      ],
+      "id": "R05",
+      "source": "/home/fainic/data/research-process/projects/README.md",
+      "copy": "sources/research-process/projects/README.md",
+      "size": 731,
+      "sha256": "6ac7172bb6d1ffce85af457aa8813d6a5461218097e314b12273076f31d10894",
+      "git_status": "untracked",
+      "line_count": 19
+    },
+    {
+      "repository": "research-process",
+      "path": "local-paths.md",
+      "title": "本机路径",
+      "status": "现载设备边界说明＋旧占位状态；原文件被 Git 忽略。",
+      "topics": "本机与云端访问边界、同步假设",
+      "reason": "文件虽被忽略仍有协作相关内容：设备路径分别维护，云端不能默认访问；其中路径尚未填写。",
+      "key_sections": [
+        {
+          "title": "全文：本机维护与访问边界",
+          "start": 1,
+          "end": 8,
+          "first_line": "# 本机路径"
+        }
+      ],
+      "id": "R06",
+      "source": "/home/fainic/data/research-process/local-paths.md",
+      "copy": "sources/research-process/local-paths.md",
+      "size": 255,
+      "sha256": "c547dd7ac324697f5cb7e08afdc21ba1b4cb72b7e9a90606754a38121d1261a3",
+      "git_status": "ignored",
+      "line_count": 8
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/README.md",
+      "title": "随手记录",
+      "status": "现载记录约定。",
+      "topics": "未成熟想法、确认后写入、原始出处",
+      "reason": "记录零散想法不强制变成任务或清空，并规定整理、确认与成熟后关联方式。",
+      "key_sections": [
+        {
+          "title": "全文",
+          "start": 1,
+          "end": 12,
+          "first_line": "# 随手记录"
+        }
+      ],
+      "id": "R07",
+      "source": "/home/fainic/data/research-process/inbox/README.md",
+      "copy": "sources/research-process/inbox/README.md",
+      "size": 472,
+      "sha256": "456140f7bc8e578978f3cdcc18db1e4dff1c408721f2a3cfaf165cbf1ac3cf55",
+      "git_status": "untracked",
+      "line_count": 12
+    },
+    {
+      "repository": "research-process",
+      "path": "experiments/README.md",
+      "title": "实验记录",
+      "status": "现载记录边界＋候选记录要素；原文用“建议记录”，不等于强制模板。",
+      "topics": "实验问题、可追溯性、观察与猜测",
+      "reason": "给出在实际实验发生后再记录、按证据区分观察和解释的方式，可用于后续协作规则提炼。",
+      "key_sections": [
+        {
+          "title": "创建时机与建议内容",
+          "start": 1,
+          "end": 12,
+          "first_line": "# 实验记录"
+        },
+        {
+          "title": "事实和产物位置",
+          "start": 14,
+          "end": 15,
+          "first_line": "区分实际观察与原因猜测。"
+        }
+      ],
+      "id": "R08",
+      "source": "/home/fainic/data/research-process/experiments/README.md",
+      "copy": "sources/research-process/experiments/README.md",
+      "size": 485,
+      "sha256": "4c4e087245949d7a73c03fdbab92b96ba6d8c4259345c48f13e48214c77a8123",
+      "git_status": "untracked",
+      "line_count": 15
+    },
+    {
+      "repository": "research-process",
+      "path": "assets/README.md",
+      "title": "配套资源",
+      "status": "现载附件管理约定；“本次不安装”等表述仅指当时范围。",
+      "topics": "可维护附件、稳定引用、派生输出与外部资源",
+      "reason": "保存长时协作所需的附件位置、生成源、版本与链接检查约定，避免只留会话临时产物。",
+      "key_sections": [
+        {
+          "title": "存放与引用",
+          "start": 10,
+          "end": 22,
+          "first_line": "## 存放与引用"
+        },
+        {
+          "title": "版本与导出",
+          "start": 24,
+          "end": 28,
+          "first_line": "## 版本与导出"
+        },
+        {
+          "title": "外部资源",
+          "start": 30,
+          "end": 34,
+          "first_line": "## 外部资源"
+        }
+      ],
+      "id": "R09",
+      "source": "/home/fainic/data/research-process/assets/README.md",
+      "copy": "sources/research-process/assets/README.md",
+      "size": 1980,
+      "sha256": "c5dcb3330da22ef143151caaf2d1590dddc4405302becff1e60c0249d758538b",
+      "git_status": "untracked",
+      "line_count": 34
+    },
+    {
+      "repository": "research-process",
+      "path": "references/README.md",
+      "title": "文献入口",
+      "status": "现载维护约定＋历史阅读状态；部分“待填写”描述可能陈旧。",
+      "topics": "证据来源、论文主张与个人理解",
+      "reason": "其维护段明确区分论文主张、个人理解和延伸想法；作为研究协作中的记录边界材料收录。",
+      "key_sections": [
+        {
+          "title": "开篇状态与复现边界",
+          "start": 1,
+          "end": 16,
+          "first_line": "# 文献入口"
+        },
+        {
+          "title": "维护",
+          "start": 39,
+          "end": 42,
+          "first_line": "## 维护"
+        }
+      ],
+      "id": "R10",
+      "source": "/home/fainic/data/research-process/references/README.md",
+      "copy": "sources/research-process/references/README.md",
+      "size": 1148,
+      "sha256": "8a9a195bac8c929b242ddd88d8630b6264f2e68ac7694f84b0d0014b3833ac81",
+      "git_status": "untracked",
+      "line_count": 42
+    },
+    {
+      "repository": "research-process",
+      "path": "journal/2026-09-07-starting-point.md",
+      "title": "研究起点与工作方式",
+      "status": "已确认讨论的历史记录；开篇明确“根据用户已确认的讨论整理”。",
+      "topics": "实践驱动、长期记忆、候选更新、个人提醒",
+      "reason": "保存第一版工作流的动机、确认方式及避免空想阻碍推进的个人经历，便于追溯约定来源。",
+      "key_sections": [
+        {
+          "title": "状态与来源",
+          "start": 3,
+          "end": 5,
+          "first_line": "状态：根据用户已确认的讨论整理。"
+        },
+        {
+          "title": "工程思路的演变",
+          "start": 16,
+          "end": 26,
+          "first_line": "## 工程思路的演变"
+        },
+        {
+          "title": "工作流目标",
+          "start": 28,
+          "end": 40,
+          "first_line": "## 工作流目标"
+        }
+      ],
+      "id": "R11",
+      "source": "/home/fainic/data/research-process/journal/2026-09-07-starting-point.md",
+      "copy": "sources/research-process/journal/2026-09-07-starting-point.md",
+      "size": 1625,
+      "sha256": "1348fab8dc9cffe7216142694cba76539035a32c2eb096375b043507f1f0936d",
+      "git_status": "untracked",
+      "line_count": 40
+    },
+    {
+      "repository": "research-process",
+      "path": "journal/2026-09-07-record-organization.md",
+      "title": "研究概览、当前状态和项目入口的组织方式",
+      "status": "已确认决定＋实际初始化经验；开篇明确用户确认、已采用。",
+      "topics": "组织取舍、复查条件、环境事实",
+      "reason": "既记录单文件与目录的权衡，也说明何时再拆分，以及未创建仓库时不虚构迁移过程。",
+      "key_sections": [
+        {
+          "title": "问题与顾虑及方案比较",
+          "start": 6,
+          "end": 17,
+          "first_line": "## 问题与顾虑"
+        },
+        {
+          "title": "当前决定与内容边界",
+          "start": 19,
+          "end": 30,
+          "first_line": "## 当前决定"
+        },
+        {
+          "title": "决策理由与复查条件、落实",
+          "start": 32,
+          "end": 43,
+          "first_line": "## 决策理由与复查条件"
+        }
+      ],
+      "id": "R12",
+      "source": "/home/fainic/data/research-process/journal/2026-09-07-record-organization.md",
+      "copy": "sources/research-process/journal/2026-09-07-record-organization.md",
+      "size": 1360,
+      "sha256": "6a993e21826ee6850a6242ae61832cf5d1d95baa903ab0b8276e2a52cb2503c8",
+      "git_status": "untracked",
+      "line_count": 43
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-18-evolving-design-and-best-practices.md",
+      "title": "渐进形成设计，以及如何使用 best practice",
+      "status": "已确认的两条原则；原文明确不是完整架构或强制流程，其他同期建议未确认。",
+      "topics": "渐进设计、探索空间、共同语义与工程偏好",
+      "reason": "保留用户原话及获认可的补充，清楚区分原则、工程偏好和探索表达，防止把例外一律审批化。",
+      "key_sections": [
+        {
+          "title": "状态与范围",
+          "start": 5,
+          "end": 11,
+          "first_line": "状态：用户提出两条原则，经讨论认可 agent 的补充后整理保存。它们是当前协作与设计的原则，不是完整代码架构或强制流程。"
+        },
+        {
+          "title": "在草稿纸上积累线索",
+          "start": 13,
+          "end": 29,
+          "first_line": "## 1. 在草稿纸上积累线索，逐渐形成整体设计"
+        },
+        {
+          "title": "best practice 提供倾向",
+          "start": 31,
+          "end": 51,
+          "first_line": "## 2. best practice 提供倾向，保留表达与探索空间"
+        }
+      ],
+      "id": "R13",
+      "source": "/home/fainic/data/research-process/inbox/2026-09-18-evolving-design-and-best-practices.md",
+      "copy": "sources/research-process/inbox/2026-09-18-evolving-design-and-best-practices.md",
+      "size": 4019,
+      "sha256": "78b7a95085527bfab36fb71974cf546bbc41c547b8be45e05ac48d57b2640752",
+      "git_status": "untracked",
+      "line_count": 57
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-18-agent-collaborative-development-research.md",
+      "title": "与 agent 合作开发：目标、调研与候选起点",
+      "status": "混合：用户目标、此前已确认原则、agent 研究判断与候选建议；候选流程尚未整体确认。",
+      "topics": "学习目标、证据强度、复杂度、Git、过程记录、协作效果",
+      "reason": "直接围绕人与 agent 长期开发协作展开；包含可迁移经验的候选积累方法与研究适用边界，不能全部提升为既定规则。",
+      "key_sections": [
+        {
+          "title": "用户希望获得什么、证据边界",
+          "start": 5,
+          "end": 30,
+          "first_line": "状态：按用户要求整理两轮调研与讨论。用户目标和此前确认的原则与 agent 的研究判断分开记录；候选流程尚未整体确认为执行规范。本记录不是项目已实施成果。"
+        },
+        {
+          "title": "不宜照搬的流程规定",
+          "start": 65,
+          "end": 71,
+          "first_line": "agent 判断：以下规定不宜直接照搬。"
+        },
+        {
+          "title": "理解和管理 complexity",
+          "start": 100,
+          "end": 113,
+          "first_line": "## 6. 理解和管理 complexity 的候选方法"
+        },
+        {
+          "title": "Git 与信息记录的候选起点",
+          "start": 122,
+          "end": 161,
+          "first_line": "## 8. Git 的候选使用方式"
+        },
+        {
+          "title": "经验积累与未决事项",
+          "start": 163,
+          "end": 199,
+          "first_line": "## 10. 怎样积累可迁移的经验"
+        }
+      ],
+      "id": "R14",
+      "source": "/home/fainic/data/research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
+      "copy": "sources/research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
+      "size": 16065,
+      "sha256": "27ecdff8abfb01b46cf1c05e38ed480a74bd89f56b5be1bfd9809e8c44a518ca",
+      "git_status": "untracked",
+      "line_count": 205
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+      "title": "多机械臂任务的端点表达与时序协调",
+      "status": "历史讨论与理解变化；原文明示尚未形成需求或实现方案。",
+      "topics": "不倒写原始认识、说明隐含假设、独立审查",
+      "reason": "虽含领域背景，仍有明确协作经验：将讨论后认识与用户原始想法区分，标明 agent 构造例子及未获确认的新问题。",
+      "key_sections": [
+        {
+          "title": "理解变化：端点描述与执行时序",
+          "start": 13,
+          "end": 19,
+          "first_line": "## 理解变化：端点描述与执行时序"
+        },
+        {
+          "title": "新问题：到达之后发生什么",
+          "start": 21,
+          "end": 33,
+          "first_line": "## 新问题：到达之后发生什么"
+        },
+        {
+          "title": "未经澄清的理解与能力判断",
+          "start": 49,
+          "end": 61,
+          "first_line": "## 例子二：未经澄清的理解可能缩窄 planner 的能力范围"
+        },
+        {
+          "title": "未决问题",
+          "start": 71,
+          "end": 81,
+          "first_line": "## 未决问题"
+        }
+      ],
+      "id": "R15",
+      "source": "/home/fainic/data/research-process/inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+      "copy": "sources/research-process/inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+      "size": 6901,
+      "sha256": "3439de75ebf40eeccba4a2b87a11c977780da30aa270033b6c8e8bd42ac9b6d3",
+      "git_status": "untracked",
+      "line_count": 87
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+      "title": "联合空间中的相对进度与多臂协调的基础",
+      "status": "历史审阅修正＋尚未展开的建议；只是阶段性理解。",
+      "topics": "不迎合含混判断、保留修正过程、推断范围",
+      "reason": "记录 agent 对“暴力搜索、不理解时序”的独立纠正，以及不能将文献支持误写为已有实现缺陷的边界。",
+      "key_sections": [
+        {
+          "title": "讨论背景",
+          "start": 5,
+          "end": 16,
+          "first_line": "## 讨论背景"
+        },
+        {
+          "title": "对原判断的修正",
+          "start": 40,
+          "end": 53,
+          "first_line": "## 二、对“暴力搜索、不理解时序”的修正"
+        },
+        {
+          "title": "保留但尚未展开的改进想法",
+          "start": 96,
+          "end": 106,
+          "first_line": "## 六、保留但尚未展开的改进想法"
+        },
+        {
+          "title": "文献依据与阅读范围",
+          "start": 108,
+          "end": 115,
+          "first_line": "## 文献依据与阅读范围"
+        }
+      ],
+      "id": "R16",
+      "source": "/home/fainic/data/research-process/inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+      "copy": "sources/research-process/inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+      "size": 7688,
+      "sha256": "108762b9127fc9b4fca859bf3bafccc26548edc361b72d99a81e038493b54f25",
+      "git_status": "untracked",
+      "line_count": 115
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+      "title": "时序协调的直觉与实验验证的目的",
+      "status": "历史独立审查＋待讨论实验建议；明确尚无本次实验结果。",
+      "topics": "独立判断、可证伪问题、证据局限、不扩张研究结论",
+      "reason": "将用户直觉、agent 审查和实验能证明的范围分别记录，是避免顺从式研究与提前定结论的具体案例。",
+      "key_sections": [
+        {
+          "title": "用户的直觉与意图",
+          "start": 7,
+          "end": 13,
+          "first_line": "## 用户的直觉与意图"
+        },
+        {
+          "title": "agent 的独立审查",
+          "start": 15,
+          "end": 23,
+          "first_line": "## agent 的独立审查"
+        },
+        {
+          "title": "实验含义与边界、尚未决定",
+          "start": 25,
+          "end": 37,
+          "first_line": "## “用实验验证想法”的含义与边界"
+        }
+      ],
+      "id": "R17",
+      "source": "/home/fainic/data/research-process/inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+      "copy": "sources/research-process/inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+      "size": 3466,
+      "sha256": "5c2730ed3f63e54b69edc791c187539e934fd383db98d579b19f5724746bb91d",
+      "git_status": "untracked",
+      "line_count": 44
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-15-cube-complex-understanding.md",
+      "title": "Cube complex：原始理解与讨论后的完善表述",
+      "status": "历史共同写作；补充表述经用户审阅确认，原始表述保留用于理解过程。",
+      "topics": "保留原话、补充与原文分层、教学例证边界",
+      "reason": "明确并列用户原始表述、补充表述与 agent 完善说明，展示如何纠正理解而不覆盖原始过程。",
+      "key_sections": [
+        {
+          "title": "状态与用户原始表述",
+          "start": 5,
+          "end": 17,
+          "first_line": "状态：保留用户分两段提出的原始理解，并追加经用户审阅确认的“与 agent 讨论后的完善表述”。原始表述用于保留理解过程，不替代下方完善后的说明。"
+        },
+        {
+          "title": "与 agent 讨论后的完善表述",
+          "start": 19,
+          "end": 21,
+          "first_line": "## 与 agent 讨论后的完善表述"
+        },
+        {
+          "title": "补充讨论背景",
+          "start": 90,
+          "end": 98,
+          "first_line": "## 补充讨论：路径拆分与基本方片"
+        },
+        {
+          "title": "配套插图与证据限制",
+          "start": 131,
+          "end": 135,
+          "first_line": "## 配套插图"
+        }
+      ],
+      "id": "R18",
+      "source": "/home/fainic/data/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "copy": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "size": 9476,
+      "sha256": "9d5da23338493adeaa269869ff0a6a5b50f024a3d5e654b096e9e157e64933d3",
+      "git_status": "untracked",
+      "line_count": 155
+    },
+    {
+      "repository": "research-process",
+      "path": "journal/2026-09-15-research-understanding-and-direction.md",
+      "title": "多机械臂运动规划：研究理解与方向梳理",
+      "status": "历史个人理解与 agent 补充并置；未见全篇逐条确认声明，不能整体视为约定。",
+      "topics": "学习过程、保留个人表达、补充署名与纠错",
+      "reason": "原始叙述和标明 agent 的补充并存，明确修正“只有 start/goal 所以大概率无法求解”等尚未成立的判断。",
+      "key_sections": [
+        {
+          "title": "原始研究表达",
+          "start": 9,
+          "end": 11,
+          "first_line": "## 我的研究方向"
+        },
+        {
+          "title": "碰撞矩阵及 agent 补充",
+          "start": 19,
+          "end": 34,
+          "first_line": "### 碰撞矩阵"
+        },
+        {
+          "title": "表示能力与算法判断的修正",
+          "start": 53,
+          "end": 64,
+          "first_line": "coupled configuration space这种表示已经包含了相对进度，那直接在这个空间用规划方法和考虑时序的方法有什么区别呢。这个问题agent说的好，大意是能表示，不代表方法会有意识的利用这一点，具体的还是让agent来说"
+        },
+        {
+          "title": "从输入形式到空间占用的讨论过程",
+          "start": 70,
+          "end": 87,
+          "first_line": "我要参考[MotionBenchMaker](https://arxiv.org/abs/2112.06402)实现一个数据集生成器，我的最终目标是寻找在哪些场景下StopNGo表现会不是那么好。对每条数据要采用什么作为输入这个问题，我最开始的设想是: 以coupled configuration space中的状态作为start, goal，这是由单机械臂测试的输入形式自然推广来的。但是，我又觉得这有点不够，比如: 如果场景是两个机械臂，要通过一个狭窄的缝隙，初始状态两个机械臂都在一侧，目标是它们的末端都要到另一侧，那么，单纯给一个start, goal，StopNGo大概率无法求解，因为只考虑这一段任务，StopNGo无法发挥出它的优势。整个过程中，agent给了一个很好的例子，我又读了一下StopNGo的实验设置，这个过程就让agent来补充一下"
+        }
+      ],
+      "id": "R19",
+      "source": "/home/fainic/data/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "size": 13945,
+      "sha256": "a7a6133d48c448e8c4bf9e0cb39c940bee08c14e4b54cbef5603d4f45754501e",
+      "git_status": "untracked",
+      "line_count": 114
+    },
+    {
+      "repository": "research-process",
+      "path": "inbox/2026-09-16-generator-scene-and-target-representation.md",
+      "title": "数据生成器：场景与目标表示讨论",
+      "status": "混合：已确认业务语义、未决结构与被澄清撤回的 agent 方案；后者未确认。",
+      "topics": "澄清用户意图、不补齐未授权方案、未知项显式化",
+      "reason": "原文直接记录用户要求补充“尚未确定”，却被 agent 误解为要求补齐方案的事件，是协作范围误读的具体材料。",
+      "key_sections": [
+        {
+          "title": "当前情况与确认范围",
+          "start": 5,
+          "end": 17,
+          "first_line": "## 当前情况"
+        },
+        {
+          "title": "尚未确定：最终数据与名义场景的组织",
+          "start": 50,
+          "end": 63,
+          "first_line": "## 尚未确定：最终数据与名义场景的组织"
+        },
+        {
+          "title": "其他待讨论事项与示例版本",
+          "start": 65,
+          "end": 76,
+          "first_line": "## 其他待讨论事项"
+        }
+      ],
+      "id": "R20",
+      "source": "/home/fainic/data/research-process/inbox/2026-09-16-generator-scene-and-target-representation.md",
+      "copy": "sources/research-process/inbox/2026-09-16-generator-scene-and-target-representation.md",
+      "size": 4447,
+      "sha256": "1f9cba09d41d59e031d3ecfefa8be0893c5f122ad5ec3255b90d8992fdeb4ddc",
+      "git_status": "untracked",
+      "line_count": 76
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "AGENTS.md",
+      "title": "协作约定与架构／实现分离约定",
+      "status": "现载协作约定；逐条确认历史本轮无法复核，历史试验中的例外授权仍需按原记录识别。",
+      "topics": "自主权限、架构参与、公开契约、阅读隔离、验证、计时、Git",
+      "reason": "完整记录人与 agent 分工及实现隔离要求；既含讨论边界，也明确已授权普通实现不重复审批。",
+      "key_sections": [
+        {
+          "title": "人与 agent、记录",
+          "start": 9,
+          "end": 27,
+          "first_line": "## 人与 agent"
+        },
+        {
+          "title": "实现与验证",
+          "start": 29,
+          "end": 45,
+          "first_line": "## 实现与验证"
+        },
+        {
+          "title": "Git 与交接",
+          "start": 47,
+          "end": 57,
+          "first_line": "## Git 与交接"
+        },
+        {
+          "title": "架构决策与自主权限",
+          "start": 67,
+          "end": 75,
+          "first_line": "## 架构决策与自主权限"
+        },
+        {
+          "title": "实现任务的阅读边界与 Serena",
+          "start": 92,
+          "end": 118,
+          "first_line": "## 实现任务的阅读边界"
+        },
+        {
+          "title": "契约缺口与异常处理",
+          "start": 120,
+          "end": 133,
+          "first_line": "## 契约缺口与异常处理"
+        },
+        {
+          "title": "验证与记录",
+          "start": 135,
+          "end": 157,
+          "first_line": "## 验证与记录"
+        }
+      ],
+      "id": "M01",
+      "source": "/home/fainic/data/multiarm-problem-gen/AGENTS.md",
+      "copy": "sources/multiarm-problem-gen/AGENTS.md",
+      "size": 11497,
+      "sha256": "d11de02d89cec074bb9ad95da73b6fc0744f2fa24d91db4233dc5f730b322b21",
+      "git_status": "tracked",
+      "line_count": 157
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "README.md",
+      "title": "项目入口与设计学习目标",
+      "status": "现载协作定位＋探索性实现状态；明确单元 4–6 未获用户最终接受。",
+      "topics": "学习目标、共同设计、跨仓库文档归属",
+      "reason": "说明项目不仅产出代码，还支持用户参与架构与管理复杂度，明确研究记录与代码记录的边界。",
+      "key_sections": [
+        {
+          "title": "仓库组织与探索状态",
+          "start": 14,
+          "end": 27,
+          "first_line": "## 仓库组织"
+        },
+        {
+          "title": "设计与学习",
+          "start": 29,
+          "end": 33,
+          "first_line": "## 设计与学习"
+        }
+      ],
+      "id": "M02",
+      "source": "/home/fainic/data/multiarm-problem-gen/README.md",
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "size": 2655,
+      "sha256": "a641ff872f36e789c12774ccd4fc3edbe871ee768e08f6238813ccf49a2ed93c",
+      "git_status": "tracked",
+      "line_count": 33
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/README.md",
+      "title": "设计与记录入口",
+      "status": "混合：现载组织约定、历史入口与自主试验未接受状态。",
+      "topics": "讨论与实施分开、保留旧方案、过程导航",
+      "reason": "规定按内容目的区分讨论与实施，不把已确认方案视为执行结果，也不将候选材料变成 agent 指令。",
+      "key_sections": [
+        {
+          "title": "当前阶段",
+          "start": 3,
+          "end": 16,
+          "first_line": "## 当前阶段"
+        },
+        {
+          "title": "讨论与方案",
+          "start": 18,
+          "end": 37,
+          "first_line": "## 讨论与方案"
+        },
+        {
+          "title": "实施过程与复盘",
+          "start": 39,
+          "end": 45,
+          "first_line": "## 实施过程与复盘"
+        },
+        {
+          "title": "接下来讨论、怎样组织记录",
+          "start": 53,
+          "end": 69,
+          "first_line": "## 接下来讨论"
+        }
+      ],
+      "id": "M03",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/README.md",
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "size": 7535,
+      "sha256": "948cb0d6c4a8a8aefb484be3bec9814139b3887ac01925b77e141d019c2f86f0",
+      "git_status": "tracked",
+      "line_count": 69
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/git-workflow.md",
+      "title": "Git 工作方式与提交信息",
+      "status": "现载 Git 约定；AGENTS 明确要求遵循，非本次收集任务的操作授权。",
+      "topics": "探索分支、逻辑提交、集成、授权、历史保留",
+      "reason": "保存有价值尝试、主线接受状态、提交建议与授权分离、英文说明和语义集成检查的具体约定。",
+      "key_sections": [
+        {
+          "title": "探索分支与长期主线",
+          "start": 3,
+          "end": 24,
+          "first_line": "## 探索分支与长期主线"
+        },
+        {
+          "title": "何时提交与集成、集成方式",
+          "start": 26,
+          "end": 51,
+          "first_line": "## 何时提交与集成"
+        },
+        {
+          "title": "Commit message 与主线提交",
+          "start": 53,
+          "end": 115,
+          "first_line": "## Commit message 的语言"
+        },
+        {
+          "title": "操作边界",
+          "start": 117,
+          "end": 123,
+          "first_line": "## 操作边界"
+        }
+      ],
+      "id": "M04",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/git-workflow.md",
+      "copy": "sources/multiarm-problem-gen/docs/git-workflow.md",
+      "size": 5089,
+      "sha256": "30146681bdda2fe5bea0bcd8d932ec03bf762cf7749e2d741cd824f4e572dff5",
+      "git_status": "tracked",
+      "line_count": 130
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/design.md",
+      "title": "当前设计草稿",
+      "status": "混合：已确认语义、候选抽象、过往方案状态及后续实施补充；不能整篇当作当前能力清单。",
+      "topics": "文档时间层次、候选与已实现区分、演变追溯",
+      "reason": "同一文件保留“尚未实现”原方案并追加已完成说明，是长期记录不覆盖历史、同时防止状态误读的实例。",
+      "key_sections": [
+        {
+          "title": "更新时间与三次补充",
+          "start": 3,
+          "end": 9,
+          "first_line": "更新：2026-09-21。此文概括此前已确认的语义，作为本仓库设计入口；不是已实现功能清单。字段名称、代码接口和内部架构尚未定稿。"
+        },
+        {
+          "title": "单元 3 设计与未决接口",
+          "start": 34,
+          "end": 42,
+          "first_line": "## 单元 3：场景与统一资源管理"
+        },
+        {
+          "title": "候选抽象与未决事项",
+          "start": 89,
+          "end": 111,
+          "first_line": "## 候选抽象与待验证的问题"
+        }
+      ],
+      "id": "M05",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/design.md",
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "size": 9297,
+      "sha256": "c9b7fdf1723efe23165f207c82216f1b4a38126c428783dc116341d20a1a6931",
+      "git_status": "tracked",
+      "line_count": 111
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docker/README.md",
+      "title": "Docker／Compose 开发环境",
+      "status": "现载运行与验收说明＋历史网络限制；版本是当时固定值，不声明最新。",
+      "topics": "统一环境、完整命令、就绪与验收区别、可复现性",
+      "reason": "是协作执行入口，明确非空测试、容器就绪、宿主环境与任务阅读边界，并保存实际环境限制的处理条件。",
+      "key_sections": [
+        {
+          "title": "启动及就绪、网络限制",
+          "start": 1,
+          "end": 38,
+          "first_line": "# Docker／Compose 开发环境"
+        },
+        {
+          "title": "环境组织",
+          "start": 40,
+          "end": 46,
+          "first_line": "## 环境组织"
+        },
+        {
+          "title": "固定版本与来源",
+          "start": 48,
+          "end": 67,
+          "first_line": "## 固定版本与来源"
+        },
+        {
+          "title": "自主试验完整验收",
+          "start": 128,
+          "end": 158,
+          "first_line": "## 自主试验：完整输入包入口与验收"
+        }
+      ],
+      "id": "M06",
+      "source": "/home/fainic/data/multiarm-problem-gen/docker/README.md",
+      "copy": "sources/multiarm-problem-gen/docker/README.md",
+      "size": 10575,
+      "sha256": "2c64c5731bb2bd34ea90c262c8e9db0f394e87b76cc48ad8084a1491930cd684",
+      "git_status": "tracked",
+      "line_count": 158
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-18-starting-point.md",
+      "title": "仓库起点",
+      "status": "历史组织选择与学习协作目标；当时暂不引入自主循环或多 agent，不等于长期禁令。",
+      "topics": "初始化事实、跨仓库迁移、学习目标、渐进流程",
+      "reason": "记录实际起点与用户决定，保存初始组织选择及不急于把单次经验变成通用规则的背景。",
+      "key_sections": [
+        {
+          "title": "背景",
+          "start": 5,
+          "end": 9,
+          "first_line": "## 背景"
+        },
+        {
+          "title": "本次组织选择",
+          "start": 11,
+          "end": 15,
+          "first_line": "## 本次组织选择"
+        },
+        {
+          "title": "学习与协作目标",
+          "start": 17,
+          "end": 21,
+          "first_line": "## 学习与协作目标"
+        },
+        {
+          "title": "前序材料与下一步",
+          "start": 23,
+          "end": 33,
+          "first_line": "## 前序材料"
+        }
+      ],
+      "id": "M07",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-18-starting-point.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-starting-point.md",
+      "size": 2194,
+      "sha256": "d8807122ebd2126b9b02336316c3ed729d7460e35ca7267f75842d512188b1ed",
+      "git_status": "tracked",
+      "line_count": 33
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-18-first-input-example.md",
+      "title": "首份完整输入样例：目标与设计原则",
+      "status": "混合：已确认样例方向、agent 候选建议、追加的实际观察及后续确认；按段落日期理解。",
+      "topics": "具体实例暴露问题、范围控制、先讨论未知字段",
+      "reason": "从“最小但完整”到可视化暴露三个问题，留下用户提问、agent 独立判断和后续修正，展示渐进设计的实际过程。",
+      "key_sections": [
+        {
+          "title": "目标与已确认选择",
+          "start": 7,
+          "end": 22,
+          "first_line": "## 目标"
+        },
+        {
+          "title": "最小但完整",
+          "start": 24,
+          "end": 30,
+          "first_line": "## “最小但完整”的含义"
+        },
+        {
+          "title": "样例后暴露问题的背景",
+          "start": 58,
+          "end": 64,
+          "first_line": "## 追加：基准场景与可视化暴露的三个问题"
+        },
+        {
+          "title": "问题 1 的独立判断",
+          "start": 66,
+          "end": 80,
+          "first_line": "### 1. 机械臂配置需要包含哪些信息"
+        },
+        {
+          "title": "后续确认及修正",
+          "start": 122,
+          "end": 144,
+          "first_line": "## 追加：问题 1、2 的方案"
+        },
+        {
+          "title": "未决项与验证边界",
+          "start": 229,
+          "end": 237,
+          "first_line": "### 输入实例中的任务约定与未决项"
+        }
+      ],
+      "id": "M08",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "size": 18485,
+      "sha256": "200cc0bbbd3790f78c2c01e409666dffb7180537b7acda30e62a9d18616fe6dc",
+      "git_status": "tracked",
+      "line_count": 237
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-22-input-domain-representations.md",
+      "title": "读取后的领域表示：讨论过程",
+      "status": "历史对话取舍＋尚未定稿的局部方案；开篇明确不是完整接口。",
+      "topics": "以使用场景修正抽象、用户质疑、实测依据",
+      "reason": "保存提前加载 mesh 的建议如何因用户质疑与有限实测改变，以及去掉多余层次的讨论，体现共同管理复杂度。",
+      "key_sections": [
+        {
+          "title": "状态与从读取结果谈起",
+          "start": 5,
+          "end": 13,
+          "first_line": "状态：本轮讨论记录，尚未实现。名称与字段组织用于说明方向，不是完整接口定稿；具体方法在使用时再讨论。"
+        },
+        {
+          "title": "Mesh：从提前解析转向按需加载",
+          "start": 37,
+          "end": 45,
+          "first_line": "## Mesh：从提前解析转向按需加载"
+        },
+        {
+          "title": "Pose、Frame 与场景复用",
+          "start": 47,
+          "end": 53,
+          "first_line": "## Pose、Frame 与场景复用"
+        },
+        {
+          "title": "场景规则的澄清与后续计划",
+          "start": 93,
+          "end": 103,
+          "first_line": "## 场景规则的澄清"
+        }
+      ],
+      "id": "M09",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-22-input-domain-representations.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-22-input-domain-representations.md",
+      "size": 7898,
+      "sha256": "4f57394a15a64882bc0b81c4615709a626158374559e4699bc7aba0b0faa9e5f",
+      "git_status": "tracked",
+      "line_count": 103
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "title": "输入读取：运行流程与对象协作",
+      "status": "用户表达诉求＋讨论方案；精确接口、可变性及错误规则仍待确认。",
+      "topics": "以数据流讲清设计、通俗术语、避免只列对象",
+      "reason": "直接记录用户要求逐步说明 class 如何协作，并据此形成流程与例子；“对象协作”是代码语义，纳入依据是背后的沟通改进。",
+      "key_sections": [
+        {
+          "title": "从对象清单转向运行流程",
+          "start": 7,
+          "end": 13,
+          "first_line": "## 从对象清单转向运行流程"
+        },
+        {
+          "title": "运行流程与职责",
+          "start": 15,
+          "end": 27,
+          "first_line": "## 运行流程与职责"
+        },
+        {
+          "title": "一个协作例子",
+          "start": 29,
+          "end": 48,
+          "first_line": "## 一个协作例子"
+        },
+        {
+          "title": "边界与后续",
+          "start": 50,
+          "end": 56,
+          "first_line": "## 边界与后续"
+        }
+      ],
+      "id": "M10",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "size": 4800,
+      "sha256": "4051402e5e10f2928abbdd09199cd0ed2e70a4eb26f1502cbc41fa5bfee57bd5",
+      "git_status": "tracked",
+      "line_count": 56
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-input-implementation-units.md",
+      "title": "输入读取的实现单元划分",
+      "status": "候选任务划分＋用户已选择首单元；并非全部接口或任务粒度定稿。",
+      "topics": "任务粒度、依赖准备、交付验收、契约隔离",
+      "reason": "将可独立交付的任务与代码文件区分，说明资源接口必须提前准备、依赖不等于读内部实现。",
+      "key_sections": [
+        {
+          "title": "状态与划分方案",
+          "start": 5,
+          "end": 20,
+          "first_line": "状态：整理此前提出的六单元方案，作为后续任务划分依据；不表示所有单元的接口和任务粒度已定稿。用户已选择单元 1 开始，当前进展见[首轮实现记录](../implementation/2026-09-29-first-implementation-results.md)，本文不重写为尚未开始。"
+        },
+        {
+          "title": "路径与共享资源的归属",
+          "start": 22,
+          "end": 26,
+          "first_line": "## 路径与共享资源的归属"
+        },
+        {
+          "title": "建议实现顺序",
+          "start": 43,
+          "end": 53,
+          "first_line": "## 建议实现顺序"
+        }
+      ],
+      "id": "M11",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-input-implementation-units.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-input-implementation-units.md",
+      "size": 3476,
+      "sha256": "d70d9a616bc44915a020fb10d7011114c81c64aba7d3706ed007271666f89539",
+      "git_status": "tracked",
+      "line_count": 53
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+      "title": "实现单元与代码职责的区别",
+      "status": "解释性补充与条件建议；原文明示未决定表示与读取拆合。",
+      "topics": "代码职责与任务范围、隔离实验设计",
+      "reason": "回应用户对任务划分的困惑，指出分 class 或文件本身不构成独立上下文实验。",
+      "key_sections": [
+        {
+          "title": "问题与澄清",
+          "start": 7,
+          "end": 23,
+          "first_line": "## 问题与澄清"
+        },
+        {
+          "title": "对契约隔离实验的影响",
+          "start": 25,
+          "end": 31,
+          "first_line": "## 对契约隔离实验的影响"
+        }
+      ],
+      "id": "M12",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+      "size": 1646,
+      "sha256": "e44e6b5a03bdabd3de6e5f8cdf3d970ac0f44807768df43d2a867939124b8acc",
+      "git_status": "tracked",
+      "line_count": 31
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+      "title": "首轮实施方案：Compose 环境与基础表示",
+      "status": "讨论方案与建议执行次序；明确不等于实现授权，末段仅是工具可访问性检查。",
+      "topics": "实施准备、公开契约、就绪标准、分阶段验收",
+      "reason": "界定环境和基础表示两部分的责任与验收，明确空测试不能算通过、方案写入不能等同执行。",
+      "key_sections": [
+        {
+          "title": "状态与环境方案",
+          "start": 5,
+          "end": 23,
+          "first_line": "状态：已讨论的两部分实施方案，尚未创建环境文件或实现代码，不代表已授权执行实现。基础行为见[单元 1 方案](2026-09-29-unit-1-basic-representations.md)。"
+        },
+        {
+          "title": "环境验收边界",
+          "start": 41,
+          "end": 41,
+          "first_line": "验收：可重新构建并启动；项目可导入；代码修改可直接生效；容器创建的工作区文件权限正常。环境阶段先做最小导入检查，单元 1 测试在第二部分完成后运行，不能把空测试集视为实现验收通过。"
+        },
+        {
+          "title": "执行顺序、权限与就绪判断",
+          "start": 85,
+          "end": 93,
+          "first_line": "## 执行顺序、权限与就绪判断"
+        }
+      ],
+      "id": "M13",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+      "size": 5390,
+      "sha256": "c4d0c708ea8164ab1a9e237b57693428649821166647df779ae1791e49b5ffc7",
+      "git_status": "tracked",
+      "line_count": 93
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "title": "单元 1：基础表示方案",
+      "status": "已确认语义和可变性＋候选公开接口；原文明示不是实现授权。",
+      "topics": "用户纠正候选设计、行为契约、内部自主",
+      "reason": "记录全部不可变建议经用户指出需要 Frame 更新后被修正，及公开契约与内部组织的分工。",
+      "key_sections": [
+        {
+          "title": "状态与候选字段",
+          "start": 5,
+          "end": 15,
+          "first_line": "状态：用于准备独立实现任务的讨论方案，尚未实现。下文区分已确认语义、本轮确认的可变性方向，以及仍需确认的接口细节；不是实现授权。"
+        },
+        {
+          "title": "构造、引用与可变性",
+          "start": 31,
+          "end": 49,
+          "first_line": "## 构造、引用与可变性"
+        },
+        {
+          "title": "首次交付与验收",
+          "start": 68,
+          "end": 78,
+          "first_line": "## 首次交付与验收"
+        },
+        {
+          "title": "实现前还需补齐",
+          "start": 80,
+          "end": 86,
+          "first_line": "## 实现前还需补齐"
+        }
+      ],
+      "id": "M14",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "size": 6156,
+      "sha256": "102d92e6f77108736d16de8de5b99df99f6c54a645fa8ed9aae9f5df917249fc",
+      "git_status": "tracked",
+      "line_count": 86
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+      "title": "单元 2：机器人表示与读取方案",
+      "status": "已确认方向＋待具体化接口；写文档不等于执行实现。",
+      "topics": "减少重复表示、准备交接、完整一词的范围边界",
+      "reason": "保留 RobotConfig 拆分建议被修正的过程，明确“完整支持当前输入”不授权扩展全部能力，及仅依赖公开契约的执行范围。",
+      "key_sections": [
+        {
+          "title": "状态、目标与本次修正",
+          "start": 5,
+          "end": 13,
+          "first_line": "状态：整理本轮讨论及后续明确的接口方案，尚未实现。实施时先据此整理公开契约；本次文档写入不等于执行实现。依赖[基础表示公开契约](../../contracts/primitives.md)。"
+        },
+        {
+          "title": "缺失信息与默认含义",
+          "start": 48,
+          "end": 58,
+          "first_line": "## 缺失信息与默认含义"
+        },
+        {
+          "title": "实施范围与准备",
+          "start": 126,
+          "end": 132,
+          "first_line": "## 实施范围与准备"
+        }
+      ],
+      "id": "M15",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+      "size": 8849,
+      "sha256": "8048c7583006d87313e981e62412ee1524b3f737a199216682251be29b3e2274",
+      "git_status": "tracked",
+      "line_count": 132
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "title": "单元 3：场景表示、读取与统一资源管理方案",
+      "status": "已确认职责与范围＋候选签名＋未来待议接口；当时仅授权记录方案和准备判断。",
+      "topics": "修正建议、当前与未来能力分开、实现授权、验收范围",
+      "reason": "记录用户对资源归属和命名方案的调整，以及明确未来手动登记接口不应混入当前实现任务。",
+      "key_sections": [
+        {
+          "title": "状态与本轮范围",
+          "start": 5,
+          "end": 13,
+          "first_line": "状态：依据本轮讨论保存的实施前方案，尚未实现。本次仅写入方案、评估实施准备情况并提供后续任务 prompt，不开始代码实现。已确认的职责与范围按下文执行；候选字段和签名在实施开始时具体化为公开契约，不将未来接口的未决规则当作决定。"
+        },
+        {
+          "title": "本轮选择与保留方向",
+          "start": 90,
+          "end": 96,
+          "first_line": "## 本轮选择与保留方向"
+        },
+        {
+          "title": "验收与允许修改范围",
+          "start": 119,
+          "end": 135,
+          "first_line": "## 验收与允许修改范围"
+        },
+        {
+          "title": "实施准备判断",
+          "start": 137,
+          "end": 143,
+          "first_line": "## 实施准备判断"
+        }
+      ],
+      "id": "M16",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "size": 13091,
+      "sha256": "b2bffa810f4448c606a7599730ad7f134b0bb80ed06d199df929a20fec8a3158",
+      "git_status": "tracked",
+      "line_count": 143
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+      "title": "单元 4—6 自主决策记录",
+      "status": "已作出的探索性 agent 决定；明确不表示用户接受设计，关键缺口交同一决策者复议。",
+      "topics": "决策与实现分离、信息包、备选理由、权限归属、交接污染",
+      "reason": "保存自主试验的完整决定、排除方案和返回讨论条件；D6-4 记录内部测试断言被转述进入上下文，是后续停止事件的来源。",
+      "key_sections": [
+        {
+          "title": "状态与信息包边界",
+          "start": 3,
+          "end": 11,
+          "first_line": "日期：2026-09-30。状态：探索性实现决定；由独立决策 agent 作出，**不表示用户接受这些设计**。后续关键契约问题回到同一决策 agent 复议。"
+        },
+        {
+          "title": "D4-1 及阅读记录",
+          "start": 13,
+          "end": 37,
+          "first_line": "## D4-1：独立多维分布表示"
+        },
+        {
+          "title": "D6-1 资源补丁分工",
+          "start": 39,
+          "end": 47,
+          "first_line": "## D6-1：先补公开资源快照"
+        },
+        {
+          "title": "D5-3 名称消歧",
+          "start": 140,
+          "end": 146,
+          "first_line": "## D5-3：mean 的 configuration 名称消歧"
+        },
+        {
+          "title": "D6-4 内部测试信息来源与限域维护",
+          "start": 148,
+          "end": 160,
+          "first_line": "## D6-4：既有真实样例测试的单字符串维护"
+        }
+      ],
+      "id": "M17",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+      "size": 23746,
+      "sha256": "558fdd15d3a8c0beba07e04ed765846bc3badd7c0acfd8b907a7f37f07bd5a5e",
+      "git_status": "tracked",
+      "line_count": 160
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+      "title": "单元 5 公开交接包",
+      "status": "历史交接材料；摘自探索性 agent 决定，不代表用户最终接受。",
+      "topics": "过滤信息包、公开契约、独立上下文、复议结果",
+      "reason": "与完整决定及中止记录配对，保留修复阅读边界后实际提供给新上下文的信息包，而不只保留事后总结。",
+      "key_sections": [
+        {
+          "title": "交接用途与状态",
+          "start": 1,
+          "end": 3,
+          "first_line": "# 单元 5 公开交接包"
+        },
+        {
+          "title": "D5-1 与 D5-2",
+          "start": 5,
+          "end": 44,
+          "first_line": "## D5-1：保留 YAML，公开统一作用关联"
+        },
+        {
+          "title": "D5-3 复议及边界补充",
+          "start": 47,
+          "end": 56,
+          "first_line": "## D5-3：mean 的 configuration 名称消歧"
+        }
+      ],
+      "id": "M18",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+      "size": 9851,
+      "sha256": "15606137fe9bc7b2bd327c3cbc7c359c48c241d32008bd4d8fe7351cf8f76835",
+      "git_status": "tracked",
+      "line_count": 56
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+      "title": "单元 6 公开交接包",
+      "status": "历史交接材料；探索性 agent 决定，最终接受未定。",
+      "topics": "职责分工、最小公开扩展、共享文档维护、迁移验收",
+      "reason": "保留过滤后的 U6 信息包及主 agent 维护共享入口的边界，可与完整决定中不应下传的 D6-4 对照。",
+      "key_sections": [
+        {
+          "title": "交接用途与主 agent 职责",
+          "start": 1,
+          "end": 3,
+          "first_line": "# 单元 6 公开交接包"
+        },
+        {
+          "title": "D6-1 补丁职责与验收",
+          "start": 5,
+          "end": 13,
+          "first_line": "## D6-1：先补公开资源快照"
+        },
+        {
+          "title": "D6-3 最小迁移与修改范围",
+          "start": 45,
+          "end": 58,
+          "first_line": "## D6-3：真实样例最小迁移与验收"
+        }
+      ],
+      "id": "M19",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+      "size": 7941,
+      "sha256": "78824363eb3198f31e746c247eaade20b2e7099814c442a926ebc1ec3d1e49a2",
+      "git_status": "tracked",
+      "line_count": 58
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-29-first-implementation-results.md",
+      "title": "首轮实现与验收结果",
+      "status": "历史实施记录；正文记载用户确认分两次提交，本轮未重验其历史测试。",
+      "topics": "环境诊断、独立预期、验证层级、阅读自述、交接",
+      "reason": "保留网络失败未被误判为版本不存在、安装验收与 zip 导入区分、同上下文不能冒充独立契约实验等具体经验。",
+      "key_sections": [
+        {
+          "title": "基线与范围",
+          "start": 3,
+          "end": 11,
+          "first_line": "日期：2026-09-29。状态：本轮实现及验收完成；用户已确认按环境和基础表示两次提交保存。未推送。"
+        },
+        {
+          "title": "环境验收与网络限制",
+          "start": 13,
+          "end": 26,
+          "first_line": "## 环境验收（先于基础表示实现）"
+        },
+        {
+          "title": "基础表示验收及限制",
+          "start": 28,
+          "end": 43,
+          "first_line": "## 基础表示验收"
+        },
+        {
+          "title": "契约是否足够、阅读范围",
+          "start": 45,
+          "end": 66,
+          "first_line": "## 契约是否足够"
+        },
+        {
+          "title": "交接",
+          "start": 68,
+          "end": 70,
+          "first_line": "## 交接"
+        }
+      ],
+      "id": "M20",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-29-first-implementation-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-first-implementation-results.md",
+      "size": 7143,
+      "sha256": "bdcb7af40a84f72355f6829bd3c43f664e69935013bf369eb628add193b5ac98",
+      "git_status": "tracked",
+      "line_count": 70
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "title": "单元 2：机器人表示与读取实现记录",
+      "status": "历史实施自述；后续已确认移除 Material，原记录保留当时结果。",
+      "topics": "保护已有修改、独立算例、测试预期纠正、依赖阅读边界",
+      "reason": "记载手工数量预期错误如何通过源 XML 独立计数修正，区分改测试预期与迁就实现，并保留后续修正链接。",
+      "key_sections": [
+        {
+          "title": "来源、后续修正与起点",
+          "start": 3,
+          "end": 9,
+          "first_line": "日期：2026-09-29。依据已确认的[单元 2 方案](../discussions/2026-09-29-unit-2-robot-model-and-reading.md)实施；本文记录实际结果，不替代公开契约。"
+        },
+        {
+          "title": "实际验证",
+          "start": 17,
+          "end": 37,
+          "first_line": "## 实际验证"
+        },
+        {
+          "title": "契约与阅读边界",
+          "start": 39,
+          "end": 47,
+          "first_line": "## 契约与阅读边界"
+        },
+        {
+          "title": "剩余边界与局部不足",
+          "start": 49,
+          "end": 56,
+          "first_line": "## 剩余边界与局部不足"
+        }
+      ],
+      "id": "M21",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "size": 7142,
+      "sha256": "6a5a042c4fefbcf723dc0ce9aefa0c5d3a128c9a4c6614b73f9bf861965f7cb7",
+      "git_status": "tracked",
+      "line_count": 56
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-remove-material-support.md",
+      "title": "暂时移除 Material 支持",
+      "status": "用户已确认的接口收缩＋历史执行结果；授权仅覆盖此次删减。",
+      "topics": "审查后收缩范围、避免过度实现、旧记录不覆盖",
+      "reason": "独立审查发现需求依据不足，用户确认删除；记录接口变化、测试调整与保留原历史的做法。",
+      "key_sections": [
+        {
+          "title": "原因与变更",
+          "start": 3,
+          "end": 11,
+          "first_line": "日期：2026-09-30。状态：按用户确认完成代码修改，尚未提交或推送。"
+        },
+        {
+          "title": "验证与边界",
+          "start": 13,
+          "end": 19,
+          "first_line": "## 验证与边界"
+        }
+      ],
+      "id": "M22",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-remove-material-support.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-remove-material-support.md",
+      "size": 2182,
+      "sha256": "b3cef66c4d5d1f2c4d6059caf74e5c4bf7ca14cf3d2d1701b614104dc33232d1",
+      "git_status": "tracked",
+      "line_count": 19
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "title": "单元 3：场景与统一资源管理实施记录",
+      "status": "历史实施自述；以当次授权和公开方案为依据，原方案不改写为结果。",
+      "topics": "先定测试目的、错误预期纠正、源文件保护、阅读与时间统计",
+      "reason": "给出独立测试依据、缓存预期错误与实现缺陷的不同处理，记录已有变更保护及无法细分的混合时间。",
+      "key_sections": [
+        {
+          "title": "完成范围与原有修改保护",
+          "start": 3,
+          "end": 14,
+          "first_line": "日期：2026-09-30。依据[实施前方案](../discussions/2026-09-30-unit-3-scene-and-resource-context.md)及用户本次代码、测试、必要文档授权。原方案保留，不改写为结果。"
+        },
+        {
+          "title": "测试目的与依据",
+          "start": 16,
+          "end": 28,
+          "first_line": "## 测试目的与依据"
+        },
+        {
+          "title": "实际结果与失败处理",
+          "start": 30,
+          "end": 49,
+          "first_line": "## 实际结果"
+        },
+        {
+          "title": "阅读范围与工具边界",
+          "start": 51,
+          "end": 67,
+          "first_line": "## 阅读范围与工具边界"
+        },
+        {
+          "title": "用时与 token、契约限制",
+          "start": 69,
+          "end": 86,
+          "first_line": "## 用时与 token"
+        }
+      ],
+      "id": "M23",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "size": 10940,
+      "sha256": "8a0d3b17ad6d7ca72b412daf7b0498359ba7d10c7f63ec95e9eaf5e61fd5f9f4",
+      "git_status": "tracked",
+      "line_count": 86
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "title": "单元 4–6 自主实现试验",
+      "status": "历史探索性实施与汇总；原文明示最终设计是否接受仍由用户决定。",
+      "topics": "独立上下文、决定先行、失败重启、集成、证据归属、计量",
+      "reason": "保存完整试验分工、U5 中止与重启、局部修复回交原 agent、主 agent 独立集成及用量统计限制。",
+      "key_sections": [
+        {
+          "title": "起点与边界、初始验证",
+          "start": 3,
+          "end": 19,
+          "first_line": "状态：实现、最终验收与记录完成。用户授权范围内的探索性实现；不表示用户接受最终设计。"
+        },
+        {
+          "title": "任务与决定入口",
+          "start": 21,
+          "end": 32,
+          "first_line": "## 任务与决定入口"
+        },
+        {
+          "title": "集成测试目的及最终验收",
+          "start": 34,
+          "end": 61,
+          "first_line": "## 主 agent 集成测试目的（编写前）"
+        },
+        {
+          "title": "结果、决定与限制",
+          "start": 63,
+          "end": 69,
+          "first_line": "## 结果、决定与限制"
+        },
+        {
+          "title": "用量与计时、本地交付",
+          "start": 71,
+          "end": 93,
+          "first_line": "## 用量与计时"
+        }
+      ],
+      "id": "M24",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "size": 12357,
+      "sha256": "a8b2a9a519d0455a178c3d78bc141259ed66c2604ee90a596c015fcb7a0ec1f6",
+      "git_status": "tracked",
+      "line_count": 93
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+      "title": "ResourceContext 公开快照实施记录",
+      "status": "历史探索性补丁；不表示最终设计接受，协调者基线不是子任务独立证据。",
+      "topics": "专属修改范围、公开接口补齐、测试依据、工具回退",
+      "reason": "展示由模块所属 agent 补充公开能力、后续模块仅消费契约的具体做法，并如实保留工具截断与计时缺口。",
+      "key_sections": [
+        {
+          "title": "范围与测试目的",
+          "start": 3,
+          "end": 11,
+          "first_line": "日期：2026-09-30。状态：按自主决定 D6-1 进行的探索性补丁，不表示用户最终接受设计。"
+        },
+        {
+          "title": "执行结果与契约判断",
+          "start": 13,
+          "end": 19,
+          "first_line": "## 执行结果"
+        },
+        {
+          "title": "实际阅读与工具边界",
+          "start": 21,
+          "end": 27,
+          "first_line": "## 实际阅读与工具边界"
+        },
+        {
+          "title": "时间与用量",
+          "start": 29,
+          "end": 33,
+          "first_line": "## 时间与用量"
+        }
+      ],
+      "id": "M25",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+      "size": 4761,
+      "sha256": "47814e0bf336b6190fb41ebee72e646cf83f84e16e3efa9c89a3835a6bc439e9",
+      "git_status": "tracked",
+      "line_count": 33
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-4-results.md",
+      "title": "单元 4：分布表示实施记录",
+      "status": "历史探索性实现；D4-1 非用户最终接受的设计。",
+      "topics": "独立预期、局部职责、有限验证结论、交接证据",
+      "reason": "专属实现与测试独立完成，明确协调者报告不算自身重验、有限 I/O 检查非形式化证明、参数验收非采样验收。",
+      "key_sections": [
+        {
+          "title": "授权状态与完成内容",
+          "start": 3,
+          "end": 12,
+          "first_line": "日期：2026-09-30。任务标识：`/root/unit4_distributions`；协调：`/root`。分支实际核对为 `codex/autonomous-units-4-6`。"
+        },
+        {
+          "title": "测试目的与独立依据",
+          "start": 14,
+          "end": 22,
+          "first_line": "## 测试目的与独立依据"
+        },
+        {
+          "title": "实际验证与交接归属",
+          "start": 24,
+          "end": 35,
+          "first_line": "## 实际验证"
+        },
+        {
+          "title": "阅读范围、时间与未决项",
+          "start": 37,
+          "end": 61,
+          "first_line": "## 阅读范围与工具"
+        }
+      ],
+      "id": "M26",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-4-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-4-results.md",
+      "size": 5764,
+      "sha256": "13752190fc4b37ae2339bb699156006e8767d6c5cc43928311607319feb3f5f4",
+      "git_status": "tracked",
+      "line_count": 61
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+      "title": "单元 5 首个实现上下文中止记录",
+      "status": "历史失败／中止记录；没有代码或测试结果，契约草稿仍待核对。",
+      "topics": "意外信息越界、主动报告、停止与重新隔离、诚实计时",
+      "reason": "保存未主动打开依赖文件却从允许材料接收到内部断言的事实，明确不能声称忘掉信息或仍满足纯公开隔离。",
+      "key_sections": [
+        {
+          "title": "实际产物与停止原因",
+          "start": 3,
+          "end": 9,
+          "first_line": "日期：2026-09-30；分支 `codex/autonomous-units-4-6`。本记录仅描述 `/root/unit5_generation` 首个上下文；后续独立上下文的实施验收另行记录或追加并明确作者阶段。"
+        },
+        {
+          "title": "实际阅读",
+          "start": 11,
+          "end": 15,
+          "first_line": "## 实际阅读"
+        },
+        {
+          "title": "时间、用量与未完成边界",
+          "start": 17,
+          "end": 21,
+          "first_line": "## 时间、用量与边界"
+        }
+      ],
+      "id": "M27",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+      "size": 2842,
+      "sha256": "acfbfe7f9988697ff4a51640cf09927db53379a1c60fd83b51925407cc7e406b",
+      "git_status": "tracked",
+      "line_count": 21
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-5-results.md",
+      "title": "单元 5：Generation 独立实现与验证",
+      "status": "历史重启后的探索性实施；最终设计接受未定，隔离状况为 agent 自述。",
+      "topics": "干净上下文交接、独立测试、缺陷回修、检查范围诚实",
+      "reason": "记录不继承停止上下文、重写公开草稿、测试后修正自身错误及 diff 检查不覆盖未暂存新增文件的限制。",
+      "key_sections": [
+        {
+          "title": "新上下文与完成范围",
+          "start": 3,
+          "end": 9,
+          "first_line": "本轮为用户授权的探索性自主试验，不表示最终设计接受。实现 agent 从过滤后的[公开交接包](../discussions/2026-09-30-unit-5-public-handoff.md)独立实施 D5-1/2/3；没有继承先前停止 agent 的实现或测试，未读取其记录。主 agent 告知原 `generation.md` 仅为公开契约草稿，本 agent 按交接包重新编写，未读取该草稿。"
+        },
+        {
+          "title": "测试目的、结果及局限",
+          "start": 11,
+          "end": 29,
+          "first_line": "## 测试目的、依据与结果"
+        },
+        {
+          "title": "读取边界与用量",
+          "start": 31,
+          "end": 44,
+          "first_line": "## 读取边界与用量"
+        },
+        {
+          "title": "契约与局限",
+          "start": 46,
+          "end": 48,
+          "first_line": "## 契约与局限"
+        }
+      ],
+      "id": "M28",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-results.md",
+      "size": 6382,
+      "sha256": "42dfd615cc10eda13793cf144073a7dab6f17680ac76169c84fac3520451c419",
+      "git_status": "tracked",
+      "line_count": 48
+    },
+    {
+      "repository": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-6-results.md",
+      "title": "单元 6：InputBundle 实施与验收",
+      "status": "历史探索性实施；主 agent 汇总测试属于转述，不能算本 agent 独立验证。",
+      "topics": "共享文档责任、公开声明阅读、迁移最小化、测试目的与计时",
+      "reason": "保存 U6 的修改边界、精确样例迁移、自审补测及仅取公开声明的工具使用经验，明确执行依赖不等于读源码。",
+      "key_sections": [
+        {
+          "title": "完成范围与共享入口责任",
+          "start": 3,
+          "end": 13,
+          "first_line": "本次是用户授权的探索性自主试验，依据[单元 6 公开交接包](../discussions/2026-09-30-unit-6-public-handoff.md)实施，不表示用户最终接受 D6 设计。单元 6 由独立实现 agent 完成；没有提交或推送。"
+        },
+        {
+          "title": "测试目的与依据",
+          "start": 15,
+          "end": 21,
+          "first_line": "## 测试目的与依据"
+        },
+        {
+          "title": "实际结果及归属",
+          "start": 23,
+          "end": 38,
+          "first_line": "## 实际结果"
+        },
+        {
+          "title": "契约、阅读与工具",
+          "start": 40,
+          "end": 54,
+          "first_line": "## 契约、阅读与工具"
+        },
+        {
+          "title": "用时与用量",
+          "start": 56,
+          "end": 64,
+          "first_line": "## 用时与用量"
+        }
+      ],
+      "id": "M29",
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-6-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-6-results.md",
+      "size": 6815,
+      "sha256": "14e99891461230a3bf340c75bc58407887d0880298e26e279121d5894e5af876",
+      "git_status": "tracked",
+      "line_count": 64
+    }
+  ]
+}

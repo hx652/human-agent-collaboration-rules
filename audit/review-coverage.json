@@ -1,0 +1,2524 @@
+{
+  "generated_at_utc": "2026-10-07T10:56:22.647533+00:00",
+  "scope": "two current source workspaces only; hidden/untracked/ignored included; .git excluded",
+  "method": [
+    "File inventory and SHA-256 baseline for every regular source file outside .git.",
+    "All 79 Markdown paths and headings reviewed; selected files read in full; excluded files reviewed at the granularity recorded below.",
+    "Case-insensitive text relevance search includes hidden and ignored files. Keyword presence is only a triage signal, not selection by itself.",
+    "Binary and generated assets judged by recorded file role; no PDF full-text, image, binary decoding, source-script execution, Git-history or external-web review."
+  ],
+  "query": "agent|AGENTS|协作|用户|确认|自主|复盘|沟通|授权|拍板|回退|承诺|主观|工作流|讨论|建议|教训",
+  "repositories": [
+    {
+      "name": "research-process",
+      "source_root": "/home/fainic/data/research-process",
+      "inventory_files": 53,
+      "markdown_files": 33,
+      "included_files": 20,
+      "keyword_matched_files": [
+        ".obsidian/workspace.json",
+        "AGENTS.md",
+        "README.md",
+        "assets/cube-complex/01-path-network.svg",
+        "assets/cube-complex/02-three-coordination-cards.svg",
+        "assets/cube-complex/03-corresponding-boundaries.svg",
+        "assets/cube-complex/04-glued-cards.svg",
+        "assets/cube-complex/05-cross-card-route.svg",
+        "assets/cube-complex/README.md",
+        "assets/path-collision-equivalence/README.md",
+        "assets/path-collision-equivalence/index.html",
+        "experiments/README.md",
+        "inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+        "inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+        "inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+        "inbox/2026-09-09-coordination-space-reading-guide.md",
+        "inbox/2026-09-09-multi-arm-research-focus.md",
+        "inbox/2026-09-15-cube-complex-understanding.md",
+        "inbox/2026-09-16-generator-scene-and-target-representation.md",
+        "inbox/2026-09-17-generator-input-output-format.md",
+        "inbox/2026-09-18-agent-collaborative-development-research.md",
+        "inbox/2026-09-18-evolving-design-and-best-practices.md",
+        "inbox/2026-09-18-generator-input-output-format.md",
+        "inbox/README.md",
+        "journal/2026-09-07-record-organization.md",
+        "journal/2026-09-07-starting-point.md",
+        "journal/2026-09-15-research-understanding-and-direction.md",
+        "overview.md",
+        "projects/dataset-generator/README.md",
+        "projects/stop-n-go/README.md",
+        "references/README.md",
+        "references/lavalle-planning-algorithms-7-2-multiple-robots.md",
+        "references/stac-reading-notes.md",
+        "state.md"
+      ],
+      "files": [
+        {
+          "path": ".gitignore",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "忽略模式配置；本轮已越过忽略规则清点文件，不将纯路径模式作为单独协作原文。"
+        },
+        {
+          "path": ".obsidian/app.json",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "Obsidian 编辑器设置与界面状态；workspace 中的 agent 关键词命中为已打开笔记路径，不是新协作内容。"
+        },
+        {
+          "path": ".obsidian/appearance.json",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "Obsidian 编辑器设置与界面状态；workspace 中的 agent 关键词命中为已打开笔记路径，不是新协作内容。"
+        },
+        {
+          "path": ".obsidian/core-plugins.json",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "Obsidian 编辑器设置与界面状态；workspace 中的 agent 关键词命中为已打开笔记路径，不是新协作内容。"
+        },
+        {
+          "path": ".obsidian/graph.json",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "Obsidian 编辑器设置与界面状态；workspace 中的 agent 关键词命中为已打开笔记路径，不是新协作内容。"
+        },
+        {
+          "path": ".obsidian/workspace.json",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": true,
+          "reason": "Obsidian 编辑器设置与界面状态；workspace 中的 agent 关键词命中为已打开笔记路径，不是新协作内容。"
+        },
+        {
+          "path": ".serena/.gitignore",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "Serena 默认配置、空本机覆盖或二进制符号缓存；配置未发现自定义 initial_prompt，不执行或反序列化缓存。"
+        },
+        {
+          "path": ".serena/project.local.yml",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "Serena 默认配置、空本机覆盖或二进制符号缓存；配置未发现自定义 initial_prompt，不执行或反序列化缓存。"
+        },
+        {
+          "path": ".serena/project.yml",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "Serena 默认配置、空本机覆盖或二进制符号缓存；配置未发现自定义 initial_prompt，不执行或反序列化缓存。"
+        },
+        {
+          "path": "AGENTS.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "直接记录长期协作的入口、写入边界、沟通方式及资料组织，是本轮原始约定材料。"
+        },
+        {
+          "path": "README.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "说明记录既服务后续协作，也保留过程本身；给出完整使用循环及按需拆分条件。"
+        },
+        {
+          "path": "assets/README.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": false,
+          "reason": "保存长时协作所需的附件位置、生成源、版本与链接检查约定，避免只留会话临时产物。"
+        },
+        {
+          "path": "assets/cube-complex/01-path-network.svg",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": true,
+          "reason": "领域教学插图、交互展示源文件或导出图片；协作过程保存在已收录文字记录，未为依赖闭包带入图形／代码。"
+        },
+        {
+          "path": "assets/cube-complex/02-three-coordination-cards.svg",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": true,
+          "reason": "领域教学插图、交互展示源文件或导出图片；协作过程保存在已收录文字记录，未为依赖闭包带入图形／代码。"
+        },
+        {
+          "path": "assets/cube-complex/03-corresponding-boundaries.svg",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": true,
+          "reason": "领域教学插图、交互展示源文件或导出图片；协作过程保存在已收录文字记录，未为依赖闭包带入图形／代码。"
+        },
+        {
+          "path": "assets/cube-complex/04-glued-cards.svg",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": true,
+          "reason": "领域教学插图、交互展示源文件或导出图片；协作过程保存在已收录文字记录，未为依赖闭包带入图形／代码。"
+        },
+        {
+          "path": "assets/cube-complex/05-cross-card-route.svg",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": true,
+          "reason": "领域教学插图、交互展示源文件或导出图片；协作过程保存在已收录文字记录，未为依赖闭包带入图形／代码。"
+        },
+        {
+          "path": "assets/cube-complex/README.md",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "已阅读全文。主要为教学插图内容、生成命令和几何限制；通用资源协作约定已收录 assets/README.md，原话与 agent 补充的共同写作证据已收录相关 inbox 笔记，不为图像依赖闭包扩展集合。"
+        },
+        {
+          "path": "assets/cube-complex/draw_figures.py",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "领域教学插图、交互展示源文件或导出图片；协作过程保存在已收录文字记录，未为依赖闭包带入图形／代码。"
+        },
+        {
+          "path": "assets/path-collision-equivalence/README.md",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "已阅读全文。主要为圆盘机器人教学页面说明、计算与交互验证；未呈现独立的协作决策或复盘，资源维护一般约定已另收录。"
+        },
+        {
+          "path": "assets/path-collision-equivalence/exports/preview.png",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "领域教学插图、交互展示源文件或导出图片；协作过程保存在已收录文字记录，未为依赖闭包带入图形／代码。"
+        },
+        {
+          "path": "assets/path-collision-equivalence/exports/three-robots-cube.png",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "领域教学插图、交互展示源文件或导出图片；协作过程保存在已收录文字记录，未为依赖闭包带入图形／代码。"
+        },
+        {
+          "path": "assets/path-collision-equivalence/exports/three-robots-preview.png",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "领域教学插图、交互展示源文件或导出图片；协作过程保存在已收录文字记录，未为依赖闭包带入图形／代码。"
+        },
+        {
+          "path": "assets/path-collision-equivalence/index.html",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": true,
+          "reason": "领域教学插图、交互展示源文件或导出图片；协作过程保存在已收录文字记录，未为依赖闭包带入图形／代码。"
+        },
+        {
+          "path": "assets/path-collision-equivalence/three-robots.js",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "领域教学插图、交互展示源文件或导出图片；协作过程保存在已收录文字记录，未为依赖闭包带入图形／代码。"
+        },
+        {
+          "path": "experiments/README.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "给出在实际实验发生后再记录、按证据区分观察和解释的方式，可用于后续协作规则提炼。"
+        },
+        {
+          "path": "inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "虽含领域背景，仍有明确协作经验：将讨论后认识与用户原始想法区分，标明 agent 构造例子及未获确认的新问题。"
+        },
+        {
+          "path": "inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "记录 agent 对“暴力搜索、不理解时序”的独立纠正，以及不能将文献支持误写为已有实现缺陷的边界。"
+        },
+        {
+          "path": "inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "将用户直觉、agent 审查和实验能证明的范围分别记录，是避免顺从式研究与提前定结论的具体案例。"
+        },
+        {
+          "path": "inbox/2026-09-09-coordination-space-reading-guide.md",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "审阅标题、状态、章节和协作相关段落。主体为协调空间文献导览及算法启发；虽谨慎标注阅读范围与未确认建议，本轮不将技术文献资料全收为协作经验。"
+        },
+        {
+          "path": "inbox/2026-09-09-multi-arm-research-focus.md",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "已阅读全文。研究问题范围与待选方向，主要为业务研究焦点，没有单独的协作方式或实际纠正事件。"
+        },
+        {
+          "path": "inbox/2026-09-14-todos-and-draft.md",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": false,
+          "reason": "已阅读全文。简短个人阅读待办及拟写草稿，不是已采用的协作流程或已发生复盘。"
+        },
+        {
+          "path": "inbox/2026-09-15-cube-complex-understanding.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "明确并列用户原始表述、补充表述与 agent 完善说明，展示如何纠正理解而不覆盖原始过程。"
+        },
+        {
+          "path": "inbox/2026-09-16-generator-scene-and-target-representation.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "原文直接记录用户要求补充“尚未确定”，却被 agent 误解为要求补齐方案的事件，是协作范围误读的具体材料。"
+        },
+        {
+          "path": "inbox/2026-09-17-generator-input-output-format.md",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "审阅状态、全部标题和相关叙述。主要为输入输出字段、样例和未决业务语义；关于不把未知项补成方案的明确协作事件已保存在 09-16 笔记。"
+        },
+        {
+          "path": "inbox/2026-09-18-agent-collaborative-development-research.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "直接围绕人与 agent 长期开发协作展开；包含可迁移经验的候选积累方法与研究适用边界，不能全部提升为既定规则。"
+        },
+        {
+          "path": "inbox/2026-09-18-evolving-design-and-best-practices.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "保留用户原话及获认可的补充，清楚区分原则、工程偏好和探索表达，防止把例外一律审批化。"
+        },
+        {
+          "path": "inbox/2026-09-18-generator-input-output-format.md",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "审阅状态、全部标题和相关叙述。主要为输入输出方案技术内容及前版关系；保留历史的做法已由协作约定和具体纠正记录覆盖，本轮不为技术版本链全收字段方案。"
+        },
+        {
+          "path": "inbox/README.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "记录零散想法不强制变成任务或清空，并规定整理、确认与成熟后关联方式。"
+        },
+        {
+          "path": "journal.md",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": false,
+          "reason": "零字节文件，无原始协作内容。"
+        },
+        {
+          "path": "journal/2026-09-07-record-organization.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "既记录单文件与目录的权衡，也说明何时再拆分，以及未创建仓库时不虚构迁移过程。"
+        },
+        {
+          "path": "journal/2026-09-07-starting-point.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "保存第一版工作流的动机、确认方式及避免空想阻碍推进的个人经历，便于追溯约定来源。"
+        },
+        {
+          "path": "journal/2026-09-15-research-understanding-and-direction.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "原始叙述和标明 agent 的补充并存，明确修正“只有 start/goal 所以大概率无法求解”等尚未成立的判断。"
+        },
+        {
+          "path": "local-paths.md",
+          "git_status": "ignored",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": false,
+          "reason": "文件虽被忽略仍有协作相关内容：设备路径分别维护，云端不能默认访问；其中路径尚未填写。"
+        },
+        {
+          "path": "overview.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "保留先跑通再复盘的工程取向，并限定个人提醒的含义，避免后续提炼成普遍断言。"
+        },
+        {
+          "path": "projects/README.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": false,
+          "reason": "明确研究主线、项目入口、原代码仓库和设备路径的分工，减少跨仓库重复维护。"
+        },
+        {
+          "path": "projects/dataset-generator/README.md",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "已阅读全文。项目占位入口、旧进度及业务待议项；通用项目组织方式已收录 projects/README.md。"
+        },
+        {
+          "path": "projects/stop-n-go/README.md",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "已阅读全文。项目占位入口、复现状态和验证待补说明；证据边界一般约定已收录 AGENTS、实验入口和独立审查实例。"
+        },
+        {
+          "path": "references/README.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "其维护段明确区分论文主张、个人理解和延伸想法；作为研究协作中的记录边界材料收录。"
+        },
+        {
+          "path": "references/lavalle-planning-algorithms-7-2-multiple-robots.md",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "审阅标题、章节与相关段落。教材阅读导航与教学例子入口；共同写作的原始理解和完善过程已按原文件收录 inbox 记录。"
+        },
+        {
+          "path": "references/stac-reading-notes.md",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "审阅标题、来源、章节与 agent 署名及证据边界段落。主体为论文算法与实验技术解读；未将全文的署名来源标注本身当作独立协作复盘。"
+        },
+        {
+          "path": "references/stop-n-go-reading-notes.md",
+          "git_status": "untracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": false,
+          "reason": "审阅全文结构与来源。论文信息及待填写的阅读／个人理解入口，无实质协作过程。"
+        },
+        {
+          "path": "state.md",
+          "git_status": "untracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "保存早期工作流状态及待明确事项，可与后续实施记录对照状态滞后；不是今日能力清单。"
+        }
+      ]
+    },
+    {
+      "name": "multiarm-problem-gen",
+      "source_root": "/home/fainic/data/multiarm-problem-gen",
+      "inventory_files": 215,
+      "markdown_files": 46,
+      "included_files": 29,
+      "keyword_matched_files": [
+        "AGENTS.md",
+        "README.md",
+        "docker/README.md",
+        "docs/README.md",
+        "docs/contracts/distributions.md",
+        "docs/contracts/generation.md",
+        "docs/contracts/input-bundle.md",
+        "docs/contracts/primitives.md",
+        "docs/contracts/resources.md",
+        "docs/contracts/robot-model.md",
+        "docs/contracts/scene.md",
+        "docs/design.md",
+        "docs/git-workflow.md",
+        "docs/notes/discussions/2026-09-18-first-input-example.md",
+        "docs/notes/discussions/2026-09-18-input-output-format.md",
+        "docs/notes/discussions/2026-09-18-starting-point.md",
+        "docs/notes/discussions/2026-09-21-output-validity-semantics.md",
+        "docs/notes/discussions/2026-09-22-input-domain-representations.md",
+        "docs/notes/discussions/2026-09-23-generation-distributions.md",
+        "docs/notes/discussions/2026-09-23-input-bundle.md",
+        "docs/notes/discussions/2026-09-28-input-reading-flow.md",
+        "docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+        "docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+        "docs/notes/discussions/2026-09-29-input-implementation-units.md",
+        "docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+        "docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+        "docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+        "docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+        "docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+        "docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+        "docs/notes/implementation/2026-09-29-first-implementation-results.md",
+        "docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+        "docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+        "docs/notes/implementation/2026-09-30-remove-material-support.md",
+        "docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+        "docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+        "docs/notes/implementation/2026-09-30-unit-4-results.md",
+        "docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+        "docs/notes/implementation/2026-09-30-unit-5-results.md",
+        "docs/notes/implementation/2026-09-30-unit-6-results.md",
+        "tools/baseline_validation/ur7e_table/README.md",
+        "tools/scene_preview/vendor/three.module.js"
+      ],
+      "files": [
+        {
+          "path": ".gitignore",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "忽略模式配置；本轮已越过忽略规则清点文件，不将纯路径模式作为单独协作原文。"
+        },
+        {
+          "path": ".serena/.gitignore",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "Serena 默认配置、空本机覆盖或二进制符号缓存；配置未发现自定义 initial_prompt，不执行或反序列化缓存。"
+        },
+        {
+          "path": ".serena/cache/python/document_symbols.pkl",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "Serena 默认配置、空本机覆盖或二进制符号缓存；配置未发现自定义 initial_prompt，不执行或反序列化缓存。"
+        },
+        {
+          "path": ".serena/cache/python/raw_document_symbols.pkl",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "Serena 默认配置、空本机覆盖或二进制符号缓存；配置未发现自定义 initial_prompt，不执行或反序列化缓存。"
+        },
+        {
+          "path": ".serena/project.local.yml",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "Serena 默认配置、空本机覆盖或二进制符号缓存；配置未发现自定义 initial_prompt，不执行或反序列化缓存。"
+        },
+        {
+          "path": ".serena/project.yml",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "Serena 默认配置、空本机覆盖或二进制符号缓存；配置未发现自定义 initial_prompt，不执行或反序列化缓存。"
+        },
+        {
+          "path": "AGENTS.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "完整记录人与 agent 分工及实现隔离要求；既含讨论边界，也明确已授权普通实现不重复审批。"
+        },
+        {
+          "path": "MotionBenchMaker.pdf",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "机器人运动规划业务参考论文；仅根据文件角色及仓库说明排除，未解析 PDF 全文。"
+        },
+        {
+          "path": "README.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "说明项目不仅产出代码，还支持用户参与架构与管理复杂度，明确研究记录与代码记录的边界。"
+        },
+        {
+          "path": "build/lib/multiarm_problem_gen/__init__.py",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "构建产物、包元数据或可再生成预览缓存；没有独立协作约定或经验记录。"
+        },
+        {
+          "path": "build/lib/multiarm_problem_gen/primitives/__init__.py",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "构建产物、包元数据或可再生成预览缓存；没有独立协作约定或经验记录。"
+        },
+        {
+          "path": "build/lib/multiarm_problem_gen/primitives/_representations.py",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "构建产物、包元数据或可再生成预览缓存；没有独立协作约定或经验记录。"
+        },
+        {
+          "path": "docker/Dockerfile",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "docker/Dockerfile.dockerignore",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "docker/README.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "是协作执行入口，明确非空测试、容器就绪、宿主环境与任务阅读边界，并保存实际环境限制的处理条件。"
+        },
+        {
+          "path": "docker/check_environment.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "docker/compose.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "docs/README.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "规定按内容目的区分讨论与实施，不把已确认方案视为执行结果，也不将候选材料变成 agent 指令。"
+        },
+        {
+          "path": "docs/contracts/distributions.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "审阅标题、状态、全部章节及相关文字。具体分布 API 与参数行为契约；探索授权状态和测试经验已由决定与实施记录完整收录。"
+        },
+        {
+          "path": "docs/contracts/generation.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "审阅标题、状态、全部章节及相关文字。业务接口和 YAML 行为规范；协作交接的实际信息包及独立实现记录已完整收录。"
+        },
+        {
+          "path": "docs/contracts/input-bundle.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "审阅标题、状态、全部章节及相关文字。输入包 API、身份和发现规则；协作分工与契约边界经验已收录公开交接包和实施记录。"
+        },
+        {
+          "path": "docs/contracts/primitives.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "审阅标题、状态、全部章节及相关文字。基础表示的数值、对象行为及 API；实现前如何具体化契约和纠正设计的过程已收录方案／复盘。"
+        },
+        {
+          "path": "docs/contracts/resources.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "审阅入口与协作关键词。具体资源读取／共享 API；补齐公开能力的决策、职责和复盘已收录，不全量带入业务契约。"
+        },
+        {
+          "path": "docs/contracts/robot-model.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "审阅标题、来源、全部章节及相关文字。机器人字段、缺省语义和校验规范；相关人员分工和独立测试经验在已收录方案与实施记录中。"
+        },
+        {
+          "path": "docs/contracts/scene.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "审阅标题、来源、全部章节及相关文字。场景对象与输入字段 API；候选与确认的分界及实现经验已完整收录方案和复盘。"
+        },
+        {
+          "path": "docs/design.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "同一文件保留“尚未实现”原方案并追加已完成说明，是长期记录不覆盖历史、同时防止状态误读的实例。"
+        },
+        {
+          "path": "docs/git-workflow.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "保存有价值尝试、主线接受状态、提交建议与授权分离、英文说明和语义集成检查的具体约定。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-18-first-input-example.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "从“最小但完整”到可视化暴露三个问题，留下用户提问、agent 独立判断和后续修正，展示渐进设计的实际过程。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-18-input-output-format.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "审阅状态、全部标题和相关叙述。由研究仓库迁入的技术字段方案；跨仓库分工在已收录初始化记录中说明，不为来源迁移关系全收业务格式。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-18-starting-point.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "记录实际起点与用户决定，保存初始组织选择及不急于把单次经验变成通用规则的背景。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-21-output-validity-semantics.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "已阅读全文。确认的是业务有效性语义和可达性边界；没有额外的协作流程变化或执行复盘。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-22-input-domain-representations.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "保存提前加载 mesh 的建议如何因用户质疑与有限实测改变，以及去掉多余层次的讨论，体现共同管理复杂度。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-23-generation-distributions.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "已阅读全文。主要记录分布、目标关联和分量含义的业务选择；本轮保留更直接的任务／契约交接和实现纠错材料，未全收领域讨论。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-23-input-bundle.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "已阅读全文。主要是输入包目录、发现和路径的业务方案；实际实施边界及迁移交接另有已收录材料。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-28-input-reading-flow.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "直接记录用户要求逐步说明 class 如何协作，并据此形成流程与例子；“对象协作”是代码语义，纳入依据是背后的沟通改进。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "界定环境和基础表示两部分的责任与验收，明确空测试不能算通过、方案写入不能等同执行。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "回应用户对任务划分的困惑，指出分 class 或文件本身不构成独立上下文实验。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-29-input-implementation-units.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "将可独立交付的任务与代码文件区分，说明资源接口必须提前准备、依赖不等于读内部实现。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "记录全部不可变建议经用户指出需要 Frame 更新后被修正，及公开契约与内部组织的分工。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "保留 RobotConfig 拆分建议被修正的过程，明确“完整支持当前输入”不授权扩展全部能力，及仅依赖公开契约的执行范围。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "保存自主试验的完整决定、排除方案和返回讨论条件；D6-4 记录内部测试断言被转述进入上下文，是后续停止事件的来源。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "记录用户对资源归属和命名方案的调整，以及明确未来手动登记接口不应混入当前实现任务。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "与完整决定及中止记录配对，保留修复阅读边界后实际提供给新上下文的信息包，而不只保留事后总结。"
+        },
+        {
+          "path": "docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "保留过滤后的 U6 信息包及主 agent 维护共享入口的边界，可与完整决定中不应下传的 D6-4 对照。"
+        },
+        {
+          "path": "docs/notes/implementation/2026-09-29-first-implementation-results.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "保留网络失败未被误判为版本不存在、安装验收与 zip 导入区分、同上下文不能冒充独立契约实验等具体经验。"
+        },
+        {
+          "path": "docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "记载手工数量预期错误如何通过源 XML 独立计数修正，区分改测试预期与迁就实现，并保留后续修正链接。"
+        },
+        {
+          "path": "docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "保存完整试验分工、U5 中止与重启、局部修复回交原 agent、主 agent 独立集成及用量统计限制。"
+        },
+        {
+          "path": "docs/notes/implementation/2026-09-30-remove-material-support.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "独立审查发现需求依据不足，用户确认删除；记录接口变化、测试调整与保留原历史的做法。"
+        },
+        {
+          "path": "docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "展示由模块所属 agent 补充公开能力、后续模块仅消费契约的具体做法，并如实保留工具截断与计时缺口。"
+        },
+        {
+          "path": "docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "给出独立测试依据、缓存预期错误与实现缺陷的不同处理，记录已有变更保护及无法细分的混合时间。"
+        },
+        {
+          "path": "docs/notes/implementation/2026-09-30-unit-4-results.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "专属实现与测试独立完成，明确协调者报告不算自身重验、有限 I/O 检查非形式化证明、参数验收非采样验收。"
+        },
+        {
+          "path": "docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "保存未主动打开依赖文件却从允许材料接收到内部断言的事实，明确不能声称忘掉信息或仍满足纯公开隔离。"
+        },
+        {
+          "path": "docs/notes/implementation/2026-09-30-unit-5-results.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "记录不继承停止上下文、重写公开草稿、测试后修正自身错误及 diff 检查不覆盖未暂存新增文件的限制。"
+        },
+        {
+          "path": "docs/notes/implementation/2026-09-30-unit-6-results.md",
+          "git_status": "tracked",
+          "selected": true,
+          "decision": "included",
+          "review": "full text",
+          "keyword_hit": true,
+          "reason": "保存 U6 的修改边界、精确样例迁移、自审补测及仅取公开声明的工具使用经验，明确执行依赖不等于读源码。"
+        },
+        {
+          "path": "examples/ur7e_table/README.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": false,
+          "reason": "已阅读全文。可搬移业务输入包的结构、运行示例与语义限制；最小迁移的授权、职责与验证经验保存在已收录试验记录。"
+        },
+        {
+          "path": "examples/ur7e_table/bundle.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/inputs/tabletop/generation.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/inputs/tabletop/scene.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/objects/ball/LICENSE",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/objects/ball/ball.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/licenses/robotiq_description/LICENSE",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/licenses/robotiq_description/LICENSE-robotiq",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/licenses/ur_description/LICENSE",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/licenses/ur_moveit_reference/LICENSE",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/left_finger.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/left_finger_tip.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/left_inner_knuckle.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/left_knuckle.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/right_finger.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/right_finger_tip.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/right_inner_knuckle.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/right_knuckle.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/robotiq_base.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/ur_to_robotiq_adapter.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/left_finger.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/left_finger_tip.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/left_inner_knuckle.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/left_knuckle.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/right_finger.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/right_finger_tip.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/right_inner_knuckle.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/right_knuckle.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/robotiq_base.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/ur_to_robotiq_adapter.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/base.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/forearm.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/shoulder.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/upperarm.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/wrist1.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/wrist2.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/wrist3.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/base.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/forearm.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/shoulder.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/upperarm.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/wrist1.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/wrist2.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/wrist3.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/robot.urdf",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/robots/ur7e_2f85/robot.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "examples/ur7e_table/resources/sources.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "pyproject.toml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen.egg-info/PKG-INFO",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "构建产物、包元数据或可再生成预览缓存；没有独立协作约定或经验记录。"
+        },
+        {
+          "path": "src/multiarm_problem_gen.egg-info/SOURCES.txt",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "构建产物、包元数据或可再生成预览缓存；没有独立协作约定或经验记录。"
+        },
+        {
+          "path": "src/multiarm_problem_gen.egg-info/dependency_links.txt",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "构建产物、包元数据或可再生成预览缓存；没有独立协作约定或经验记录。"
+        },
+        {
+          "path": "src/multiarm_problem_gen.egg-info/top_level.txt",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "构建产物、包元数据或可再生成预览缓存；没有独立协作约定或经验记录。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/__init__.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/bundles/__init__.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/bundles/_reader.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/distributions/__init__.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/generation/__init__.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/generation/_model.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/generation/_reader.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/primitives/__init__.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/primitives/_representations.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/resources.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/robots/__init__.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/robots/_model.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/robots/_reading.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/scenes/__init__.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/scenes/model.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "src/multiarm_problem_gen/scenes/reader.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/bundles/_fixtures.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/bundles/test_bundles.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/distributions/test_distributions.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/generation/test_generation.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/integration/test_bundle_acceptance.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/primitives/test_primitives.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/resources/test_resources.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/resources/test_snapshots.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/robots/fixtures/robot.urdf",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/robots/fixtures/robot.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/robots/fixtures/shape.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/robots/test_reading.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/robots/test_real_robot.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/scenes/fixtures/robot.urdf",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/scenes/fixtures/robot.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/scenes/fixtures/scene.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/scenes/fixtures/shape.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tests/scenes/test_scenes.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tmp/unit1-wheels/multiarm_problem_gen-0.1.0-py3-none-any.whl",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "构建产物、包元数据或可再生成预览缓存；没有独立协作约定或经验记录。"
+        },
+        {
+          "path": "tools/baseline_validation/ur7e_table/README.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": true,
+          "reason": "审阅全部章节及历史验证相关段落。主要为场景布局、模型参数和数值检查范围；属于业务实验说明，并非人与 agent 的协作试验。"
+        },
+        {
+          "path": "tools/baseline_validation/ur7e_table/baseline.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tools/baseline_validation/ur7e_table/check_baseline.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tools/baseline_validation/ur7e_table/validation-2026-09-18.json",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/README.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": false,
+          "reason": "已阅读全文。模型准备流程、上游快照与交付资源位置说明；主要技术维护用途，没有独立协作经验事件。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/build_model.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/reference/motionbenchmaker/LICENSE",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/reference/motionbenchmaker/scene_table.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/resources-original.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": false,
+          "reason": "已阅读全文。模型资源来源与许可的旧快照，属于业务资源溯源。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/robot.urdf.xacro",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/sources-original.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/LICENSE",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/LICENSE-robotiq",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/left_finger.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/left_finger_tip.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/left_inner_knuckle.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/left_knuckle.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/right_finger.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/right_finger_tip.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/right_inner_knuckle.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/right_knuckle.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/robotiq_base.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/ur_to_robotiq_adapter.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/left_finger.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/left_finger_tip.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/left_inner_knuckle.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/left_knuckle.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/right_finger.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/right_finger_tip.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/right_inner_knuckle.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/right_knuckle.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/robotiq_base.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/ur_to_robotiq_adapter.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/package.xml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/urdf/2f_85.ros2_control.xacro",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/urdf/2f_common.ros2_control.xacro",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/urdf/robotiq_2f_85_macro.urdf.xacro",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/urdf/ur_to_robotiq_adapter.urdf.xacro",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/LICENSE",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/README.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": false,
+          "reason": "审阅标题、结构与用途。第三方机器人描述包的构建、许可和测试说明，非用户与 agent 的本地协作材料。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/config/ur7e/default_kinematics.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/config/ur7e/joint_limits.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/config/ur7e/physical_parameters.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/config/ur7e/visual_parameters.yaml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/base.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/forearm.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/shoulder.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/upperarm.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/wrist1.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/wrist2.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/wrist3.stl",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/base.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/forearm.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/shoulder.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/upperarm.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/wrist1.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/wrist2.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/wrist3.dae",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/package.xml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/urdf/inc/ur_common.xacro",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/urdf/ur_macro.xacro",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_moveit_reference/LICENSE",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_moveit_reference/package.xml",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/model_preparation/ur7e_2f85/vendor/ur_moveit_reference/ur_macro.srdf.xacro",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/scene_preview/.gitignore",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "忽略模式配置；本轮已越过忽略规则清点文件，不将纯路径模式作为单独协作原文。"
+        },
+        {
+          "path": "tools/scene_preview/README.md",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "see per-file reason",
+          "keyword_hit": false,
+          "reason": "已阅读全文。预览原型的启动、显示与验证限制；已从设计讨论收录可视化如何暴露问题，不扩展收集整个技术使用手册。"
+        },
+        {
+          "path": "tools/scene_preview/index.html",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tools/scene_preview/preview.py",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tools/scene_preview/requirements.txt",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        },
+        {
+          "path": "tools/scene_preview/scene.json",
+          "git_status": "ignored",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "构建产物、包元数据或可再生成预览缓存；没有独立协作约定或经验记录。"
+        },
+        {
+          "path": "tools/scene_preview/vendor/LICENSE",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/scene_preview/vendor/OrbitControls.js",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/scene_preview/vendor/three.module.js",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": true,
+          "reason": "第三方资源、许可、机器人／场景输入或模型数据；属于业务技术材料，不作为协作经验全文汇集。"
+        },
+        {
+          "path": "tools/scene_preview/viewer.js",
+          "git_status": "tracked",
+          "selected": false,
+          "decision": "excluded",
+          "review": "file role and text-query triage where readable; no semantic binary review",
+          "keyword_hit": false,
+          "reason": "实现代码、业务测试／fixture、工具脚本、构建配置或资源参数；未发现需独立收录的自然语言协作记录，未执行来源脚本。"
+        }
+      ]
+    }
+  ],
+  "execution_scope_note": "执行边界说明：早期文件数量统计和 Markdown 标题枚举使用 Path.rglob，文件访问前排除了 .git 路径，但未在目录遍历前剪枝，因此会枚举 .git 目录项；没有读取、展示或使用 Git 对象内容、历史版本或其他分支材料。正式清单与最终校验改为 os.walk 并预先排除 .git。若把目录项枚举本身计作进入 .git，本轮存在这一执行偏差。"
+}
