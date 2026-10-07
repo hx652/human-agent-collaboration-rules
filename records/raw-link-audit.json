@@ -1,0 +1,1044 @@
+{
+  "method": "Markdown inline links outside fenced code; not a complete Markdown parser. Fragment targets not checked.",
+  "links": [
+    {
+      "copy": "sources/research-process/README.md",
+      "line": 11,
+      "target": "overview.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/README.md",
+      "line": 12,
+      "target": "state.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/README.md",
+      "line": 13,
+      "target": "projects/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/README.md",
+      "line": 14,
+      "target": "journal/",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/README.md",
+      "line": 15,
+      "target": "inbox/",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/README.md",
+      "line": 16,
+      "target": "experiments/",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/README.md",
+      "line": 17,
+      "target": "references/",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/README.md",
+      "line": 18,
+      "target": "assets/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/README.md",
+      "line": 19,
+      "target": "AGENTS.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/overview.md",
+      "line": 34,
+      "target": "journal/2026-09-07-starting-point.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/overview.md",
+      "line": 35,
+      "target": "journal/2026-09-07-record-organization.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/overview.md",
+      "line": 36,
+      "target": "references/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/state.md",
+      "line": 40,
+      "target": "projects/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/state.md",
+      "line": 41,
+      "target": "journal/2026-09-07-starting-point.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/state.md",
+      "line": 42,
+      "target": "journal/2026-09-07-record-organization.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/projects/README.md",
+      "line": 5,
+      "target": "stop-n-go/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/projects/README.md",
+      "line": 6,
+      "target": "dataset-generator/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/projects/dataset-generator/README.md",
+      "line": 24,
+      "target": "../stop-n-go/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/projects/stop-n-go/README.md",
+      "line": 16,
+      "target": "../dataset-generator/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/references/README.md",
+      "line": 14,
+      "target": "stop-n-go-reading-notes.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/references/README.md",
+      "line": 33,
+      "target": "lavalle-planning-algorithms-7-2-multiple-robots.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/references/README.md",
+      "line": 37,
+      "target": "stac-reading-notes.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/assets/README.md",
+      "line": 7,
+      "target": "cube-complex/README.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/assets/README.md",
+      "line": 8,
+      "target": "path-collision-equivalence/README.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+      "line": 115,
+      "target": "2026-09-07-multi-arm-query-and-temporal-coordination.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+      "line": 43,
+      "target": "2026-09-09-multi-arm-research-focus.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+      "line": 44,
+      "target": "2026-09-08-multi-arm-progress-and-coordination.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "line": 135,
+      "target": "../assets/cube-complex/README.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "line": 139,
+      "target": "../assets/cube-complex/01-path-network.svg",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "line": 143,
+      "target": "../assets/cube-complex/02-three-coordination-cards.svg",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "line": 147,
+      "target": "../assets/cube-complex/03-corresponding-boundaries.svg",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "line": 151,
+      "target": "../assets/cube-complex/04-glued-cards.svg",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "line": 155,
+      "target": "../assets/cube-complex/05-cross-card-route.svg",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "line": 15,
+      "target": "../references/stop-n-go-reading-notes.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "line": 87,
+      "target": "../inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "line": 87,
+      "target": "../inbox/2026-09-09-multi-arm-research-focus.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "line": 89,
+      "target": "../inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "line": 93,
+      "target": "../references/lavalle-planning-algorithms-7-2-multiple-robots.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "line": 93,
+      "target": "../inbox/2026-09-09-coordination-space-reading-guide.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "line": 102,
+      "target": "../references/stop-n-go-reading-notes.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "line": 103,
+      "target": "../references/stac-reading-notes.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "line": 104,
+      "target": "../references/lavalle-planning-algorithms-7-2-multiple-robots.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-18-evolving-design-and-best-practices.md",
+      "line": 55,
+      "target": "../overview.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-18-evolving-design-and-best-practices.md",
+      "line": 56,
+      "target": "2026-09-18-generator-input-output-format.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
+      "line": 19,
+      "target": "2026-09-18-evolving-design-and-best-practices.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
+      "line": 203,
+      "target": "2026-09-18-evolving-design-and-best-practices.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
+      "line": 204,
+      "target": "2026-09-18-generator-input-output-format.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
+      "line": 205,
+      "target": "../projects/dataset-generator/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/AGENTS.md",
+      "line": 7,
+      "target": "docker/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/AGENTS.md",
+      "line": 49,
+      "target": "docs/git-workflow.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "line": 9,
+      "target": "docs/design.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "line": 10,
+      "target": "docs/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "line": 11,
+      "target": "AGENTS.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "line": 25,
+      "target": "docker/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "line": 25,
+      "target": "docs/contracts/primitives.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "line": 25,
+      "target": "docs/contracts/resources.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "line": 25,
+      "target": "docs/contracts/robot-model.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "line": 25,
+      "target": "docs/contracts/scene.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "line": 25,
+      "target": "docs/contracts/distributions.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "line": 25,
+      "target": "docs/contracts/generation.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "line": 25,
+      "target": "docs/contracts/input-bundle.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "line": 25,
+      "target": "docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 7,
+      "target": "contracts/primitives.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 8,
+      "target": "contracts/resources.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 9,
+      "target": "contracts/robot-model.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 10,
+      "target": "contracts/scene.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 11,
+      "target": "contracts/distributions.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 12,
+      "target": "contracts/generation.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 13,
+      "target": "contracts/input-bundle.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 14,
+      "target": "../docker/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 15,
+      "target": "design.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 16,
+      "target": "git-workflow.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 22,
+      "target": "notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 22,
+      "target": "notes/discussions/2026-09-30-unit-5-public-handoff.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 22,
+      "target": "notes/discussions/2026-09-30-unit-6-public-handoff.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 24,
+      "target": "notes/discussions/2026-09-22-input-domain-representations.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 25,
+      "target": "notes/discussions/2026-09-23-generation-distributions.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 26,
+      "target": "notes/discussions/2026-09-23-input-bundle.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 27,
+      "target": "notes/discussions/2026-09-28-input-reading-flow.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 28,
+      "target": "notes/discussions/2026-09-29-input-implementation-units.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 29,
+      "target": "notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 30,
+      "target": "notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 31,
+      "target": "notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 32,
+      "target": "notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 33,
+      "target": "notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 34,
+      "target": "notes/discussions/2026-09-18-input-output-format.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 35,
+      "target": "notes/discussions/2026-09-21-output-validity-semantics.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 36,
+      "target": "notes/discussions/2026-09-18-first-input-example.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 37,
+      "target": "notes/discussions/2026-09-18-starting-point.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 41,
+      "target": "notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 41,
+      "target": "notes/implementation/2026-09-30-unit-4-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 41,
+      "target": "notes/implementation/2026-09-30-resource-snapshots-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 41,
+      "target": "notes/implementation/2026-09-30-unit-5-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 41,
+      "target": "notes/implementation/2026-09-30-unit-6-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 41,
+      "target": "notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 42,
+      "target": "notes/implementation/2026-09-29-first-implementation-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 43,
+      "target": "notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 44,
+      "target": "notes/implementation/2026-09-30-remove-material-support.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 45,
+      "target": "notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 49,
+      "target": "../examples/ur7e_table/README.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 50,
+      "target": "../tools/baseline_validation/ur7e_table/README.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "line": 51,
+      "target": "../tools/model_preparation/ur7e_2f85/README.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docker/README.md",
+      "line": 67,
+      "target": "../docs/notes/implementation/2026-09-29-first-implementation-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docker/README.md",
+      "line": 95,
+      "target": "../docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docker/README.md",
+      "line": 126,
+      "target": "../docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docker/README.md",
+      "line": 130,
+      "target": "../docs/contracts/input-bundle.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docker/README.md",
+      "line": 130,
+      "target": "../docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "line": 7,
+      "target": "contracts/scene.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "line": 7,
+      "target": "notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "line": 9,
+      "target": "notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "line": 9,
+      "target": "contracts/distributions.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "line": 9,
+      "target": "contracts/generation.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "line": 9,
+      "target": "contracts/input-bundle.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "line": 9,
+      "target": "contracts/resources.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "line": 40,
+      "target": "notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "line": 61,
+      "target": "notes/discussions/2026-09-18-first-input-example.md#追加问题-12-的方案",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/design.md",
+      "line": 69,
+      "target": "notes/discussions/2026-09-18-first-input-example.md#追加问题-3-的方案",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-starting-point.md",
+      "line": 27,
+      "target": "../../../../research-process/inbox/2026-09-18-generator-input-output-format.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-starting-point.md",
+      "line": 28,
+      "target": "../../../../research-process/inbox/2026-09-18-evolving-design-and-best-practices.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-starting-point.md",
+      "line": 29,
+      "target": "../../../../research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "line": 9,
+      "target": "2026-09-18-input-output-format.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "line": 62,
+      "target": "../../../examples/ur7e_table/README.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "line": 62,
+      "target": "../../../tools/scene_preview/README.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "line": 227,
+      "target": "../../../examples/ur7e_table/inputs/tabletop/generation.yaml",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "line": 235,
+      "target": "../../../examples/ur7e_table/README.md#数值检查及其范围",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-22-input-domain-representations.md",
+      "line": 103,
+      "target": "2026-09-23-generation-distributions.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "line": 56,
+      "target": "2026-09-23-input-bundle.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "line": 56,
+      "target": "2026-09-22-input-domain-representations.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "line": 56,
+      "target": "2026-09-23-generation-distributions.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-input-implementation-units.md",
+      "line": 5,
+      "target": "../implementation/2026-09-29-first-implementation-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-input-implementation-units.md",
+      "line": 20,
+      "target": "2026-09-29-implementation-unit-and-responsibility.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-input-implementation-units.md",
+      "line": 41,
+      "target": "2026-09-28-input-reading-flow.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "line": 11,
+      "target": "2026-09-28-input-reading-flow.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "line": 84,
+      "target": "2026-09-29-compose-and-unit-1-implementation.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "line": 86,
+      "target": "2026-09-29-implementation-unit-and-responsibility.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "line": 86,
+      "target": "2026-09-22-input-domain-representations.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+      "line": 5,
+      "target": "2026-09-29-unit-1-basic-representations.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+      "line": 5,
+      "target": "../../contracts/primitives.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "line": 7,
+      "target": "2026-09-29-input-implementation-units.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "line": 7,
+      "target": "2026-09-22-input-domain-representations.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "line": 7,
+      "target": "2026-09-28-input-reading-flow.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "line": 7,
+      "target": "../../contracts/primitives.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "line": 7,
+      "target": "../../contracts/resources.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "line": 7,
+      "target": "../../contracts/robot-model.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-first-implementation-results.md",
+      "line": 15,
+      "target": "../../../docker/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "line": 3,
+      "target": "../discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "line": 5,
+      "target": "2026-09-30-remove-material-support.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "line": 11,
+      "target": "../../contracts/resources.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "line": 11,
+      "target": "../../contracts/robot-model.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "line": 37,
+      "target": "../../../docker/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "line": 23,
+      "target": "../discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "line": 27,
+      "target": "2026-09-30-unit-5-preparation-stopped.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "line": 28,
+      "target": "../discussions/2026-09-30-unit-5-public-handoff.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "line": 28,
+      "target": "../discussions/2026-09-30-unit-6-public-handoff.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "line": 42,
+      "target": "../../../docker/README.md#自主试验完整输入包入口与验收",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "line": 65,
+      "target": "../../contracts/distributions.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "line": 65,
+      "target": "2026-09-30-unit-4-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "line": 66,
+      "target": "../../contracts/generation.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "line": 66,
+      "target": "2026-09-30-unit-5-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "line": 67,
+      "target": "../../contracts/input-bundle.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "line": 67,
+      "target": "2026-09-30-unit-6-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-remove-material-support.md",
+      "line": 11,
+      "target": "../../contracts/robot-model.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-remove-material-support.md",
+      "line": 11,
+      "target": "2026-09-29-unit-2-implementation-results.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+      "line": 9,
+      "target": "../discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "line": 3,
+      "target": "../discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "line": 7,
+      "target": "../../contracts/scene.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "line": 7,
+      "target": "../../contracts/resources.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "line": 43,
+      "target": "../../../docker/README.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-4-results.md",
+      "line": 5,
+      "target": "../discussions/2026-09-30-autonomous-units-4-6-decisions.md#d4-1独立多维分布表示",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-4-results.md",
+      "line": 9,
+      "target": "../../contracts/distributions.md",
+      "exists": false
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-results.md",
+      "line": 3,
+      "target": "../discussions/2026-09-30-unit-5-public-handoff.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-6-results.md",
+      "line": 3,
+      "target": "../discussions/2026-09-30-unit-6-public-handoff.md",
+      "exists": true
+    },
+    {
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-6-results.md",
+      "line": 7,
+      "target": "../../contracts/input-bundle.md",
+      "exists": false
+    }
+  ],
+  "missing_count": 71
+}

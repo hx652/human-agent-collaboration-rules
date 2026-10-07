@@ -1,0 +1,57 @@
+{
+  "checked_at_utc": "2026-10-07T10:30:00.286252+00:00",
+  "copy_count": 50,
+  "counts_by_repository": {
+    "research-process": 21,
+    "multiarm-problem-gen": 29
+  },
+  "copy_total_bytes": 306369,
+  "all_copies_bytes_equal": true,
+  "all_copy_sha256_matches": true,
+  "copy_index_one_to_one": true,
+  "key_sections_verified": 145,
+  "index_missing_paths": [],
+  "source_inventory_counts": {
+    "research-process": 53,
+    "multiarm-problem-gen": 215
+  },
+  "scanned_text_file_count": 157,
+  "source_changes_during_copy_check": [],
+  "source_write_operations": 0,
+  "executed_source_scripts": false,
+  "external_web_access": false,
+  "git_history_content_read": false,
+  "git_read_commands": "GIT_OPTIONAL_LOCKS=0 git -C SOURCE ls-files; no git status/log/show/diff or source mutation",
+  "limitations": [
+    "Integrity window begins with inventory before copying, after discovery reads; cannot prove source state before that point.",
+    "Checks exclude source .git metadata; only working-area file bytes, sizes, modes and mtimes compared.",
+    "Historical tests, approval conversations, external claims and references not independently reverified.",
+    "Selective copies preserve raw internal links even when target not collected."
+  ],
+  "execution_deviations": [
+    "Initial absolute-path rg file enumeration used insufficient .git/** exclusion and returned .git object/ref/worktree metadata path names. Did not open those contents or read history; later os.walk pruned .git and rg used !**/.git/**.",
+    "Initial two read-only searches used source workdir; all later operations used assigned worktree.",
+    "An initial read-only inventory used unavailable python command; reran using python3."
+  ],
+  "second_pass": {
+    "checked_at_utc": "2026-10-07T10:31:08.804719+00:00",
+    "source_and_copy_bytes_equal_count": 50,
+    "sha256_matches_count": 50,
+    "index_links_checked": 57,
+    "index_missing_paths": [],
+    "indexed_source_paths_unique": 50,
+    "all_json_records_valid": true,
+    "collected_git_statuses": {
+      "research-process": {
+        "tracked": 0,
+        "untracked": 20,
+        "ignored": 1
+      },
+      "multiarm-problem-gen": {
+        "tracked": 29,
+        "untracked": 0,
+        "ignored": 0
+      }
+    }
+  }
+}
