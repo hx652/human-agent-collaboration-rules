@@ -74,7 +74,10 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "requirements",
+      "material_class_label": "原始协作要求",
+      "classification_note": "成文约定"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -116,7 +119,10 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "requirements",
+      "material_class_label": "原始协作要求",
+      "classification_note": "重点读“设计与学习”"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -170,7 +176,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "执行要求的具体化产物",
+      "artifact_group": "实施说明、验证与复盘"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -224,7 +234,10 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "requirements",
+      "material_class_label": "原始协作要求",
+      "classification_note": "重点读“怎样组织记录”"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -278,7 +291,10 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "requirements",
+      "material_class_label": "原始协作要求",
+      "classification_note": "成文约定"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -344,7 +360,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "共同讨论与整理"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -398,7 +418,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "共同讨论与整理"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -452,7 +476,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "共同讨论与整理"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -506,6 +534,17 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "含用户要求的讲解方式",
+      "artifact_group": "共同讨论与整理",
+      "embedded_requirements": [
+        {
+          "start": 7,
+          "end": 13,
+          "meaning": "用户明确要求的方案讲解方式"
+        }
       ]
     },
     {
@@ -554,7 +593,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "方案不等于执行授权",
+      "artifact_group": "任务划分与公开交接"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -596,7 +639,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "任务划分与公开交接"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -644,7 +691,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "候选方案",
+      "artifact_group": "任务划分与公开交接"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -698,6 +749,17 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "含本次范围与验收条件",
+      "artifact_group": "任务划分与公开交接",
+      "embedded_requirements": [
+        {
+          "start": 80,
+          "end": 86,
+          "meaning": "本次任务进入实现前的条件和自主边界"
+        }
       ]
     },
     {
@@ -746,6 +808,17 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "含本次范围与验收条件",
+      "artifact_group": "任务划分与公开交接",
+      "embedded_requirements": [
+        {
+          "start": 126,
+          "end": 132,
+          "meaning": "本次允许修改范围和依赖阅读边界"
+        }
       ]
     },
     {
@@ -806,7 +879,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "探索决定不等于用户最终接受",
+      "artifact_group": "任务划分与公开交接"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -860,6 +937,17 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "含本次范围与验收条件",
+      "artifact_group": "任务划分与公开交接",
+      "embedded_requirements": [
+        {
+          "start": 119,
+          "end": 143,
+          "meaning": "本次验收、范围和准备条件"
+        }
       ]
     },
     {
@@ -908,7 +996,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "任务划分与公开交接"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -956,7 +1048,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "任务划分与公开交接"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -1016,7 +1112,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "实施说明、验证与复盘"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -1070,7 +1170,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "实施说明、验证与复盘"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -1130,7 +1234,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "实施说明、验证与复盘"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -1172,7 +1280,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "实施说明、验证与复盘"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -1226,7 +1338,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "实施说明、验证与复盘"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -1286,7 +1402,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "实施说明、验证与复盘"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -1340,7 +1460,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "实施说明、验证与复盘"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -1388,7 +1512,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "实施说明、验证与复盘"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -1442,7 +1570,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "实施说明、验证与复盘"
     },
     {
       "repository": "multiarm-problem-gen",
@@ -1502,7 +1634,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "实施说明、验证与复盘"
     },
     {
       "repository": "research-process",
@@ -1556,7 +1692,10 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "requirements",
+      "material_class_label": "原始协作要求",
+      "classification_note": "成文约定"
     },
     {
       "repository": "research-process",
@@ -1604,7 +1743,10 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "requirements",
+      "material_class_label": "原始协作要求",
+      "classification_note": "成文工作方式"
     },
     {
       "repository": "research-process",
@@ -1652,7 +1794,10 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "requirements",
+      "material_class_label": "原始协作要求",
+      "classification_note": "成文资源约定"
     },
     {
       "repository": "research-process",
@@ -1694,7 +1839,10 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "requirements",
+      "material_class_label": "原始协作要求",
+      "classification_note": "含建议要素，不是强制模板"
     },
     {
       "repository": "research-process",
@@ -1748,7 +1896,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "共同讨论与整理"
     },
     {
       "repository": "research-process",
@@ -1802,7 +1954,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "共同讨论与整理"
     },
     {
       "repository": "research-process",
@@ -1850,7 +2006,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "共同讨论与整理"
     },
     {
       "repository": "research-process",
@@ -1904,7 +2064,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "共同讨论与整理"
     },
     {
       "repository": "research-process",
@@ -1951,7 +2115,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "共同讨论与整理"
     },
     {
       "repository": "research-process",
@@ -2011,6 +2179,17 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "§1 保留用户目标；方法建议未整体确认",
+      "artifact_group": "共同讨论与整理",
+      "embedded_requirements": [
+        {
+          "start": 7,
+          "end": 19,
+          "meaning": "用户协作目标；后续研究判断与候选流程不是同一性质"
+        }
       ]
     },
     {
@@ -2059,7 +2238,10 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "requirements",
+      "material_class_label": "原始协作要求",
+      "classification_note": "两条已确认原则"
     },
     {
       "repository": "research-process",
@@ -2095,7 +2277,10 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "requirements",
+      "material_class_label": "原始协作要求",
+      "classification_note": "整理、确认与保留出处"
     },
     {
       "repository": "research-process",
@@ -2143,6 +2328,17 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "含当时的组织决定",
+      "artifact_group": "共同讨论与整理",
+      "embedded_requirements": [
+        {
+          "start": 19,
+          "end": 36,
+          "meaning": "当时已采用的组织决定与复查条件"
+        }
       ]
     },
     {
@@ -2191,6 +2387,17 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "含早期目标和写入要求",
+      "artifact_group": "共同讨论与整理",
+      "embedded_requirements": [
+        {
+          "start": 28,
+          "end": 40,
+          "meaning": "当时的工作流目标与写入方式"
+        }
       ]
     },
     {
@@ -2245,7 +2452,11 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "artifacts",
+      "material_class_label": "体现协作要求的产物",
+      "classification_note": "",
+      "artifact_group": "共同讨论与整理"
     },
     {
       "repository": "research-process",
@@ -2281,7 +2492,10 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "requirements",
+      "material_class_label": "原始协作要求",
+      "classification_note": "路径占位仍保留"
     },
     {
       "repository": "research-process",
@@ -2323,7 +2537,10 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "requirements",
+      "material_class_label": "原始协作要求",
+      "classification_note": "保留个人语境"
     },
     {
       "repository": "research-process",
@@ -2359,7 +2576,10 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "requirements",
+      "material_class_label": "原始协作要求",
+      "classification_note": "成文组织约定"
     },
     {
       "repository": "research-process",
@@ -2401,9 +2621,27 @@
         "astra_high",
         "astra_xhigh",
         "astra_max"
-      ]
+      ],
+      "material_class": "requirements",
+      "material_class_label": "原始协作要求",
+      "classification_note": "重点读“维护”"
     }
   ],
   "source_snapshot": "experiments/20261007-181827/provenance/*.final.json",
-  "source_current_matches_experiment": true
+  "source_current_matches_experiment": true,
+  "organization": {
+    "updated_at_Asia_Shanghai": "2026-10-07T20:38:30+08:00",
+    "basis": "按本次收集所关注内容的主要用途分类，不按关键词或文件名自动判定；混合文件完整保留，明确诉求另指向原文。",
+    "counts": {
+      "requirements": 14,
+      "artifacts": 33
+    },
+    "entry_point": "README.md",
+    "category_lists": {
+      "requirements": "collection/REQUIREMENTS.md",
+      "artifacts": "collection/ARTIFACTS.md"
+    },
+    "raw_files_moved_or_changed": false,
+    "removed_redundant_index": "INDEX.md; previous committed version remains in Git history"
+  }
 }

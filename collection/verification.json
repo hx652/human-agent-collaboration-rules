@@ -1419,459 +1419,6 @@
       "first_line_matches": true
     }
   ],
-  "index_and_selection_links": [
-    {
-      "document": "INDEX.md",
-      "target": "collection/SELECTION.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/AGENTS.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/README.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/assets/README.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/experiments/README.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/inbox/2026-09-08-multi-arm-progress-and-coordination.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/inbox/2026-09-16-generator-scene-and-target-representation.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/inbox/2026-09-18-evolving-design-and-best-practices.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/inbox/README.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/journal/2026-09-07-record-organization.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/journal/2026-09-07-starting-point.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/local-paths.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/overview.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/projects/README.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/research-process/references/README.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/AGENTS.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/README.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docker/README.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/README.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/git-workflow.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-starting-point.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-22-input-domain-representations.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-input-implementation-units.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-first-implementation-results.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-remove-material-support.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-4-results.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-results.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-6-results.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "collection/manifest.json",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "collection/verification.json",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "collection/SELECTION.md",
-      "exists": true
-    },
-    {
-      "document": "INDEX.md",
-      "target": "experiments/20261007-181827/REPORT.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/research-process/references/stac-reading-notes.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/research-process/references/lavalle-planning-algorithms-7-2-multiple-robots.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/research-process/inbox/2026-09-09-coordination-space-reading-guide.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/research-process/assets/cube-complex/README.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/research-process/assets/path-collision-equivalence/README.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/contracts/distributions.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/contracts/generation.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/contracts/input-bundle.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/contracts/primitives.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/contracts/resources.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/contracts/robot-model.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/contracts/scene.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_high/sources/multiarm-problem-gen/docs/design.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-18-input-output-format.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/notes/discussions/2026-09-21-output-validity-semantics.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/notes/discussions/2026-09-23-generation-distributions.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/notes/discussions/2026-09-23-input-bundle.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/examples/ur7e_table/README.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_xhigh/sources/multiarm-problem-gen/tools/baseline_validation/ur7e_table/README.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "/home/fainic/data/multiarm-problem-gen/tools/model_preparation/ur7e_2f85/README.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "/home/fainic/data/multiarm-problem-gen/tools/model_preparation/ur7e_2f85/resources-original.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "/home/fainic/data/multiarm-problem-gen/tools/model_preparation/ur7e_2f85/vendor/ur_description/README.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_xhigh/sources/multiarm-problem-gen/tools/scene_preview/README.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_xhigh/sources/research-process/assets/cube-complex/README.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/research-process/assets/path-collision-equivalence/README.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/research-process/inbox/2026-09-09-coordination-space-reading-guide.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "/home/fainic/data/research-process/inbox/2026-09-09-multi-arm-research-focus.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_xhigh/sources/research-process/inbox/2026-09-14-todos-and-draft.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "/home/fainic/data/research-process/inbox/2026-09-17-generator-input-output-format.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "/home/fainic/data/research-process/inbox/2026-09-18-generator-input-output-format.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "/home/fainic/data/research-process/journal.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_high/sources/research-process/projects/dataset-generator/README.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_high/sources/research-process/projects/stop-n-go/README.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/research-process/references/lavalle-planning-algorithms-7-2-multiple-robots.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_max/sources/research-process/references/stac-reading-notes.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "/home/fainic/data/research-process/references/stop-n-go-reading-notes.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "../experiments/20261007-181827/sol_high/sources/research-process/state.md",
-      "exists": true
-    },
-    {
-      "document": "collection/SELECTION.md",
-      "target": "selection.json",
-      "exists": true
-    }
-  ],
-  "all_index_and_selection_links_valid": true,
   "sources_unchanged_during_consolidation": true,
   "source_checks": [
     "file paths and types",
@@ -1895,5 +1442,618 @@
   "checks_do_not_reverify_historical_claims": true,
   "target_main_head": "729f74660446badc262d300eaf75d01b6d464271",
   "target_changes": "# branch.oid 729f74660446badc262d300eaf75d01b6d464271\n# branch.head main\n? .serena/\n? INDEX.md\n? collection/\n? experiments/\n? sources/\n",
-  "source_current_matches_experiment_before_copy": true
+  "source_current_matches_experiment_before_copy": true,
+  "navigation_updated_at_Asia_Shanghai": "2026-10-07T20:38:30+08:00",
+  "navigation_links": [
+    {
+      "document": "README.md",
+      "target": "collection/REQUIREMENTS.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "README.md",
+      "target": "collection/ARTIFACTS.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "README.md",
+      "target": "collection/SELECTION.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "README.md",
+      "target": "collection/manifest.json",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "README.md",
+      "target": "experiments/20261007-181827/REPORT.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/research-process/AGENTS.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/multiarm-problem-gen/AGENTS.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/git-workflow.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/research-process/inbox/2026-09-18-evolving-design-and-best-practices.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/research-process/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/research-process/overview.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/multiarm-problem-gen/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/research-process/inbox/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/research-process/experiments/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/research-process/projects/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/research-process/references/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/research-process/assets/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/research-process/local-paths.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/research-process/inbox/2026-09-18-agent-collaborative-development-research.md#1-用户希望通过这个项目获得什么",
+      "exists": true,
+      "fragment_checked": true
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/research-process/journal/2026-09-07-starting-point.md#工作流目标",
+      "exists": true,
+      "fragment_checked": true
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/research-process/journal/2026-09-07-record-organization.md#当前决定",
+      "exists": true,
+      "fragment_checked": true
+    },
+    {
+      "document": "collection/REQUIREMENTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md#从对象清单转向运行流程",
+      "exists": true,
+      "fragment_checked": true
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/research-process/AGENTS.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/research-process/journal/2026-09-07-starting-point.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/research-process/journal/2026-09-07-record-organization.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/research-process/inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/research-process/inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/research-process/inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/research-process/inbox/2026-09-16-generator-scene-and-target-representation.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-starting-point.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/discussions/2026-09-22-input-domain-representations.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/AGENTS.md#架构与实现分离的协作约定",
+      "exists": true,
+      "fragment_checked": true
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-input-implementation-units.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/AGENTS.md#验证与记录",
+      "exists": true,
+      "fragment_checked": true
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docker/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-first-implementation-results.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-remove-material-support.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-4-results.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-results.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/ARTIFACTS.md",
+      "target": "../sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-6-results.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/research-process/references/stac-reading-notes.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/research-process/references/lavalle-planning-algorithms-7-2-multiple-robots.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/research-process/inbox/2026-09-09-coordination-space-reading-guide.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/research-process/assets/cube-complex/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/research-process/assets/path-collision-equivalence/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/contracts/distributions.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/contracts/generation.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/contracts/input-bundle.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/contracts/primitives.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/contracts/resources.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/contracts/robot-model.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/contracts/scene.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_high/sources/multiarm-problem-gen/docs/design.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-18-input-output-format.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/notes/discussions/2026-09-21-output-validity-semantics.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/notes/discussions/2026-09-23-generation-distributions.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/docs/notes/discussions/2026-09-23-input-bundle.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/multiarm-problem-gen/examples/ur7e_table/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_xhigh/sources/multiarm-problem-gen/tools/baseline_validation/ur7e_table/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "/home/fainic/data/multiarm-problem-gen/tools/model_preparation/ur7e_2f85/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "/home/fainic/data/multiarm-problem-gen/tools/model_preparation/ur7e_2f85/resources-original.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "/home/fainic/data/multiarm-problem-gen/tools/model_preparation/ur7e_2f85/vendor/ur_description/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_xhigh/sources/multiarm-problem-gen/tools/scene_preview/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_xhigh/sources/research-process/assets/cube-complex/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/research-process/assets/path-collision-equivalence/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/research-process/inbox/2026-09-09-coordination-space-reading-guide.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "/home/fainic/data/research-process/inbox/2026-09-09-multi-arm-research-focus.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_xhigh/sources/research-process/inbox/2026-09-14-todos-and-draft.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "/home/fainic/data/research-process/inbox/2026-09-17-generator-input-output-format.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "/home/fainic/data/research-process/inbox/2026-09-18-generator-input-output-format.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "/home/fainic/data/research-process/journal.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_high/sources/research-process/projects/dataset-generator/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_high/sources/research-process/projects/stop-n-go/README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/research-process/references/lavalle-planning-algorithms-7-2-multiple-robots.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_max/sources/research-process/references/stac-reading-notes.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "/home/fainic/data/research-process/references/stop-n-go-reading-notes.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../experiments/20261007-181827/sol_high/sources/research-process/state.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "selection.json",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "../README.md",
+      "exists": true,
+      "fragment_checked": false
+    },
+    {
+      "document": "collection/SELECTION.md",
+      "target": "manifest.json",
+      "exists": true,
+      "fragment_checked": false
+    }
+  ],
+  "all_current_navigation_links_valid": true,
+  "organization_checks": {
+    "original_copy_verification_created_at": "2026-10-07T19:52:43+08:00",
+    "requirements": 14,
+    "artifacts": 33,
+    "unique_files": 47,
+    "all_47_hashes_match_original_manifest": true,
+    "source_copies_unchanged": true,
+    "source_paths_unchanged": true,
+    "experiment_archive_unchanged_this_turn": true,
+    "six_experiment_worktrees_unchanged_this_turn": true,
+    "serena_unchanged_this_turn": true,
+    "main_head_unchanged": "13761e5517ef3c07160b5ee6bc91a6483db912b1",
+    "long_index_removed": true,
+    "long_index_previously_in_commit": "13761e5517ef3c07160b5ee6bc91a6483db912b1"
+  }
 }
