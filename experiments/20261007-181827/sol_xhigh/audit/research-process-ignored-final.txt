@@ -1,0 +1,5 @@
+.serena/project.local.yml
+assets/path-collision-equivalence/exports/preview.png
+assets/path-collision-equivalence/exports/three-robots-cube.png
+assets/path-collision-equivalence/exports/three-robots-preview.png
+local-paths.md

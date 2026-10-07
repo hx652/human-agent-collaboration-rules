@@ -1,0 +1,356 @@
+{
+  "batch": "20261007-181827",
+  "timezone": "Asia/Shanghai",
+  "prepared_at_utc": "2026-10-07T10:20:51.086439+00:00",
+  "target_repository": "/home/fainic/data/human-agent-collaboration-rules",
+  "archive": "/home/fainic/data/human-agent-collaboration-rules/experiments/20261007-181827",
+  "base_commit": "729f74660446badc262d300eaf75d01b6d464271",
+  "empty_baseline_created": true,
+  "source_repositories": [
+    "/home/fainic/data/research-process",
+    "/home/fainic/data/multiarm-problem-gen"
+  ],
+  "maximum_concurrent_subagents": 3,
+  "tools_and_permissions": "All children inherit identical tool availability and permission profile from the same parent; workdir is explicit in the prompt; no per-child filesystem sandbox API is exposed. All writes are constrained by instruction to the assigned worktree.",
+  "groups": [
+    {
+      "group": "sol_high",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning_effort": "high",
+      "fork_turns": "none",
+      "wave": 1,
+      "branch": "experiment/20261007-181827/sol_high",
+      "worktree": "/home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/sol_high",
+      "base_commit": "729f74660446badc262d300eaf75d01b6d464271",
+      "status": "completed",
+      "agent_task_name": "/root/sol_high",
+      "actual_models": [
+        "gpt-6.1-sol"
+      ],
+      "actual_reasoning_efforts": [
+        "high"
+      ],
+      "session_started_at_utc": "2026-10-07T10:21:18.787Z",
+      "finished_at_utc": "2026-10-07T10:31:19.910Z",
+      "wall_seconds": 601.123,
+      "runtime_duration_ms": 601124,
+      "token_usage": {
+        "input_tokens": 2208301,
+        "cached_input_tokens": 2046720,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 20237,
+        "reasoning_output_tokens": 4668,
+        "total_tokens": 2228538
+      },
+      "agent_path": "/root/sol_high",
+      "session_id": "01a115e1-c001-7200-a9e2-df9605cae10b",
+      "permissions_sha256": "614f492f86c0a07a7ad4b00417c92ab196ad1f80e0361eca0d54acb626348713",
+      "initial_environment_messages_sha256": "00ed1a021505b7c4977b6a10614640a97452a4c0ebc19cf680819848aeeef506",
+      "shared_runtime_components_sha256": {
+        "apps_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "environments": "453c5c4255cae83fbb869587f54351a846de4aa9cc3c670bc537fb62762eebb5",
+        "environments_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "host_skills": "5557c05de671457a46d3e126e2778baf8a27e6d8a12d7188880a082e3be39572",
+        "plugins_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "skills": "4a6f8dca60e2b0bd470fd8b7b527e39388ce38b2b862e76d0b8640fb411490e7",
+        "permissions": "76d45fcbb8449530d7fd78ab9d0e48b891b03255cc2bc5aa87845ef021149ceb"
+      },
+      "normalized_prompt_sha256": "f283d0795596f9869858f14cd089e2dec04aca8a08a55f715a53e84b408e1e52",
+      "tool_call_count": 20,
+      "started_at_Asia_Shanghai": "2026-10-07T18:21:18.787+08:00",
+      "finished_at_Asia_Shanghai": "2026-10-07T18:31:19.910+08:00",
+      "actual_configuration_matches_requested": true,
+      "prompt_plaintext_log_verification": "不可用：平台对 spawn 消息正文加密；保存的 assigned-prompt.txt 为调用时使用的正文，统一模板仅替换 worktree。",
+      "result_commit": "afc9118d1f720c52a5013d6e2ff7f29eb5382c7b",
+      "result_tree": "d4c583ce66c69ebcf5c25efc56e090a4563c891f",
+      "result_commit_parent": "729f74660446badc262d300eaf75d01b6d464271",
+      "result_committed_at": "2026-10-07T20:17:31+08:00",
+      "result_commit_recorded_by": "coordinator after experiment; not an agent-run action"
+    },
+    {
+      "group": "sol_xhigh",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning_effort": "xhigh",
+      "fork_turns": "none",
+      "wave": 1,
+      "branch": "experiment/20261007-181827/sol_xhigh",
+      "worktree": "/home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/sol_xhigh",
+      "base_commit": "729f74660446badc262d300eaf75d01b6d464271",
+      "status": "completed",
+      "agent_task_name": "/root/sol_xhigh",
+      "actual_models": [
+        "gpt-6.1-sol"
+      ],
+      "actual_reasoning_efforts": [
+        "xhigh"
+      ],
+      "session_started_at_utc": "2026-10-07T10:21:39.311Z",
+      "finished_at_utc": "2026-10-07T10:36:07.941Z",
+      "wall_seconds": 868.63,
+      "runtime_duration_ms": 868630,
+      "token_usage": {
+        "input_tokens": 2141261,
+        "cached_input_tokens": 1956480,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 29406,
+        "reasoning_output_tokens": 9658,
+        "total_tokens": 2170667
+      },
+      "agent_path": "/root/sol_xhigh",
+      "session_id": "01a115e2-1011-7201-a9bf-d3bb6106bc76",
+      "permissions_sha256": "614f492f86c0a07a7ad4b00417c92ab196ad1f80e0361eca0d54acb626348713",
+      "initial_environment_messages_sha256": "00ed1a021505b7c4977b6a10614640a97452a4c0ebc19cf680819848aeeef506",
+      "shared_runtime_components_sha256": {
+        "apps_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "environments": "453c5c4255cae83fbb869587f54351a846de4aa9cc3c670bc537fb62762eebb5",
+        "environments_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "host_skills": "5557c05de671457a46d3e126e2778baf8a27e6d8a12d7188880a082e3be39572",
+        "plugins_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "skills": "4a6f8dca60e2b0bd470fd8b7b527e39388ce38b2b862e76d0b8640fb411490e7",
+        "permissions": "76d45fcbb8449530d7fd78ab9d0e48b891b03255cc2bc5aa87845ef021149ceb"
+      },
+      "normalized_prompt_sha256": "f283d0795596f9869858f14cd089e2dec04aca8a08a55f715a53e84b408e1e52",
+      "tool_call_count": 19,
+      "started_at_Asia_Shanghai": "2026-10-07T18:21:39.311+08:00",
+      "finished_at_Asia_Shanghai": "2026-10-07T18:36:07.941+08:00",
+      "actual_configuration_matches_requested": true,
+      "prompt_plaintext_log_verification": "不可用：平台对 spawn 消息正文加密；保存的 assigned-prompt.txt 为调用时使用的正文，统一模板仅替换 worktree。",
+      "result_commit": "5743b90f001fdeb6deedc85831c52b8ec13833c9",
+      "result_tree": "15270bc312d5d1b09f7d9f22ce2aeffb9e5a0dd7",
+      "result_commit_parent": "729f74660446badc262d300eaf75d01b6d464271",
+      "result_committed_at": "2026-10-07T20:17:31+08:00",
+      "result_commit_recorded_by": "coordinator after experiment; not an agent-run action"
+    },
+    {
+      "group": "sol_max",
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning_effort": "max",
+      "fork_turns": "none",
+      "wave": 1,
+      "branch": "experiment/20261007-181827/sol_max",
+      "worktree": "/home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/sol_max",
+      "base_commit": "729f74660446badc262d300eaf75d01b6d464271",
+      "status": "completed",
+      "agent_task_name": "/root/sol_max",
+      "actual_models": [
+        "gpt-6.1-sol"
+      ],
+      "actual_reasoning_efforts": [
+        "max"
+      ],
+      "session_started_at_utc": "2026-10-07T10:21:59.460Z",
+      "finished_at_utc": "2026-10-07T10:38:16.529Z",
+      "wall_seconds": 977.069,
+      "runtime_duration_ms": 977069,
+      "token_usage": {
+        "input_tokens": 2692690,
+        "cached_input_tokens": 2480384,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 31563,
+        "reasoning_output_tokens": 10195,
+        "total_tokens": 2724253
+      },
+      "agent_path": "/root/sol_max",
+      "session_id": "01a115e2-5ec7-7751-a742-54ff96f46880",
+      "permissions_sha256": "614f492f86c0a07a7ad4b00417c92ab196ad1f80e0361eca0d54acb626348713",
+      "initial_environment_messages_sha256": "00ed1a021505b7c4977b6a10614640a97452a4c0ebc19cf680819848aeeef506",
+      "shared_runtime_components_sha256": {
+        "apps_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "environments": "453c5c4255cae83fbb869587f54351a846de4aa9cc3c670bc537fb62762eebb5",
+        "environments_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "host_skills": "5557c05de671457a46d3e126e2778baf8a27e6d8a12d7188880a082e3be39572",
+        "plugins_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "skills": "4a6f8dca60e2b0bd470fd8b7b527e39388ce38b2b862e76d0b8640fb411490e7",
+        "permissions": "76d45fcbb8449530d7fd78ab9d0e48b891b03255cc2bc5aa87845ef021149ceb"
+      },
+      "normalized_prompt_sha256": "f283d0795596f9869858f14cd089e2dec04aca8a08a55f715a53e84b408e1e52",
+      "tool_call_count": 20,
+      "started_at_Asia_Shanghai": "2026-10-07T18:21:59.460+08:00",
+      "finished_at_Asia_Shanghai": "2026-10-07T18:38:16.529+08:00",
+      "actual_configuration_matches_requested": true,
+      "prompt_plaintext_log_verification": "不可用：平台对 spawn 消息正文加密；保存的 assigned-prompt.txt 为调用时使用的正文，统一模板仅替换 worktree。",
+      "result_commit": "d07fe17ed297adacdebe97b5e642d27e2c147f0d",
+      "result_tree": "b16920047c4dc9b3895c1381745680ae7118ca86",
+      "result_commit_parent": "729f74660446badc262d300eaf75d01b6d464271",
+      "result_committed_at": "2026-10-07T20:17:31+08:00",
+      "result_commit_recorded_by": "coordinator after experiment; not an agent-run action"
+    },
+    {
+      "group": "astra_high",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "high",
+      "fork_turns": "none",
+      "wave": 2,
+      "branch": "experiment/20261007-181827/astra_high",
+      "worktree": "/home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/astra_high",
+      "base_commit": "729f74660446badc262d300eaf75d01b6d464271",
+      "status": "completed",
+      "actual_models": [
+        "gpt-6-astra"
+      ],
+      "actual_reasoning_efforts": [
+        "high"
+      ],
+      "session_started_at_utc": "2026-10-07T10:31:55.208Z",
+      "finished_at_utc": "2026-10-07T10:42:56.716Z",
+      "wall_seconds": 661.508,
+      "runtime_duration_ms": 661513,
+      "token_usage": {
+        "input_tokens": 2067264,
+        "cached_input_tokens": 1898240,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 18599,
+        "reasoning_output_tokens": 3282,
+        "total_tokens": 2085863
+      },
+      "agent_path": "/root/astra_high",
+      "session_id": "01a115eb-75ef-7b70-8995-1e440b5389ad",
+      "permissions_sha256": "614f492f86c0a07a7ad4b00417c92ab196ad1f80e0361eca0d54acb626348713",
+      "initial_environment_messages_sha256": "00ed1a021505b7c4977b6a10614640a97452a4c0ebc19cf680819848aeeef506",
+      "shared_runtime_components_sha256": {
+        "apps_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "environments": "453c5c4255cae83fbb869587f54351a846de4aa9cc3c670bc537fb62762eebb5",
+        "environments_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "host_skills": "5557c05de671457a46d3e126e2778baf8a27e6d8a12d7188880a082e3be39572",
+        "plugins_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "skills": "4a6f8dca60e2b0bd470fd8b7b527e39388ce38b2b862e76d0b8640fb411490e7",
+        "permissions": "76d45fcbb8449530d7fd78ab9d0e48b891b03255cc2bc5aa87845ef021149ceb"
+      },
+      "normalized_prompt_sha256": "f283d0795596f9869858f14cd089e2dec04aca8a08a55f715a53e84b408e1e52",
+      "tool_call_count": 19,
+      "started_at_Asia_Shanghai": "2026-10-07T18:31:55.208+08:00",
+      "finished_at_Asia_Shanghai": "2026-10-07T18:42:56.716+08:00",
+      "actual_configuration_matches_requested": true,
+      "prompt_plaintext_log_verification": "不可用：平台对 spawn 消息正文加密；保存的 assigned-prompt.txt 为调用时使用的正文，统一模板仅替换 worktree。",
+      "result_commit": "964f436af72b742fd452693023da5b396601b9e8",
+      "result_tree": "29d7fe996f79954295ffd33113a3a9547d59e966",
+      "result_commit_parent": "729f74660446badc262d300eaf75d01b6d464271",
+      "result_committed_at": "2026-10-07T20:17:31+08:00",
+      "result_commit_recorded_by": "coordinator after experiment; not an agent-run action"
+    },
+    {
+      "group": "astra_xhigh",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "xhigh",
+      "fork_turns": "none",
+      "wave": 2,
+      "branch": "experiment/20261007-181827/astra_xhigh",
+      "worktree": "/home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/astra_xhigh",
+      "base_commit": "729f74660446badc262d300eaf75d01b6d464271",
+      "status": "completed",
+      "actual_models": [
+        "gpt-6-astra"
+      ],
+      "actual_reasoning_efforts": [
+        "xhigh"
+      ],
+      "session_started_at_utc": "2026-10-07T10:36:38.973Z",
+      "finished_at_utc": "2026-10-07T10:53:15.128Z",
+      "wall_seconds": 996.155,
+      "runtime_duration_ms": 996155,
+      "token_usage": {
+        "input_tokens": 2244719,
+        "cached_input_tokens": 2067712,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 31638,
+        "reasoning_output_tokens": 4839,
+        "total_tokens": 2276357
+      },
+      "agent_path": "/root/astra_xhigh",
+      "session_id": "01a115ef-ca7b-7701-8740-ab88eb079f44",
+      "permissions_sha256": "614f492f86c0a07a7ad4b00417c92ab196ad1f80e0361eca0d54acb626348713",
+      "initial_environment_messages_sha256": "00ed1a021505b7c4977b6a10614640a97452a4c0ebc19cf680819848aeeef506",
+      "shared_runtime_components_sha256": {
+        "apps_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "environments": "453c5c4255cae83fbb869587f54351a846de4aa9cc3c670bc537fb62762eebb5",
+        "environments_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "host_skills": "5557c05de671457a46d3e126e2778baf8a27e6d8a12d7188880a082e3be39572",
+        "plugins_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "skills": "4a6f8dca60e2b0bd470fd8b7b527e39388ce38b2b862e76d0b8640fb411490e7",
+        "permissions": "76d45fcbb8449530d7fd78ab9d0e48b891b03255cc2bc5aa87845ef021149ceb"
+      },
+      "normalized_prompt_sha256": "f283d0795596f9869858f14cd089e2dec04aca8a08a55f715a53e84b408e1e52",
+      "tool_call_count": 19,
+      "started_at_Asia_Shanghai": "2026-10-07T18:36:38.973+08:00",
+      "finished_at_Asia_Shanghai": "2026-10-07T18:53:15.128+08:00",
+      "actual_configuration_matches_requested": true,
+      "prompt_plaintext_log_verification": "不可用：平台对 spawn 消息正文加密；保存的 assigned-prompt.txt 为调用时使用的正文，统一模板仅替换 worktree。",
+      "result_commit": "8bd84ee9181229e3e9a96f7186af6e5d502f14b4",
+      "result_tree": "4e5d0e02b3550d9afca950f84a32fd4c02eb0964",
+      "result_commit_parent": "729f74660446badc262d300eaf75d01b6d464271",
+      "result_committed_at": "2026-10-07T20:17:32+08:00",
+      "result_commit_recorded_by": "coordinator after experiment; not an agent-run action"
+    },
+    {
+      "group": "astra_max",
+      "requested_model": "gpt-6-astra",
+      "requested_reasoning_effort": "max",
+      "fork_turns": "none",
+      "wave": 2,
+      "branch": "experiment/20261007-181827/astra_max",
+      "worktree": "/home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/astra_max",
+      "base_commit": "729f74660446badc262d300eaf75d01b6d464271",
+      "status": "completed",
+      "actual_models": [
+        "gpt-6-astra"
+      ],
+      "actual_reasoning_efforts": [
+        "max"
+      ],
+      "session_started_at_utc": "2026-10-07T10:38:54.205Z",
+      "finished_at_utc": "2026-10-07T10:58:35.129Z",
+      "wall_seconds": 1180.924,
+      "runtime_duration_ms": 1180925,
+      "token_usage": {
+        "input_tokens": 3438103,
+        "cached_input_tokens": 3229696,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 33918,
+        "reasoning_output_tokens": 12339,
+        "total_tokens": 3472021
+      },
+      "agent_path": "/root/astra_max",
+      "session_id": "01a115f1-dab8-7832-8ec2-5fe3ff0d0a38",
+      "permissions_sha256": "614f492f86c0a07a7ad4b00417c92ab196ad1f80e0361eca0d54acb626348713",
+      "initial_environment_messages_sha256": "00ed1a021505b7c4977b6a10614640a97452a4c0ebc19cf680819848aeeef506",
+      "shared_runtime_components_sha256": {
+        "apps_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "environments": "453c5c4255cae83fbb869587f54351a846de4aa9cc3c670bc537fb62762eebb5",
+        "environments_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "host_skills": "5557c05de671457a46d3e126e2778baf8a27e6d8a12d7188880a082e3be39572",
+        "plugins_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+        "skills": "4a6f8dca60e2b0bd470fd8b7b527e39388ce38b2b862e76d0b8640fb411490e7",
+        "permissions": "76d45fcbb8449530d7fd78ab9d0e48b891b03255cc2bc5aa87845ef021149ceb"
+      },
+      "normalized_prompt_sha256": "f283d0795596f9869858f14cd089e2dec04aca8a08a55f715a53e84b408e1e52",
+      "tool_call_count": 25,
+      "started_at_Asia_Shanghai": "2026-10-07T18:38:54.205+08:00",
+      "finished_at_Asia_Shanghai": "2026-10-07T18:58:35.129+08:00",
+      "actual_configuration_matches_requested": true,
+      "prompt_plaintext_log_verification": "不可用：平台对 spawn 消息正文加密；保存的 assigned-prompt.txt 为调用时使用的正文，统一模板仅替换 worktree。",
+      "result_commit": "f9283fd4b5643d29b0d3008bd29d697bd5405cc6",
+      "result_tree": "3ea820819ee91e54b94ec22cf102cef8caf35829",
+      "result_commit_parent": "729f74660446badc262d300eaf75d01b6d464271",
+      "result_committed_at": "2026-10-07T20:17:32+08:00",
+      "result_commit_recorded_by": "coordinator after experiment; not an agent-run action"
+    }
+  ],
+  "completed_at_Asia_Shanghai": "2026-10-07T19:00:39.808878+08:00",
+  "scheduling": "先启动三个 Sol 组；每个组结束后依次用释放名额启动对应 Astra 组，最多三个子 agent 同时运行。第二批与第一批尾段重叠。",
+  "telemetry_method": "来自各子 agent 运行日志 turn_context、task_complete 和 token_usage_record.thread_token_usage；不包含父调度者和平台自动审批器消耗。缓存输入是输入的子集，reasoning_output_tokens 是输出细分，不重复相加。",
+  "unavailable_metrics": [
+    "准确费用",
+    "纯思考/文件操作/等待审批的可靠分段净用时",
+    "提示消息加密日志的明文逐字复核"
+  ],
+  "observed_maximum_concurrent_subagents": 3,
+  "six_runs_elapsed_seconds": 2236.342,
+  "git_result_archival": {
+    "recorded_at_Asia_Shanghai": "2026-10-07T20:19:36+08:00",
+    "recorded_by": "coordinator after the six runs; these commits were not part of agent execution",
+    "result_commits_file": "audit/result-commits.json",
+    "all_result_trees_match_archived_group_subtrees": true,
+    "experiment_branches_merged_into_main": false,
+    "raw_group_outputs_modified": false
+  }
+}

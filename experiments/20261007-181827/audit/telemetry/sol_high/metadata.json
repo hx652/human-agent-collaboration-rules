@@ -1,0 +1,186 @@
+{
+  "group": "sol_high",
+  "session_id": "01a115e1-c001-7200-a9e2-df9605cae10b",
+  "agent_path": "/root/sol_high",
+  "log_path": "/home/fainic/.codex/sessions/2026/10/07/rollout-2026-10-07T18-21-18-01a115e1-c001-7200-a9e2-df9605cae10b.jsonl",
+  "log_sha256_at_capture": "2e9240185ba0e272821daa9eeb041433d82f9478f554eb4dac4c662f74c00e27",
+  "session_started_at_utc": "2026-10-07T10:21:18.787Z",
+  "launch_requested_at_utc": "2026-10-07T10:21:18.707Z",
+  "turn_context_at_utc": "2026-10-07T10:21:23.268Z",
+  "finished_at_utc": "2026-10-07T10:31:19.910Z",
+  "wall_seconds": 601.123,
+  "runtime_duration_ms": 601124,
+  "actual_models": [
+    "gpt-6.1-sol"
+  ],
+  "actual_reasoning_efforts": [
+    "high"
+  ],
+  "runtime_permissions": {
+    "cwd": "/home/fainic/.codex/.chatgpt-projects/g-p-6a7adab1cf78819195028268a81f7722",
+    "workspace_roots": [
+      "/home/fainic/.codex/.chatgpt-projects/g-p-6a7adab1cf78819195028268a81f7722",
+      "/home/fainic/.codex/visualizations/2026/10/07/01a115ce-1970-7450-9bda-9a25b0537e24"
+    ],
+    "approval_policy": "on-request",
+    "approvals_reviewer": "auto_review",
+    "sandbox_policy": {
+      "type": "workspace-write",
+      "writable_roots": [
+        "/home/fainic/.codex/visualizations/2026/10/07/01a115ce-1970-7450-9bda-9a25b0537e24"
+      ],
+      "network_access": false,
+      "exclude_tmpdir_env_var": false,
+      "exclude_slash_tmp": false
+    },
+    "permission_profile": {
+      "type": "managed",
+      "file_system": {
+        "type": "restricted",
+        "entries": [
+          {
+            "path": {
+              "type": "special",
+              "value": {
+                "kind": "root"
+              }
+            },
+            "access": "read"
+          },
+          {
+            "path": {
+              "type": "path",
+              "path": "/home/fainic/.codex/.chatgpt-projects/g-p-6a7adab1cf78819195028268a81f7722"
+            },
+            "access": "write"
+          },
+          {
+            "path": {
+              "type": "path",
+              "path": "/home/fainic/.codex/visualizations/2026/10/07/01a115ce-1970-7450-9bda-9a25b0537e24"
+            },
+            "access": "write"
+          },
+          {
+            "path": {
+              "type": "special",
+              "value": {
+                "kind": "slash_tmp"
+              }
+            },
+            "access": "write"
+          },
+          {
+            "path": {
+              "type": "special",
+              "value": {
+                "kind": "tmpdir"
+              }
+            },
+            "access": "write"
+          },
+          {
+            "path": {
+              "type": "path",
+              "path": "/home/fainic/.codex/.chatgpt-projects/g-p-6a7adab1cf78819195028268a81f7722/.git"
+            },
+            "access": "read",
+            "missing_path_behavior": "skip"
+          },
+          {
+            "path": {
+              "type": "path",
+              "path": "/home/fainic/.codex/visualizations/2026/10/07/01a115ce-1970-7450-9bda-9a25b0537e24/.git"
+            },
+            "access": "read",
+            "missing_path_behavior": "skip"
+          },
+          {
+            "path": {
+              "type": "path",
+              "path": "/home/fainic/.codex/.chatgpt-projects/g-p-6a7adab1cf78819195028268a81f7722/.agents"
+            },
+            "access": "read",
+            "missing_path_behavior": "skip"
+          },
+          {
+            "path": {
+              "type": "path",
+              "path": "/home/fainic/.codex/visualizations/2026/10/07/01a115ce-1970-7450-9bda-9a25b0537e24/.agents"
+            },
+            "access": "read",
+            "missing_path_behavior": "skip"
+          },
+          {
+            "path": {
+              "type": "path",
+              "path": "/home/fainic/.codex/.chatgpt-projects/g-p-6a7adab1cf78819195028268a81f7722/.codex"
+            },
+            "access": "read",
+            "missing_path_behavior": "skip"
+          },
+          {
+            "path": {
+              "type": "path",
+              "path": "/home/fainic/.codex/visualizations/2026/10/07/01a115ce-1970-7450-9bda-9a25b0537e24/.codex"
+            },
+            "access": "read",
+            "missing_path_behavior": "skip"
+          },
+          {
+            "path": {
+              "type": "path",
+              "path": "/home/fainic/.codex/.chatgpt-projects/g-p-6a7adab1cf78819195028268a81f7722/.aws"
+            },
+            "access": "read",
+            "missing_path_behavior": "skip"
+          },
+          {
+            "path": {
+              "type": "path",
+              "path": "/home/fainic/.codex/visualizations/2026/10/07/01a115ce-1970-7450-9bda-9a25b0537e24/.aws"
+            },
+            "access": "read",
+            "missing_path_behavior": "skip"
+          }
+        ]
+      },
+      "network": "restricted"
+    },
+    "disabled_plugin_ids": []
+  },
+  "permissions_sha256": "614f492f86c0a07a7ad4b00417c92ab196ad1f80e0361eca0d54acb626348713",
+  "shared_runtime_components_sha256": {
+    "apps_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+    "environments": "453c5c4255cae83fbb869587f54351a846de4aa9cc3c670bc537fb62762eebb5",
+    "environments_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+    "host_skills": "5557c05de671457a46d3e126e2778baf8a27e6d8a12d7188880a082e3be39572",
+    "plugins_instructions": "fcbcf165908dd18a9e49f7ff27810176db8e9f63b4352213741664245224f8aa",
+    "skills": "4a6f8dca60e2b0bd470fd8b7b527e39388ce38b2b862e76d0b8640fb411490e7",
+    "permissions": "76d45fcbb8449530d7fd78ab9d0e48b891b03255cc2bc5aa87845ef021149ceb"
+  },
+  "initial_environment_messages_sha256": "00ed1a021505b7c4977b6a10614640a97452a4c0ebc19cf680819848aeeef506",
+  "initial_environment_message_count": 1,
+  "spawn_configuration": {
+    "task_name": "sol_high",
+    "fork_turns": "none",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "high"
+  },
+  "sent_prompt_matches_saved_prompt": null,
+  "prompt_log_encrypted": true,
+  "normalized_prompt_sha256": "f283d0795596f9869858f14cd089e2dec04aca8a08a55f715a53e84b408e1e52",
+  "token_usage": {
+    "input_tokens": 2208301,
+    "cached_input_tokens": 2046720,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 20237,
+    "reasoning_output_tokens": 4668,
+    "total_tokens": 2228538
+  },
+  "token_usage_timestamp_utc": "2026-10-07T10:31:19.904Z",
+  "token_event_count": 21,
+  "tool_call_count": 20,
+  "complete_event_present": true,
+  "status": "completed"
+}

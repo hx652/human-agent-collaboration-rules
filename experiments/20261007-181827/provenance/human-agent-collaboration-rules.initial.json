@@ -1,0 +1,220 @@
+{
+  "path": "/home/fainic/data/human-agent-collaboration-rules",
+  "captured_at_utc": "2026-10-07T10:19:38.431781+00:00",
+  "working_tree": {},
+  "git_state": {
+    "status": {
+      "exit_code": 0,
+      "stdout": "# branch.oid (initial)\n# branch.head main\n",
+      "stderr": ""
+    },
+    "head": {
+      "exit_code": 128,
+      "stdout": "",
+      "stderr": "fatal: Needed a single revision\n"
+    },
+    "branch": {
+      "exit_code": 0,
+      "stdout": "refs/heads/main\n",
+      "stderr": ""
+    },
+    "refs": {
+      "exit_code": 1,
+      "stdout": "",
+      "stderr": ""
+    },
+    "diff": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    "cached_diff": {
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  },
+  "git_metadata": {
+    "HEAD": {
+      "mode": "0o664",
+      "mtime_ns": 1791367216226167812,
+      "kind": "file",
+      "size": 21,
+      "sha256": "28d25bf82af4c0e2b72f50959b2beb859e3e60b9630a5e8c603dad4ddb2b6e80",
+      "stable_during_read": true
+    },
+    "branches": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216225167801,
+      "kind": "directory"
+    },
+    "config": {
+      "mode": "0o664",
+      "mtime_ns": 1791367216257168139,
+      "kind": "file",
+      "size": 92,
+      "sha256": "cfe7ba1238c9a78be7535d7c63bcaf5a4d5011d46b07c9b45d3bbf7d6c312dfe",
+      "stable_during_read": true
+    },
+    "description": {
+      "mode": "0o664",
+      "mtime_ns": 1791367216226167812,
+      "kind": "file",
+      "size": 73,
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+      "stable_during_read": true
+    },
+    "hooks": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216226167812,
+      "kind": "directory"
+    },
+    "hooks/applypatch-msg.sample": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216225167801,
+      "kind": "file",
+      "size": 478,
+      "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+      "stable_during_read": true
+    },
+    "hooks/commit-msg.sample": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216225167801,
+      "kind": "file",
+      "size": 896,
+      "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+      "stable_during_read": true
+    },
+    "hooks/fsmonitor-watchman.sample": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216225167801,
+      "kind": "file",
+      "size": 4655,
+      "sha256": "f3c0228d8e827f1c5260ac59fdd92c3d425c46e54711ef713c5a54ae0a4db2b4",
+      "stable_during_read": true
+    },
+    "hooks/post-update.sample": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216226167812,
+      "kind": "file",
+      "size": 189,
+      "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+      "stable_during_read": true
+    },
+    "hooks/pre-applypatch.sample": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216226167812,
+      "kind": "file",
+      "size": 424,
+      "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+      "stable_during_read": true
+    },
+    "hooks/pre-commit.sample": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216226167812,
+      "kind": "file",
+      "size": 1643,
+      "sha256": "f9af7d95eb1231ecf2eba9770fedfa8d4797a12b02d7240e98d568201251244a",
+      "stable_during_read": true
+    },
+    "hooks/pre-merge-commit.sample": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216225167801,
+      "kind": "file",
+      "size": 416,
+      "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+      "stable_during_read": true
+    },
+    "hooks/pre-push.sample": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216225167801,
+      "kind": "file",
+      "size": 1374,
+      "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+      "stable_during_read": true
+    },
+    "hooks/pre-rebase.sample": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216225167801,
+      "kind": "file",
+      "size": 4898,
+      "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+      "stable_during_read": true
+    },
+    "hooks/pre-receive.sample": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216226167812,
+      "kind": "file",
+      "size": 544,
+      "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+      "stable_during_read": true
+    },
+    "hooks/prepare-commit-msg.sample": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216225167801,
+      "kind": "file",
+      "size": 1492,
+      "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+      "stable_during_read": true
+    },
+    "hooks/push-to-checkout.sample": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216225167801,
+      "kind": "file",
+      "size": 2783,
+      "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+      "stable_during_read": true
+    },
+    "hooks/update.sample": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216226167812,
+      "kind": "file",
+      "size": 3650,
+      "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+      "stable_during_read": true
+    },
+    "info": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216226167812,
+      "kind": "directory"
+    },
+    "info/exclude": {
+      "mode": "0o664",
+      "mtime_ns": 1791367216226167812,
+      "kind": "file",
+      "size": 240,
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+      "stable_during_read": true
+    },
+    "objects": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216258168149,
+      "kind": "directory"
+    },
+    "objects/info": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216258168149,
+      "kind": "directory"
+    },
+    "objects/pack": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216258168149,
+      "kind": "directory"
+    },
+    "refs": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216226167812,
+      "kind": "directory"
+    },
+    "refs/heads": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216226167812,
+      "kind": "directory"
+    },
+    "refs/tags": {
+      "mode": "0o775",
+      "mtime_ns": 1791367216226167812,
+      "kind": "directory"
+    }
+  }
+}

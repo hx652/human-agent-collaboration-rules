@@ -1,0 +1,59 @@
+{
+  "captured_at_utc": "2026-10-07T11:01:20.140671+00:00",
+  "groups": [
+    {
+      "group": "sol_high",
+      "source_worktree": "/home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/sol_high",
+      "archived_to": "/home/fainic/data/human-agent-collaboration-rules/experiments/20261007-181827/sol_high",
+      "manifest_matches": true,
+      "files": 58,
+      "entries": 75,
+      "excluded": ".git administrative pointer only"
+    },
+    {
+      "group": "sol_xhigh",
+      "source_worktree": "/home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/sol_xhigh",
+      "archived_to": "/home/fainic/data/human-agent-collaboration-rules/experiments/20261007-181827/sol_xhigh",
+      "manifest_matches": true,
+      "files": 78,
+      "entries": 100,
+      "excluded": ".git administrative pointer only"
+    },
+    {
+      "group": "sol_max",
+      "source_worktree": "/home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/sol_max",
+      "archived_to": "/home/fainic/data/human-agent-collaboration-rules/experiments/20261007-181827/sol_max",
+      "manifest_matches": true,
+      "files": 79,
+      "entries": 105,
+      "excluded": ".git administrative pointer only"
+    },
+    {
+      "group": "astra_high",
+      "source_worktree": "/home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/astra_high",
+      "archived_to": "/home/fainic/data/human-agent-collaboration-rules/experiments/20261007-181827/astra_high",
+      "manifest_matches": true,
+      "files": 59,
+      "entries": 80,
+      "excluded": ".git administrative pointer only"
+    },
+    {
+      "group": "astra_xhigh",
+      "source_worktree": "/home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/astra_xhigh",
+      "archived_to": "/home/fainic/data/human-agent-collaboration-rules/experiments/20261007-181827/astra_xhigh",
+      "manifest_matches": true,
+      "files": 56,
+      "entries": 74,
+      "excluded": ".git administrative pointer only"
+    },
+    {
+      "group": "astra_max",
+      "source_worktree": "/home/fainic/data/human-agent-collaboration-rules-worktrees/20261007-181827/astra_max",
+      "archived_to": "/home/fainic/data/human-agent-collaboration-rules/experiments/20261007-181827/astra_max",
+      "manifest_matches": true,
+      "files": 55,
+      "entries": 70,
+      "excluded": ".git administrative pointer only"
+    }
+  ]
+}
