@@ -1,0 +1,4351 @@
+{
+  "started_utc": "2026-10-07T10:51:33.766522+00:00",
+  "finished_utc": "2026-10-07T10:51:33.869450+00:00",
+  "source_roots": {
+    "research-process": "/home/fainic/data/research-process",
+    "multiarm-problem-gen": "/home/fainic/data/multiarm-problem-gen"
+  },
+  "excluded_directory": ".git",
+  "inventory_counts": {
+    "research-process": 53,
+    "multiarm-problem-gen": 215
+  },
+  "selected_counts": {
+    "research-process": 21,
+    "multiarm-problem-gen": 29
+  },
+  "total_copy_bytes": 324893,
+  "records": [
+    {
+      "repo": "research-process",
+      "path": "AGENTS.md",
+      "status": "成文约定；逐条确认链未另行核实",
+      "topic": "跨 session、授权、证据、沟通、记录维护",
+      "reason": "长期协作约定的主要载体，涵盖候选更新、确认范围、原意与不确定性、独立判断及资源管理。",
+      "sections": "9-16 开始工作；18-28 长期记录更新；30-61 内容组织与配套资源管理；63-76 维护与沟通",
+      "section_ranges": [
+        {
+          "start": 9,
+          "end": 16,
+          "label": "开始工作"
+        },
+        {
+          "start": 18,
+          "end": 28,
+          "label": "长期记录更新"
+        },
+        {
+          "start": 30,
+          "end": 61,
+          "label": "内容组织与配套资源管理"
+        },
+        {
+          "start": 63,
+          "end": 76,
+          "label": "维护与沟通"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "README.md",
+      "status": "成文工作方式；关联已确认初始化记录",
+      "topic": "长期记录、使用循环、组织成本",
+      "reason": "说明记录本身的目标、审阅写入循环、保留过程及按实际需要拆分文档。",
+      "sections": "1-7 目标；21-31 使用循环；33-49 维护",
+      "section_ranges": [
+        {
+          "start": 1,
+          "end": 7,
+          "label": "目标"
+        },
+        {
+          "start": 21,
+          "end": 31,
+          "label": "使用循环"
+        },
+        {
+          "start": 33,
+          "end": 49,
+          "label": "维护"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "overview.md",
+      "status": "已采用工程原则；用户个人经验；研究事实含待核实项",
+      "topic": "实践反馈、避免脱离情境概括",
+      "reason": "保留先跑通再复盘的背景，明确个人提醒不应被扩大为普遍定律。",
+      "sections": "17-30 工程原则与个人经历",
+      "section_ranges": [
+        {
+          "start": 17,
+          "end": 30,
+          "label": "工程原则与个人经历"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "state.md",
+      "status": "历史状态：原文称第一版工作流已确认；部分进展已过时",
+      "topic": "跨 session 状态、未决问题",
+      "reason": "保存流程确认和暂缓多 agent 的历史阶段；“生成器尚未开始”不能覆盖后续实施记录。",
+      "sections": "9-24 当前阶段、重点与下一步；26-36 待明确与暂不展开",
+      "section_ranges": [
+        {
+          "start": 9,
+          "end": 24,
+          "label": "当前阶段、重点与下一步"
+        },
+        {
+          "start": 26,
+          "end": 36,
+          "label": "待明确与暂不展开"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "journal/2026-09-07-starting-point.md",
+      "status": "根据已确认讨论整理的历史记录",
+      "topic": "实践反馈、写入授权、长期过程",
+      "reason": "保存工作方式的形成理由、用户原话语境和不依赖单次会话的目标。",
+      "sections": "3-5 状态与来源；16-40 工程思路的演变与工作流目标",
+      "section_ranges": [
+        {
+          "start": 3,
+          "end": 5,
+          "label": "状态与来源"
+        },
+        {
+          "start": 16,
+          "end": 40,
+          "label": "工程思路的演变与工作流目标"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "journal/2026-09-07-record-organization.md",
+      "status": "已确认并采用的组织决定",
+      "topic": "记录结构、替代方案、复查条件",
+      "reason": "同时保留顾虑、比较、选择理由和何时重新拆分的条件。",
+      "sections": "3-4 确认状态；6-43 问题、比较、决定、边界、复查条件及落实",
+      "section_ranges": [
+        {
+          "start": 3,
+          "end": 4,
+          "label": "确认状态"
+        },
+        {
+          "start": 6,
+          "end": 43,
+          "label": "问题、比较、决定、边界、复查条件及落实"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-18-evolving-design-and-best-practices.md",
+      "status": "已确认原则；示例与同期其他建议未确认",
+      "topic": "渐进设计、best practice、探索自由",
+      "reason": "原文明示用户认可的两条原则，同时排除未确认的仓库、Git、目录建议。",
+      "sections": "5-11 状态与背景；13-29 草稿纸积累线索；31-51 best practice 提供倾向",
+      "section_ranges": [
+        {
+          "start": 5,
+          "end": 11,
+          "label": "状态与背景"
+        },
+        {
+          "start": 13,
+          "end": 29,
+          "label": "草稿纸积累线索"
+        },
+        {
+          "start": 31,
+          "end": 51,
+          "label": "best practice 提供倾向"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-18-agent-collaborative-development-research.md",
+      "status": "混合：用户目标、已确认原则、agent 候选建议和外部经验转述",
+      "topic": "学习目标、共同理解、Git、过程成本、可迁移经验",
+      "reason": "直接讨论长期协作；候选流程尚未整体确认，外部研究与论坛经验也不等于本项目结果。",
+      "sections": "5-30 状态、目标及证据边界；50-71 实践适用边界；100-120 理解复杂度与协作摩擦；122-161 Git 与记录的候选方式；163-199 经验积累及未决事项",
+      "section_ranges": [
+        {
+          "start": 5,
+          "end": 30,
+          "label": "状态、目标及证据边界"
+        },
+        {
+          "start": 50,
+          "end": 71,
+          "label": "实践适用边界"
+        },
+        {
+          "start": 100,
+          "end": 120,
+          "label": "理解复杂度与协作摩擦"
+        },
+        {
+          "start": 122,
+          "end": 161,
+          "label": "Git 与记录的候选方式"
+        },
+        {
+          "start": 163,
+          "end": 199,
+          "label": "经验积累及未决事项"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+      "status": "历史讨论经验；暂时理解与未决建议",
+      "topic": "保留认识变化、独立纠偏、范围控制",
+      "reason": "原文指出不能把讨论后认识倒写成最初认识，区分自制例子、未验证推断和未来需求。",
+      "sections": "13-31 理解变化与新问题；49-81 理解风险、暂时理解与未决问题",
+      "section_ranges": [
+        {
+          "start": 13,
+          "end": 31,
+          "label": "理解变化与新问题"
+        },
+        {
+          "start": 49,
+          "end": 81,
+          "label": "理解风险、暂时理解与未决问题"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+      "status": "历史讨论经验；agent 修正建议",
+      "topic": "准确表达、独立审阅",
+      "reason": "记录用户初始表述及 agent 不直接附和、拆分问题并修正表述的具体过程。",
+      "sections": "5-17 讨论背景；40-54 对“暴力搜索、不理解时序”的修正；96-107 保留但尚未展开的改进想法",
+      "section_ranges": [
+        {
+          "start": 5,
+          "end": 17,
+          "label": "讨论背景"
+        },
+        {
+          "start": 40,
+          "end": 54,
+          "label": "对“暴力搜索、不理解时序”的修正"
+        },
+        {
+          "start": 96,
+          "end": 107,
+          "label": "保留但尚未展开的改进想法"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+      "status": "历史讨论经验；实验方案未定，无本次结果",
+      "topic": "研究直觉审阅、反证、证据边界",
+      "reason": "支持合理直觉同时明确其不足，不把常识写成新发现，也不预设实验必然支持用户想法。",
+      "sections": "5-13 状态与用户意图；15-37 独立审查、实验含义与尚未决定",
+      "section_ranges": [
+        {
+          "start": 5,
+          "end": 13,
+          "label": "状态与用户意图"
+        },
+        {
+          "start": 15,
+          "end": 37,
+          "label": "独立审查、实验含义与尚未决定"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-15-cube-complex-understanding.md",
+      "status": "混合：用户原始理解、经审阅确认的完善表述、历史制作记录",
+      "topic": "保留原话、追加修正、共同理解",
+      "reason": "原始表述与后来确认的表述并存，体现理解演变的记录方式；技术图解仅作为过程背景。",
+      "sections": "5-19 状态、用户原始及补充表述、完善表述入口；90-99 补充讨论背景与确认；131-155 配套插图后续制作状态",
+      "section_ranges": [
+        {
+          "start": 5,
+          "end": 19,
+          "label": "状态、用户原始及补充表述、完善表述入口"
+        },
+        {
+          "start": 90,
+          "end": 99,
+          "label": "补充讨论背景与确认"
+        },
+        {
+          "start": 131,
+          "end": 155,
+          "label": "配套插图后续制作状态"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-16-generator-scene-and-target-representation.md",
+      "status": "历史纠偏；已确认设计与未决方案并存",
+      "topic": "不扩大意图、候选不等于决定",
+      "reason": "明确记录用户要求补充“尚未确定”，而 agent 曾误补成完整方案，是意图解释的具体摩擦。",
+      "sections": "50-64 尚未确定：最终数据与名义场景的组织",
+      "section_ranges": [
+        {
+          "start": 50,
+          "end": 64,
+          "label": "尚未确定：最终数据与名义场景的组织"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "journal/2026-09-15-research-understanding-and-direction.md",
+      "status": "历史共同整理；用户原文与 agent 补充并存；无整篇统一确认声明",
+      "topic": "学习支持、分清作者、保留纠错",
+      "reason": "第一人称原文和明确标记的 agent 补充相邻，保留初始判断、依据与修正，不覆盖用户思考。",
+      "sections": "36-64 联合空间中的进度表示及 agent 补充；66-89 从输入形式到空间占用的讨论与修正",
+      "section_ranges": [
+        {
+          "start": 36,
+          "end": 64,
+          "label": "联合空间中的进度表示及 agent 补充"
+        },
+        {
+          "start": 66,
+          "end": 89,
+          "label": "从输入形式到空间占用的讨论与修正"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/README.md",
+      "status": "成文维护约定；部分当时操作状态",
+      "topic": "附件归档、可再生成产物、稳定引用",
+      "reason": "说明长期资料、生成源文件、导出和外部资源边界，涉及跨会话维护。",
+      "sections": "10-34 存放与引用、版本与导出、外部资源",
+      "section_ranges": [
+        {
+          "start": 10,
+          "end": 34,
+          "label": "存放与引用、版本与导出、外部资源"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "experiments/README.md",
+      "status": "成文指引；字段以“建议”表述，非全套已确认强制模板",
+      "topic": "证据记录、记录成本",
+      "reason": "有实际实验才建立记录，区分观察与猜测，避免为了流程提前填模板。",
+      "sections": "1-15 全文",
+      "section_ranges": [
+        {
+          "start": 1,
+          "end": 15,
+          "label": "全文"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/README.md",
+      "status": "成文记录约定；逐条确认链未另行核实",
+      "topic": "零散想法、审阅写入、保留出处",
+      "reason": "想法不必变成任务，无需强制清空，整理与确认的边界清楚。",
+      "sections": "1-12 全文",
+      "section_ranges": [
+        {
+          "start": 1,
+          "end": 12,
+          "label": "全文"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "projects/README.md",
+      "status": "成文组织约定；项目状态为当时记录",
+      "topic": "跨项目导航、避免重复维护",
+      "reason": "明确按需拆分、代码细节留原仓库以及设备路径分离。",
+      "sections": "13-19 组织约定",
+      "section_ranges": [
+        {
+          "start": 13,
+          "end": 19,
+          "label": "组织约定"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "references/README.md",
+      "status": "成文维护约定；文献及项目状态未在本轮重核",
+      "topic": "来源归属、个人理解与延伸",
+      "reason": "文末区分论文主张、个人理解与延伸想法，是来源记录的约定入口。",
+      "sections": "39-42 维护",
+      "section_ranges": [
+        {
+          "start": 39,
+          "end": 42,
+          "label": "维护"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "references/stac-reading-notes.md",
+      "status": "历史阅读与共同整理；论文主张和构造例子；待核实矛盾",
+      "topic": "归属标记、证据限制、不静默消解冲突",
+      "reason": "保存补充内容的作者、阅读边界和正文/表格矛盾的处理实例；不把技术内容当协作规则。",
+      "sections": "20-57 实验设置的来源、解释边界与待核对冲突；71-74 schedule 构造示例声明；139-141 碰撞历史示例来源限制",
+      "section_ranges": [
+        {
+          "start": 20,
+          "end": 57,
+          "label": "实验设置的来源、解释边界与待核对冲突"
+        },
+        {
+          "start": 71,
+          "end": 74,
+          "label": "schedule 构造示例声明"
+        },
+        {
+          "start": 139,
+          "end": 141,
+          "label": "碰撞历史示例来源限制"
+        }
+      ]
+    },
+    {
+      "repo": "research-process",
+      "path": "local-paths.md",
+      "status": "本机成文提示；被忽略文件；路径尚未填写",
+      "topic": "环境可达性、同步边界",
+      "reason": "实际本地被忽略材料，提醒本机路径不等于云端可达；条目仍是占位状态。",
+      "sections": "1-8 全文",
+      "section_ranges": [
+        {
+          "start": 1,
+          "end": 8,
+          "label": "全文"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "AGENTS.md",
+      "status": "成文协作约定；逐条用户确认链未另行核实",
+      "topic": "架构权限、实现隔离、测试、阅读记录、计量",
+      "reason": "最完整的项目协作约定，区分架构与局部自主权限、上下文污染、契约缺口和真实报告。",
+      "sections": "3-57 工作入口、人与 agent、记录、验证、Git；59-104 架构决策与实现阅读边界；106-133 工具使用、缺口与意外读取；135-157 验证、阅读记录与时间/token 统计",
+      "section_ranges": [
+        {
+          "start": 3,
+          "end": 57,
+          "label": "工作入口、人与 agent、记录、验证、Git"
+        },
+        {
+          "start": 59,
+          "end": 104,
+          "label": "架构决策与实现阅读边界"
+        },
+        {
+          "start": 106,
+          "end": 133,
+          "label": "工具使用、缺口与意外读取"
+        },
+        {
+          "start": 135,
+          "end": 157,
+          "label": "验证、阅读记录与时间/token 统计"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "README.md",
+      "status": "成文目标；授权探索的状态说明",
+      "topic": "学习目标、跨仓库分工、设计接受",
+      "reason": "说明用户参与架构、理解复杂度的目标，自主试验不代表最终设计接受。",
+      "sections": "23-33 实施边界、设计与学习",
+      "section_ranges": [
+        {
+          "start": 23,
+          "end": 33,
+          "label": "实施边界、设计与学习"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/README.md",
+      "status": "成文组织约定；历史及当前阶段区分",
+      "topic": "讨论/实施分开、决定不等于执行、候选非指令",
+      "reason": "保存方案、结果、复盘的分工及历史不改写的维护方式。",
+      "sections": "18-22 讨论方案状态；39-45 实施与复盘入口；53-69 后续非排定计划与记录组织",
+      "section_ranges": [
+        {
+          "start": 18,
+          "end": 22,
+          "label": "讨论方案状态"
+        },
+        {
+          "start": 39,
+          "end": 45,
+          "label": "实施与复盘入口"
+        },
+        {
+          "start": 53,
+          "end": 69,
+          "label": "后续非排定计划与记录组织"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/git-workflow.md",
+      "status": "成文工作约定；具体集成方式仍按情境选择",
+      "topic": "分支、逻辑提交、审阅、授权",
+      "reason": "记录探索与主线、检查点、英文提交、语义集成验证和不同 Git 操作的授权。",
+      "sections": "3-51 探索、提交与集成；53-115 提交信息语言与质量；117-123 操作边界",
+      "section_ranges": [
+        {
+          "start": 3,
+          "end": 51,
+          "label": "探索、提交与集成"
+        },
+        {
+          "start": 53,
+          "end": 115,
+          "label": "提交信息语言与质量"
+        },
+        {
+          "start": 117,
+          "end": 123,
+          "label": "操作边界"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docker/README.md",
+      "status": "成文开发与验证入口；历史环境说明",
+      "topic": "可复现环境、范围隔离、验证证据",
+      "reason": "环境变更如何留存、固定版本不宣称最新版、仓库挂载不豁免阅读边界，都是协作支持条件。",
+      "sections": "40-67 环境组织与版本来源；128-158 自主试验输入包入口与验收",
+      "section_ranges": [
+        {
+          "start": 40,
+          "end": 67,
+          "label": "环境组织与版本来源"
+        },
+        {
+          "start": 128,
+          "end": 158,
+          "label": "自主试验输入包入口与验收"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-18-starting-point.md",
+      "status": "历史组织决定与学习目标",
+      "topic": "仓库分工、渐进设计、迁移经验",
+      "reason": "记录项目为何这样组织；初期未引入自主多 agent 不等于永久禁止后续实验。",
+      "sections": "5-21 背景、组织选择与学习协作目标；23-33 追溯入口及当时下一步",
+      "section_ranges": [
+        {
+          "start": 5,
+          "end": 21,
+          "label": "背景、组织选择与学习协作目标"
+        },
+        {
+          "start": 23,
+          "end": 33,
+          "label": "追溯入口及当时下一步"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-18-first-input-example.md",
+      "status": "混合：已确认选择、agent 候选与追加确认；旧状态保留",
+      "topic": "最小完整样例、实际反馈、控制范围",
+      "reason": "展示通过实例发现设计问题，区分用户选择、agent 建议、未验证数值和后续决定。",
+      "sections": "7-30 目标、选择与最小但完整；48-64 待明确与可视化反馈；66-120 用户问题及独立判断；122-124 追加确认状态",
+      "section_ranges": [
+        {
+          "start": 7,
+          "end": 30,
+          "label": "目标、选择与最小但完整"
+        },
+        {
+          "start": 48,
+          "end": 64,
+          "label": "待明确与可视化反馈"
+        },
+        {
+          "start": 66,
+          "end": 120,
+          "label": "用户问题及独立判断"
+        },
+        {
+          "start": 122,
+          "end": 124,
+          "label": "追加确认状态"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-22-input-domain-representations.md",
+      "status": "历史讨论和局部方案；含已确定语义与未定接口",
+      "topic": "共同设计、修正倾向、控制抽象",
+      "reason": "用户质疑提前解析和额外抽象，结合局部测量调整方案；测量未推广到所有模型。",
+      "sections": "5-13 状态与讨论起点；37-45 从提前解析转向按需加载；93-101 规则澄清与后续边界",
+      "section_ranges": [
+        {
+          "start": 5,
+          "end": 13,
+          "label": "状态与讨论起点"
+        },
+        {
+          "start": 37,
+          "end": 45,
+          "label": "从提前解析转向按需加载"
+        },
+        {
+          "start": 93,
+          "end": 101,
+          "label": "规则澄清与后续边界"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "status": "历史讨论方案；精确接口未确认",
+      "topic": "可理解的说明、过程讲解、避免过度设计",
+      "reason": "用户要求说明步骤和对象如何合作，而非仅列清单；术语与叙述随理解需要调整。",
+      "sections": "7-13 从对象清单转向运行流程；15-27 运行流程与职责；50-56 边界与后续",
+      "section_ranges": [
+        {
+          "start": 7,
+          "end": 13,
+          "label": "从对象清单转向运行流程"
+        },
+        {
+          "start": 15,
+          "end": 27,
+          "label": "运行流程与职责"
+        },
+        {
+          "start": 50,
+          "end": 56,
+          "label": "边界与后续"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-input-implementation-units.md",
+      "status": "候选任务划分；单元 1 已选择，其余粒度非全部定稿",
+      "topic": "任务粒度、依赖顺序、公开契约",
+      "reason": "区分独立交付单元与代码文件，按依赖及契约缺口决定范围。",
+      "sections": "5-26 状态、划分及资源归属；43-53 建议实现顺序与开工边界",
+      "section_ranges": [
+        {
+          "start": 5,
+          "end": 26,
+          "label": "状态、划分及资源归属"
+        },
+        {
+          "start": 43,
+          "end": 53,
+          "label": "建议实现顺序与开工边界"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+      "status": "讨论澄清/候选建议；未作拆分决定",
+      "topic": "任务边界、代码职责、隔离实验",
+      "reason": "分成 class/文件不等于阅读隔离；任务粒度要对应真正想检验的边界。",
+      "sections": "5-31 状态、问题澄清与隔离实验影响",
+      "section_ranges": [
+        {
+          "start": 5,
+          "end": 31,
+          "label": "状态、问题澄清与隔离实验影响"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+      "status": "已讨论方案；当时不代表实现授权",
+      "topic": "环境先行、契约先行、准备与执行分开",
+      "reason": "环境和实现分别交付验收，空测试集或只读环境探测不能算实现通过。",
+      "sections": "5-23 状态及环境组织；41-41 环境验收边界；85-93 执行顺序、权限与就绪判断",
+      "section_ranges": [
+        {
+          "start": 5,
+          "end": 23,
+          "label": "状态及环境组织"
+        },
+        {
+          "start": 41,
+          "end": 41,
+          "label": "环境验收边界"
+        },
+        {
+          "start": 85,
+          "end": 93,
+          "label": "执行顺序、权限与就绪判断"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "status": "已确认语义与候选接口混合；不是实现授权",
+      "topic": "用户纠偏、契约与内部自主、验收准备",
+      "reason": "记录 agent 初始建议被用户反馈修正，以及实现前需补足的精确信息。",
+      "sections": "31-49 构造、引用与可变性变化；62-86 确认细则、验收及准备",
+      "section_ranges": [
+        {
+          "start": 31,
+          "end": 49,
+          "label": "构造、引用与可变性变化"
+        },
+        {
+          "start": 62,
+          "end": 86,
+          "label": "确认细则、验收及准备"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+      "status": "历史讨论方案；写入不等于执行实现",
+      "topic": "契约先行、修改范围、不扩大“完整”",
+      "reason": "把完整支持限定于实际需求，明确内部自主与返回讨论的边界。",
+      "sections": "3-13 状态、目标与修正；118-132 验收、实施范围与准备",
+      "section_ranges": [
+        {
+          "start": 3,
+          "end": 13,
+          "label": "状态、目标与修正"
+        },
+        {
+          "start": 118,
+          "end": 132,
+          "label": "验收、实施范围与准备"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "status": "实施前方案；已确认职责与候选字段并存",
+      "topic": "修正建议、未来接口不提前决定、允许范围",
+      "reason": "区分当前授权、未来讨论、读写范围和就绪判断，记录用户对管理与命名建议的纠偏。",
+      "sections": "3-7 状态；90-96 本轮选择与保留方向；119-143 验收范围与实施准备判断",
+      "section_ranges": [
+        {
+          "start": 3,
+          "end": 7,
+          "label": "状态"
+        },
+        {
+          "start": 90,
+          "end": 96,
+          "label": "本轮选择与保留方向"
+        },
+        {
+          "start": 119,
+          "end": 143,
+          "label": "验收范围与实施准备判断"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+      "status": "授权内 agent 探索决定；明确不是用户最终接受",
+      "topic": "决策/实施分工、信息包、复议、依赖修改",
+      "reason": "保存决策者边界、替代方案、复议及导致后续上下文污染的信息来源。",
+      "sections": "3-11 状态、信息包与边界；33-47 阅读统计与资源补丁分工；134-160 阶段边界、D5-3 复议及 D6-4 信息混入",
+      "section_ranges": [
+        {
+          "start": 3,
+          "end": 11,
+          "label": "状态、信息包与边界"
+        },
+        {
+          "start": 33,
+          "end": 47,
+          "label": "阅读统计与资源补丁分工"
+        },
+        {
+          "start": 134,
+          "end": 160,
+          "label": "阶段边界、D5-3 复议及 D6-4 信息混入"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+      "status": "探索性决定的过滤交接包；非用户最终确认",
+      "topic": "独立上下文、过滤交接、公开范围",
+      "reason": "与中止记录配对，展示如何从综合决定提取供隔离实现使用的公开材料。",
+      "sections": "1-5 交接目的与状态；26-56 公开约束及消歧决定",
+      "section_ranges": [
+        {
+          "start": 1,
+          "end": 5,
+          "label": "交接目的与状态"
+        },
+        {
+          "start": 26,
+          "end": 56,
+          "label": "公开约束及消歧决定"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+      "status": "探索性决定的过滤交接包；非用户最终确认",
+      "topic": "公开交接、共享修改、依赖归属",
+      "reason": "依赖补丁由专属 agent 完成，共享入口与已有验收元数据由主 agent 维护。",
+      "sections": "1-14 交接边界及资源补丁分工；45-58 最小迁移与验收边界",
+      "section_ranges": [
+        {
+          "start": 1,
+          "end": 14,
+          "label": "交接边界及资源补丁分工"
+        },
+        {
+          "start": 45,
+          "end": 58,
+          "label": "最小迁移与验收边界"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-29-first-implementation-results.md",
+      "status": "历史执行与验收记录；非本轮重验",
+      "topic": "环境误判、独立预期、权限、分开提交",
+      "reason": "记录网络错误排查、环境与实现分别验收、工具限制和自述并非独立审计。",
+      "sections": "13-43 环境与基础表示验收；45-70 契约、阅读限制及交接",
+      "section_ranges": [
+        {
+          "start": 13,
+          "end": 43,
+          "label": "环境与基础表示验收"
+        },
+        {
+          "start": 45,
+          "end": 70,
+          "label": "契约、阅读限制及交接"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "status": "历史结果；Material 支持后来被收缩",
+      "topic": "保护已有改动、独立纠错、阅读限制",
+      "reason": "真实数量预期错误通过独立计数修正，原结果保留并链接后续删减。",
+      "sections": "7-9 起点与已有变更；33-47 验证纠错及工具边界；49-56 历史能力限制",
+      "section_ranges": [
+        {
+          "start": 7,
+          "end": 9,
+          "label": "起点与已有变更"
+        },
+        {
+          "start": 33,
+          "end": 47,
+          "label": "验证纠错及工具边界"
+        },
+        {
+          "start": 49,
+          "end": 56,
+          "label": "历史能力限制"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-remove-material-support.md",
+      "status": "用户确认后的历史改动；非通用能力禁令",
+      "topic": "独立审查、消除无依据功能、授权范围",
+      "reason": "审查指出过度实现，用户确认后收缩公共接口，保留旧记录并链接修正。",
+      "sections": "3-19 原因、同步契约、验证与未来边界",
+      "section_ranges": [
+        {
+          "start": 3,
+          "end": 19,
+          "label": "原因、同步契约、验证与未来边界"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "status": "历史实施与复盘；自述/测试结果有范围限定",
+      "topic": "先明测试目的、失败归因、保留已有修改、计时",
+      "reason": "保存测试预期误用缓存的纠错、局部错误修复、输入字节保护和混合阶段统计。",
+      "sections": "14-28 既有改动保护及测试目的；43-49 失败、修正与一致性；51-86 阅读边界、统计与契约局限",
+      "section_ranges": [
+        {
+          "start": 14,
+          "end": 28,
+          "label": "既有改动保护及测试目的"
+        },
+        {
+          "start": 43,
+          "end": 49,
+          "label": "失败、修正与一致性"
+        },
+        {
+          "start": 51,
+          "end": 86,
+          "label": "阅读边界、统计与契约局限"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "status": "授权探索的历史结果；最终设计未接受",
+      "topic": "多 agent 分工、隔离修复、集成、证据归属、计时",
+      "reason": "总记录保留独立决策/实施、中止/重启、集成验证及并行时间统计。",
+      "sections": "3-38 授权、初始验证、任务、交接修复、测试目的；40-69 验收事实、限制及自审；71-93 用量计时与交付",
+      "section_ranges": [
+        {
+          "start": 3,
+          "end": 38,
+          "label": "授权、初始验证、任务、交接修复、测试目的"
+        },
+        {
+          "start": 40,
+          "end": 69,
+          "label": "验收事实、限制及自审"
+        },
+        {
+          "start": 71,
+          "end": 93,
+          "label": "用量计时与交付"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+      "status": "探索性补丁历史结果；非用户最终接受",
+      "topic": "专属修改范围、公开行为测试、交接事实归属",
+      "reason": "最小扩展记录区分自身结果与协调侧报告，保留无法可靠细分的时间边界。",
+      "sections": "5-27 范围、目的、结果及实际阅读；29-33 时间与用量",
+      "section_ranges": [
+        {
+          "start": 5,
+          "end": 27,
+          "label": "范围、目的、结果及实际阅读"
+        },
+        {
+          "start": 29,
+          "end": 33,
+          "label": "时间与用量"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-4-results.md",
+      "status": "探索实施历史结果；自述非独立审计",
+      "topic": "独立测试预期、职责、计时局限",
+      "reason": "单元测试与主任务回归分开，报告独立依据及有限验证能说明的范围。",
+      "sections": "7-35 范围、独立预期及验证；37-61 阅读、计量与未决项",
+      "section_ranges": [
+        {
+          "start": 7,
+          "end": 35,
+          "label": "范围、独立预期及验证"
+        },
+        {
+          "start": 37,
+          "end": 61,
+          "label": "阅读、计量与未决项"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+      "status": "历史中止/失败经验；未实施也未测试",
+      "topic": "上下文污染、及时停止、不声称遗忘",
+      "reason": "综合决定携带内部断言导致上下文污染，保留实际产物、停止理由和计时缺口。",
+      "sections": "3-21 停止原因、实际阅读及未完成边界",
+      "section_ranges": [
+        {
+          "start": 3,
+          "end": 21,
+          "label": "停止原因、实际阅读及未完成边界"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-5-results.md",
+      "status": "过滤交接后的探索实施结果；非最终接受",
+      "topic": "新上下文重启、自审修复、证据范围",
+      "reason": "区别首次中止上下文，记录错误补测修正和 diff 检查不覆盖未跟踪文件的限制。",
+      "sections": "3-29 重启范围、独立测试与自审修复；31-48 读取、计量与契约局限",
+      "section_ranges": [
+        {
+          "start": 3,
+          "end": 29,
+          "label": "重启范围、独立测试与自审修复"
+        },
+        {
+          "start": 31,
+          "end": 48,
+          "label": "读取、计量与契约局限"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-6-results.md",
+      "status": "探索实施历史结果；主 agent 回归是转述",
+      "topic": "公开接口独立集成、共享职责、补测、局限",
+      "reason": "记录公开接口交付、补测目的先行、最小迁移以及单元验证与主任务报告的区别。",
+      "sections": "5-38 职责、测试及证据归属；40-64 契约、工具边界与计量",
+      "section_ranges": [
+        {
+          "start": 5,
+          "end": 38,
+          "label": "职责、测试及证据归属"
+        },
+        {
+          "start": 40,
+          "end": 64,
+          "label": "契约、工具边界与计量"
+        }
+      ]
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/baseline_validation/ur7e_table/README.md",
+      "status": "历史验证及局限；原报告保留，部分结果过时",
+      "topic": "验证过期、哈希关联、历史不覆盖",
+      "reason": "输入变更且缺少碰撞依赖后，不把旧报告算作新验证；区分历史原型与正式语义。",
+      "sections": "95-129 数值检查范围、未检查项及目录整理",
+      "section_ranges": [
+        {
+          "start": 95,
+          "end": 129,
+          "label": "数值检查范围、未检查项及目录整理"
+        }
+      ]
+    }
+  ],
+  "inventory": [
+    {
+      "repo": "research-process",
+      "path": ".gitignore",
+      "size": 151,
+      "mtime_ns": 1789446272094051923,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "f6baf58e49e593b4cd3a40572ed0f4571c687d2bed595879dbae6b7bf4550550",
+      "selected": false,
+      "screening": "仓库忽略/构建配置等非协作原始材料。"
+    },
+    {
+      "repo": "research-process",
+      "path": "AGENTS.md",
+      "size": 4223,
+      "mtime_ns": 1789970124351226166,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "ebef8a85ab89956d235199da1063b7e84a0678b71fe05e213ff8befacbb36ef8",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "README.md",
+      "size": 2421,
+      "mtime_ns": 1789446271848155557,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "5d931bcf1b6bc3dcde3a9dae9606b176e052693df8138057d40da1afcbf07179",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "journal.md",
+      "size": 0,
+      "mtime_ns": 1789374957762095934,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "selected": false,
+      "screening": "空文件。"
+    },
+    {
+      "repo": "research-process",
+      "path": "local-paths.md",
+      "size": 255,
+      "mtime_ns": 1788753808374806475,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c547dd7ac324697f5cb7e08afdc21ba1b4cb72b7e9a90606754a38121d1261a3",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "overview.md",
+      "size": 1249,
+      "mtime_ns": 1789545448537728268,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "758ed54d110591c62f803f578a39391a169aed5738da408f5719332732cdac7d",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "state.md",
+      "size": 1268,
+      "mtime_ns": 1789545448537728268,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "7433ffa25492ed2fcff8cf9d4e9501e7502e546300bb0ab54eff9a722982425b",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": ".obsidian/app.json",
+      "size": 90,
+      "mtime_ns": 1789459117585789963,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "e2a5fdc525b27247afe97799c11a4c9c0d593d61bfae6930f7ee3242f0313b66",
+      "selected": false,
+      "screening": "本地工具配置、界面状态或符号缓存，不执行，不加载外部记忆。"
+    },
+    {
+      "repo": "research-process",
+      "path": ".obsidian/appearance.json",
+      "size": 2,
+      "mtime_ns": 1789459117586789991,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+      "selected": false,
+      "screening": "本地工具配置、界面状态或符号缓存，不执行，不加载外部记忆。"
+    },
+    {
+      "repo": "research-process",
+      "path": ".obsidian/core-plugins.json",
+      "size": 696,
+      "mtime_ns": 1789373969478086701,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "763cf20a921fd9955735b278006820b90b207b2fc04d9e79ca648279c7c14276",
+      "selected": false,
+      "screening": "本地工具配置、界面状态或符号缓存，不执行，不加载外部记忆。"
+    },
+    {
+      "repo": "research-process",
+      "path": ".obsidian/graph.json",
+      "size": 496,
+      "mtime_ns": 1790134108674999952,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "e80a51eaeae777879b5e502b16f19a7214bbbec2d1740be16ac737d0e30c5c37",
+      "selected": false,
+      "screening": "本地工具配置、界面状态或符号缓存，不执行，不加载外部记忆。"
+    },
+    {
+      "repo": "research-process",
+      "path": ".obsidian/workspace.json",
+      "size": 7281,
+      "mtime_ns": 1791302302916465646,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "f3decf3614359693cfade49e70bde4fa69a994c54ad433d034737a38332d0baf",
+      "selected": false,
+      "screening": "本地工具配置、界面状态或符号缓存，不执行，不加载外部记忆。"
+    },
+    {
+      "repo": "research-process",
+      "path": ".serena/.gitignore",
+      "size": 26,
+      "mtime_ns": 1790581517720971606,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "21d5dcb497df8b257d94919bdadcfe75b75d085d0f7b77ac2d8a813a9ca6e758",
+      "selected": false,
+      "screening": "本地工具配置、界面状态或符号缓存，不执行，不加载外部记忆。"
+    },
+    {
+      "repo": "research-process",
+      "path": ".serena/project.local.yml",
+      "size": 402,
+      "mtime_ns": 1790581517719977992,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "7b5753e9fcf8348db026f8d23ff601b1cf90d9543532fe979f31650e27b15d2b",
+      "selected": false,
+      "screening": "本地工具配置、界面状态或符号缓存，不执行，不加载外部记忆。"
+    },
+    {
+      "repo": "research-process",
+      "path": ".serena/project.yml",
+      "size": 9790,
+      "mtime_ns": 1790581517840205311,
+      "mode": 384,
+      "kind": "file",
+      "sha256": "465138e9aa602f38da3fcfd31d48e8129a9788c085f95d0b5c1bec929cfc1e39",
+      "selected": false,
+      "screening": "本地工具配置、界面状态或符号缓存，不执行，不加载外部记忆。"
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/README.md",
+      "size": 1980,
+      "mtime_ns": 1789469958311519230,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c5dcb3330da22ef143151caaf2d1590dddc4405302becff1e60c0249d758538b",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/cube-complex/01-path-network.svg",
+      "size": 93984,
+      "mtime_ns": 1789445661692311480,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "a6689102a50e6be4fe29a368effe15440cd1b519477979e92f79d5f90860183c",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/cube-complex/02-three-coordination-cards.svg",
+      "size": 107862,
+      "mtime_ns": 1789445661888309186,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "0781dc3c74a1730c3b72c3368194d1ae9b8b697f4fbd2d793f7ebd885e33a96f",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/cube-complex/03-corresponding-boundaries.svg",
+      "size": 121204,
+      "mtime_ns": 1789445662110306604,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "43bb6d902d3898d2eb76ae16722fdfc410d8bc37f1e5d9875a888b312265cf72",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/cube-complex/04-glued-cards.svg",
+      "size": 100466,
+      "mtime_ns": 1789445662246305033,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "cb076af169615da26f94195df6fd8edb356c2ade54d9fb191dd4591f2a0e4483",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/cube-complex/05-cross-card-route.svg",
+      "size": 102661,
+      "mtime_ns": 1789445662426302953,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "064a7029c70ddf4707d81d5cb11745330474ab8982fb4a264d0f1ebc05fe2b43",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/cube-complex/README.md",
+      "size": 3000,
+      "mtime_ns": 1789446272532867400,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c02914c49ff0f05eba6b51cc6f063d0727ba70fc88d95d6867673ea7b32b75bd",
+      "selected": false,
+      "screening": "插图技术用途与生成说明；维护方法由 assets/README.md 和相应理解笔记保存，不递归收齐图形工程。"
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/cube-complex/draw_figures.py",
+      "size": 10943,
+      "mtime_ns": 1789446271445325566,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "69dcb66b4dff73837054a3dfe1e365899ae4a9baec8858d32f6712ee40a20cb6",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/path-collision-equivalence/README.md",
+      "size": 2921,
+      "mtime_ns": 1789469958192540378,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "422460011bc9eefe11005c94bc2a512fadf8f2b93fd29e27d0012987619d7e1a",
+      "selected": false,
+      "screening": "教学图形技术说明；证据归属案例已从讨论/阅读笔记选取。"
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/path-collision-equivalence/index.html",
+      "size": 21357,
+      "mtime_ns": 1789469780207726325,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "daf7a7964e7745df566824ff335ff687c2551409d0238c91dba2c75b13d0a3ba",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/path-collision-equivalence/three-robots.js",
+      "size": 14688,
+      "mtime_ns": 1789469957997575030,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "6067043b1fabc57d565309478f775b55e88495aeff25cc01921864a18565d1b8",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/path-collision-equivalence/exports/preview.png",
+      "size": 341555,
+      "mtime_ns": 1789469068626320864,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "16a44980548d1d65ef4213d459afb63f1f3af26e67104746b753ea7faa53f1b6",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/path-collision-equivalence/exports/three-robots-cube.png",
+      "size": 202762,
+      "mtime_ns": 1789469897043680658,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "68123ffd1e2260c4b173902b97fc2ea8675832fb4c72b769e7b5b6616cff0c66",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "research-process",
+      "path": "assets/path-collision-equivalence/exports/three-robots-preview.png",
+      "size": 564478,
+      "mtime_ns": 1789469896718680700,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "17228ea49fc3b1f36daa1c2d5d695846288d2b2331f497521ad113fb4b3cfd97",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "research-process",
+      "path": "experiments/README.md",
+      "size": 485,
+      "mtime_ns": 1788753808374806475,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "4c4e087245949d7a73c03fdbab92b96ba6d8c4259345c48f13e48214c77a8123",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+      "size": 6901,
+      "mtime_ns": 1788776824067040054,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "3439de75ebf40eeccba4a2b87a11c977780da30aa270033b6c8e8bd42ac9b6d3",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+      "size": 7688,
+      "mtime_ns": 1789545448540727837,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "108762b9127fc9b4fca859bf3bafccc26548edc361b72d99a81e038493b54f25",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+      "size": 3466,
+      "mtime_ns": 1789545448540727837,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "5c2730ed3f63e54b69edc791c187539e934fd383db98d579b19f5724746bb91d",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-09-coordination-space-reading-guide.md",
+      "size": 10358,
+      "mtime_ns": 1789545448542727550,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "274c478de81750929f994e86953cbc54419cd12bd0a7ae7a183499cb531c75fc",
+      "selected": false,
+      "screening": "主要为技术文献导览；有状态限定，未因这些标记另行纳入整篇文献调研。"
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-09-multi-arm-research-focus.md",
+      "size": 1600,
+      "mtime_ns": 1789545448542727550,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "4050c72b6e5604dace9787ba2637bf3add2057d844cda0215b9c0c5ccd54e9e5",
+      "selected": false,
+      "screening": "研究范围与方向；协作中的边界澄清已保留原讨论。"
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-14-todos-and-draft.md",
+      "size": 323,
+      "mtime_ns": 1789375645734156620,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "1f9419832e4f65b4236053040f50aa5e870ae8d5cf862e25b9a35281ab0f1194",
+      "selected": false,
+      "screening": "个人短待办，无实质协作决定或经验；没有执行其中任务。"
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-15-cube-complex-understanding.md",
+      "size": 9476,
+      "mtime_ns": 1789446303301627510,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "9d5da23338493adeaa269869ff0a6a5b50f024a3d5e654b096e9e157e64933d3",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-16-generator-scene-and-target-representation.md",
+      "size": 4447,
+      "mtime_ns": 1789563948778722427,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "1f9cba09d41d59e031d3ecfefa8be0893c5f122ad5ec3255b90d8992fdeb4ddc",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-17-generator-input-output-format.md",
+      "size": 11904,
+      "mtime_ns": 1789638304447053460,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "822896bbb0cc49d76b965e2b10cdce043c4aa959a801a98e004016d8d8aa0891",
+      "selected": false,
+      "screening": "业务格式快照，不因候选/未定标记就整体纳入。"
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-18-agent-collaborative-development-research.md",
+      "size": 16065,
+      "mtime_ns": 1789718826975635333,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "27ecdff8abfb01b46cf1c05e38ed480a74bd89f56b5be1bfd9809e8c44a518ca",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-18-evolving-design-and-best-practices.md",
+      "size": 4019,
+      "mtime_ns": 1789708490200657167,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "78b7a95085527bfab36fb71974cf546bbc41c547b8be45e05ac48d57b2640752",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/2026-09-18-generator-input-output-format.md",
+      "size": 14314,
+      "mtime_ns": 1789701570302569540,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "7d90c8fcd105cc58f5a709d0f64516da8e82e2daae5e244ef66ad3e444c6373c",
+      "selected": false,
+      "screening": "业务格式方案，相关协作原则和意图纠偏另有直接来源。"
+    },
+    {
+      "repo": "research-process",
+      "path": "inbox/README.md",
+      "size": 472,
+      "mtime_ns": 1788753808374806475,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "456140f7bc8e578978f3cdcc18db1e4dff1c408721f2a3cfaf165cbf1ac3cf55",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "journal/2026-09-07-record-organization.md",
+      "size": 1360,
+      "mtime_ns": 1788753808374806475,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "6a993e21826ee6850a6242ae61832cf5d1d95baa903ab0b8276e2a52cb2503c8",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "journal/2026-09-07-starting-point.md",
+      "size": 1625,
+      "mtime_ns": 1788753808374806475,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "1348fab8dc9cffe7216142694cba76539035a32c2eb096375b043507f1f0936d",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "journal/2026-09-15-research-understanding-and-direction.md",
+      "size": 13945,
+      "mtime_ns": 1789545472809420425,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "a7a6133d48c448e8c4bf9e0cb39c940bee08c14e4b54cbef5603d4f45754501e",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "projects/README.md",
+      "size": 731,
+      "mtime_ns": 1788753808374806475,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "6ac7172bb6d1ffce85af457aa8813d6a5461218097e314b12273076f31d10894",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "projects/dataset-generator/README.md",
+      "size": 609,
+      "mtime_ns": 1788753808374806475,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "7f12149b82b8bceaf71cf95a878ba4052b5f37ccac0e6a08d66352ce5c21e161",
+      "selected": false,
+      "screening": "项目背景和待讨论技术需求，组织约定已保留 projects/README.md。"
+    },
+    {
+      "repo": "research-process",
+      "path": "projects/stop-n-go/README.md",
+      "size": 484,
+      "mtime_ns": 1788753808374806475,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "1db69e839071f1b0b1b6f9a4ca80151520655cfaec3f286945d9dde1d87d33d4",
+      "selected": false,
+      "screening": "项目状态模板，证据边界与归档原则已收录更直接材料。"
+    },
+    {
+      "repo": "research-process",
+      "path": "references/README.md",
+      "size": 1148,
+      "mtime_ns": 1789545472808420554,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "8a9a195bac8c929b242ddd88d8630b6264f2e68ac7694f84b0d0014b3833ac81",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "references/lavalle-planning-algorithms-7-2-multiple-robots.md",
+      "size": 4428,
+      "mtime_ns": 1789545448540727837,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "84047e306d3dc7678d314dc2017ee2ccdc9c19c8ce6e874ba469eb919f07319d",
+      "selected": false,
+      "screening": "技术阅读提纲和链接，理解演变的原始讨论已收录。"
+    },
+    {
+      "repo": "research-process",
+      "path": "references/stac-reading-notes.md",
+      "size": 14002,
+      "mtime_ns": 1789545448539727981,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "3ac705521dd15228ebb7c86e9cc1c80608db9a2c991cc23503912f1dbba35586",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "research-process",
+      "path": "references/stop-n-go-reading-notes.md",
+      "size": 611,
+      "mtime_ns": 1789545122207980797,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "39ff2cb4fa6b8989b3f3e445f8bcbaa433816403bfed39c36109e031fb7d6241",
+      "selected": false,
+      "screening": "文献入口及未填阅读提纲，无实质协作过程。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": ".gitignore",
+      "size": 381,
+      "mtime_ns": 1790668888250208079,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "29e52f548cc9452982265f3a05885fda3df43b44cf6e238c3b43954a6e016a1f",
+      "selected": false,
+      "screening": "仓库忽略/构建配置等非协作原始材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "AGENTS.md",
+      "size": 11497,
+      "mtime_ns": 1790772370698962824,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "d11de02d89cec074bb9ad95da73b6fc0744f2fa24d91db4233dc5f730b322b21",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "MotionBenchMaker.pdf",
+      "size": 7398744,
+      "mtime_ns": 1788770200549626470,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "06f4af598af19ddc9b818d1d24a8d67ede58c2b2bbd88cdf8c0039a2e952c742",
+      "selected": false,
+      "screening": "MotionBenchMaker 技术论文，非本项目协作讨论；未展开 PDF。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "README.md",
+      "size": 2655,
+      "mtime_ns": 1790774679807067908,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "a641ff872f36e789c12774ccd4fc3edbe871ee768e08f6238813ccf49a2ed93c",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "pyproject.toml",
+      "size": 352,
+      "mtime_ns": 1790757012759407099,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "6803cdfcbb3fe8a16ee36b09fcbc018a97283612a4e2b83ecda95de358409f81",
+      "selected": false,
+      "screening": "仓库忽略/构建配置等非协作原始材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": ".serena/.gitignore",
+      "size": 26,
+      "mtime_ns": 1790649996176156716,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "21d5dcb497df8b257d94919bdadcfe75b75d085d0f7b77ac2d8a813a9ca6e758",
+      "selected": false,
+      "screening": "本地工具配置、界面状态或符号缓存，不执行，不加载外部记忆。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": ".serena/project.local.yml",
+      "size": 402,
+      "mtime_ns": 1790649996175156790,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "7b5753e9fcf8348db026f8d23ff601b1cf90d9543532fe979f31650e27b15d2b",
+      "selected": false,
+      "screening": "本地工具配置、界面状态或符号缓存，不执行，不加载外部记忆。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": ".serena/project.yml",
+      "size": 9794,
+      "mtime_ns": 1790649996244151706,
+      "mode": 384,
+      "kind": "file",
+      "sha256": "d499ece57bb25ac84e9d6abddcd66fa15d510cf4eaf165bb3445b95728441908",
+      "selected": false,
+      "screening": "本地工具配置、界面状态或符号缓存，不执行，不加载外部记忆。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": ".serena/cache/python/document_symbols.pkl",
+      "size": 567742,
+      "mtime_ns": 1790823209183845593,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "abf8f73c391bb59fd2882ed6ef15f2509483e290d2cefd2d5075296eaaf4ada2",
+      "selected": false,
+      "screening": "本地工具配置、界面状态或符号缓存，不执行，不加载外部记忆。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": ".serena/cache/python/raw_document_symbols.pkl",
+      "size": 154735,
+      "mtime_ns": 1790823209179845546,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "a16a2e410d7cfaad55621ddcd8eb12b60f3630917bfd6f04263ad3503e1ffc4b",
+      "selected": false,
+      "screening": "本地工具配置、界面状态或符号缓存，不执行，不加载外部记忆。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "build/lib/multiarm_problem_gen/__init__.py",
+      "size": 67,
+      "mtime_ns": 1790650087000000000,
+      "mode": 420,
+      "kind": "file",
+      "sha256": "f2952911f7e414e57b5937953a0398ec9c7b2492c50e1d5a7f4b5922d77c7aea",
+      "selected": false,
+      "screening": "可再生成的构建或打包产物。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "build/lib/multiarm_problem_gen/primitives/__init__.py",
+      "size": 246,
+      "mtime_ns": 1790650379000000000,
+      "mode": 420,
+      "kind": "file",
+      "sha256": "7cd2106bc1265a0d1522e06086a4bdda61d47c9d9668a767eda56fb7f6ebebf1",
+      "selected": false,
+      "screening": "可再生成的构建或打包产物。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "build/lib/multiarm_problem_gen/primitives/_representations.py",
+      "size": 8020,
+      "mtime_ns": 1790650379000000000,
+      "mode": 420,
+      "kind": "file",
+      "sha256": "e4e124197b0d1465d6e63c57fa74ca0278da79b2db267008ab37f0faa01408fd",
+      "selected": false,
+      "screening": "可再生成的构建或打包产物。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docker/Dockerfile",
+      "size": 930,
+      "mtime_ns": 1790757012758407203,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "8ca9b254dd48e2d9e6e33408bc717e5548fa7b9f9a674d0a7d8146269469b726",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docker/Dockerfile.dockerignore",
+      "size": 145,
+      "mtime_ns": 1790668888251208087,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "6e3c2f30cfe22465bb65c3d9662e76a9536b9e5f31ec0d6296765cc7c4f1148c",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docker/README.md",
+      "size": 10575,
+      "mtime_ns": 1790774679942074652,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "2c64c5731bb2bd34ea90c262c8e9db0f394e87b76cc48ad8084a1491930cd684",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docker/check_environment.py",
+      "size": 2197,
+      "mtime_ns": 1790757012759407099,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "b55afd6581715ae009ff7775b4540d875ca1f9e3c73a805fcc91a4cb01c4151e",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docker/compose.yaml",
+      "size": 565,
+      "mtime_ns": 1790668888251208087,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "1020d23169603e83fed754a61548f7e70494ea1c493ba3f9c495a04de98ff520",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/README.md",
+      "size": 7535,
+      "mtime_ns": 1790774679847069906,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "948cb0d6c4a8a8aefb484be3bec9814139b3887ac01925b77e141d019c2f86f0",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/design.md",
+      "size": 9297,
+      "mtime_ns": 1790774679906072854,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c9b7fdf1723efe23165f207c82216f1b4a38126c428783dc116341d20a1a6931",
+      "selected": false,
+      "screening": "领域语义/架构概览；历史状态维护与协作选择由 docs/README.md 及过程记录覆盖。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/git-workflow.md",
+      "size": 5089,
+      "mtime_ns": 1789727886189425923,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "30146681bdda2fe5bea0bcd8d932ec03bf762cf7749e2d741cd824f4e572dff5",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/contracts/distributions.md",
+      "size": 2158,
+      "mtime_ns": 1790773364068418678,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "1d09ef2daaa2c2ed4acb8ee5acd89e406b9cc045f8ace4c5044806f9eff91ffb",
+      "selected": false,
+      "screening": "业务 API 契约；协作边界由约定、交接包和实施记录保留，不整批收齐技术接口。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/contracts/generation.md",
+      "size": 6287,
+      "mtime_ns": 1790773819247213061,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "4540a0f9d0ba34dc600e6fbd7c0894fc5b6c7e02e213df1a0c91b178bb3e7cab",
+      "selected": false,
+      "screening": "业务 API 契约；协作边界由约定、交接包和实施记录保留，不整批收齐技术接口。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/contracts/input-bundle.md",
+      "size": 4019,
+      "mtime_ns": 1790774456631433099,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "eb359ee056c58498bac150800473875414a469d634cf25e0678a1aaeba6b3342",
+      "selected": false,
+      "screening": "业务 API 契约；协作边界由约定、交接包和实施记录保留，不整批收齐技术接口。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/contracts/primitives.md",
+      "size": 4381,
+      "mtime_ns": 1790757022725385349,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "4cb7b4042c7c858e19f01cc05d8c80d63245200f36d771ddf1d5847255acd87d",
+      "selected": false,
+      "screening": "业务 API 契约；协作边界由约定、交接包和实施记录保留，不整批收齐技术接口。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/contracts/resources.md",
+      "size": 4019,
+      "mtime_ns": 1790773386444811533,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "aef81c4c99ef4cc5bdb358ef981a0ade310c3758a4af31d337e196fd45e03c63",
+      "selected": false,
+      "screening": "业务 API 契约；协作边界由约定、交接包和实施记录保留，不整批收齐技术接口。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/contracts/robot-model.md",
+      "size": 7624,
+      "mtime_ns": 1790757022725385349,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "11b9a48f371d4b6af9872bab51d2cc81a3ccd5cb8fbbf1a3ae66d488ccff2409",
+      "selected": false,
+      "screening": "业务 API 契约；协作边界由约定、交接包和实施记录保留，不整批收齐技术接口。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/contracts/scene.md",
+      "size": 6371,
+      "mtime_ns": 1790759161768541360,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "79dbdc2949ab08648343f2147390a4bcf6910c5e757e8cb7d4c2f026c5ac8332",
+      "selected": false,
+      "screening": "业务 API 契约；协作边界由约定、交接包和实施记录保留，不整批收齐技术接口。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-18-first-input-example.md",
+      "size": 18485,
+      "mtime_ns": 1790757022760381782,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "200cc0bbbd3790f78c2c01e409666dffb7180537b7acda30e62a9d18616fe6dc",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-18-input-output-format.md",
+      "size": 14603,
+      "mtime_ns": 1790757022760381782,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "3e6be628fb052a95af92f9d2e152f297fe4ac68e255b07904fbbf86029dc5db1",
+      "selected": false,
+      "screening": "迁入的完整业务格式方案，不复制两份技术规范；迁移分工由起点记录覆盖。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-18-starting-point.md",
+      "size": 2194,
+      "mtime_ns": 1790757022760381782,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "d8807122ebd2126b9b02336316c3ed729d7460e35ca7267f75842d512188b1ed",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-21-output-validity-semantics.md",
+      "size": 1795,
+      "mtime_ns": 1790757022760381782,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "51f3d2181939a9e886aeaf270c3c2c83bbe8a0c5cb1e10f9754cd6e1d7b38363",
+      "selected": false,
+      "screening": "业务输出有效性需求决定，未以业务确认等同协作规则。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-22-input-domain-representations.md",
+      "size": 7898,
+      "mtime_ns": 1790757022761381681,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "4f57394a15a64882bc0b81c4615709a626158374559e4699bc7aba0b0faa9e5f",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-23-generation-distributions.md",
+      "size": 3271,
+      "mtime_ns": 1790757022761381681,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "b75b7fa21b0d450aac768d90c2058eb2834964bdbbae00775d075a59f3629a06",
+      "selected": false,
+      "screening": "分布与绑定领域表示方案，非人与 agent 协作约定。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-23-input-bundle.md",
+      "size": 3277,
+      "mtime_ns": 1790757022761381681,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c7db2a2b7adba6c1a033c2f79a10e8a20ff599666c7abadb87a7efabba2e3d67",
+      "selected": false,
+      "screening": "输入包目录与路径领域设计，任务边界与交接另外收录。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "size": 4800,
+      "mtime_ns": 1790757022761381681,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "4051402e5e10f2928abbdd09199cd0ed2e70a4eb26f1502cbc41fa5bfee57bd5",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+      "size": 5390,
+      "mtime_ns": 1790757022761381681,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c4d0c708ea8164ab1a9e237b57693428649821166647df779ae1791e49b5ffc7",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+      "size": 1646,
+      "mtime_ns": 1790757022761381681,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "e44e6b5a03bdabd3de6e5f8cdf3d970ac0f44807768df43d2a867939124b8acc",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-input-implementation-units.md",
+      "size": 3476,
+      "mtime_ns": 1790757022761381681,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "d70d9a616bc44915a020fb10d7011114c81c64aba7d3706ed007271666f89539",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "size": 6156,
+      "mtime_ns": 1790757022761381681,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "102d92e6f77108736d16de8de5b99df99f6c54a645fa8ed9aae9f5df917249fc",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+      "size": 8849,
+      "mtime_ns": 1790757022761381681,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "8048c7583006d87313e981e62412ee1524b3f737a199216682251be29b3e2274",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+      "size": 23746,
+      "mtime_ns": 1790773565569521890,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "558fdd15d3a8c0beba07e04ed765846bc3badd7c0acfd8b907a7f37f07bd5a5e",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "size": 13091,
+      "mtime_ns": 1790758950002079174,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "b2bffa810f4448c606a7599730ad7f134b0bb80ed06d199df929a20fec8a3158",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+      "size": 9851,
+      "mtime_ns": 1790773690805143626,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "15606137fe9bc7b2bd327c3cbc7c359c48c241d32008bd4d8fe7351cf8f76835",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+      "size": 7941,
+      "mtime_ns": 1790773866170228603,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "78824363eb3198f31e746c247eaade20b2e7099814c442a926ebc1ec3d1e49a2",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-29-first-implementation-results.md",
+      "size": 7143,
+      "mtime_ns": 1790757022761381681,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "bdcb7af40a84f72355f6829bd3c43f664e69935013bf369eb628add193b5ac98",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "size": 7142,
+      "mtime_ns": 1790757022761381681,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "6a5a042c4fefbcf723dc0ce9aefa0c5d3a128c9a4c6614b73f9bf861965f7cb7",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "size": 12357,
+      "mtime_ns": 1790774956131329308,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "a8b2a9a519d0455a178c3d78bc141259ed66c2604ee90a596c015fcb7a0ec1f6",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-remove-material-support.md",
+      "size": 2182,
+      "mtime_ns": 1790757022761381681,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "b3cef66c4d5d1f2c4d6059caf74e5c4bf7ca14cf3d2d1701b614104dc33232d1",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+      "size": 4761,
+      "mtime_ns": 1790773571884260042,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "47814e0bf336b6190fb41ebee72e646cf83f84e16e3efa9c89a3835a6bc439e9",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "size": 10940,
+      "mtime_ns": 1790760083720417081,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "8a0d3b17ad6d7ca72b412daf7b0498359ba7d10c7f63ec95e9eaf5e61fd5f9f4",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-4-results.md",
+      "size": 5764,
+      "mtime_ns": 1790773609466534438,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "13752190fc4b37ae2339bb699156006e8767d6c5cc43928311607319feb3f5f4",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+      "size": 2842,
+      "mtime_ns": 1790773749898907779,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "acfbfe7f9988697ff4a51640cf09927db53379a1c60fd83b51925407cc7e406b",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-5-results.md",
+      "size": 6382,
+      "mtime_ns": 1790774372189719569,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "42dfd615cc10eda13793cf144073a7dab6f17680ac76169c84fac3520451c419",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "docs/notes/implementation/2026-09-30-unit-6-results.md",
+      "size": 6815,
+      "mtime_ns": 1790774882507888464,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "14e99891461230a3bf340c75bc58407887d0880298e26e279121d5894e5af876",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/README.md",
+      "size": 3817,
+      "mtime_ns": 1790774457110459280,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "2c0aa4e85537e5701fced39dc6fae5b7db429fb384ccc5499b3dfceaf5a5ca2a",
+      "selected": false,
+      "screening": "使用样例及业务字段；迁移与验证限制已由实施记录和基准说明保留。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/bundle.yaml",
+      "size": 39,
+      "mtime_ns": 1790774456943450154,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c18a5bb055f7d5feb7bfccf6d474e68993f9f4daa0f77b1b164b58baf28f5097",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/inputs/tabletop/generation.yaml",
+      "size": 4198,
+      "mtime_ns": 1790649990218596084,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "562f656cc42591f0464e83b74b2d3954c562944966af06db2cf8bd5078b866e3",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/inputs/tabletop/scene.yaml",
+      "size": 4644,
+      "mtime_ns": 1790774457022454472,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "e648310fbcc500cc13c15c7b454cb1596817f6e18ecebf4bb157ff7b0c889181",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/sources.yaml",
+      "size": 6174,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "34cbba75b2ac6eb7a4a708a8528ad46164a8f6948c1693130af764b3170be0d3",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/objects/ball/LICENSE",
+      "size": 1523,
+      "mtime_ns": 1790649990218596084,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "77b99cf750b7853dd491634ce8a059be62c8be1fd29e27da29a30a40d3b8367e",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/objects/ball/ball.stl",
+      "size": 512084,
+      "mtime_ns": 1790649990220595936,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "d9f2f06d9ed0e4a1c367d549109bd5545e687a83c97a53459f013e88b4bd029a",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/robot.urdf",
+      "size": 18503,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "737dcb2cf741ab81d926cbc17d55c3886d88c9eff75bcbdd376a1f9979d842bd",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/robot.yaml",
+      "size": 1579,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "5e4200abff4598945a845c784249b2e28f544866d54f41a855178dbf2b70fbee",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/licenses/robotiq_description/LICENSE",
+      "size": 1524,
+      "mtime_ns": 1790649990220595936,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "a47544ef0ad645c587e46348dc10e68b89c3e74732bd124c005cfcd8ede3b3b8",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/licenses/robotiq_description/LICENSE-robotiq",
+      "size": 1515,
+      "mtime_ns": 1790649990220595936,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "376150a80f36fc6ca750935fb74f99b6a77b9942f1c6c5bf1d51a2adc853b096",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/licenses/ur_description/LICENSE",
+      "size": 1459,
+      "mtime_ns": 1790649990220595936,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "143077f9f6a8de5a99f78c2c2472801fb53cf240277ef661642f079b9acdfff8",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/licenses/ur_moveit_reference/LICENSE",
+      "size": 1459,
+      "mtime_ns": 1790649990220595936,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "143077f9f6a8de5a99f78c2c2472801fb53cf240277ef661642f079b9acdfff8",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/left_finger.stl",
+      "size": 19684,
+      "mtime_ns": 1790649990220595936,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "f39a50be121122fc1c53c588a762ad1da8a0f64d39bc6f299cbe9b0597e7257b",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/left_finger_tip.stl",
+      "size": 11284,
+      "mtime_ns": 1790649990220595936,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "9d90031cd99106a8be63609f8ff78580638d91cc4167bf66c09198329f2e65cf",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/left_inner_knuckle.stl",
+      "size": 17984,
+      "mtime_ns": 1790649990220595936,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "f250a3fea49be4d1bb2383d9980172c59fc44031193ef2293ca540f756f6c1e6",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/left_knuckle.stl",
+      "size": 4384,
+      "mtime_ns": 1790649990220595936,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "b7ec787f57a7db5b2b14e64ffbedaac28739e38f14aac8afa8b575bac941feb7",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/right_finger.stl",
+      "size": 19684,
+      "mtime_ns": 1790649990220595936,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "1d018fa2f0b50aca5941778d78810b211b1abfc8637c7953451d76d4833ba6f8",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/right_finger_tip.stl",
+      "size": 11284,
+      "mtime_ns": 1790649990220595936,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "126f1559f2f7dca62449a6ca926c609fbdaa93ca66df805ff7c069bb206e3d10",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/right_inner_knuckle.stl",
+      "size": 17784,
+      "mtime_ns": 1790649990220595936,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c936d951ede875b91c180bd41d45b22ae23f8a39d9c3e09e29066453a8e863ef",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/right_knuckle.stl",
+      "size": 4384,
+      "mtime_ns": 1790649990220595936,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "d151fb38f59748f1e6e627312e2ede96f2c98ba267bf722091665b20c78e7a8d",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/robotiq_base.stl",
+      "size": 20084,
+      "mtime_ns": 1790649990221595863,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "ede5cd7d7846c051b88645f33d6bbb5ed9b36bbef404a19a46557639bfab7060",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/collision/2f_85/ur_to_robotiq_adapter.stl",
+      "size": 48884,
+      "mtime_ns": 1790649990221595863,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "e5b4eaba7f75c4071c9c0213281af4798098c971891808d87e948383cd2b9aa9",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/left_finger.dae",
+      "size": 191399,
+      "mtime_ns": 1790649990221595863,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "5fb9e5659c735e48eb55269da431cf61b3b7a6745922c1932a7adefb1db86dc3",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/left_finger_tip.dae",
+      "size": 174578,
+      "mtime_ns": 1790649990222595789,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "785ec7a83b4fc6357c211a39bb117833b1cfd4e9bccbef2efc7f35aeb2fdb92e",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/left_inner_knuckle.dae",
+      "size": 110219,
+      "mtime_ns": 1790649990222595789,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "2df009ef28868c90a4904370f5f4995c74ec84e0b8ca1371044e0ea669edcd71",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/left_knuckle.dae",
+      "size": 78865,
+      "mtime_ns": 1790649990223595715,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "1b82214363d9548f3562be70e25cd23217a304c72ccd37bc1551cf1a3a64029d",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/right_finger.dae",
+      "size": 190861,
+      "mtime_ns": 1790649990223595715,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "3b2245b5537eb596d7f8a4c64b12e3aedea46e365fc589019184d3b4200e664f",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/right_finger_tip.dae",
+      "size": 173460,
+      "mtime_ns": 1790649990224595641,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "568371d25ddbcee8e432c0610bdcc7afcd1393d48d973eed92168e353eb4edf5",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/right_inner_knuckle.dae",
+      "size": 111109,
+      "mtime_ns": 1790649990224595641,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "4cc6de99e177773ba755805b58b67537c3af24b2fd8f3a1bf4bbced87d6240a5",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/right_knuckle.dae",
+      "size": 79122,
+      "mtime_ns": 1790649990225595567,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "532b6f6f8794883ff34995701036ca392461f26127757f92003db127693bc57c",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/robotiq_base.dae",
+      "size": 2159533,
+      "mtime_ns": 1790649990232595051,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "761a79d586a48d367d60f146ca77ef7d2821ad790f7b1b1c93b061ac59799267",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/robotiq/visual/2f_85/ur_to_robotiq_adapter.dae",
+      "size": 188335,
+      "mtime_ns": 1790649990233594977,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "ed326c745df2942d2efb8dd902ecfafa84c692d360a7c03ce9276ad491614ac4",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/base.stl",
+      "size": 21084,
+      "mtime_ns": 1790649990233594977,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "9a145e0d46f2130afdf2a2e8825a00a929870c4c3d6d8e4d1adc5f04db3aac1b",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/forearm.stl",
+      "size": 53284,
+      "mtime_ns": 1790649990233594977,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "2e7423cab807c34160ec4f770daee5e747d70e777eb01b7beeace2b8c5751816",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/shoulder.stl",
+      "size": 70084,
+      "mtime_ns": 1790649990233594977,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "ceb92532177daa77682f5fbd628e01c2137d168f949a7a706ce1dabe9f002387",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/upperarm.stl",
+      "size": 99684,
+      "mtime_ns": 1790649990234594903,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "ee893044caf00075cb55b4cf666d1f1311c7979786212a501009f33bee945209",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/wrist1.stl",
+      "size": 59584,
+      "mtime_ns": 1790649990234594903,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "f8c9f9337b6fd98c75f052e96de10e14a107ddb6874ba6b904e546f8a4e4f43a",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/wrist2.stl",
+      "size": 67584,
+      "mtime_ns": 1790649990234594903,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "2964a63f60ce3e3cf3ad55bcf190d7876d50e373cb64b70a57cea5885eaf3c86",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/collision/wrist3.stl",
+      "size": 7184,
+      "mtime_ns": 1790649990234594903,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "83b3666b4ae2badd54af0d2c25a921682ecbc29e849eec646c3ed55fb74c78a3",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/base.dae",
+      "size": 358056,
+      "mtime_ns": 1790649990235594829,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c30e4d7228ef633dca2a02c26df2316741f6642cb6333e8289dba6e6d0b22819",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/forearm.dae",
+      "size": 1140937,
+      "mtime_ns": 1790649990240594460,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "04694bf57dac46e9b8bc7c30f2eec75a1bc762e1f1a879ea30c944f24cacbad8",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/shoulder.dae",
+      "size": 1797083,
+      "mtime_ns": 1790649990246594017,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c581bfa55b86061d9b99d315ed53817b6b693e6a500643bbf9bbb783322d585d",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/upperarm.dae",
+      "size": 3082486,
+      "mtime_ns": 1790649990257593206,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c040a05bb224f14cfab6aa6704d70cbb773ada940eca9a3e34e6ce486c4c4c29",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/wrist1.dae",
+      "size": 1334663,
+      "mtime_ns": 1790649990262592837,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "a07a3d96d2540f9be12e4a07bcb8577d9f1e36005920c396a407804343a3b588",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/wrist2.dae",
+      "size": 1554839,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "982fa42933c6f81629882ad7975e9ba5dac5d474a6b56694e233708376cf840e",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "examples/ur7e_table/resources/robots/ur7e_2f85/meshes/ur/ur5e/visual/wrist3.dae",
+      "size": 66077,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "7a7664ac4adcd53b0870fe6a2b8b975693d846dd4d07a5f44194c7d16f4890ba",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/__init__.py",
+      "size": 67,
+      "mtime_ns": 1790668888251208087,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "f2952911f7e414e57b5937953a0398ec9c7b2492c50e1d5a7f4b5922d77c7aea",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/resources.py",
+      "size": 6528,
+      "mtime_ns": 1790773407720939558,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "e8419b2e5a2f9e0f8cb8a8a61246267f75f0b4fd0b5dedffe762fa25982a7b11",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/bundles/__init__.py",
+      "size": 246,
+      "mtime_ns": 1790774456820443430,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "2829cb751badb2b7832ed2a5f0346ec8e3236187953d1baccd565643a222fbf3",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/bundles/_reader.py",
+      "size": 8062,
+      "mtime_ns": 1790774456893447421,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "b11516e0b53f5b76a108587751d6f4867407d57f40eef629342e0b2910698d85",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/distributions/__init__.py",
+      "size": 3975,
+      "mtime_ns": 1790773400675914127,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "f8ad2e3e519545f662f623724f800037c1a416c2d24cda93dcb20e6af0a28584",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/generation/__init__.py",
+      "size": 374,
+      "mtime_ns": 1790773896091693167,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "b625c3759df08eb66902cf505db327c8df066128b330d0b8346299b1a6741a61",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/generation/_model.py",
+      "size": 10003,
+      "mtime_ns": 1790773896089693005,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "6929b87ea4d8d3ea7bb6a60af24900ffa057ec210209b019d2bd0927a7bbe64b",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/generation/_reader.py",
+      "size": 12844,
+      "mtime_ns": 1790774283657541402,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "b1a92e09cfeea8534b03b4fe633716a050da9e1d211f686f7c06c91d801c68b8",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/primitives/__init__.py",
+      "size": 246,
+      "mtime_ns": 1790668888251208087,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "7cd2106bc1265a0d1522e06086a4bdda61d47c9d9668a767eda56fb7f6ebebf1",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/primitives/_representations.py",
+      "size": 8020,
+      "mtime_ns": 1790668888251208087,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "e4e124197b0d1465d6e63c57fa74ca0278da79b2db267008ab37f0faa01408fd",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/robots/__init__.py",
+      "size": 755,
+      "mtime_ns": 1790757012759407099,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "4d38bcf74080e37325e6ace3d0497e217bd80c91666c56067485143a551f548b",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/robots/_model.py",
+      "size": 8821,
+      "mtime_ns": 1790757012760406996,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "0bfb0afa784652e7818503c46b4075e6dd660bd1a2393933ced2c88dafd40839",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/robots/_reading.py",
+      "size": 26841,
+      "mtime_ns": 1790757012760406996,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "57548148a6ca7d83786229eba919d7713ad4bbbfc1a0d808d99d9278daaad271",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/scenes/__init__.py",
+      "size": 345,
+      "mtime_ns": 1790759290207442363,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "73635f960ea14e4df2c533eb9fb0509a86967ebe376ebd963344809a5b351c94",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/scenes/model.py",
+      "size": 9018,
+      "mtime_ns": 1790759290250441740,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "0722d518b0488aa716d4ef7ebe357dd164496447cfc30becc0d2da383e08d753",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen/scenes/reader.py",
+      "size": 12491,
+      "mtime_ns": 1790760027465646501,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "2abde8454c35f8ecc5a02f16ae03f3cef8363099a6bb0e501e6b1f4a88e3ba12",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen.egg-info/PKG-INFO",
+      "size": 158,
+      "mtime_ns": 1790650578741307101,
+      "mode": 420,
+      "kind": "file",
+      "sha256": "ebe87cba9732c7529097208b2e52246c201ed249cc5c3c44787b9312938c34cb",
+      "selected": false,
+      "screening": "可再生成的构建或打包产物。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen.egg-info/SOURCES.txt",
+      "size": 357,
+      "mtime_ns": 1790650578743307114,
+      "mode": 420,
+      "kind": "file",
+      "sha256": "7f71063a91c34bf969dc086c86b6597b64c9d551b56ad6e55bfadf511016b94c",
+      "selected": false,
+      "screening": "可再生成的构建或打包产物。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen.egg-info/dependency_links.txt",
+      "size": 1,
+      "mtime_ns": 1790650578741307101,
+      "mode": 420,
+      "kind": "file",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "selected": false,
+      "screening": "可再生成的构建或打包产物。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "src/multiarm_problem_gen.egg-info/top_level.txt",
+      "size": 21,
+      "mtime_ns": 1790650578741307101,
+      "mode": 420,
+      "kind": "file",
+      "sha256": "ca3e4e22addb147937959b7342ff190a0c5c817766e756cab085d81d88f7ab5e",
+      "selected": false,
+      "screening": "可再生成的构建或打包产物。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/bundles/_fixtures.py",
+      "size": 2902,
+      "mtime_ns": 1790774683532253862,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "6ee9a12f6fed178b0f6ae7f0603ebf7613a11de92bd720aef979596fb10afa5d",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/bundles/test_bundles.py",
+      "size": 22398,
+      "mtime_ns": 1790774750461556928,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "10cddeacd0ecd9512cad0e377aafb2d52149ef1ff0e9935a475a3314a1a32053",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/distributions/test_distributions.py",
+      "size": 11976,
+      "mtime_ns": 1790773516351559819,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "b40d32b13b7f6d92975042f6238df854e6fc2f94984b47e52f38170a445f66a1",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/generation/test_generation.py",
+      "size": 27470,
+      "mtime_ns": 1790774283700543983,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "be4dba6c8f3801358cbafd23ed80e97056cdd6d218e82d57661757ca535cdd7f",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/integration/test_bundle_acceptance.py",
+      "size": 9663,
+      "mtime_ns": 1790773825265738873,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "bab5a99be11da1056bf2e0c6a796a8876e61ab3f686af87c13e333ac9d6286b7",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/primitives/test_primitives.py",
+      "size": 15927,
+      "mtime_ns": 1790668888251208087,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "883aeb053f0da7831a14750d8629e6e14f5d535e4356fe0764805a1bb80b6e35",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/resources/test_resources.py",
+      "size": 6688,
+      "mtime_ns": 1790759707817265953,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "48d571625c7a4c490e4bef8152f204854988cad82c71507c8fea69b10d612100",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/resources/test_snapshots.py",
+      "size": 8762,
+      "mtime_ns": 1790773493080605134,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "4a6a58687c46c6d7abcd96eb6a6943a301a7124d22cf87bbf16d77a04f04ebf0",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/robots/test_reading.py",
+      "size": 19453,
+      "mtime_ns": 1790757012760406996,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "2ea4681a77f809c1a9b12fff9c05a07976b6cba000f8253a6e63b55e0fe2daa3",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/robots/test_real_robot.py",
+      "size": 11557,
+      "mtime_ns": 1790757012760406996,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "d8df0ba06f00085cee5f162b9849621a0286f87f3a9b34a1dc9a2e7842a710f8",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/robots/fixtures/robot.urdf",
+      "size": 1190,
+      "mtime_ns": 1790757012760406996,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c627f37f87ad708a9d62063afb6df87a2c35bd80d9ac8d324c24043e6b30d5a8",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/robots/fixtures/robot.yaml",
+      "size": 302,
+      "mtime_ns": 1790757012760406996,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "697dc3323d100fea96178d7f4209a25723789472a6c316a06ee30df204505cfa",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/robots/fixtures/shape.stl",
+      "size": 72,
+      "mtime_ns": 1790757012760406996,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "e167aa03754d6b92827d7f41bfe75f07402fb5e0a2c76bc908ec2ea36a9c47f9",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/scenes/test_scenes.py",
+      "size": 25050,
+      "mtime_ns": 1790774579540969275,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "322a2a4c97e9788b21dceb19d6e8ebb23f57bc7e1443fdd7af6a6e0462af9200",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/scenes/fixtures/robot.urdf",
+      "size": 411,
+      "mtime_ns": 1790759673633966840,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "64af03795a10f03b79e881e73e83a08fe10ee681a9547ab455bcd042569d9333",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/scenes/fixtures/robot.yaml",
+      "size": 190,
+      "mtime_ns": 1790759673708944426,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "dbf66dbc6d9c8fa1961baf01860a7a1a10ba875cccfab4c2b887dbeb21abf5c1",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/scenes/fixtures/scene.yaml",
+      "size": 1126,
+      "mtime_ns": 1790759673759929185,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "52ad3a56ae053c6b1f8edcf9fa98998a8e9fa965053ca59612ac9a4f35ffa839",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tests/scenes/fixtures/shape.stl",
+      "size": 79,
+      "mtime_ns": 1790759673816912150,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "f6b24828f4249953596d8e991cf6184fed1cfaf2455879b7a371245c42361005",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tmp/unit1-wheels/multiarm_problem_gen-0.1.0-py3-none-any.whl",
+      "size": 4486,
+      "mtime_ns": 1790650578779307362,
+      "mode": 420,
+      "kind": "file",
+      "sha256": "4c75dd470bbd3eabf6e1f000c76cf5b83c9e8333f50e95e2177120c589da2392",
+      "selected": false,
+      "screening": "可再生成的构建或打包产物。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/baseline_validation/ur7e_table/README.md",
+      "size": 10465,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "26a3019a077f37246587547d74919a34e3b68ad0c18cdada50d7c8b0123e6e2d",
+      "selected": true,
+      "screening": "纳入；见 INDEX.md 对应条目"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/baseline_validation/ur7e_table/baseline.yaml",
+      "size": 428,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "8a4924d790f07c867a8227998bb72c850875fa702ec72dbccea3ba5d135ca79e",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/baseline_validation/ur7e_table/check_baseline.py",
+      "size": 8380,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "dbbc8a912e540b39f690bde8efd9269b5d1c33814175d49a1d9f969c73d3ec1b",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/baseline_validation/ur7e_table/validation-2026-09-18.json",
+      "size": 3424,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "0ad859a165d2669fe9e7b98241ff03b04dd1b1730625e3dbf93f3a5e7ba198cc",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/README.md",
+      "size": 1011,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "30303414d888f81be57632bdacd7f9a9fc8c02815724738878abb2a829fc29ec",
+      "selected": false,
+      "screening": "模型构建入口，无需复制整套构建资源或执行脚本。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/build_model.py",
+      "size": 1911,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "3f23007bd363f0ebe06246a908907a4cae05a65e1bb24601c833d4c037c669ba",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/resources-original.md",
+      "size": 1421,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "efaa1a51cfb103c5658faf00f4de3377dce0161845a2cf8e10875cab4e6731df",
+      "selected": false,
+      "screening": "模型上游来源与许可清单，主要属于技术资源溯源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/robot.urdf.xacro",
+      "size": 1403,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "5bd94419e1ae67115dde015419dea01f3f94fd1498278644958954123db68579",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/sources-original.yaml",
+      "size": 8406,
+      "mtime_ns": 1790649990269592320,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "5d280b331d46dadda9ae92c28714f0f039ead5a58f4f11c77707743182e6ad7c",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/reference/motionbenchmaker/LICENSE",
+      "size": 1523,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "77b99cf750b7853dd491634ce8a059be62c8be1fd29e27da29a30a40d3b8367e",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/reference/motionbenchmaker/scene_table.yaml",
+      "size": 2934,
+      "mtime_ns": 1790649990268592394,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "d9a07c809f39e3504d3187b2f536243586e4c60c593422ae8f60b9557f685564",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/LICENSE",
+      "size": 1524,
+      "mtime_ns": 1790649990269592320,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "a47544ef0ad645c587e46348dc10e68b89c3e74732bd124c005cfcd8ede3b3b8",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/LICENSE-robotiq",
+      "size": 1515,
+      "mtime_ns": 1790649990269592320,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "376150a80f36fc6ca750935fb74f99b6a77b9942f1c6c5bf1d51a2adc853b096",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/package.xml",
+      "size": 1885,
+      "mtime_ns": 1790649990281591434,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "dcfd36e741cf3a344e66d48a4ef310d450f4358a50c69752f3ecf14d7753a7b9",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/left_finger.stl",
+      "size": 19684,
+      "mtime_ns": 1790649990269592320,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "f39a50be121122fc1c53c588a762ad1da8a0f64d39bc6f299cbe9b0597e7257b",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/left_finger_tip.stl",
+      "size": 11284,
+      "mtime_ns": 1790649990269592320,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "9d90031cd99106a8be63609f8ff78580638d91cc4167bf66c09198329f2e65cf",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/left_inner_knuckle.stl",
+      "size": 17984,
+      "mtime_ns": 1790649990269592320,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "f250a3fea49be4d1bb2383d9980172c59fc44031193ef2293ca540f756f6c1e6",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/left_knuckle.stl",
+      "size": 4384,
+      "mtime_ns": 1790649990269592320,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "b7ec787f57a7db5b2b14e64ffbedaac28739e38f14aac8afa8b575bac941feb7",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/right_finger.stl",
+      "size": 19684,
+      "mtime_ns": 1790649990269592320,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "1d018fa2f0b50aca5941778d78810b211b1abfc8637c7953451d76d4833ba6f8",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/right_finger_tip.stl",
+      "size": 11284,
+      "mtime_ns": 1790649990269592320,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "126f1559f2f7dca62449a6ca926c609fbdaa93ca66df805ff7c069bb206e3d10",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/right_inner_knuckle.stl",
+      "size": 17784,
+      "mtime_ns": 1790649990269592320,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c936d951ede875b91c180bd41d45b22ae23f8a39d9c3e09e29066453a8e863ef",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/right_knuckle.stl",
+      "size": 4384,
+      "mtime_ns": 1790649990269592320,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "d151fb38f59748f1e6e627312e2ede96f2c98ba267bf722091665b20c78e7a8d",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/robotiq_base.stl",
+      "size": 20084,
+      "mtime_ns": 1790649990269592320,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "ede5cd7d7846c051b88645f33d6bbb5ed9b36bbef404a19a46557639bfab7060",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/collision/2f_85/ur_to_robotiq_adapter.stl",
+      "size": 48884,
+      "mtime_ns": 1790649990269592320,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "e5b4eaba7f75c4071c9c0213281af4798098c971891808d87e948383cd2b9aa9",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/left_finger.dae",
+      "size": 191399,
+      "mtime_ns": 1790649990270592246,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "5fb9e5659c735e48eb55269da431cf61b3b7a6745922c1932a7adefb1db86dc3",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/left_finger_tip.dae",
+      "size": 174578,
+      "mtime_ns": 1790649990271592172,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "785ec7a83b4fc6357c211a39bb117833b1cfd4e9bccbef2efc7f35aeb2fdb92e",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/left_inner_knuckle.dae",
+      "size": 110219,
+      "mtime_ns": 1790649990271592172,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "2df009ef28868c90a4904370f5f4995c74ec84e0b8ca1371044e0ea669edcd71",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/left_knuckle.dae",
+      "size": 78865,
+      "mtime_ns": 1790649990271592172,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "1b82214363d9548f3562be70e25cd23217a304c72ccd37bc1551cf1a3a64029d",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/right_finger.dae",
+      "size": 190861,
+      "mtime_ns": 1790649990272592099,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "3b2245b5537eb596d7f8a4c64b12e3aedea46e365fc589019184d3b4200e664f",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/right_finger_tip.dae",
+      "size": 173460,
+      "mtime_ns": 1790649990273592025,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "568371d25ddbcee8e432c0610bdcc7afcd1393d48d973eed92168e353eb4edf5",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/right_inner_knuckle.dae",
+      "size": 111109,
+      "mtime_ns": 1790649990273592025,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "4cc6de99e177773ba755805b58b67537c3af24b2fd8f3a1bf4bbced87d6240a5",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/right_knuckle.dae",
+      "size": 79122,
+      "mtime_ns": 1790649990273592025,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "532b6f6f8794883ff34995701036ca392461f26127757f92003db127693bc57c",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/robotiq_base.dae",
+      "size": 2159533,
+      "mtime_ns": 1790649990281591434,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "761a79d586a48d367d60f146ca77ef7d2821ad790f7b1b1c93b061ac59799267",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/meshes/visual/2f_85/ur_to_robotiq_adapter.dae",
+      "size": 188335,
+      "mtime_ns": 1790649990281591434,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "ed326c745df2942d2efb8dd902ecfafa84c692d360a7c03ce9276ad491614ac4",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/urdf/2f_85.ros2_control.xacro",
+      "size": 4586,
+      "mtime_ns": 1790649990281591434,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "a0d097f1753cc040f4f6778bdaa1da9c10c6c0e85afe8292c42fe103353e48fe",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/urdf/2f_common.ros2_control.xacro",
+      "size": 2952,
+      "mtime_ns": 1790649990281591434,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "edc7d3d444cbf5683d43852b53a6bcaf6dad39357ca65b71f1254bd7d3e6616d",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/urdf/robotiq_2f_85_macro.urdf.xacro",
+      "size": 15011,
+      "mtime_ns": 1790649990282591361,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "bfa97d612cf0df29079ab1d0bdcb5f6a8d14fc1563230eb2758008d8a12dc36b",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/robotiq_description/urdf/ur_to_robotiq_adapter.urdf.xacro",
+      "size": 1513,
+      "mtime_ns": 1790649990282591361,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "3d52ae3dbe23c20cea598c816fcc745acaed55b77c9e41b92ad55f0623d3d1d7",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/LICENSE",
+      "size": 1459,
+      "mtime_ns": 1790649990282591361,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "143077f9f6a8de5a99f78c2c2472801fb53cf240277ef661642f079b9acdfff8",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/README.md",
+      "size": 3986,
+      "mtime_ns": 1790649990282591361,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "627f8565e83a44102af73da8faadcb4d948bf24b4970d3dfae72dda8775ea750",
+      "selected": false,
+      "screening": "第三方技术 README，非本项目人与 agent 协作原始讨论。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/package.xml",
+      "size": 3488,
+      "mtime_ns": 1790649990318588704,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "fb8dc76afa1b2ac0c631295e575bc1655df6131fa82864c354e969d48260ecad",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/config/ur7e/default_kinematics.yaml",
+      "size": 649,
+      "mtime_ns": 1790649990282591361,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "4ffc6086bb0118a5a8e4a3576ef41de878de946710799ea4835789063fa9c0bc",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/config/ur7e/joint_limits.yaml",
+      "size": 2869,
+      "mtime_ns": 1790649990282591361,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "1e908454a0fb073761a0c675f708eb003ca7d5333a9e0863ef87fe40d9abb3c7",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/config/ur7e/physical_parameters.yaml",
+      "size": 2428,
+      "mtime_ns": 1790649990282591361,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "0e58b89069d8d87b24cce0c2c02832d88de0f3229baf42916953ce1c71f0fa2d",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/config/ur7e/visual_parameters.yaml",
+      "size": 2393,
+      "mtime_ns": 1790649990282591361,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "87e8adba0d4e40cc9a994e7ca2264671cc6b6c732649b675b553639cb275a16d",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/base.stl",
+      "size": 21084,
+      "mtime_ns": 1790649990282591361,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "9a145e0d46f2130afdf2a2e8825a00a929870c4c3d6d8e4d1adc5f04db3aac1b",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/forearm.stl",
+      "size": 53284,
+      "mtime_ns": 1790649990282591361,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "2e7423cab807c34160ec4f770daee5e747d70e777eb01b7beeace2b8c5751816",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/shoulder.stl",
+      "size": 70084,
+      "mtime_ns": 1790649990282591361,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "ceb92532177daa77682f5fbd628e01c2137d168f949a7a706ce1dabe9f002387",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/upperarm.stl",
+      "size": 99684,
+      "mtime_ns": 1790649990283591287,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "ee893044caf00075cb55b4cf666d1f1311c7979786212a501009f33bee945209",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/wrist1.stl",
+      "size": 59584,
+      "mtime_ns": 1790649990283591287,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "f8c9f9337b6fd98c75f052e96de10e14a107ddb6874ba6b904e546f8a4e4f43a",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/wrist2.stl",
+      "size": 67584,
+      "mtime_ns": 1790649990283591287,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "2964a63f60ce3e3cf3ad55bcf190d7876d50e373cb64b70a57cea5885eaf3c86",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/collision/wrist3.stl",
+      "size": 7184,
+      "mtime_ns": 1790649990283591287,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "83b3666b4ae2badd54af0d2c25a921682ecbc29e849eec646c3ed55fb74c78a3",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/base.dae",
+      "size": 358056,
+      "mtime_ns": 1790649990285591139,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c30e4d7228ef633dca2a02c26df2316741f6642cb6333e8289dba6e6d0b22819",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/forearm.dae",
+      "size": 1140937,
+      "mtime_ns": 1790649990289590844,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "04694bf57dac46e9b8bc7c30f2eec75a1bc762e1f1a879ea30c944f24cacbad8",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/shoulder.dae",
+      "size": 1797083,
+      "mtime_ns": 1790649990295590401,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c581bfa55b86061d9b99d315ed53817b6b693e6a500643bbf9bbb783322d585d",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/upperarm.dae",
+      "size": 3082486,
+      "mtime_ns": 1790649990307589515,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c040a05bb224f14cfab6aa6704d70cbb773ada940eca9a3e34e6ce486c4c4c29",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/wrist1.dae",
+      "size": 1334663,
+      "mtime_ns": 1790649990312589146,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "a07a3d96d2540f9be12e4a07bcb8577d9f1e36005920c396a407804343a3b588",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/wrist2.dae",
+      "size": 1554839,
+      "mtime_ns": 1790649990318588704,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "982fa42933c6f81629882ad7975e9ba5dac5d474a6b56694e233708376cf840e",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/meshes/ur5e/visual/wrist3.dae",
+      "size": 66077,
+      "mtime_ns": 1790649990318588704,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "7a7664ac4adcd53b0870fe6a2b8b975693d846dd4d07a5f44194c7d16f4890ba",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/urdf/ur_macro.xacro",
+      "size": 18813,
+      "mtime_ns": 1790649990318588704,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "2683ddcc2db392116d69ac775e4d6dd1c7b3d420f9eca926bd10cf43a1ce8b35",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_description/urdf/inc/ur_common.xacro",
+      "size": 19909,
+      "mtime_ns": 1790649990318588704,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "91b5a8c55c3a0b04ff0d8abe74fbaf7635966e903e9e978cec473bf88234f9fd",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_moveit_reference/LICENSE",
+      "size": 1459,
+      "mtime_ns": 1790649990319588630,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "143077f9f6a8de5a99f78c2c2472801fb53cf240277ef661642f079b9acdfff8",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_moveit_reference/package.xml",
+      "size": 1656,
+      "mtime_ns": 1790649990319588630,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "36d76e325b62d925b9db985abca1132d389e68dd1ac1dc2bb971cbbb69a79838",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/model_preparation/ur7e_2f85/vendor/ur_moveit_reference/ur_macro.srdf.xacro",
+      "size": 4048,
+      "mtime_ns": 1790649990319588630,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "c73b995bec386975ee838b32c72cd1a87b2a48e58defb9d47cad6270e53ed67d",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/scene_preview/.gitignore",
+      "size": 34,
+      "mtime_ns": 1789982871121881869,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "ba77b9161f16c954d6ad2e17808d485679140635e53125720b745a768c86e637",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/scene_preview/README.md",
+      "size": 3663,
+      "mtime_ns": 1790649990319588630,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "d1b48b841eef0be1b5fc2b8ae63838f5a8890e1774ce29447a80a20da77d31e9",
+      "selected": false,
+      "screening": "技术原型使用说明；由原型引发的合作反馈已在首份样例讨论中保留。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/scene_preview/index.html",
+      "size": 2083,
+      "mtime_ns": 1789982871121881869,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "0e45cc85fc5dffdad5e561d946c639c2f17ec7e00e170cef4e1bbf0ae0915733",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/scene_preview/preview.py",
+      "size": 8955,
+      "mtime_ns": 1790649990319588630,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "ec53abaf8312ef45a1a1899960f59e600c693be80601873099be2b32b28eff3f",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/scene_preview/requirements.txt",
+      "size": 33,
+      "mtime_ns": 1789982871121881869,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "4291f0c3701b13901c6ae4e7cd7aa5580f5f545d7afeb2d3b28f0530e9a84cd7",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/scene_preview/scene.json",
+      "size": 2168885,
+      "mtime_ns": 1789984759846744534,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "f760bb116e6a140274680e2cc9b78c71206adc26b308fb38fee109fd6f869ce3",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/scene_preview/viewer.js",
+      "size": 6099,
+      "mtime_ns": 1789982871125882115,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "43c6ba1f68079f28bf959f57b2b52b8f747484c412dbb16411e38d099606cb08",
+      "selected": false,
+      "screening": "代码、测试、输入、图形、技术配置或产物；文本筛查未发现需单独纳入的实质协作材料。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/scene_preview/vendor/LICENSE",
+      "size": 1081,
+      "mtime_ns": 1789982871121881869,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/scene_preview/vendor/OrbitControls.js",
+      "size": 30973,
+      "mtime_ns": 1789982871121881869,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "7aa4372a5ec60b49988edde81014c7361740a57962d032003ca33301c1f4edd5",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    },
+    {
+      "repo": "multiarm-problem-gen",
+      "path": "tools/scene_preview/vendor/three.module.js",
+      "size": 1272972,
+      "mtime_ns": 1789982871125882115,
+      "mode": 436,
+      "kind": "file",
+      "sha256": "76dea8151bc9352aef3528b4262e249b2604f62543828328db978d060d61a495",
+      "selected": false,
+      "screening": "第三方库、网格、模型或许可等技术资源。"
+    }
+  ],
+  "manifest": [
+    {
+      "source": "/home/fainic/data/research-process/AGENTS.md",
+      "copy": "sources/research-process/AGENTS.md",
+      "bytes": 4223,
+      "sha256": "ebef8a85ab89956d235199da1063b7e84a0678b71fe05e213ff8befacbb36ef8"
+    },
+    {
+      "source": "/home/fainic/data/research-process/README.md",
+      "copy": "sources/research-process/README.md",
+      "bytes": 2421,
+      "sha256": "5d931bcf1b6bc3dcde3a9dae9606b176e052693df8138057d40da1afcbf07179"
+    },
+    {
+      "source": "/home/fainic/data/research-process/overview.md",
+      "copy": "sources/research-process/overview.md",
+      "bytes": 1249,
+      "sha256": "758ed54d110591c62f803f578a39391a169aed5738da408f5719332732cdac7d"
+    },
+    {
+      "source": "/home/fainic/data/research-process/state.md",
+      "copy": "sources/research-process/state.md",
+      "bytes": 1268,
+      "sha256": "7433ffa25492ed2fcff8cf9d4e9501e7502e546300bb0ab54eff9a722982425b"
+    },
+    {
+      "source": "/home/fainic/data/research-process/journal/2026-09-07-starting-point.md",
+      "copy": "sources/research-process/journal/2026-09-07-starting-point.md",
+      "bytes": 1625,
+      "sha256": "1348fab8dc9cffe7216142694cba76539035a32c2eb096375b043507f1f0936d"
+    },
+    {
+      "source": "/home/fainic/data/research-process/journal/2026-09-07-record-organization.md",
+      "copy": "sources/research-process/journal/2026-09-07-record-organization.md",
+      "bytes": 1360,
+      "sha256": "6a993e21826ee6850a6242ae61832cf5d1d95baa903ab0b8276e2a52cb2503c8"
+    },
+    {
+      "source": "/home/fainic/data/research-process/inbox/2026-09-18-evolving-design-and-best-practices.md",
+      "copy": "sources/research-process/inbox/2026-09-18-evolving-design-and-best-practices.md",
+      "bytes": 4019,
+      "sha256": "78b7a95085527bfab36fb71974cf546bbc41c547b8be45e05ac48d57b2640752"
+    },
+    {
+      "source": "/home/fainic/data/research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
+      "copy": "sources/research-process/inbox/2026-09-18-agent-collaborative-development-research.md",
+      "bytes": 16065,
+      "sha256": "27ecdff8abfb01b46cf1c05e38ed480a74bd89f56b5be1bfd9809e8c44a518ca"
+    },
+    {
+      "source": "/home/fainic/data/research-process/inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+      "copy": "sources/research-process/inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md",
+      "bytes": 6901,
+      "sha256": "3439de75ebf40eeccba4a2b87a11c977780da30aa270033b6c8e8bd42ac9b6d3"
+    },
+    {
+      "source": "/home/fainic/data/research-process/inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+      "copy": "sources/research-process/inbox/2026-09-08-multi-arm-progress-and-coordination.md",
+      "bytes": 7688,
+      "sha256": "108762b9127fc9b4fca859bf3bafccc26548edc361b72d99a81e038493b54f25"
+    },
+    {
+      "source": "/home/fainic/data/research-process/inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+      "copy": "sources/research-process/inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md",
+      "bytes": 3466,
+      "sha256": "5c2730ed3f63e54b69edc791c187539e934fd383db98d579b19f5724746bb91d"
+    },
+    {
+      "source": "/home/fainic/data/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "copy": "sources/research-process/inbox/2026-09-15-cube-complex-understanding.md",
+      "bytes": 9476,
+      "sha256": "9d5da23338493adeaa269869ff0a6a5b50f024a3d5e654b096e9e157e64933d3"
+    },
+    {
+      "source": "/home/fainic/data/research-process/inbox/2026-09-16-generator-scene-and-target-representation.md",
+      "copy": "sources/research-process/inbox/2026-09-16-generator-scene-and-target-representation.md",
+      "bytes": 4447,
+      "sha256": "1f9cba09d41d59e031d3ecfefa8be0893c5f122ad5ec3255b90d8992fdeb4ddc"
+    },
+    {
+      "source": "/home/fainic/data/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "copy": "sources/research-process/journal/2026-09-15-research-understanding-and-direction.md",
+      "bytes": 13945,
+      "sha256": "a7a6133d48c448e8c4bf9e0cb39c940bee08c14e4b54cbef5603d4f45754501e"
+    },
+    {
+      "source": "/home/fainic/data/research-process/assets/README.md",
+      "copy": "sources/research-process/assets/README.md",
+      "bytes": 1980,
+      "sha256": "c5dcb3330da22ef143151caaf2d1590dddc4405302becff1e60c0249d758538b"
+    },
+    {
+      "source": "/home/fainic/data/research-process/experiments/README.md",
+      "copy": "sources/research-process/experiments/README.md",
+      "bytes": 485,
+      "sha256": "4c4e087245949d7a73c03fdbab92b96ba6d8c4259345c48f13e48214c77a8123"
+    },
+    {
+      "source": "/home/fainic/data/research-process/inbox/README.md",
+      "copy": "sources/research-process/inbox/README.md",
+      "bytes": 472,
+      "sha256": "456140f7bc8e578978f3cdcc18db1e4dff1c408721f2a3cfaf165cbf1ac3cf55"
+    },
+    {
+      "source": "/home/fainic/data/research-process/projects/README.md",
+      "copy": "sources/research-process/projects/README.md",
+      "bytes": 731,
+      "sha256": "6ac7172bb6d1ffce85af457aa8813d6a5461218097e314b12273076f31d10894"
+    },
+    {
+      "source": "/home/fainic/data/research-process/references/README.md",
+      "copy": "sources/research-process/references/README.md",
+      "bytes": 1148,
+      "sha256": "8a9a195bac8c929b242ddd88d8630b6264f2e68ac7694f84b0d0014b3833ac81"
+    },
+    {
+      "source": "/home/fainic/data/research-process/references/stac-reading-notes.md",
+      "copy": "sources/research-process/references/stac-reading-notes.md",
+      "bytes": 14002,
+      "sha256": "3ac705521dd15228ebb7c86e9cc1c80608db9a2c991cc23503912f1dbba35586"
+    },
+    {
+      "source": "/home/fainic/data/research-process/local-paths.md",
+      "copy": "sources/research-process/local-paths.md",
+      "bytes": 255,
+      "sha256": "c547dd7ac324697f5cb7e08afdc21ba1b4cb72b7e9a90606754a38121d1261a3"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/AGENTS.md",
+      "copy": "sources/multiarm-problem-gen/AGENTS.md",
+      "bytes": 11497,
+      "sha256": "d11de02d89cec074bb9ad95da73b6fc0744f2fa24d91db4233dc5f730b322b21"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/README.md",
+      "copy": "sources/multiarm-problem-gen/README.md",
+      "bytes": 2655,
+      "sha256": "a641ff872f36e789c12774ccd4fc3edbe871ee768e08f6238813ccf49a2ed93c"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/README.md",
+      "copy": "sources/multiarm-problem-gen/docs/README.md",
+      "bytes": 7535,
+      "sha256": "948cb0d6c4a8a8aefb484be3bec9814139b3887ac01925b77e141d019c2f86f0"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/git-workflow.md",
+      "copy": "sources/multiarm-problem-gen/docs/git-workflow.md",
+      "bytes": 5089,
+      "sha256": "30146681bdda2fe5bea0bcd8d932ec03bf762cf7749e2d741cd824f4e572dff5"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docker/README.md",
+      "copy": "sources/multiarm-problem-gen/docker/README.md",
+      "bytes": 10575,
+      "sha256": "2c64c5731bb2bd34ea90c262c8e9db0f394e87b76cc48ad8084a1491930cd684"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-18-starting-point.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-starting-point.md",
+      "bytes": 2194,
+      "sha256": "d8807122ebd2126b9b02336316c3ed729d7460e35ca7267f75842d512188b1ed"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-18-first-input-example.md",
+      "bytes": 18485,
+      "sha256": "200cc0bbbd3790f78c2c01e409666dffb7180537b7acda30e62a9d18616fe6dc"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-22-input-domain-representations.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-22-input-domain-representations.md",
+      "bytes": 7898,
+      "sha256": "4f57394a15a64882bc0b81c4615709a626158374559e4699bc7aba0b0faa9e5f"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-28-input-reading-flow.md",
+      "bytes": 4800,
+      "sha256": "4051402e5e10f2928abbdd09199cd0ed2e70a4eb26f1502cbc41fa5bfee57bd5"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-input-implementation-units.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-input-implementation-units.md",
+      "bytes": 3476,
+      "sha256": "d70d9a616bc44915a020fb10d7011114c81c64aba7d3706ed007271666f89539"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-implementation-unit-and-responsibility.md",
+      "bytes": 1646,
+      "sha256": "e44e6b5a03bdabd3de6e5f8cdf3d970ac0f44807768df43d2a867939124b8acc"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-compose-and-unit-1-implementation.md",
+      "bytes": 5390,
+      "sha256": "c4d0c708ea8164ab1a9e237b57693428649821166647df779ae1791e49b5ffc7"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-1-basic-representations.md",
+      "bytes": 6156,
+      "sha256": "102d92e6f77108736d16de8de5b99df99f6c54a645fa8ed9aae9f5df917249fc"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-29-unit-2-robot-model-and-reading.md",
+      "bytes": 8849,
+      "sha256": "8048c7583006d87313e981e62412ee1524b3f737a199216682251be29b3e2274"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-3-scene-and-resource-context.md",
+      "bytes": 13091,
+      "sha256": "b2bffa810f4448c606a7599730ad7f134b0bb80ed06d199df929a20fec8a3158"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-autonomous-units-4-6-decisions.md",
+      "bytes": 23746,
+      "sha256": "558fdd15d3a8c0beba07e04ed765846bc3badd7c0acfd8b907a7f37f07bd5a5e"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-5-public-handoff.md",
+      "bytes": 9851,
+      "sha256": "15606137fe9bc7b2bd327c3cbc7c359c48c241d32008bd4d8fe7351cf8f76835"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/discussions/2026-09-30-unit-6-public-handoff.md",
+      "bytes": 7941,
+      "sha256": "78824363eb3198f31e746c247eaade20b2e7099814c442a926ebc1ec3d1e49a2"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-29-first-implementation-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-first-implementation-results.md",
+      "bytes": 7143,
+      "sha256": "bdcb7af40a84f72355f6829bd3c43f664e69935013bf369eb628add193b5ac98"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-29-unit-2-implementation-results.md",
+      "bytes": 7142,
+      "sha256": "6a5a042c4fefbcf723dc0ce9aefa0c5d3a128c9a4c6614b73f9bf861965f7cb7"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-remove-material-support.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-remove-material-support.md",
+      "bytes": 2182,
+      "sha256": "b3cef66c4d5d1f2c4d6059caf74e5c4bf7ca14cf3d2d1701b614104dc33232d1"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-3-implementation-results.md",
+      "bytes": 10940,
+      "sha256": "8a0d3b17ad6d7ca72b412daf7b0498359ba7d10c7f63ec95e9eaf5e61fd5f9f4"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-autonomous-units-4-6-results.md",
+      "bytes": 12357,
+      "sha256": "a8b2a9a519d0455a178c3d78bc141259ed66c2604ee90a596c015fcb7a0ec1f6"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-resource-snapshots-results.md",
+      "bytes": 4761,
+      "sha256": "47814e0bf336b6190fb41ebee72e646cf83f84e16e3efa9c89a3835a6bc439e9"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-4-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-4-results.md",
+      "bytes": 5764,
+      "sha256": "13752190fc4b37ae2339bb699156006e8767d6c5cc43928311607319feb3f5f4"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-preparation-stopped.md",
+      "bytes": 2842,
+      "sha256": "acfbfe7f9988697ff4a51640cf09927db53379a1c60fd83b51925407cc7e406b"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-5-results.md",
+      "bytes": 6382,
+      "sha256": "42dfd615cc10eda13793cf144073a7dab6f17680ac76169c84fac3520451c419"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-6-results.md",
+      "copy": "sources/multiarm-problem-gen/docs/notes/implementation/2026-09-30-unit-6-results.md",
+      "bytes": 6815,
+      "sha256": "14e99891461230a3bf340c75bc58407887d0880298e26e279121d5894e5af876"
+    },
+    {
+      "source": "/home/fainic/data/multiarm-problem-gen/tools/baseline_validation/ur7e_table/README.md",
+      "copy": "sources/multiarm-problem-gen/tools/baseline_validation/ur7e_table/README.md",
+      "bytes": 10465,
+      "sha256": "26a3019a077f37246587547d74919a34e3b68ad0c18cdada50d7c8b0123e6e2d"
+    }
+  ],
+  "git_status_before": {
+    "research-process": "?? .gitignore\n?? .obsidian/app.json\n?? .obsidian/appearance.json\n?? .obsidian/core-plugins.json\n?? .obsidian/graph.json\n?? .obsidian/workspace.json\n?? .serena/.gitignore\n?? .serena/project.yml\n?? AGENTS.md\n?? README.md\n?? assets/README.md\n?? assets/cube-complex/01-path-network.svg\n?? assets/cube-complex/02-three-coordination-cards.svg\n?? assets/cube-complex/03-corresponding-boundaries.svg\n?? assets/cube-complex/04-glued-cards.svg\n?? assets/cube-complex/05-cross-card-route.svg\n?? assets/cube-complex/README.md\n?? assets/cube-complex/draw_figures.py\n?? assets/path-collision-equivalence/README.md\n?? assets/path-collision-equivalence/index.html\n?? assets/path-collision-equivalence/three-robots.js\n?? experiments/README.md\n?? inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md\n?? inbox/2026-09-08-multi-arm-progress-and-coordination.md\n?? inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md\n?? inbox/2026-09-09-coordination-space-reading-guide.md\n?? inbox/2026-09-09-multi-arm-research-focus.md\n?? inbox/2026-09-14-todos-and-draft.md\n?? inbox/2026-09-15-cube-complex-understanding.md\n?? inbox/2026-09-16-generator-scene-and-target-representation.md\n?? inbox/2026-09-17-generator-input-output-format.md\n?? inbox/2026-09-18-agent-collaborative-development-research.md\n?? inbox/2026-09-18-evolving-design-and-best-practices.md\n?? inbox/2026-09-18-generator-input-output-format.md\n?? inbox/README.md\n?? journal.md\n?? journal/2026-09-07-record-organization.md\n?? journal/2026-09-07-starting-point.md\n?? journal/2026-09-15-research-understanding-and-direction.md\n?? overview.md\n?? projects/README.md\n?? projects/dataset-generator/README.md\n?? projects/stop-n-go/README.md\n?? references/README.md\n?? references/lavalle-planning-algorithms-7-2-multiple-robots.md\n?? references/stac-reading-notes.md\n?? references/stop-n-go-reading-notes.md\n?? state.md\n!! .serena/project.local.yml\n!! assets/path-collision-equivalence/exports/preview.png\n!! assets/path-collision-equivalence/exports/three-robots-cube.png\n!! assets/path-collision-equivalence/exports/three-robots-preview.png\n!! local-paths.md\n",
+    "multiarm-problem-gen": "!! .serena/.gitignore\n!! .serena/cache/python/document_symbols.pkl\n!! .serena/cache/python/raw_document_symbols.pkl\n!! .serena/project.local.yml\n!! .serena/project.yml\n!! MotionBenchMaker.pdf\n!! build/lib/multiarm_problem_gen/__init__.py\n!! build/lib/multiarm_problem_gen/primitives/__init__.py\n!! build/lib/multiarm_problem_gen/primitives/_representations.py\n!! src/multiarm_problem_gen.egg-info/PKG-INFO\n!! src/multiarm_problem_gen.egg-info/SOURCES.txt\n!! src/multiarm_problem_gen.egg-info/dependency_links.txt\n!! src/multiarm_problem_gen.egg-info/top_level.txt\n!! tmp/unit1-wheels/multiarm_problem_gen-0.1.0-py3-none-any.whl\n!! tools/scene_preview/scene.json\n"
+  },
+  "git_status_after": {
+    "research-process": "?? .gitignore\n?? .obsidian/app.json\n?? .obsidian/appearance.json\n?? .obsidian/core-plugins.json\n?? .obsidian/graph.json\n?? .obsidian/workspace.json\n?? .serena/.gitignore\n?? .serena/project.yml\n?? AGENTS.md\n?? README.md\n?? assets/README.md\n?? assets/cube-complex/01-path-network.svg\n?? assets/cube-complex/02-three-coordination-cards.svg\n?? assets/cube-complex/03-corresponding-boundaries.svg\n?? assets/cube-complex/04-glued-cards.svg\n?? assets/cube-complex/05-cross-card-route.svg\n?? assets/cube-complex/README.md\n?? assets/cube-complex/draw_figures.py\n?? assets/path-collision-equivalence/README.md\n?? assets/path-collision-equivalence/index.html\n?? assets/path-collision-equivalence/three-robots.js\n?? experiments/README.md\n?? inbox/2026-09-07-multi-arm-query-and-temporal-coordination.md\n?? inbox/2026-09-08-multi-arm-progress-and-coordination.md\n?? inbox/2026-09-09-coordination-intuition-and-experimental-evidence.md\n?? inbox/2026-09-09-coordination-space-reading-guide.md\n?? inbox/2026-09-09-multi-arm-research-focus.md\n?? inbox/2026-09-14-todos-and-draft.md\n?? inbox/2026-09-15-cube-complex-understanding.md\n?? inbox/2026-09-16-generator-scene-and-target-representation.md\n?? inbox/2026-09-17-generator-input-output-format.md\n?? inbox/2026-09-18-agent-collaborative-development-research.md\n?? inbox/2026-09-18-evolving-design-and-best-practices.md\n?? inbox/2026-09-18-generator-input-output-format.md\n?? inbox/README.md\n?? journal.md\n?? journal/2026-09-07-record-organization.md\n?? journal/2026-09-07-starting-point.md\n?? journal/2026-09-15-research-understanding-and-direction.md\n?? overview.md\n?? projects/README.md\n?? projects/dataset-generator/README.md\n?? projects/stop-n-go/README.md\n?? references/README.md\n?? references/lavalle-planning-algorithms-7-2-multiple-robots.md\n?? references/stac-reading-notes.md\n?? references/stop-n-go-reading-notes.md\n?? state.md\n!! .serena/project.local.yml\n!! assets/path-collision-equivalence/exports/preview.png\n!! assets/path-collision-equivalence/exports/three-robots-cube.png\n!! assets/path-collision-equivalence/exports/three-robots-preview.png\n!! local-paths.md\n",
+    "multiarm-problem-gen": "!! .serena/.gitignore\n!! .serena/cache/python/document_symbols.pkl\n!! .serena/cache/python/raw_document_symbols.pkl\n!! .serena/project.local.yml\n!! .serena/project.yml\n!! MotionBenchMaker.pdf\n!! build/lib/multiarm_problem_gen/__init__.py\n!! build/lib/multiarm_problem_gen/primitives/__init__.py\n!! build/lib/multiarm_problem_gen/primitives/_representations.py\n!! src/multiarm_problem_gen.egg-info/PKG-INFO\n!! src/multiarm_problem_gen.egg-info/SOURCES.txt\n!! src/multiarm_problem_gen.egg-info/dependency_links.txt\n!! src/multiarm_problem_gen.egg-info/top_level.txt\n!! tmp/unit1-wheels/multiarm_problem_gen-0.1.0-py3-none-any.whl\n!! tools/scene_preview/scene.json\n"
+  },
+  "checks": {
+    "all_copies_byte_equal": true,
+    "all_sha256_equal": true,
+    "source_files_content_modes_mtimes_unchanged_during_collection": true,
+    "source_git_status_unchanged": true,
+    "index_local_link_count": 53,
+    "index_links_exist": true,
+    "section_ranges_valid": true,
+    "no_extra_source_copies": true
+  },
+  "limitations": [
+    "内容和状态前后快照只覆盖本脚本收集区间，未进入 .git 校验元数据。",
+    "原文内部链接保持原样，未承诺纳入全部被引用材料。",
+    "未执行来源脚本、重跑技术测试或核实外部文献。",
+    "前期有一轮 Markdown 候选枚举使用 Path.rglob，再过滤 .git 路径；该写法可能遍历 .git 目录项，不能声称所有早期枚举都在目录入口处剪枝。未读取或输出 .git 中的文件内容，也未访问 Git 历史版本；正式全量盘点与收集脚本已显式剪枝排除 .git。此为实际检索方式的范围说明。"
+  ]
+}
