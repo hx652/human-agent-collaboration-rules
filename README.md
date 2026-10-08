@@ -10,3 +10,5 @@
 先看要求，需要具体情境时再查产物。保留原文的确认状态，候选建议不直接当作规则。
 
 原文集中在 `sources/`，内容和来源相对路径保持不变。[筛选记录](collection/SELECTION.md)、[来源清单](collection/manifest.json)和[六组对比试验](experiments/20261007-181827/REPORT.md)仅在需要追溯时查阅。
+
+方案讨论见 [讨论记录索引](notes/README.md)。
