@@ -1,0 +1,63 @@
+{
+  "round1": {
+    "README.md": "7c6fdf25e561567557a162384d1679106046f8d9505cf7258e24bff2b08435c8",
+    "rules/CODE.md": "5415cc8b3e7ebcfe694adfae4ae8ec51a4f4a2e108cae7de87e32d7c62e56ee5",
+    "rules/GIT.md": "49dc0fbb00d26fe0be8c192c0fe170c7ca118d88dc194010f106fce6f279950a",
+    "rules/RECORDS.md": "105db324b9f2760a96f7c23b3a955f2599857bbad2f1309fe352a7a7b79c7d33",
+    "rules/RULES.md": "72bb3b38017e2cd03dbbe181d23fcd3bffdc6a6a536b2fea168d8df08fd9bc6a",
+    "rules/SERENA.md": "72ef540fd0d59fa71d4da6db5e687663306587ccbcfcda5459b55e00c837e907"
+  },
+  "reports": {
+    "wording.md": "16e1f66d7ebde0ec685dd612a47031541a9e6159fc6a628d79a0b7f7e9a47526",
+    "integration.md": "e5dc183f0f0143c288ef685fe13b35808b0e03a8829fb6b9d682677a85a990b5",
+    "consistency.md": "4dd0cb04eba71a3b32c630e267f3dd3caca44f8e89aa1f40f5d6555a2082a9d9"
+  },
+  "before": {
+    "README.md": "b39dcfac6da360e8cdebe52b88eeda6a947b846dbcea7e1ba0d3fe13413660b0",
+    "rules/RULES.md": "e01b2c65a1d9675aaac82ead0cf3a3d8fe84f776805e4b2ea0ab7e972698c91c",
+    "rules/CODE.md": "cac46294fc70331d938c739913a5e90efced50413548bec1f7dfc732daf3adfe"
+  },
+  "agents": [
+    {
+      "agent": "/root/records_wording_review",
+      "session_id": "01a12a2d-e674-7da3-89b4-b9d78c7ee4a0",
+      "session_file": "/home/fainic/.codex/sessions/2026/10/11/rollout-2026-10-11T16-56-53-01a12a2d-e674-7da3-89b4-b9d78c7ee4a0.jsonl",
+      "models": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "max"
+        }
+      ],
+      "user_message_count": 1,
+      "completed": true
+    },
+    {
+      "agent": "/root/records_integration_review",
+      "session_id": "01a12a2e-3901-7c62-a55b-a4b5cd818762",
+      "session_file": "/home/fainic/.codex/sessions/2026/10/11/rollout-2026-10-11T16-57-14-01a12a2e-3901-7c62-a55b-a4b5cd818762.jsonl",
+      "models": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "max"
+        }
+      ],
+      "user_message_count": 1,
+      "completed": true
+    },
+    {
+      "agent": "/root/rules_consistency_review",
+      "session_id": "01a12a2e-d1c0-75c0-a8d4-0521ec8ea5d6",
+      "session_file": "/home/fainic/.codex/sessions/2026/10/11/rollout-2026-10-11T16-57-53-01a12a2e-d1c0-75c0-a8d4-0521ec8ea5d6.jsonl",
+      "models": [
+        {
+          "model": "gpt-6-astra",
+          "effort": "max"
+        }
+      ],
+      "user_message_count": 1,
+      "completed": true
+    }
+  ],
+  "review_scope": "README.md and all five formal rules; historical sources and notes are not operative rules.",
+  "result": "No mandatory wording, integration or consistency correction; one optional existing Git-scope clarification recorded."
+}
