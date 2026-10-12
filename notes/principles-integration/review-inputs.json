@@ -1,0 +1,25 @@
+{
+  "review_configuration": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "max",
+    "fork_turns": "none"
+  },
+  "records": {
+    "stage": "records",
+    "revision": "3c2afb21854bdd1f204e660e4e81b963fdd44ee2",
+    "sha256": {
+      "baseline/README.md": "b39dcfac6da360e8cdebe52b88eeda6a947b846dbcea7e1ba0d3fe13413660b0",
+      "baseline/rules/CODE.md": "cac46294fc70331d938c739913a5e90efced50413548bec1f7dfc732daf3adfe",
+      "baseline/rules/RULES.md": "e01b2c65a1d9675aaac82ead0cf3a3d8fe84f776805e4b2ea0ab7e972698c91c",
+      "input/README.md": "3d053f2b60f2950a6cff8f47b4a270fd9a502cba64b00f7a40f9b16f8c5f8b10",
+      "input/final-review-scope-source.json": "a9932483a39b858a32551da5afd3fcc17bbd7453f5abb653051dc8c3af9eee68",
+      "input/notes/recording-principles/intent-review/source-dialogue.md": "ccb41f08523483768defa9893812513f404a2ee388663723d9edb3b2b823b36d",
+      "input/notes/recording-principles/review-scope-update.md": "41a878d11ca380b6a8ea9e97b9d21cc9e3628200eac3a6a0091ad0cd4a6fc845",
+      "input/rules/CODE.md": "5415cc8b3e7ebcfe694adfae4ae8ec51a4f4a2e108cae7de87e32d7c62e56ee5",
+      "input/rules/GIT.md": "49dc0fbb00d26fe0be8c192c0fe170c7ca118d88dc194010f106fce6f279950a",
+      "input/rules/RECORDS.md": "fad4ca9bf554c9992104aff6c4c1be1cfdd26d24ace7bcba739297b0c073be77",
+      "input/rules/RULES.md": "72bb3b38017e2cd03dbbe181d23fcd3bffdc6a6a536b2fea168d8df08fd9bc6a",
+      "input/rules/SERENA.md": "72ef540fd0d59fa71d4da6db5e687663306587ccbcfcda5459b55e00c837e907"
+    }
+  }
+}
