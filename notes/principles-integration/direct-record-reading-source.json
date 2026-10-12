@@ -1,0 +1,34 @@
+[
+  {
+    "source": "/home/fainic/.codex/sessions/2026/10/12/rollout-2026-10-12T13-32-18-01a12e98-f68e-71c0-a02e-3768a7d6140c.jsonl",
+    "line": 566,
+    "timestamp": "2026-10-12T07:48:36.803Z",
+    "role": "user",
+    "text": "和记录相关的所有原则都应该被直接加载\n",
+    "sha256": "517dc23f396c9e47ccf4d457a7a32055bce12bbf4090971ca0855c5c2b44b97b"
+  },
+  {
+    "source": "/home/fainic/.codex/sessions/2026/10/12/rollout-2026-10-12T13-32-18-01a12e98-f68e-71c0-a02e-3768a7d6140c.jsonl",
+    "line": 593,
+    "timestamp": "2026-10-12T07:51:53.560Z",
+    "role": "assistant",
+    "text": "当前入口要求到整理记录时再读 `RECORDS.md`，这与“直接加载”有冲突。我会将完整记录原则、代码工作记录和探索记录要求集中到通用入口，原文件保留旧链接入口；跨仓库整合时，也要把采用的记录要求直接写入基本规则。\n",
+    "sha256": "4a6307b252ce7b81700bfe8dba9e3ab1b55d3aa779b8411831d2a3047c7d6dc7"
+  },
+  {
+    "source": "/home/fainic/.codex/sessions/2026/10/12/rollout-2026-10-12T13-32-18-01a12e98-f68e-71c0-a02e-3768a7d6140c.jsonl",
+    "line": 605,
+    "timestamp": "2026-10-12T07:52:57.889Z",
+    "role": "user",
+    "text": "我的意思是在链接时说明，直接主动读取。\n",
+    "sha256": "7d8447db5e2e543376478c21e4aa840d0d7740ddb3a14a6afdcd6369169d2b8a"
+  },
+  {
+    "source": "/home/fainic/.codex/sessions/2026/10/12/rollout-2026-10-12T13-32-18-01a12e98-f68e-71c0-a02e-3768a7d6140c.jsonl",
+    "line": 657,
+    "timestamp": "2026-10-12T08:00:29.381Z",
+    "role": "user",
+    "text": "本次修改就不使用审查了。给我列出你修改的地方，之后直接给提交方案做提交。\n",
+    "sha256": "3ab42f749551327b62917b3084b82b0b1de53a76a2f5509cc4265a923dc29e5f"
+  }
+]
