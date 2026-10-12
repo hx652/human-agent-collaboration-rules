@@ -39,4 +39,8 @@
 
 Subagent 部分已完成独立审查：[第一阶段理解](reviews/subagent-understanding.md)、[审查原文](reviews/subagent-review.md)。未发现实质问题，正式段落与最终草稿逐行一致，其余通用原则保持原样。主 agent 核对了来源的 12 个新增文件，均逐字节保留；专题及正式入口的本地引用检查通过。
 
+代码部分的[第一阶段理解](reviews/code-understanding.md)和[初审原文](reviews/code-review.md)记录一项 P2：设计评估的公开抽象要求由明确义务变成视角定义。已保存[修改前正文](reviews/code-before-fix/rules/CODE.md)，并在正式规则补回原有的设计评估要求。[独立复核](reviews/code-recheck.md)已关闭 P2，确认与全局研究、实现权限和信息隔离相容，没有剩余实质问题。初审及修改前材料保持原样。
+
 [审查输入清单](review-inputs.json)保存冻结输入的来源版本和 SHA256。报告中的 `input/`、`baseline/` 为当时任务包的路径；正文可按对应 Git 版本重建，不代表最终整合后的文件内容。后续审查范围和结果在各部分完成后追加。
+
+代码原始摘录与来源提交逐字节一致，其中两处 Markdown 硬换行按原文保留。默认格式检查会报告这两处行尾双空格：其余文件执行默认检查，原始摘录仅对该文件关闭行尾空格项后检查其他格式项，不修改仓库配置，也不修改原话来消除报告。
