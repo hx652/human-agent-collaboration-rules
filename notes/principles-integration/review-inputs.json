@@ -72,5 +72,19 @@
     "sha256": {
       "input/rules/CODE.md": "30fdeecb01246839194e094603a1d0a0610b228dfd9ada9f9988a0ea972d82e3"
     }
+  },
+  "final_reading": {
+    "stage": "final-reading",
+    "base_revision": "8b7de7150fc2116f5a6c469eec28496cda8af800",
+    "working_tree_snapshot": true,
+    "sha256": {
+      "input/README.md": "e92724ce5b984a7d5ac2c617e5db64f3f7bbe9ae46b71048ce53ce3aa7a1a932",
+      "input/rules/CODE.md": "30fdeecb01246839194e094603a1d0a0610b228dfd9ada9f9988a0ea972d82e3",
+      "input/rules/GIT.md": "49dc0fbb00d26fe0be8c192c0fe170c7ca118d88dc194010f106fce6f279950a",
+      "input/rules/RECORDS.md": "fad4ca9bf554c9992104aff6c4c1be1cfdd26d24ace7bcba739297b0c073be77",
+      "input/rules/RULES.md": "29bd4336ed3745c793d837dcdefedfe17ecb3b3093433a092429e63875277240",
+      "input/rules/SERENA.md": "72ef540fd0d59fa71d4da6db5e687663306587ccbcfcda5459b55e00c837e907"
+    },
+    "matches_committed_formal_revision": "51a9f792cc3e464c329e59ae13295e7e13960dca"
   }
 }

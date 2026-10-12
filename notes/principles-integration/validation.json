@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-12",
+  "baseline_revision": "f36dc73ade86699d959da4f08b74b9703cd3ae21",
+  "formal_revision": "51a9f792cc3e464c329e59ae13295e7e13960dca",
+  "formal_sha256": {
+    "README.md": "e92724ce5b984a7d5ac2c617e5db64f3f7bbe9ae46b71048ce53ce3aa7a1a932",
+    "rules/CODE.md": "30fdeecb01246839194e094603a1d0a0610b228dfd9ada9f9988a0ea972d82e3",
+    "rules/GIT.md": "49dc0fbb00d26fe0be8c192c0fe170c7ca118d88dc194010f106fce6f279950a",
+    "rules/RECORDS.md": "fad4ca9bf554c9992104aff6c4c1be1cfdd26d24ace7bcba739297b0c073be77",
+    "rules/RULES.md": "29bd4336ed3745c793d837dcdefedfe17ecb3b3093433a092429e63875277240",
+    "rules/SERENA.md": "72ef540fd0d59fa71d4da6db5e687663306587ccbcfcda5459b55e00c837e907"
+  },
+  "source_heads": {
+    "recording": {
+      "branch": "codex/recording-principles",
+      "revision": "3c2afb21854bdd1f204e660e4e81b963fdd44ee2",
+      "unchanged": true,
+      "is_ancestor": true
+    },
+    "subagent": {
+      "branch": "codex/subagent-principles",
+      "revision": "4858e6eb2157a44cb4f9710020bbdc9ac24c36cb",
+      "unchanged": true,
+      "is_ancestor": true
+    },
+    "code": {
+      "branch": "codex/code-principles-discussion",
+      "revision": "4ae0e2a51772ded0e96049be7da77b61a2755600",
+      "unchanged": true,
+      "is_ancestor": true
+    }
+  },
+  "recording_topic_and_final_rules_unchanged": true,
+  "unchanged_formal_files_from_baseline": [
+    "rules/GIT.md",
+    "rules/SERENA.md"
+  ],
+  "source_preservation": {
+    "subagent": {
+      "new_files": 12,
+      "preserved_verbatim": 12,
+      "navigation_adaptations": []
+    },
+    "code": {
+      "new_files": 9,
+      "preserved_verbatim": 8,
+      "navigation_adaptations": [
+        "notes/code-principles/README.md"
+      ]
+    }
+  },
+  "local_reference_check": {
+    "selected_files": [
+      "README.md",
+      "rules/RULES.md",
+      "rules/GIT.md",
+      "rules/RECORDS.md",
+      "rules/CODE.md",
+      "rules/SERENA.md",
+      "notes/README.md",
+      "notes/principles-integration/README.md",
+      "notes/principles-integration/conflicts.md",
+      "notes/principles-integration/reviews/records-review.md",
+      "notes/principles-integration/reviews/records-understanding.md",
+      "notes/principles-integration/reviews/subagent-review.md",
+      "notes/principles-integration/reviews/subagent-understanding.md",
+      "notes/principles-integration/reviews/code-review.md",
+      "notes/principles-integration/reviews/code-understanding.md",
+      "notes/principles-integration/reviews/code-recheck.md",
+      "notes/principles-integration/reviews/code-before-fix/rules/CODE.md",
+      "notes/principles-integration/reviews/code-before-fix/rules/SERENA.md",
+      "notes/principles-integration/reviews/code-before-fix/rules/RECORDS.md",
+      "notes/code-principles/README.md",
+      "notes/code-principles/handoff.md",
+      "notes/subagent-handoff.md",
+      "notes/2026-10-12-subagent-principles.md",
+      "notes/recording-principles/README.md",
+      "notes/principles-integration/reviews/final-understanding.md"
+    ],
+    "files": 25,
+    "local_links": 115,
+    "issues": []
+  },
+  "format_check": {
+    "default_check_for_other_changes": "passed",
+    "source_dialogue_original_hard_breaks": {
+      "notes/code-principles/review/source-dialogue.md": 2,
+      "notes/recording-principles/intent-review/source-dialogue.md": 7
+    },
+    "other_format_items_for_source_dialogues": "passed",
+    "repository_whitespace_configuration_changed": false
+  },
+  "review_outputs_preserved_verbatim_sha256": {
+    "notes/principles-integration/reviews/records-review.md": "740a71256a7ca454d4ad64949978835ba9543489dd6831c71bf70ac440a914e0",
+    "notes/principles-integration/reviews/records-understanding.md": "35407112cf4a3ce4012204aa2aac23ce33ea4d30ba30bde5225bacf78d84f8ad",
+    "notes/principles-integration/reviews/subagent-review.md": "4026d7bda07ca56c3000491869d9addaab9e83680cb163a86fdd5559f7ab8d80",
+    "notes/principles-integration/reviews/subagent-understanding.md": "c3c1899a7531d4bb59e847654914775075d7e343582e30861341f98977e652f0",
+    "notes/principles-integration/reviews/code-review.md": "f06b209b0e06273b3dfb90bfbaceafbb57b438c8b08596a6e921e6749ac60351",
+    "notes/principles-integration/reviews/code-understanding.md": "915124bf60716f5846d8e333cc46c586794306b15359aa62cb64b216ab9cc14b",
+    "notes/principles-integration/reviews/code-recheck.md": "6f4977ffaab5aeb4e240856b689d2801c5e10240ee04eca7c6d7396173807d2a",
+    "notes/principles-integration/reviews/final-understanding.md": "8cdd05dd0e555dde75d3dca576e41fe85d7d2d70a34a5595957fbb54bf6ea44c"
+  },
+  "preexisting_untracked_directory_excluded": ".serena/",
+  "scope": "Static document, provenance, reference, and Git checks; no runtime validation."
+}
