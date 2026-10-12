@@ -21,5 +21,23 @@
       "input/rules/RULES.md": "72bb3b38017e2cd03dbbe181d23fcd3bffdc6a6a536b2fea168d8df08fd9bc6a",
       "input/rules/SERENA.md": "72ef540fd0d59fa71d4da6db5e687663306587ccbcfcda5459b55e00c837e907"
     }
+  },
+  "subagent": {
+    "stage": "subagent",
+    "base_revision": "1b37f9dfcaf0afd3c0221978cdd0262a778e4b1f",
+    "merge_source": "4858e6eb2157a44cb4f9710020bbdc9ac24c36cb",
+    "uncommitted_formal_integration": true,
+    "sha256": {
+      "baseline/rules/RULES.md": "72bb3b38017e2cd03dbbe181d23fcd3bffdc6a6a536b2fea168d8df08fd9bc6a",
+      "input/README.md": "3d053f2b60f2950a6cff8f47b4a270fd9a502cba64b00f7a40f9b16f8c5f8b10",
+      "input/notes/README.md": "00ca5301319c2084a9fb99b031c26c3f85b7a5771377089675b067316421df3a",
+      "input/notes/subagent-principles-draft.md": "c6dbfec80dcd1e0c8ca702473febeb597c3e6dd2b095d4f22f75de8fca94e9b5",
+      "input/notes/subagent-review/original-messages.md": "b8a92f275d8068e5818763437c147bd7fa0d589a04454b5ad4e8b1abf4c17ad4",
+      "input/rules/CODE.md": "5415cc8b3e7ebcfe694adfae4ae8ec51a4f4a2e108cae7de87e32d7c62e56ee5",
+      "input/rules/GIT.md": "49dc0fbb00d26fe0be8c192c0fe170c7ca118d88dc194010f106fce6f279950a",
+      "input/rules/RECORDS.md": "fad4ca9bf554c9992104aff6c4c1be1cfdd26d24ace7bcba739297b0c073be77",
+      "input/rules/RULES.md": "75d725dfdc3311dd5145300529ea195b8f841f5a9caaee368bfa69279f8d1403",
+      "input/rules/SERENA.md": "72ef540fd0d59fa71d4da6db5e687663306587ccbcfcda5459b55e00c837e907"
+    }
   }
 }

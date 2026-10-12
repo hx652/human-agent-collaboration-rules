@@ -37,4 +37,6 @@
 
 记录部分已完成独立审查：[第一阶段理解](reviews/records-understanding.md)、[审查原文](reviews/records-review.md)。未发现实质问题或必要措辞修改，保留 `3c2afb2` 的最终正文。入口及五份正式规则的 21 处本地引用检查通过；Git 和 Serena 正文与主线基线一致。
 
+Subagent 部分已完成独立审查：[第一阶段理解](reviews/subagent-understanding.md)、[审查原文](reviews/subagent-review.md)。未发现实质问题，正式段落与最终草稿逐行一致，其余通用原则保持原样。主 agent 核对了来源的 12 个新增文件，均逐字节保留；专题及正式入口的本地引用检查通过。
+
 [审查输入清单](review-inputs.json)保存冻结输入的来源版本和 SHA256。报告中的 `input/`、`baseline/` 为当时任务包的路径；正文可按对应 Git 版本重建，不代表最终整合后的文件内容。后续审查范围和结果在各部分完成后追加。
