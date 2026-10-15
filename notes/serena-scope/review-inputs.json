@@ -1,0 +1,19 @@
+{
+  "source_revision": "27464b2bb4ff8bfe5f67f188680b6ca6ac362c1d",
+  "reader_configuration": {
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "max",
+    "fork_turns": "none",
+    "task": "/root/read_serena_scope_rules"
+  },
+  "inputs": {
+    "README.md": "2d41248140fa41ccb6198b31d633eae824b61bcd190c6998164329952584100e",
+    "rules/RULES.md": "2aa3a5c8ce3f5212f6e873089de1eb7d69e2675aeb5a3b16dafa1758a20f8b34",
+    "rules/RECORDS.md": "fad4ca9bf554c9992104aff6c4c1be1cfdd26d24ace7bcba739297b0c073be77",
+    "rules/WORDING.md": "af438769e807759a5b787cf78de4c8aa0706551e5606527b290b994e8f6fffb2",
+    "rules/GIT.md": "49dc0fbb00d26fe0be8c192c0fe170c7ca118d88dc194010f106fce6f279950a",
+    "rules/CODE.md": "b10ccf7448357caaddb30cd40bb1f5cf82d85ca1ded11883c42e35eda424cf83",
+    "rules/SERENA.md": "6c1d9b7b373962ac4ddd551f9124bfe7834d393b75570d2b47d2d55e1ab89415"
+  },
+  "input_scope": "README.md and all six formal files in rules/; no discussion, diffs, or prior review conclusions."
+}
