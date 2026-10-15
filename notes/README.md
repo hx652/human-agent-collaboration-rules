@@ -1,5 +1,6 @@
 # 讨论记录索引
 
+- 2026-10-15：[Serena 使用范围与信息边界](serena-scope/README.md) — 按信息边界选择工具、受限视角讲解代码及提交后的独立阅读。
 - 2026-10-12：[独立维护用词偏好](wording-preferences.md) — 项目可调整、补充的偏好文件，以及接口与行为表述的初始内容。
 - 2026-10-12：[记录、Subagent 与代码原则的统一整合](principles-integration/README.md) — 来源、采用范围、提交组织、冲突处理和独立审查。
 - 2026-10-12：[记录原则链接的主动读取要求](principles-integration/direct-record-reading.md) — 用户对直接加载含义的澄清，以及入口链接和整合指引的调整。
